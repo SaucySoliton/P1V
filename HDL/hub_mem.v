@@ -20,6 +20,8 @@ You should have received a copy of the GNU General Public License along with
 the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------------------------
 */
+`include "features.v"    // for memory size options
+
 
 module              hub_mem
 (
@@ -37,10 +39,10 @@ output      [31:0]  q
 
 // 8192 x 32 ram with byte-write enables ($0000..$7FFF)
 
-reg [7:0] ram3 [8191:0];
-reg [7:0] ram2 [8191:0];
-reg [7:0] ram1 [8191:0];
-reg [7:0] ram0 [8191:0];
+reg [7:0] ram3 [HUB_RAM_KL*1024-1:0];
+reg [7:0] ram2 [HUB_RAM_KL*1024-1:0];
+reg [7:0] ram1 [HUB_RAM_KL*1024-1:0];
+reg [7:0] ram0 [HUB_RAM_KL*1024-1:0];
 
 reg [7:0] ram_q3;
 reg [7:0] ram_q2;
@@ -80,37 +82,20 @@ begin
 end
 
 
-// 4096 x 32 rom containing character definitions ($8000..$BFFF)
-
-reg [31:0] rom_low [4095:0];
-
-initial
-begin
-    $readmemh("../HDL/rom_8000_bfff_font.hex", rom_low);
-end
-
-reg [31:0] rom_low_q;
-
-always @(posedge clk_cog)
-if (ena_bus && a[13:12] == 2'b10)
-    rom_low_q <= rom_low[a[11:0]];
-
-
 // 4096 x 32 rom containing sin table, log table, booter, and interpreter ($C000..$FFFF)
 
-reg [31:0] rom_high [4095:0];
+reg [31:0] rom [HUB_ROM_KL*1024-1:0];
 
 initial
 begin
-    $readmemh("../HDL/rom_c000_ffff_scrambled.hex", rom_high);
+    $readmemh(HUB_ROM_INIT, rom);
 end
 
-reg [31:0] rom_high_q;
+reg [31:0] rom_q;
 
 always @(posedge clk_cog)
-if (ena_bus && a[13:12] == 2'b11)
-    rom_high_q <= rom_high[a[11:0]];
-
+if (ena_bus && a[13] == 1'b1)
+    rom_q <= rom[a[12:0]];
 
 // memory output mux
 
@@ -121,9 +106,6 @@ if (ena_bus)
     mem <= a[13:12];
 
 assign q            = !mem[1]   ? {ram_q3, ram_q2, ram_q1, ram_q0}
-`ifndef DISABLE_FONT_ROM
-                    : !mem[0]   ? rom_low_q     // comment out this line for DE0-Nano (sacrifices character rom to fit device)
-`endif
-                                : rom_high_q;
+                                : rom_q;
 
 endmodule
