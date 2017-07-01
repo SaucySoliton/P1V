@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+verilator --trace --top-module top_veri -Wno-lint -O3 --noassert -y ../HDL ../HDL/top_veri.v --cc  --exe main.cpp
+
+make -C obj_dir OPT_FAST="-O3" -j -f Vtop_veri.mk Vtop_veri
+
+cp obj_dir/Vtop_veri  simulator
+
+# ./simulator
+# gtkwave trace.vcd
+
+

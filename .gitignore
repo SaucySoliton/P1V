@@ -32,3 +32,9 @@ output_files/
 *.cache/
 *.hw/
 *.runs/
+
+# Verilator
+*.vcd
+obj_dir
+simulator
+

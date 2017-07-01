@@ -86,7 +86,7 @@ reg [31:0] rom_low [4095:0];
 
 initial
 begin
-    $readmemh("rom_8000_bfff_font.hex", rom_low);
+    $readmemh("../HDL/rom_8000_bfff_font.hex", rom_low);
 end
 
 reg [31:0] rom_low_q;
@@ -102,7 +102,7 @@ reg [31:0] rom_high [4095:0];
 
 initial
 begin
-    $readmemh("rom_c000_ffff_scrambled.hex", rom_high);
+    $readmemh("../HDL/rom_c000_ffff_scrambled.hex", rom_high);
 end
 
 reg [31:0] rom_high_q;
