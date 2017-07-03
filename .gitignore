@@ -35,6 +35,6 @@ output_files/
 
 # Verilator
 *.vcd
-obj_dir
+#obj_dir
 simulator
 
