@@ -30,6 +30,7 @@ input               clock,           // clock input
 input               inp_resn,           // reset input (active low)
 
 inout       [31:0]  io,                 // i/o pins
+input               sda_in,
 
 output       [7:0]  ledg                // cog leds
 );
@@ -49,8 +50,9 @@ wire                clk_pll;
 wire                clk_cog;
 
 wire         [31:0] pin_in = io;
-
-
+assign              pin_in[28:0]=io[28:0];
+assign              pin_in[31:30]=io[31:30];
+assign              pin_in[29]=io[29]&sda_in;// Just a hack until we find the right way to do pullps
 //    
 // Clock control
 //
@@ -84,10 +86,17 @@ always @ (posedge clk_cog)
 
 genvar i;
 generate
-    for (i=0; i<32; i=i+1)
+    for (i=0; i<28; i=i+1)
     begin : iogen
         assign io[i] = pin_dir[i] ? pin_out[i] : 1'bZ;
     end
 endgenerate
+
+        assign io[28] = pin_dir[28] ? pin_out[28] : 1'b1;// I2C pullups
+        assign io[29] = pin_dir[29] ? pin_out[29] : 1'b1;
+
+        assign io[30] = pin_dir[30] ? pin_out[30] : 1'bZ;// Finish the rest
+        assign io[31] = pin_dir[31] ? pin_out[31] : 1'bZ;
+
 
 endmodule

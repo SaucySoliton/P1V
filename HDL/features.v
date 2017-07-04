@@ -34,18 +34,18 @@ defparam core.INVERT_COG_LEDS = `INVERT_COG_LEDS;
 // RAM Options
 //
 // KL = kilo-longs, 1 long is 4 bytes
-parameter HUB_RAM_KL=2;  // 8=32kB, 4=16kB, 2=8kB
+parameter HUB_RAM_KL=8;  // 8=32kB, 4=16kB, 2=8kB
 
 // ROM Options
 //
-//parameter HUB_ROM_KL=8;  // 8=32kB, 4=16kB, 1=1kB
-//parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
+parameter HUB_ROM_KL=8;  // 8=32kB, 4=16kB, 1=1kB
+parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
 
 //parameter HUB_ROM_KL=4;  // 8=32kB, 4=16kB, 1=1kB
 //parameter HUB_ROM_INIT="../HDL/rom_c000_ffff_scrambled.hex";
 
-parameter HUB_ROM_KL=1;  // 8=32kB, 4=16kB, 1=1kB
-parameter HUB_ROM_INIT="../HDL/rom_f000_ffff_scrambled.hex";
+//parameter HUB_ROM_KL=1;  // 8=32kB, 4=16kB, 1=1kB
+//parameter HUB_ROM_INIT="../HDL/rom_f000_ffff_scrambled.hex";
 
 
 

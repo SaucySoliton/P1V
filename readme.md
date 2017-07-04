@@ -1,5 +1,20 @@
 Propeller 1 Design
 ==================
+
+Where I'm going with this repository:
+
+Complete Propeller simulation in verilog ( still WIP, EEPROM in C )
+Pre-load program into RAM ( requires custom ROM )
+Convert to verilog 2001, needed for icestorm
+Build for iCE40 HX8K using icestorm (currently not functional)
+Reduce ROM by pre-loading booter into cog RAM
+
+Finished:
+Single ROM file
+Parameterize RAM and ROM size
+
+Note: Booter seems to load 32kB from EEPROM, overwriting data if hub<32kB
+
 P8X32A Emulation on FPGA Boards
 -------------------------------
 The Propeller 1 Design is a collection of Verilog source files that describes the hardware of the [Parallax Propeller 1 microcontroller](http://www.parallax.com/microcontrollers/propeller). This source can be compiled and downloaded to a compatible FPGA development board to emulate the Propeller 1 hardware. In fact, this is how the Propeller 1 was designed and tested before silicon was produced.

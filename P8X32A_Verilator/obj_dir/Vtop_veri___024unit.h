@@ -8,6 +8,7 @@
 #include "verilated.h"
 #include "Vtop_veri__Inlines.h"
 class Vtop_veri__Syms;
+class VerilatedVcd;
 
 //----------
 
@@ -36,6 +37,7 @@ VL_MODULE(Vtop_veri___024unit) {
   public:
     Vtop_veri___024unit(const char* name="TOP");
     ~Vtop_veri___024unit();
+    void trace (VerilatedVcdC* tfp, int levels, int options=0);
     
     // USER METHODS
     
@@ -46,6 +48,10 @@ VL_MODULE(Vtop_veri___024unit) {
   private:
     void	_configure_coverage(Vtop_veri__Syms* __restrict vlSymsp, bool first);
     void	_ctor_var_reset();
+  public:
+    static void traceInit (VerilatedVcd* vcdp, void* userthis, uint32_t code);
+    static void traceFull (VerilatedVcd* vcdp, void* userthis, uint32_t code);
+    static void traceChg  (VerilatedVcd* vcdp, void* userthis, uint32_t code);
 } VL_ATTR_ALIGNED(128);
 
 #endif  /*guard*/

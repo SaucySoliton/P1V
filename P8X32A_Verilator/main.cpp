@@ -6,13 +6,17 @@
 #include <bitset>
 //https://katyscode.wordpress.com/2012/05/12/printing-numbers-in-binary-format-in-c/
 
+extern "C" {
+#include "eeprom.h"
+}
+
 vluint64_t main_time = 0;       // Current simulation time
 
 double sc_time_stamp () {       // Called by $time in Verilog
     return main_time;
 }
 
-#define TRACE_ON (1)
+//#define TRACE_ON (1)
 int main(int argc, char **argv, char **env) {
     Verilated::commandArgs(argc, argv);
     Vtop_veri* top = new Vtop_veri;
@@ -20,13 +24,17 @@ int main(int argc, char **argv, char **env) {
     Verilated::traceEverOn(true);
     VerilatedVcdC* tfp = new VerilatedVcdC;
     top->trace (tfp, 99);
-    tfp->open ("trace.vcd");
+    tfp->open ("/tmp/trace.vcd");
 #endif
 
+    //EEPromInit("retronitus.eeprom");
+    EEPromInit(0);// read eeprom.dat
     // Set initial values of inputs
     top->clock = 0;
     top->inp_resn = 0;
+    top->sda_in=1;
     long last_nres=-1,last_io=-1, last_ledg=-1;
+    long eeout;
     while (!Verilated::gotFinish())
     {
         if (main_time > 10)
@@ -42,11 +50,15 @@ int main(int argc, char **argv, char **env) {
 
         // Reduce the data save rate to save space and processing time.
 #ifdef TRACE_ON
-        if ((main_time % 8) == 1) 
+        if (((main_time % 8) == 1))//&&(main_time>500000000)) 
 	{
              tfp->dump (main_time);
 	}
 #endif
+        eeout=CheckEEProm(top->io);
+	top->sda_in=(eeout>>29)&1;
+
+        if ((main_time % 1000000) == 0) last_io= -1; // periodioc printouts
 
 	// pin change detection
         if( (last_nres!=top->top_veri__DOT__nres) ||
@@ -59,14 +71,14 @@ int main(int argc, char **argv, char **env) {
                std::cout << "resn:" << top->top_veri__DOT__nres+0;
                std::cout << " ledg:" << std::bitset<8>(top->ledg) ;
                std::cout << " IO:" << std::bitset<32>(top->io) ;
+	       if (eeout!=top->io )    std::cout << " EE:" << std::bitset<32>(eeout) ;
                std::cout << " PC0:" << top->top_veri__DOT__core__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p+0;
                std::cout << " time:" << main_time ;
                std::cout << std::endl;
 	       // look in obj_dir/Vtop_veri.h for signal names
 	}
-
         main_time++;            // Time passes...
-        if ( main_time > 1000000 )
+        if ( main_time > 517e6 )
         {
                 std::cout << "Done!" << std::endl;
                 break;
