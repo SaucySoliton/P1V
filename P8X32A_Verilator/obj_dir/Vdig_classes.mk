@@ -2,7 +2,7 @@
 # DESCRIPTION: Verilator output: Make include file with class lists
 #
 # This file lists generated Verilated files, for including in higher level makefiles.
-# See Vtop_veri.mk for the caller.
+# See Vdig.mk for the caller.
 
 ### Switches...
 # Coverage output mode?  0/1 (from --coverage)
@@ -13,20 +13,20 @@ VM_TRACE = 1
 ### Object file lists...
 # Generated module classes, fast-path, compile with highest optimization
 VM_CLASSES_FAST += \
-	Vtop_veri \
-	Vtop_veri___024unit \
+	Vdig \
+	Vdig___024unit \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \
-	Vtop_veri__Trace \
+	Vdig__Trace \
 
 # Generated support classes, non-fast-path, compile with low/medium optimization
 VM_SUPPORT_SLOW += \
-	Vtop_veri__Syms \
-	Vtop_veri__Trace__Slow \
+	Vdig__Syms \
+	Vdig__Trace__Slow \
 
 # Global classes, need linked once per executable, fast-path, compile with highest optimization
 VM_GLOBAL_FAST += \

@@ -2,13 +2,13 @@
 
 gcc -c eeprom.c 
 
-verilator --trace --top-module top_veri -Wno-lint -O3 --noassert -y ../HDL ../HDL/top_veri.v --cc  --exe main.cpp eeprom.o
+verilator --trace --top-module dig -Wno-lint -O3 --noassert -y ../HDL ../HDL/dig.v --cc  --exe main.cpp eeprom.o
 
 cp eeprom.o obj_dir
 
-make -C obj_dir OPT_FAST="-O3" -j -f Vtop_veri.mk Vtop_veri
+make -C obj_dir OPT_FAST="-O3" -j -f Vdig.mk Vdig
 
-cp obj_dir/Vtop_veri  simulator
+cp obj_dir/Vdig  simulator
 
 # ./simulator
 # gtkwave trace.vcd

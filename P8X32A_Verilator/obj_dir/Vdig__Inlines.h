@@ -1,6 +1,6 @@
 // Verilated -*- C++ -*-
-#ifndef _Vtop_veri__Inlines_H_
-#define _Vtop_veri__Inlines_H_
+#ifndef _Vdig__Inlines_H_
+#define _Vdig__Inlines_H_
 
 #include "verilated.h"
 

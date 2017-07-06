@@ -3,17 +3,17 @@
 //
 // Internal details; most calling programs do not need this header
 
-#ifndef _Vtop_veri__Syms_H_
-#define _Vtop_veri__Syms_H_
+#ifndef _Vdig__Syms_H_
+#define _Vdig__Syms_H_
 
 #include "verilated.h"
 
 // INCLUDE MODULE CLASSES
-#include "Vtop_veri.h"
-#include "Vtop_veri___024unit.h"
+#include "Vdig.h"
+#include "Vdig___024unit.h"
 
 // SYMS CLASS
-class Vtop_veri__Syms : public VerilatedSyms {
+class Vdig__Syms : public VerilatedSyms {
   public:
     
     // LOCAL STATE
@@ -23,15 +23,15 @@ class Vtop_veri__Syms : public VerilatedSyms {
     //char	__VpadToAlign10[6];
     
     // SUBCELL STATE
-    Vtop_veri*                     TOPp;
+    Vdig*                          TOPp;
     
     // COVERAGE
     
     // SCOPE NAMES
     
     // CREATORS
-    Vtop_veri__Syms(Vtop_veri* topp, const char* namep);
-    ~Vtop_veri__Syms() {};
+    Vdig__Syms(Vdig* topp, const char* namep);
+    ~Vdig__Syms() {};
     
     // METHODS
     inline const char* name() { return __Vm_namep; }

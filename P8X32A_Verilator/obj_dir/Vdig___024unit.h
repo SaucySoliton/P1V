@@ -1,18 +1,18 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Design internal header
-// See Vtop_veri.h for the primary calling header
+// See Vdig.h for the primary calling header
 
-#ifndef _Vtop_veri___024unit_H_
-#define _Vtop_veri___024unit_H_
+#ifndef _Vdig___024unit_H_
+#define _Vdig___024unit_H_
 
 #include "verilated.h"
-#include "Vtop_veri__Inlines.h"
-class Vtop_veri__Syms;
+#include "Vdig__Inlines.h"
+class Vdig__Syms;
 class VerilatedVcd;
 
 //----------
 
-VL_MODULE(Vtop_veri___024unit) {
+VL_MODULE(Vdig___024unit) {
   public:
     // CELLS
     
@@ -25,18 +25,18 @@ VL_MODULE(Vtop_veri___024unit) {
     // INTERNAL VARIABLES
   private:
     //char	__VpadToAlign12[4];
-    Vtop_veri__Syms*	__VlSymsp;		// Symbol table
+    Vdig__Syms*	__VlSymsp;		// Symbol table
   public:
     
     // PARAMETERS
     
     // CONSTRUCTORS
   private:
-    Vtop_veri___024unit& operator= (const Vtop_veri___024unit&);	///< Copying not allowed
-    Vtop_veri___024unit(const Vtop_veri___024unit&);	///< Copying not allowed
+    Vdig___024unit& operator= (const Vdig___024unit&);	///< Copying not allowed
+    Vdig___024unit(const Vdig___024unit&);	///< Copying not allowed
   public:
-    Vtop_veri___024unit(const char* name="TOP");
-    ~Vtop_veri___024unit();
+    Vdig___024unit(const char* name="TOP");
+    ~Vdig___024unit();
     void trace (VerilatedVcdC* tfp, int levels, int options=0);
     
     // USER METHODS
@@ -44,9 +44,9 @@ VL_MODULE(Vtop_veri___024unit) {
     // API METHODS
     
     // INTERNAL METHODS
-    void __Vconfigure(Vtop_veri__Syms* symsp, bool first);
+    void __Vconfigure(Vdig__Syms* symsp, bool first);
   private:
-    void	_configure_coverage(Vtop_veri__Syms* __restrict vlSymsp, bool first);
+    void	_configure_coverage(Vdig__Syms* __restrict vlSymsp, bool first);
     void	_ctor_var_reset();
   public:
     static void traceInit (VerilatedVcd* vcdp, void* userthis, uint32_t code);

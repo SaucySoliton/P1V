@@ -1,12 +1,12 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Symbol table implementation internals
 
-#include "Vtop_veri__Syms.h"
-#include "Vtop_veri.h"
-#include "Vtop_veri___024unit.h"
+#include "Vdig__Syms.h"
+#include "Vdig.h"
+#include "Vdig___024unit.h"
 
 // FUNCTIONS
-Vtop_veri__Syms::Vtop_veri__Syms(Vtop_veri* topp, const char* namep)
+Vdig__Syms::Vdig__Syms(Vdig* topp, const char* namep)
 	// Setup locals
 	: __Vm_namep(namep)
 	, __Vm_activity(false)
