@@ -2,21 +2,25 @@ Propeller 1 Design
 ==================
 
 
-Where I'm going with this repository:
+Unique features in the code here, intended for FPGA and simulator usage:
+----------------------------------------------------------------------
+*Support for simulation in Verilator
+*Single ROM file
+*Configurable RAM and ROM size in features.v
+*Hub ram is pre-loaded with EEPROM contents
+*Custom booter checks hub ram for a pre-loaded program
+*Booter is pre-loaded into cog ram
 
-Complete Propeller simulation in verilog ( still WIP, EEPROM in C )
-Pre-load program into RAM ( requires custom ROM )
-Convert to verilog 2001, needed for icestorm
-Build for iCE40 HX8K using icestorm (currently not functional)
-Reduce ROM by pre-loading booter into cog RAM
+Note about pre-loaded RAM: The RAM contents are likely not reset by inp_resn. It is assumed that the simulator is reset once at the start. Repeated resets may have result in unexpected behavior. FPGAs might need to be reconfigured to reset ram contents. 
 
-Finished:
-Single ROM file
-Parameterize RAM and ROM size
+Note about RAM options: The original booter seems to load 32kB from EEPROM, overwriting data if hub<32kB. This is not yet fixed in the custom booter.
 
-Note about pre-loaded RAM: The RAM contents are likely not reset by inp_resn. It is assumed that the simulator is reset once at the start. Repeated resets may have result in unexpected behavior. 
+Possible future work:
+*Convert to verilog 2001, needed for icestorm
+*Build for iCE40 HX8K using icestorm (currently not functional)
+*Reduce ROM by pre-loading booter into cog RAM
 
-Note about RAM options: The original booter seems to load 32kB from EEPROM, overwriting data if hub<32kB
+
 
 P8X32A Emulation on FPGA Boards
 -------------------------------
