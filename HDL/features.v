@@ -35,6 +35,12 @@ defparam core.INVERT_COG_LEDS = `INVERT_COG_LEDS;
 //
 // KL = kilo-longs, 1 long is 4 bytes
 parameter HUB_RAM_KL=8;  // 8=32kB, 4=16kB, 2=8kB
+parameter HUB_RAM_INIT0="../P8X32A_Verilator/hub_ram_byte0.hex";
+parameter HUB_RAM_INIT1="../P8X32A_Verilator/hub_ram_byte1.hex";
+parameter HUB_RAM_INIT2="../P8X32A_Verilator/hub_ram_byte2.hex";
+parameter HUB_RAM_INIT3="../P8X32A_Verilator/hub_ram_byte3.hex";
+// TODO have main.cpp load these
+
 
 // ROM Options
 //
@@ -49,5 +55,5 @@ parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
 
 
 
-parameter COG_RAM_INIT="../Spin/booter.hex";
+parameter COG_RAM_INIT="../Spin/rambooter.hex";
 

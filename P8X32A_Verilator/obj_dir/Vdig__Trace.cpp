@@ -33,10 +33,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 4U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0xfU)) 
+						 >> 0x17U)) 
 				 | vlTOPp->__Vm_traceActivity[1U]) 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0xaU)) | (vlTOPp->__Vm_traceActivity[1U] 
@@ -47,10 +47,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 5U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0x10U)) 
+						 >> 0x18U)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 1U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0xcU)) 
@@ -62,10 +62,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 6U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0x11U)) 
+						 >> 0x19U)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0xeU)) 
@@ -77,10 +77,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 7U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0x12U)) 
+						 >> 0x1aU)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0x10U)) 
@@ -92,10 +92,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 8U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0x13U)) 
+						 >> 0x1bU)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 4U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0x12U)) 
@@ -107,10 +107,10 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 9U)) | (vlTOPp->__Vm_traceActivity[0U] 
-						 >> 0x14U)) 
+						 >> 0x1cU)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 5U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0x14U)) 
@@ -122,11 +122,11 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 0xaU)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 0x15U)) 
+						   >> 0x1dU)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 6U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0x16U)) 
@@ -137,11 +137,11 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				     | (vlTOPp->__Vm_traceActivity[0U] 
 					>> 1U)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 3U)) 
+						   >> 2U)) 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
 				      >> 0xbU)) | (
 						   vlTOPp->__Vm_traceActivity[0U] 
-						   >> 0x16U)) 
+						   >> 0x1eU)) 
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 7U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					       >> 0x18U)) 
@@ -214,118 +214,170 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[0U] 
-				  >> 3U))))) {
+				  >> 2U))))) {
 	    vlTOPp->traceChgThis__19(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0xfU)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x17U)) 
 			       | vlTOPp->__Vm_traceActivity[1U])))) {
 	    vlTOPp->traceChgThis__20(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x10U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x18U)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 1U))))) {
 	    vlTOPp->traceChgThis__21(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x11U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x19U)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 2U))))) {
 	    vlTOPp->traceChgThis__22(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x12U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x1aU)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 3U))))) {
 	    vlTOPp->traceChgThis__23(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x13U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x1bU)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 4U))))) {
 	    vlTOPp->traceChgThis__24(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x14U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x1cU)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 5U))))) {
 	    vlTOPp->traceChgThis__25(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x15U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x1dU)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 6U))))) {
 	    vlTOPp->traceChgThis__26(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 3U)) | (vlTOPp->__Vm_traceActivity[0U] 
-					       >> 0x16U)) 
+				    >> 2U)) | (vlTOPp->__Vm_traceActivity[0U] 
+					       >> 0x1eU)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 7U))))) {
 	    vlTOPp->traceChgThis__27(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | vlTOPp->__Vm_traceActivity[1U])))) {
+				   >> 2U)) | vlTOPp->__Vm_traceActivity[1U])))) {
 	    vlTOPp->traceChgThis__28(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 1U))))) {
 	    vlTOPp->traceChgThis__29(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 2U))))) {
 	    vlTOPp->traceChgThis__30(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 3U))))) {
 	    vlTOPp->traceChgThis__31(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 4U))))) {
 	    vlTOPp->traceChgThis__32(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 5U))))) {
 	    vlTOPp->traceChgThis__33(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 6U))))) {
 	    vlTOPp->traceChgThis__34(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+				   >> 2U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 7U))))) {
 	    vlTOPp->traceChgThis__35(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
+			       | (vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U))))) {
+	    vlTOPp->traceChgThis__36(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1aU))))) {
+	    vlTOPp->traceChgThis__37(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1bU))))) {
+	    vlTOPp->traceChgThis__38(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1cU))))) {
+	    vlTOPp->traceChgThis__39(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1dU))))) {
+	    vlTOPp->traceChgThis__40(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1eU))))) {
+	    vlTOPp->traceChgThis__41(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[1U] 
+					      >> 0x1fU))))) {
+	    vlTOPp->traceChgThis__42(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | vlTOPp->__Vm_traceActivity[2U])))) {
+	    vlTOPp->traceChgThis__43(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 3U)) | (vlTOPp->__Vm_traceActivity[2U] 
+					      >> 1U))))) {
+	    vlTOPp->traceChgThis__44(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
 				      | (vlTOPp->__Vm_traceActivity[0U] 
@@ -341,19 +393,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0xaU)) 
 			       | (vlTOPp->__Vm_traceActivity[0U] 
 				  >> 0xbU))))) {
-	    vlTOPp->traceChgThis__36(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__45(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 4U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__37(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__46(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 4U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__38(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__47(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -361,19 +413,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1aU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 3U))))) {
-	    vlTOPp->traceChgThis__39(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__48(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 5U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__40(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__49(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 5U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1bU))))) {
-	    vlTOPp->traceChgThis__41(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__50(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -381,19 +433,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1bU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 4U))))) {
-	    vlTOPp->traceChgThis__42(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__51(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 6U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__43(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__52(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 6U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__44(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__53(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -401,19 +453,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1cU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 5U))))) {
-	    vlTOPp->traceChgThis__45(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__54(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 7U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__46(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__55(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 7U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1dU))))) {
-	    vlTOPp->traceChgThis__47(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__56(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -421,19 +473,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1dU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 6U))))) {
-	    vlTOPp->traceChgThis__48(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__57(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 8U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__49(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__58(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 8U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__50(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__59(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -441,19 +493,19 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1eU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 7U))))) {
-	    vlTOPp->traceChgThis__51(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__60(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 9U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x19U))))) {
-	    vlTOPp->traceChgThis__52(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__61(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 9U)) | (vlTOPp->__Vm_traceActivity[1U] 
 					      >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__53(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__62(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -461,37 +513,37 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 0x1fU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 8U))))) {
-	    vlTOPp->traceChgThis__54(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__63(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xaU)) | (vlTOPp->__Vm_traceActivity[1U] 
 						>> 0x19U))))) {
-	    vlTOPp->traceChgThis__55(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__64(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xaU)) | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__56(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__65(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
 				    >> 0xaU)) | vlTOPp->__Vm_traceActivity[2U]) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 9U))))) {
-	    vlTOPp->traceChgThis__57(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__66(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xbU)) | (vlTOPp->__Vm_traceActivity[1U] 
 						>> 0x19U))))) {
-	    vlTOPp->traceChgThis__58(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__67(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xbU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						>> 1U))))) {
-	    vlTOPp->traceChgThis__59(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__68(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((vlTOPp->__Vm_traceActivity[0U] 
 				 | (vlTOPp->__Vm_traceActivity[0U] 
@@ -499,12 +551,12 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						 >> 1U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 0xaU))))) {
-	    vlTOPp->traceChgThis__60(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__69(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[0U] 
 				  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__61(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__70(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -513,7 +565,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__62(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__71(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -525,7 +577,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1aU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x14U))))) {
-	    vlTOPp->traceChgThis__63(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__72(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -534,7 +586,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1bU))))) {
-	    vlTOPp->traceChgThis__64(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__73(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -546,7 +598,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1bU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x16U))))) {
-	    vlTOPp->traceChgThis__65(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__74(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -555,7 +607,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__66(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__75(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -567,7 +619,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1cU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x18U))))) {
-	    vlTOPp->traceChgThis__67(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__76(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -576,7 +628,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1dU))))) {
-	    vlTOPp->traceChgThis__68(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__77(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -588,7 +640,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1dU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__69(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__78(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -597,7 +649,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__70(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__79(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -609,7 +661,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1eU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__71(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__80(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -618,7 +670,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__72(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__81(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -630,7 +682,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1fU)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__73(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__82(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -638,7 +690,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0xeU)) 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__74(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__83(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -648,7 +700,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				 | (vlTOPp->__Vm_traceActivity[1U] 
 				    >> 0x19U)) | vlTOPp->__Vm_traceActivity[2U]) 
 			       | vlTOPp->__Vm_traceActivity[3U])))) {
-	    vlTOPp->traceChgThis__75(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__84(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[0U] 
@@ -657,7 +709,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 1U))))) {
-	    vlTOPp->traceChgThis__76(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__85(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -669,59 +721,12 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 1U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 2U))))) {
-	    vlTOPp->traceChgThis__77(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1aU))))) {
-	    vlTOPp->traceChgThis__78(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1bU))))) {
-	    vlTOPp->traceChgThis__79(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1cU))))) {
-	    vlTOPp->traceChgThis__80(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1dU))))) {
-	    vlTOPp->traceChgThis__81(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1eU))))) {
-	    vlTOPp->traceChgThis__82(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x1fU))))) {
-	    vlTOPp->traceChgThis__83(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__84(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[2U] 
-						>> 1U))))) {
-	    vlTOPp->traceChgThis__85(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__86(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[0U] 
 				  >> 0xeU))))) {
-	    vlTOPp->traceChgThis__86(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__87(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -733,7 +738,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x14U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 3U))))) {
-	    vlTOPp->traceChgThis__87(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__88(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -745,7 +750,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x16U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 4U))))) {
-	    vlTOPp->traceChgThis__88(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__89(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -757,7 +762,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x18U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 5U))))) {
-	    vlTOPp->traceChgThis__89(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__90(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -769,7 +774,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1aU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 6U))))) {
-	    vlTOPp->traceChgThis__90(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__91(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -781,7 +786,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1cU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 7U))))) {
-	    vlTOPp->traceChgThis__91(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__92(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -793,7 +798,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1eU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 8U))))) {
-	    vlTOPp->traceChgThis__92(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__93(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -804,7 +809,7 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| vlTOPp->__Vm_traceActivity[3U]) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 9U))))) {
-	    vlTOPp->traceChgThis__93(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__94(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (((((vlTOPp->__Vm_traceActivity[0U] 
 				   | (vlTOPp->__Vm_traceActivity[0U] 
@@ -816,80 +821,80 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 2U)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 0xaU))))) {
-	    vlTOPp->traceChgThis__94(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xfU)) | vlTOPp->__Vm_traceActivity[1U])))) {
 	    vlTOPp->traceChgThis__95(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x10U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 1U))))) {
+	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
+				      | (vlTOPp->__Vm_traceActivity[0U] 
+					 >> 0xfU)) 
+				     | (vlTOPp->__Vm_traceActivity[0U] 
+					>> 0x10U)) 
+				    | (vlTOPp->__Vm_traceActivity[0U] 
+				       >> 0x11U)) | 
+				   (vlTOPp->__Vm_traceActivity[0U] 
+				    >> 0x12U)) | (vlTOPp->__Vm_traceActivity[0U] 
+						  >> 0x13U)) 
+				 | (vlTOPp->__Vm_traceActivity[0U] 
+				    >> 0x14U)) | (vlTOPp->__Vm_traceActivity[0U] 
+						  >> 0x15U)) 
+			       | (vlTOPp->__Vm_traceActivity[0U] 
+				  >> 0x16U))))) {
 	    vlTOPp->traceChgThis__96(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x11U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 2U))))) {
+				   >> 0x17U)) | vlTOPp->__Vm_traceActivity[1U])))) {
 	    vlTOPp->traceChgThis__97(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x12U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 3U))))) {
+				   >> 0x18U)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 1U))))) {
 	    vlTOPp->traceChgThis__98(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x13U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 4U))))) {
+				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 2U))))) {
 	    vlTOPp->traceChgThis__99(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x14U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 5U))))) {
+				   >> 0x1aU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 3U))))) {
 	    vlTOPp->traceChgThis__100(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x15U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 6U))))) {
+				   >> 0x1bU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 4U))))) {
 	    vlTOPp->traceChgThis__101(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0x16U)) | (vlTOPp->__Vm_traceActivity[1U] 
-						 >> 7U))))) {
+				   >> 0x1cU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 5U))))) {
 	    vlTOPp->traceChgThis__102(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
-				      | (vlTOPp->__Vm_traceActivity[0U] 
-					 >> 0x17U)) 
-				     | (vlTOPp->__Vm_traceActivity[0U] 
-					>> 0x18U)) 
-				    | (vlTOPp->__Vm_traceActivity[0U] 
-				       >> 0x19U)) | 
-				   (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 0x1aU)) | (vlTOPp->__Vm_traceActivity[0U] 
-						  >> 0x1bU)) 
-				 | (vlTOPp->__Vm_traceActivity[0U] 
-				    >> 0x1cU)) | (vlTOPp->__Vm_traceActivity[0U] 
-						  >> 0x1dU)) 
-			       | (vlTOPp->__Vm_traceActivity[0U] 
-				  >> 0x1eU))))) {
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0x1dU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 6U))))) {
 	    vlTOPp->traceChgThis__103(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0x1eU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						 >> 7U))))) {
+	    vlTOPp->traceChgThis__104(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[0U] 
 				  >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__104(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__105(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | vlTOPp->__Vm_traceActivity[1U])))) {
-	    vlTOPp->traceChgThis__105(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__106(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
 				      | vlTOPp->__Vm_traceActivity[1U]) 
@@ -905,98 +910,98 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 6U)) 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 7U))))) {
-	    vlTOPp->traceChgThis__106(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
-			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 1U))))) {
 	    vlTOPp->traceChgThis__107(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 2U))))) {
+				  >> 1U))))) {
 	    vlTOPp->traceChgThis__108(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 3U))))) {
+				  >> 2U))))) {
 	    vlTOPp->traceChgThis__109(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 4U))))) {
+				  >> 3U))))) {
 	    vlTOPp->traceChgThis__110(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 5U))))) {
+				  >> 4U))))) {
 	    vlTOPp->traceChgThis__111(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 6U))))) {
+				  >> 5U))))) {
 	    vlTOPp->traceChgThis__112(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 7U))))) {
+				  >> 6U))))) {
 	    vlTOPp->traceChgThis__113(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 8U))))) {
+				  >> 7U))))) {
 	    vlTOPp->traceChgThis__114(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0xaU))))) {
+				  >> 8U))))) {
 	    vlTOPp->traceChgThis__115(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0xcU))))) {
+				  >> 0xaU))))) {
 	    vlTOPp->traceChgThis__116(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0xeU))))) {
+				  >> 0xcU))))) {
 	    vlTOPp->traceChgThis__117(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x10U))))) {
+				  >> 0xeU))))) {
 	    vlTOPp->traceChgThis__118(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x12U))))) {
+				  >> 0x10U))))) {
 	    vlTOPp->traceChgThis__119(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x14U))))) {
+				  >> 0x12U))))) {
 	    vlTOPp->traceChgThis__120(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x16U))))) {
+				  >> 0x14U))))) {
 	    vlTOPp->traceChgThis__121(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x18U))))) {
+				  >> 0x16U))))) {
 	    vlTOPp->traceChgThis__122(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
-				  >> 0x19U))))) {
+				  >> 0x18U))))) {
 	    vlTOPp->traceChgThis__123(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
+			       | (vlTOPp->__Vm_traceActivity[1U] 
+				  >> 0x19U))))) {
+	    vlTOPp->traceChgThis__124(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__124(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__125(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1006,13 +1011,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x14U)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 3U))))) {
-	    vlTOPp->traceChgThis__125(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__126(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1bU))))) {
-	    vlTOPp->traceChgThis__126(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__127(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1022,13 +1027,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x16U)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 4U))))) {
-	    vlTOPp->traceChgThis__127(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__128(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__128(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__129(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1038,13 +1043,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x18U)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 5U))))) {
-	    vlTOPp->traceChgThis__129(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__130(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1dU))))) {
-	    vlTOPp->traceChgThis__130(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__131(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1054,13 +1059,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x1aU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 6U))))) {
-	    vlTOPp->traceChgThis__131(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__132(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__132(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__133(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1070,13 +1075,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x1cU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 7U))))) {
-	    vlTOPp->traceChgThis__133(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__134(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[1U] 
 						 >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__134(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__135(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1086,12 +1091,12 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 0x1eU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 8U))))) {
-	    vlTOPp->traceChgThis__135(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__136(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__136(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__137(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1099,13 +1104,13 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| vlTOPp->__Vm_traceActivity[3U]) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 9U))))) {
-	    vlTOPp->traceChgThis__137(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__138(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x19U)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 1U))))) {
-	    vlTOPp->traceChgThis__138(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__139(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
 				  | (vlTOPp->__Vm_traceActivity[1U] 
@@ -1115,141 +1120,141 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 				| (vlTOPp->__Vm_traceActivity[3U] 
 				   >> 2U)) | (vlTOPp->__Vm_traceActivity[3U] 
 					      >> 0xaU))))) {
-	    vlTOPp->traceChgThis__139(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__140(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__140(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__141(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1aU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x14U))))) {
-	    vlTOPp->traceChgThis__141(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__142(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1aU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 3U))))) {
-	    vlTOPp->traceChgThis__142(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__143(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1bU))))) {
-	    vlTOPp->traceChgThis__143(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__144(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1bU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x16U))))) {
-	    vlTOPp->traceChgThis__144(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__145(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1bU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 4U))))) {
-	    vlTOPp->traceChgThis__145(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__146(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__146(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__147(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1cU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x18U))))) {
-	    vlTOPp->traceChgThis__147(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__148(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1cU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 5U))))) {
-	    vlTOPp->traceChgThis__148(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__149(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1dU))))) {
-	    vlTOPp->traceChgThis__149(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__150(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1dU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__150(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__151(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1dU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 6U))))) {
-	    vlTOPp->traceChgThis__151(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__152(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__152(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__153(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1eU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__153(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__154(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1eU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 7U))))) {
-	    vlTOPp->traceChgThis__154(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__155(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[1U] 
 				  >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__155(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__156(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1fU)) | (vlTOPp->__Vm_traceActivity[2U] 
 						 >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__156(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__157(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[1U] 
 				   >> 0x1fU)) | (vlTOPp->__Vm_traceActivity[3U] 
 						 >> 8U))))) {
-	    vlTOPp->traceChgThis__157(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__158(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__158(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__159(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| vlTOPp->__Vm_traceActivity[2U]) 
 			       | vlTOPp->__Vm_traceActivity[3U])))) {
-	    vlTOPp->traceChgThis__159(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__160(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| vlTOPp->__Vm_traceActivity[2U]) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 9U))))) {
-	    vlTOPp->traceChgThis__160(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__161(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 1U))))) {
-	    vlTOPp->traceChgThis__161(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				| (vlTOPp->__Vm_traceActivity[2U] 
-				   >> 1U)) | (vlTOPp->__Vm_traceActivity[3U] 
-					      >> 2U))))) {
 	    vlTOPp->traceChgThis__162(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				| (vlTOPp->__Vm_traceActivity[2U] 
 				   >> 1U)) | (vlTOPp->__Vm_traceActivity[3U] 
-					      >> 0xaU))))) {
+					      >> 2U))))) {
 	    vlTOPp->traceChgThis__163(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				| (vlTOPp->__Vm_traceActivity[2U] 
+				   >> 1U)) | (vlTOPp->__Vm_traceActivity[3U] 
+					      >> 0xaU))))) {
+	    vlTOPp->traceChgThis__164(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
 				      | (vlTOPp->__Vm_traceActivity[2U] 
@@ -1265,52 +1270,52 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 					       >> 9U)) 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
 				  >> 0xaU))))) {
-	    vlTOPp->traceChgThis__164(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
-			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 3U))))) {
 	    vlTOPp->traceChgThis__165(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0xbU))))) {
+				  >> 3U))))) {
 	    vlTOPp->traceChgThis__166(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0xcU))))) {
+				  >> 0xbU))))) {
 	    vlTOPp->traceChgThis__167(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0xdU))))) {
+				  >> 0xcU))))) {
 	    vlTOPp->traceChgThis__168(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0xeU))))) {
+				  >> 0xdU))))) {
 	    vlTOPp->traceChgThis__169(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0xfU))))) {
+				  >> 0xeU))))) {
 	    vlTOPp->traceChgThis__170(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x10U))))) {
+				  >> 0xfU))))) {
 	    vlTOPp->traceChgThis__171(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x11U))))) {
+				  >> 0x10U))))) {
 	    vlTOPp->traceChgThis__172(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x12U))))) {
+				  >> 0x11U))))) {
 	    vlTOPp->traceChgThis__173(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
+			       | (vlTOPp->__Vm_traceActivity[2U] 
+				  >> 0x12U))))) {
+	    vlTOPp->traceChgThis__174(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((((((vlTOPp->__Vm_traceActivity[0U] 
 				      | (vlTOPp->__Vm_traceActivity[2U] 
@@ -1327,417 +1332,417 @@ void Vdig::traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint
 						  >> 0x1fU)) 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
 				  >> 1U))))) {
-	    vlTOPp->traceChgThis__174(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
-			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x14U))))) {
 	    vlTOPp->traceChgThis__175(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x16U))))) {
+				  >> 0x14U))))) {
 	    vlTOPp->traceChgThis__176(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x18U))))) {
+				  >> 0x16U))))) {
 	    vlTOPp->traceChgThis__177(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x1aU))))) {
+				  >> 0x18U))))) {
 	    vlTOPp->traceChgThis__178(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x1cU))))) {
+				  >> 0x1aU))))) {
 	    vlTOPp->traceChgThis__179(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[2U] 
-				  >> 0x1eU))))) {
+				  >> 0x1cU))))) {
 	    vlTOPp->traceChgThis__180(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
-			       | vlTOPp->__Vm_traceActivity[3U])))) {
+			       | (vlTOPp->__Vm_traceActivity[2U] 
+				  >> 0x1eU))))) {
 	    vlTOPp->traceChgThis__181(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
-			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 2U))))) {
+			       | vlTOPp->__Vm_traceActivity[3U])))) {
 	    vlTOPp->traceChgThis__182(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 3U))))) {
+				  >> 2U))))) {
 	    vlTOPp->traceChgThis__183(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 4U))))) {
+				  >> 3U))))) {
 	    vlTOPp->traceChgThis__184(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 5U))))) {
+				  >> 4U))))) {
 	    vlTOPp->traceChgThis__185(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 6U))))) {
+				  >> 5U))))) {
 	    vlTOPp->traceChgThis__186(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 7U))))) {
+				  >> 6U))))) {
 	    vlTOPp->traceChgThis__187(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 8U))))) {
+				  >> 7U))))) {
 	    vlTOPp->traceChgThis__188(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 9U))))) {
+				  >> 8U))))) {
 	    vlTOPp->traceChgThis__189(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
 			       | (vlTOPp->__Vm_traceActivity[3U] 
-				  >> 0xaU))))) {
+				  >> 9U))))) {
 	    vlTOPp->traceChgThis__190(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((4U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((1U & (vlTOPp->__Vm_traceActivity[0U] 
+			       | (vlTOPp->__Vm_traceActivity[3U] 
+				  >> 0xaU))))) {
 	    vlTOPp->traceChgThis__191(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 4U)) 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x19U))))) {
+	if (VL_UNLIKELY((4U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__192(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 5U)) 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x19U))))) {
+	if (VL_UNLIKELY((8U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__193(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 6U)) 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x19U))))) {
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 4U))))) {
 	    vlTOPp->traceChgThis__194(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 7U)) 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 4U)) 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
 						>> 0x19U))))) {
 	    vlTOPp->traceChgThis__195(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 8U)) 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x19U))))) {
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 5U))))) {
 	    vlTOPp->traceChgThis__196(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 9U)) 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 5U)) 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
 						>> 0x19U))))) {
 	    vlTOPp->traceChgThis__197(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 0xaU)) 
-				| (vlTOPp->__Vm_traceActivity[0U] 
-				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
-						>> 0x19U))))) {
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 6U))))) {
 	    vlTOPp->traceChgThis__198(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
-				  >> 2U) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 0xbU)) 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 6U)) 
 				| (vlTOPp->__Vm_traceActivity[0U] 
 				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
 						>> 0x19U))))) {
 	    vlTOPp->traceChgThis__199(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((8U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 7U))))) {
 	    vlTOPp->traceChgThis__200(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x10U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 7U)) 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						>> 0x19U))))) {
 	    vlTOPp->traceChgThis__201(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 4U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 8U))))) {
 	    vlTOPp->traceChgThis__202(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 8U)) 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						>> 0x19U))))) {
+	    vlTOPp->traceChgThis__203(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 9U))))) {
+	    vlTOPp->traceChgThis__204(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 9U)) 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						>> 0x19U))))) {
+	    vlTOPp->traceChgThis__205(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 0xaU))))) {
+	    vlTOPp->traceChgThis__206(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 0xaU)) 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						>> 0x19U))))) {
+	    vlTOPp->traceChgThis__207(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					  >> 0xbU))))) {
+	    vlTOPp->traceChgThis__208(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((((vlTOPp->__Vm_traceActivity[0U] 
+				  >> 3U) | (vlTOPp->__Vm_traceActivity[0U] 
+					    >> 0xbU)) 
+				| (vlTOPp->__Vm_traceActivity[0U] 
+				   >> 0xdU)) | (vlTOPp->__Vm_traceActivity[1U] 
+						>> 0x19U))))) {
+	    vlTOPp->traceChgThis__209(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
+				>> 3U) | (vlTOPp->__Vm_traceActivity[1U] 
+					  >> 0x19U))))) {
+	    vlTOPp->traceChgThis__210(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x10U & vlTOPp->__Vm_traceActivity[0U]))) {
+	    vlTOPp->traceChgThis__211(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 4U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__203(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__212(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x20U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__204(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 5U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__205(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__213(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 5U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__206(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__214(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x40U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__207(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 6U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__208(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__215(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 6U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__209(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__216(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x80U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__210(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 7U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__211(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__217(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 7U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__212(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__218(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x100U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__213(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 8U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__214(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__219(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 8U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__215(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__220(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x200U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__216(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 9U) | (vlTOPp->__Vm_traceActivity[0U] 
-					  >> 0xdU))))) {
-	    vlTOPp->traceChgThis__217(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__221(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 9U) | (vlTOPp->__Vm_traceActivity[1U] 
 					  >> 0x19U))))) {
-	    vlTOPp->traceChgThis__218(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__222(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x400U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__219(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 0xaU) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 0xdU))))) {
-	    vlTOPp->traceChgThis__220(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__223(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 0xaU) | (vlTOPp->__Vm_traceActivity[1U] 
 					    >> 0x19U))))) {
-	    vlTOPp->traceChgThis__221(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__224(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((0x800U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__222(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 0xbU) | (vlTOPp->__Vm_traceActivity[0U] 
-					    >> 0xdU))))) {
-	    vlTOPp->traceChgThis__223(vlSymsp, vcdp, code);
+	    vlTOPp->traceChgThis__225(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
 				>> 0xbU) | (vlTOPp->__Vm_traceActivity[1U] 
 					    >> 0x19U))))) {
-	    vlTOPp->traceChgThis__224(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x1000U & vlTOPp->__Vm_traceActivity[0U]))) {
-	    vlTOPp->traceChgThis__225(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x2000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__226(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[0U] 
-				>> 0xdU) | (vlTOPp->__Vm_traceActivity[1U] 
-					    >> 0x19U))))) {
+	if (VL_UNLIKELY((0x1000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__227(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x4000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x2000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__228(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x8000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x4000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__229(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x10000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x800000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__230(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x20000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x1000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__231(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x40000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x2000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__232(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x80000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x4000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__233(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x100000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x8000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__234(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x200000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x10000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__235(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x400000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x20000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__236(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x80000000U & vlTOPp->__Vm_traceActivity[0U]))) {
+	if (VL_UNLIKELY((0x40000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__237(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x200U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x80000000U & vlTOPp->__Vm_traceActivity[0U]))) {
 	    vlTOPp->traceChgThis__238(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x400U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x200U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__239(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x400U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__240(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0xaU) | (vlTOPp->__Vm_traceActivity[1U] 
 					    >> 0x1aU))))) {
-	    vlTOPp->traceChgThis__240(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x800U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__241(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x1000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x800U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__242(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x1000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__243(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0xcU) | (vlTOPp->__Vm_traceActivity[1U] 
 					    >> 0x1bU))))) {
-	    vlTOPp->traceChgThis__243(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x2000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__244(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x4000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x2000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__245(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x4000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__246(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0xeU) | (vlTOPp->__Vm_traceActivity[1U] 
 					    >> 0x1cU))))) {
-	    vlTOPp->traceChgThis__246(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x8000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__247(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x10000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x8000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__248(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x10000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__249(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0x10U) | (vlTOPp->__Vm_traceActivity[1U] 
 					     >> 0x1dU))))) {
-	    vlTOPp->traceChgThis__249(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x20000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__250(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x40000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x20000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__251(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x40000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__252(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0x12U) | (vlTOPp->__Vm_traceActivity[1U] 
 					     >> 0x1eU))))) {
-	    vlTOPp->traceChgThis__252(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x80000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__253(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x100000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x80000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__254(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x100000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__255(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0x14U) | (vlTOPp->__Vm_traceActivity[1U] 
 					     >> 0x1fU))))) {
-	    vlTOPp->traceChgThis__255(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x200000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__256(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x400000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x200000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__257(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x400000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__258(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0x16U) | vlTOPp->__Vm_traceActivity[2U])))) {
-	    vlTOPp->traceChgThis__258(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x800000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__259(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x1000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x800000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__260(vlSymsp, vcdp, code);
+	}
+	if (VL_UNLIKELY((0x1000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	    vlTOPp->traceChgThis__261(vlSymsp, vcdp, code);
 	}
 	if (VL_UNLIKELY((1U & ((vlTOPp->__Vm_traceActivity[1U] 
 				>> 0x18U) | (vlTOPp->__Vm_traceActivity[2U] 
 					     >> 1U))))) {
-	    vlTOPp->traceChgThis__261(vlSymsp, vcdp, code);
-	}
-	if (VL_UNLIKELY((0x2000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__262(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x4000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x2000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__263(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x8000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x4000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__264(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x10000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x8000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__265(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x20000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x10000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__266(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x40000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x20000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__267(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((0x80000000U & vlTOPp->__Vm_traceActivity[1U]))) {
+	if (VL_UNLIKELY((0x40000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__268(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((1U & vlTOPp->__Vm_traceActivity[2U]))) {
+	if (VL_UNLIKELY((0x80000000U & vlTOPp->__Vm_traceActivity[1U]))) {
 	    vlTOPp->traceChgThis__269(vlSymsp, vcdp, code);
 	}
-	if (VL_UNLIKELY((2U & vlTOPp->__Vm_traceActivity[2U]))) {
+	if (VL_UNLIKELY((1U & vlTOPp->__Vm_traceActivity[2U]))) {
 	    vlTOPp->traceChgThis__270(vlSymsp, vcdp, code);
 	}
-	vlTOPp->traceChgThis__271(vlSymsp, vcdp, code);
+	if (VL_UNLIKELY((2U & vlTOPp->__Vm_traceActivity[2U]))) {
+	    vlTOPp->traceChgThis__271(vlSymsp, vcdp, code);
+	}
+	vlTOPp->traceChgThis__272(vlSymsp, vcdp, code);
     }
     // Final
     vlTOPp->__Vm_traceActivity[0U] = 0U;
@@ -3900,7 +3905,7 @@ void Vdig::traceChgThis__36(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgArray(c+122,(vlTOPp->dig__DOT__dirx),256);
+	vcdp->chgBit  (c+122,(vlTOPp->dig__DOT__hub___DOT__mem_w));
     }
 }
 
@@ -3908,29 +3913,206 @@ void Vdig::traceChgThis__37(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp195,127,0,4);
-    VL_SIGW(__Vtemp198,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp195, (((QData)((IData)(
+	vcdp->chgBit  (c+123,(((IData)(vlTOPp->dig__DOT__bus_sel) 
+			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						  >> 0x1cU))) 
+				  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+				     >> 4U)))));
+	vcdp->chgBit  (c+124,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     & (~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					   >> 0x17U))))));
+	vcdp->chgBus  (c+125,((3U & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__38(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+126,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 1U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+127,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 1U) & (~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+128,((3U & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__39(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+129,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 2U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+130,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 2U) & (~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+131,((3U & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__40(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+132,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 3U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+133,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 3U) & (~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+134,((3U & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__41(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+135,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 4U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+136,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 4U) & (~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+137,((3U & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__42(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+138,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 5U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+139,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 5U) & (~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+140,((3U & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__43(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+141,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 6U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+142,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 6U) & (~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+143,((3U & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__44(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+144,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 7U) & ((0U == (0xfU 
+						  & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						     >> 0x1cU))) 
+					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+					     >> 4U)))));
+	vcdp->chgBit  (c+145,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 7U) & (~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						   >> 0x17U))))));
+	vcdp->chgBus  (c+146,((3U & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				      ? (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					 >> 0x1aU) : 0U))),2);
+    }
+}
+
+void Vdig::traceChgThis__45(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgArray(c+147,(vlTOPp->dig__DOT__dirx),256);
+    }
+}
+
+void Vdig::traceChgThis__46(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp212,127,0,4);
+    VL_SIGW(__Vtemp215,255,0,8);
+    // Body
+    {
+	VL_EXTEND_WQ(124,62, __Vtemp212, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
-	__Vtemp198[0U] = __Vtemp195[0U];
-	__Vtemp198[1U] = __Vtemp195[1U];
-	__Vtemp198[2U] = __Vtemp195[2U];
-	__Vtemp198[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+	__Vtemp215[0U] = __Vtemp212[0U];
+	__Vtemp215[1U] = __Vtemp212[1U];
+	__Vtemp215[2U] = __Vtemp212[2U];
+	__Vtemp215[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp195[3U]);
-	__Vtemp198[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp212[3U]);
+	__Vtemp215[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp198[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp215[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -3939,7 +4121,7 @@ void Vdig::traceChgThis__37(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp198[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp215[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3954,7 +4136,7 @@ void Vdig::traceChgThis__37(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp198[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp215[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3962,17 +4144,17 @@ void Vdig::traceChgThis__37(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+130,(__Vtemp198),248);
+	vcdp->chgArray(c+155,(__Vtemp215),248);
     }
 }
 
-void Vdig::traceChgThis__38(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__47(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+138,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+163,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z)
@@ -3986,7 +4168,7 @@ void Vdig::traceChgThis__38(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+139,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+164,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4000,13 +4182,13 @@ void Vdig::traceChgThis__38(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__39(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__48(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+140,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+165,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4023,33 +4205,33 @@ void Vdig::traceChgThis__39(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__40(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__49(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp199,127,0,4);
-    VL_SIGW(__Vtemp202,255,0,8);
+    VL_SIGW(__Vtemp216,127,0,4);
+    VL_SIGW(__Vtemp219,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp199, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp216, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
-	__Vtemp202[0U] = __Vtemp199[0U];
-	__Vtemp202[1U] = __Vtemp199[1U];
-	__Vtemp202[2U] = __Vtemp199[2U];
-	__Vtemp202[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+	__Vtemp219[0U] = __Vtemp216[0U];
+	__Vtemp219[1U] = __Vtemp216[1U];
+	__Vtemp219[2U] = __Vtemp216[2U];
+	__Vtemp219[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp199[3U]);
-	__Vtemp202[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp216[3U]);
+	__Vtemp219[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp202[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp219[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4058,7 +4240,7 @@ void Vdig::traceChgThis__40(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp202[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp219[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4073,7 +4255,7 @@ void Vdig::traceChgThis__40(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp202[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp219[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4081,17 +4263,17 @@ void Vdig::traceChgThis__40(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+141,(__Vtemp202),248);
+	vcdp->chgArray(c+166,(__Vtemp219),248);
     }
 }
 
-void Vdig::traceChgThis__41(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__50(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+149,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+174,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z)
@@ -4105,7 +4287,7 @@ void Vdig::traceChgThis__41(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+150,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+175,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4119,13 +4301,13 @@ void Vdig::traceChgThis__41(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__42(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__51(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+151,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+176,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4142,33 +4324,33 @@ void Vdig::traceChgThis__42(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__43(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__52(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp203,127,0,4);
-    VL_SIGW(__Vtemp206,255,0,8);
+    VL_SIGW(__Vtemp220,127,0,4);
+    VL_SIGW(__Vtemp223,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp203, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp220, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
-	__Vtemp206[0U] = __Vtemp203[0U];
-	__Vtemp206[1U] = __Vtemp203[1U];
-	__Vtemp206[2U] = __Vtemp203[2U];
-	__Vtemp206[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+	__Vtemp223[0U] = __Vtemp220[0U];
+	__Vtemp223[1U] = __Vtemp220[1U];
+	__Vtemp223[2U] = __Vtemp220[2U];
+	__Vtemp223[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp203[3U]);
-	__Vtemp206[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp220[3U]);
+	__Vtemp223[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp206[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp223[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4177,7 +4359,7 @@ void Vdig::traceChgThis__43(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp206[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp223[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4192,7 +4374,7 @@ void Vdig::traceChgThis__43(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp206[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp223[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4200,17 +4382,17 @@ void Vdig::traceChgThis__43(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+152,(__Vtemp206),248);
+	vcdp->chgArray(c+177,(__Vtemp223),248);
     }
 }
 
-void Vdig::traceChgThis__44(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__53(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+160,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+185,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z)
@@ -4224,7 +4406,7 @@ void Vdig::traceChgThis__44(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+161,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+186,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4238,13 +4420,13 @@ void Vdig::traceChgThis__44(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__45(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__54(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+162,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+187,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4261,33 +4443,33 @@ void Vdig::traceChgThis__45(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__46(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__55(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp207,127,0,4);
-    VL_SIGW(__Vtemp210,255,0,8);
+    VL_SIGW(__Vtemp224,127,0,4);
+    VL_SIGW(__Vtemp227,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp207, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp224, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
-	__Vtemp210[0U] = __Vtemp207[0U];
-	__Vtemp210[1U] = __Vtemp207[1U];
-	__Vtemp210[2U] = __Vtemp207[2U];
-	__Vtemp210[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+	__Vtemp227[0U] = __Vtemp224[0U];
+	__Vtemp227[1U] = __Vtemp224[1U];
+	__Vtemp227[2U] = __Vtemp224[2U];
+	__Vtemp227[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp207[3U]);
-	__Vtemp210[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp224[3U]);
+	__Vtemp227[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp210[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp227[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4296,7 +4478,7 @@ void Vdig::traceChgThis__46(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp210[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp227[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4311,7 +4493,7 @@ void Vdig::traceChgThis__46(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp210[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp227[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4319,17 +4501,17 @@ void Vdig::traceChgThis__46(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+163,(__Vtemp210),248);
+	vcdp->chgArray(c+188,(__Vtemp227),248);
     }
 }
 
-void Vdig::traceChgThis__47(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__56(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+171,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+196,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z)
@@ -4343,7 +4525,7 @@ void Vdig::traceChgThis__47(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+172,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+197,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4357,13 +4539,13 @@ void Vdig::traceChgThis__47(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__48(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__57(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+173,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+198,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4380,33 +4562,33 @@ void Vdig::traceChgThis__48(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__49(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__58(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp211,127,0,4);
-    VL_SIGW(__Vtemp214,255,0,8);
+    VL_SIGW(__Vtemp228,127,0,4);
+    VL_SIGW(__Vtemp231,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp211, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp228, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
-	__Vtemp214[0U] = __Vtemp211[0U];
-	__Vtemp214[1U] = __Vtemp211[1U];
-	__Vtemp214[2U] = __Vtemp211[2U];
-	__Vtemp214[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+	__Vtemp231[0U] = __Vtemp228[0U];
+	__Vtemp231[1U] = __Vtemp228[1U];
+	__Vtemp231[2U] = __Vtemp228[2U];
+	__Vtemp231[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp211[3U]);
-	__Vtemp214[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp228[3U]);
+	__Vtemp231[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp214[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp231[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4415,7 +4597,7 @@ void Vdig::traceChgThis__49(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp214[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp231[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4430,7 +4612,7 @@ void Vdig::traceChgThis__49(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp214[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp231[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4438,17 +4620,17 @@ void Vdig::traceChgThis__49(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+174,(__Vtemp214),248);
+	vcdp->chgArray(c+199,(__Vtemp231),248);
     }
 }
 
-void Vdig::traceChgThis__50(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__59(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+182,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+207,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z)
@@ -4462,7 +4644,7 @@ void Vdig::traceChgThis__50(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+183,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+208,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4476,13 +4658,13 @@ void Vdig::traceChgThis__50(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__51(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__60(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+184,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+209,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4499,33 +4681,33 @@ void Vdig::traceChgThis__51(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__52(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__61(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp215,127,0,4);
-    VL_SIGW(__Vtemp218,255,0,8);
+    VL_SIGW(__Vtemp232,127,0,4);
+    VL_SIGW(__Vtemp235,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp215, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp232, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
-	__Vtemp218[0U] = __Vtemp215[0U];
-	__Vtemp218[1U] = __Vtemp215[1U];
-	__Vtemp218[2U] = __Vtemp215[2U];
-	__Vtemp218[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+	__Vtemp235[0U] = __Vtemp232[0U];
+	__Vtemp235[1U] = __Vtemp232[1U];
+	__Vtemp235[2U] = __Vtemp232[2U];
+	__Vtemp235[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp215[3U]);
-	__Vtemp218[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp232[3U]);
+	__Vtemp235[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp218[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp235[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4534,7 +4716,7 @@ void Vdig::traceChgThis__52(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp218[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp235[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4549,7 +4731,7 @@ void Vdig::traceChgThis__52(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp218[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp235[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4557,17 +4739,17 @@ void Vdig::traceChgThis__52(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+185,(__Vtemp218),248);
+	vcdp->chgArray(c+210,(__Vtemp235),248);
     }
 }
 
-void Vdig::traceChgThis__53(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__62(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+193,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+218,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z)
@@ -4581,7 +4763,7 @@ void Vdig::traceChgThis__53(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+194,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+219,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4595,13 +4777,13 @@ void Vdig::traceChgThis__53(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__54(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__63(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+195,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+220,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4618,33 +4800,33 @@ void Vdig::traceChgThis__54(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__55(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__64(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp219,127,0,4);
-    VL_SIGW(__Vtemp222,255,0,8);
+    VL_SIGW(__Vtemp236,127,0,4);
+    VL_SIGW(__Vtemp239,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp219, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp236, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
-	__Vtemp222[0U] = __Vtemp219[0U];
-	__Vtemp222[1U] = __Vtemp219[1U];
-	__Vtemp222[2U] = __Vtemp219[2U];
-	__Vtemp222[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+	__Vtemp239[0U] = __Vtemp236[0U];
+	__Vtemp239[1U] = __Vtemp236[1U];
+	__Vtemp239[2U] = __Vtemp236[2U];
+	__Vtemp239[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp219[3U]);
-	__Vtemp222[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp236[3U]);
+	__Vtemp239[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp222[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp239[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4653,7 +4835,7 @@ void Vdig::traceChgThis__55(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp222[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp239[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4668,7 +4850,7 @@ void Vdig::traceChgThis__55(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp222[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp239[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4676,17 +4858,17 @@ void Vdig::traceChgThis__55(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+196,(__Vtemp222),248);
+	vcdp->chgArray(c+221,(__Vtemp239),248);
     }
 }
 
-void Vdig::traceChgThis__56(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__65(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+204,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+229,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z)
@@ -4700,7 +4882,7 @@ void Vdig::traceChgThis__56(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+205,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+230,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4714,13 +4896,13 @@ void Vdig::traceChgThis__56(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__57(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__66(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+206,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+231,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4737,33 +4919,33 @@ void Vdig::traceChgThis__57(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__58(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__67(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp223,127,0,4);
-    VL_SIGW(__Vtemp226,255,0,8);
+    VL_SIGW(__Vtemp240,127,0,4);
+    VL_SIGW(__Vtemp243,255,0,8);
     // Body
     {
-	VL_EXTEND_WQ(124,62, __Vtemp223, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp240, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
-	__Vtemp226[0U] = __Vtemp223[0U];
-	__Vtemp226[1U] = __Vtemp223[1U];
-	__Vtemp226[2U] = __Vtemp223[2U];
-	__Vtemp226[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+	__Vtemp243[0U] = __Vtemp240[0U];
+	__Vtemp243[1U] = __Vtemp240[1U];
+	__Vtemp243[2U] = __Vtemp240[2U];
+	__Vtemp243[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp223[3U]);
-	__Vtemp226[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp240[3U]);
+	__Vtemp243[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp226[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp243[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4772,7 +4954,7 @@ void Vdig::traceChgThis__58(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp226[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp243[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4787,7 +4969,7 @@ void Vdig::traceChgThis__58(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp226[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp243[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4795,17 +4977,17 @@ void Vdig::traceChgThis__58(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->chgArray(c+207,(__Vtemp226),248);
+	vcdp->chgArray(c+232,(__Vtemp243),248);
     }
 }
 
-void Vdig::traceChgThis__59(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__68(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+215,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	vcdp->chgBus  (c+240,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 			        ? (2U & ((((0x8000000U 
 					    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 					    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z)
@@ -4819,7 +5001,7 @@ void Vdig::traceChgThis__59(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							   (3U 
 							    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 							       >> 0x1aU)))))))),2);
-	vcdp->chgBit  (c+216,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+	vcdp->chgBit  (c+241,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 					       >> 0x1dU))) 
 				 & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						  >> 0x1aU))) 
@@ -4833,13 +5015,13 @@ void Vdig::traceChgThis__59(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__60(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__69(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+217,((1U & ((~ (IData)((0U 
+	vcdp->chgBit  (c+242,((1U & ((~ (IData)((0U 
 						 != vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_r))) 
 				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
 					| (~ ((6U == 
@@ -4856,39 +5038,38 @@ void Vdig::traceChgThis__60(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__61(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__70(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+218,(vlTOPp->dig__DOT__bus_ack),8);
-	vcdp->chgBit  (c+219,(vlTOPp->dig__DOT__hub___DOT__mem_w));
-	vcdp->chgBit  (c+220,((1U & (IData)(vlTOPp->dig__DOT__bus_ack))));
-	vcdp->chgBit  (c+221,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBus  (c+243,(vlTOPp->dig__DOT__bus_ack),8);
+	vcdp->chgBit  (c+244,((1U & (IData)(vlTOPp->dig__DOT__bus_ack))));
+	vcdp->chgBit  (c+245,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 1U))));
-	vcdp->chgBit  (c+222,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+246,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 2U))));
-	vcdp->chgBit  (c+223,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+247,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 3U))));
-	vcdp->chgBit  (c+224,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+248,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 4U))));
-	vcdp->chgBit  (c+225,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+249,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 5U))));
-	vcdp->chgBit  (c+226,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+250,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 6U))));
-	vcdp->chgBit  (c+227,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->chgBit  (c+251,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				     >> 7U))));
     }
 }
 
-void Vdig::traceChgThis__62(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__71(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+228,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+252,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ (IData)(vlTOPp->dig__DOT__bus_ack))
@@ -4911,13 +5092,13 @@ void Vdig::traceChgThis__62(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__63(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__72(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+229,(((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+253,(((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ (IData)(vlTOPp->dig__DOT__bus_ack))
@@ -4938,13 +5119,13 @@ void Vdig::traceChgThis__63(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__64(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__73(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+230,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+254,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4968,13 +5149,13 @@ void Vdig::traceChgThis__64(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__65(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__74(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+231,(((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+255,(((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4995,13 +5176,13 @@ void Vdig::traceChgThis__65(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__66(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__75(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+232,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+256,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5025,13 +5206,13 @@ void Vdig::traceChgThis__66(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__67(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__76(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+233,(((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+257,(((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5052,13 +5233,13 @@ void Vdig::traceChgThis__67(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__68(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__77(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+234,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+258,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5082,13 +5263,13 @@ void Vdig::traceChgThis__68(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__69(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__78(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+235,(((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+259,(((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5109,13 +5290,13 @@ void Vdig::traceChgThis__69(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__70(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__79(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+236,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+260,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5139,13 +5320,13 @@ void Vdig::traceChgThis__70(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__71(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__80(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+237,(((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+261,(((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5166,13 +5347,13 @@ void Vdig::traceChgThis__71(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__72(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__81(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+238,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+262,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5196,13 +5377,13 @@ void Vdig::traceChgThis__72(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__73(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__82(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+239,(((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+263,(((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5223,13 +5404,13 @@ void Vdig::traceChgThis__73(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__74(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__83(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+240,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+264,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5253,13 +5434,13 @@ void Vdig::traceChgThis__74(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__75(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__84(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+241,(((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+265,(((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5280,13 +5461,13 @@ void Vdig::traceChgThis__75(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__76(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__85(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+242,((1U & ((0U == (0xfU & 
+	vcdp->chgBit  (c+266,((1U & ((0U == (0xfU & 
 					     (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 					      >> 0x1cU)))
 				      ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5310,13 +5491,13 @@ void Vdig::traceChgThis__76(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__77(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__86(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+243,(((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
+	vcdp->chgBit  (c+267,(((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
 			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						  >> 0x1cU)))
 				   ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -5337,174 +5518,7 @@ void Vdig::traceChgThis__77(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__78(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+244,(((IData)(vlTOPp->dig__DOT__bus_sel) 
-			       & ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						  >> 0x1cU))) 
-				  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-				     >> 4U)))));
-	vcdp->chgBit  (c+245,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     & (~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					   >> 0x17U))))));
-	vcdp->chgBus  (c+246,((3U & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__79(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+247,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 1U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+248,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 1U) & (~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+249,((3U & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__80(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+250,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 2U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+251,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 2U) & (~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+252,((3U & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__81(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+253,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 3U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+254,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 3U) & (~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+255,((3U & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__82(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+256,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 4U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+257,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 4U) & (~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+258,((3U & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__83(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+259,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 5U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+260,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 5U) & (~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+261,((3U & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__84(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+262,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 6U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+263,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 6U) & (~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+264,((3U & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__85(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+265,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 7U) & ((0U == (0xfU 
-						  & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						     >> 0x1cU))) 
-					  & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-					     >> 4U)))));
-	vcdp->chgBit  (c+266,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 7U) & (~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						   >> 0x17U))))));
-	vcdp->chgBus  (c+267,((3U & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				      ? (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					 >> 0x1aU) : 0U))),2);
-    }
-}
-
-void Vdig::traceChgThis__86(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__87(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5516,7 +5530,7 @@ void Vdig::traceChgThis__86(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__87(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__88(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5592,7 +5606,7 @@ void Vdig::traceChgThis__87(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__88(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__89(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5668,7 +5682,7 @@ void Vdig::traceChgThis__88(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__89(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__90(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5744,7 +5758,7 @@ void Vdig::traceChgThis__89(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__90(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__91(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5820,7 +5834,7 @@ void Vdig::traceChgThis__90(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__91(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__92(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5896,7 +5910,7 @@ void Vdig::traceChgThis__91(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__92(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__93(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -5972,7 +5986,7 @@ void Vdig::traceChgThis__92(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__93(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__94(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6048,7 +6062,7 @@ void Vdig::traceChgThis__93(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__94(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__95(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6124,89 +6138,14 @@ void Vdig::traceChgThis__94(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     }
 }
 
-void Vdig::traceChgThis__95(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+279,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
-					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+280,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
-					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+281,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
-					>> 1U)))));
-	vcdp->chgBit  (c+282,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+283,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
-					>> 1U)))));
-	vcdp->chgBit  (c+284,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-    }
-}
-
 void Vdig::traceChgThis__96(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+285,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
-					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+286,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
-					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+287,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
-					>> 1U)))));
-	vcdp->chgBit  (c+288,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
-					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+289,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
-					>> 1U)))));
-	vcdp->chgBit  (c+290,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
-					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+	vcdp->chgBus  (c+279,(vlTOPp->dig__DOT__bus_r),8);
+	vcdp->chgBit  (c+280,((0U != (IData)(vlTOPp->dig__DOT__bus_r))));
     }
 }
 
@@ -6216,40 +6155,40 @@ void Vdig::traceChgThis__97(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+291,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+281,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+292,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+282,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+293,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+283,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+294,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+284,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+295,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+285,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+296,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+286,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6259,40 +6198,40 @@ void Vdig::traceChgThis__98(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+297,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+287,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+298,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+288,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+299,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+289,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+300,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+290,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+301,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+291,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+302,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+292,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6302,40 +6241,40 @@ void Vdig::traceChgThis__99(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+303,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+293,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+304,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+294,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+305,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+295,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+306,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+296,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+307,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+297,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+308,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+298,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6345,40 +6284,40 @@ void Vdig::traceChgThis__100(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+309,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+299,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+310,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+300,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+311,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+301,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+312,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+302,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+313,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+303,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+314,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+304,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6388,40 +6327,40 @@ void Vdig::traceChgThis__101(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+315,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+305,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+316,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+306,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+317,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+307,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+318,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+308,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+319,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+309,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+320,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+310,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6431,40 +6370,40 @@ void Vdig::traceChgThis__102(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+321,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBus  (c+311,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->chgBus  (c+322,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+312,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					   >> 0x1eU)) 
-				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					  >> 1U))) 
-				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 9U))) 
-			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					     >> 0x1eU)) 
-					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
-				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->chgBit  (c+323,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+313,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+324,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->chgBit  (c+314,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->chgBit  (c+325,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+315,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					>> 1U)))));
-	vcdp->chgBit  (c+326,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->chgBit  (c+316,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					 >> 0x1eU)) 
-				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
@@ -6474,12 +6413,87 @@ void Vdig::traceChgThis__103(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+327,(vlTOPp->dig__DOT__bus_r),8);
-	vcdp->chgBit  (c+328,((0U != (IData)(vlTOPp->dig__DOT__bus_r))));
+	vcdp->chgBus  (c+317,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					   >> 0x1eU)) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+					  >> 1U))) 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					     >> 9U))) 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					     >> 0x1eU)) 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+318,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					   >> 0x1eU)) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+					  >> 1U))) 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					     >> 9U))) 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					     >> 0x1eU)) 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+319,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 >> 0x1eU)) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+					>> 1U)))));
+	vcdp->chgBit  (c+320,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 >> 0x1eU)) 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+321,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 >> 0x1eU)) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+					>> 1U)))));
+	vcdp->chgBit  (c+322,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 >> 0x1eU)) 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
     }
 }
 
 void Vdig::traceChgThis__104(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+323,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					   >> 0x1eU)) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+					  >> 1U))) 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					     >> 9U))) 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					     >> 0x1eU)) 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
+	vcdp->chgBus  (c+324,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					   >> 0x1eU)) 
+				       & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+					  >> 1U))) 
+				<< (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					     >> 9U))) 
+			       | ((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					     >> 0x1eU)) 
+					 & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
+				  << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
+	vcdp->chgBit  (c+325,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 >> 0x1eU)) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
+					>> 1U)))));
+	vcdp->chgBit  (c+326,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+					 >> 0x1eU)) 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
+	vcdp->chgBit  (c+327,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 >> 0x1eU)) 
+				     & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
+					>> 1U)))));
+	vcdp->chgBit  (c+328,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+					 >> 0x1eU)) 
+				     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
+    }
+}
+
+void Vdig::traceChgThis__105(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6502,23 +6516,6 @@ void Vdig::traceChgThis__104(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 						    & (IData)(vlTOPp->dig__DOT__hub___DOT__enc))
 						    ? 1U
 						    : 0U)))),3);
-	vcdp->chgBus  (c+333,(vlTOPp->dig__DOT__hub___DOT__num),3);
-	vcdp->chgBus  (c+334,((0xffU & ((IData)(1U) 
-					<< (IData)(vlTOPp->dig__DOT__hub___DOT__num)))),8);
-	vcdp->chgBit  (c+335,(vlTOPp->dig__DOT__hub___DOT__cog_start));
-    }
-}
-
-void Vdig::traceChgThis__105(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+336,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+337,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+338,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+339,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6528,7 +6525,10 @@ void Vdig::traceChgThis__106(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+340,(vlTOPp->dig__DOT__pll),8);
+	vcdp->chgBit  (c+333,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+334,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+335,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+336,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6538,10 +6538,7 @@ void Vdig::traceChgThis__107(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+341,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+342,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+343,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+344,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBus  (c+337,(vlTOPp->dig__DOT__pll),8);
     }
 }
 
@@ -6551,10 +6548,10 @@ void Vdig::traceChgThis__108(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+345,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+346,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+347,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+348,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+338,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+339,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+340,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+341,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6564,10 +6561,10 @@ void Vdig::traceChgThis__109(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+349,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+350,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+351,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+352,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+342,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+343,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+344,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+345,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6577,10 +6574,10 @@ void Vdig::traceChgThis__110(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+353,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+354,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+355,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+356,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+346,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+347,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+348,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+349,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6590,10 +6587,10 @@ void Vdig::traceChgThis__111(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+357,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+358,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+359,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+360,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+350,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+351,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+352,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+353,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6603,10 +6600,10 @@ void Vdig::traceChgThis__112(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+361,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+362,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+363,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+364,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+354,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+355,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+356,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+357,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6616,10 +6613,10 @@ void Vdig::traceChgThis__113(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+365,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__plla));
-	vcdp->chgBit  (c+366,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__pllb));
-	vcdp->chgBus  (c+367,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->chgBus  (c+368,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->chgBit  (c+358,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+359,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+360,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+361,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
     }
 }
 
@@ -6629,7 +6626,24 @@ void Vdig::traceChgThis__114(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+369,(vlTOPp->dig__DOT__ptr_w),8);
+	vcdp->chgBit  (c+362,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__plla));
+	vcdp->chgBit  (c+363,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__pllb));
+	vcdp->chgBus  (c+364,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->chgBus  (c+365,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+    }
+}
+
+void Vdig::traceChgThis__115(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+366,(vlTOPp->dig__DOT__ptr_w),8);
+	vcdp->chgBus  (c+367,(vlTOPp->dig__DOT__hub___DOT__num),3);
+	vcdp->chgBus  (c+368,((0xffU & ((IData)(1U) 
+					<< (IData)(vlTOPp->dig__DOT__hub___DOT__num)))),8);
+	vcdp->chgBit  (c+369,(vlTOPp->dig__DOT__hub___DOT__cog_start));
 	vcdp->chgBit  (c+370,((1U & (IData)(vlTOPp->dig__DOT__ptr_w))));
 	vcdp->chgBit  (c+371,((1U & ((IData)(vlTOPp->dig__DOT__ptr_w) 
 				     >> 1U))));
@@ -6648,7 +6662,7 @@ void Vdig::traceChgThis__114(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__115(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__116(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6658,7 +6672,7 @@ void Vdig::traceChgThis__115(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__116(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__117(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6668,7 +6682,7 @@ void Vdig::traceChgThis__116(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__117(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__118(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6678,7 +6692,7 @@ void Vdig::traceChgThis__117(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__118(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__119(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6688,7 +6702,7 @@ void Vdig::traceChgThis__118(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__119(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__120(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6698,7 +6712,7 @@ void Vdig::traceChgThis__119(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__120(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__121(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6708,7 +6722,7 @@ void Vdig::traceChgThis__120(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__121(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__122(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6718,7 +6732,7 @@ void Vdig::traceChgThis__121(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__122(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__123(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6728,7 +6742,7 @@ void Vdig::traceChgThis__122(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__123(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__124(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6745,7 +6759,7 @@ void Vdig::traceChgThis__123(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__124(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__125(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6764,7 +6778,7 @@ void Vdig::traceChgThis__124(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__125(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__126(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6808,7 +6822,7 @@ void Vdig::traceChgThis__125(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__126(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__127(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6827,7 +6841,7 @@ void Vdig::traceChgThis__126(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__127(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__128(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6871,7 +6885,7 @@ void Vdig::traceChgThis__127(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__128(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__129(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6890,7 +6904,7 @@ void Vdig::traceChgThis__128(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__129(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__130(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6934,7 +6948,7 @@ void Vdig::traceChgThis__129(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__130(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__131(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6953,7 +6967,7 @@ void Vdig::traceChgThis__130(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__131(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__132(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -6997,7 +7011,7 @@ void Vdig::traceChgThis__131(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__132(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__133(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7016,7 +7030,7 @@ void Vdig::traceChgThis__132(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__133(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__134(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7060,7 +7074,7 @@ void Vdig::traceChgThis__133(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__134(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__135(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7079,7 +7093,7 @@ void Vdig::traceChgThis__134(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__135(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__136(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7123,7 +7137,7 @@ void Vdig::traceChgThis__135(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__136(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__137(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7142,7 +7156,7 @@ void Vdig::traceChgThis__136(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__137(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__138(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7186,7 +7200,7 @@ void Vdig::traceChgThis__137(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__138(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__139(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7205,7 +7219,7 @@ void Vdig::traceChgThis__138(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__139(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__140(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7249,7 +7263,7 @@ void Vdig::traceChgThis__139(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__140(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__141(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7263,7 +7277,7 @@ void Vdig::traceChgThis__140(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__141(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__142(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7459,7 +7473,7 @@ void Vdig::traceChgThis__141(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__142(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__143(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7512,7 +7526,7 @@ void Vdig::traceChgThis__142(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__143(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__144(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7526,7 +7540,7 @@ void Vdig::traceChgThis__143(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__144(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__145(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7722,7 +7736,7 @@ void Vdig::traceChgThis__144(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__145(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__146(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7775,7 +7789,7 @@ void Vdig::traceChgThis__145(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__146(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__147(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7789,7 +7803,7 @@ void Vdig::traceChgThis__146(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__147(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__148(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -7985,7 +7999,7 @@ void Vdig::traceChgThis__147(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__148(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__149(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8038,7 +8052,7 @@ void Vdig::traceChgThis__148(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__149(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__150(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8052,7 +8066,7 @@ void Vdig::traceChgThis__149(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__150(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__151(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8248,7 +8262,7 @@ void Vdig::traceChgThis__150(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__151(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__152(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8301,7 +8315,7 @@ void Vdig::traceChgThis__151(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__152(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__153(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8315,7 +8329,7 @@ void Vdig::traceChgThis__152(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__153(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__154(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8511,7 +8525,7 @@ void Vdig::traceChgThis__153(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__154(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__155(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8564,7 +8578,7 @@ void Vdig::traceChgThis__154(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__155(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__156(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8578,7 +8592,7 @@ void Vdig::traceChgThis__155(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__156(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__157(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8774,7 +8788,7 @@ void Vdig::traceChgThis__156(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__157(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__158(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8827,7 +8841,7 @@ void Vdig::traceChgThis__157(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__158(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__159(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -8841,7 +8855,7 @@ void Vdig::traceChgThis__158(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__159(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__160(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9037,7 +9051,7 @@ void Vdig::traceChgThis__159(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__160(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__161(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9090,7 +9104,7 @@ void Vdig::traceChgThis__160(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__161(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__162(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9104,7 +9118,7 @@ void Vdig::traceChgThis__161(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__162(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__163(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9300,7 +9314,7 @@ void Vdig::traceChgThis__162(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__163(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__164(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9353,7 +9367,7 @@ void Vdig::traceChgThis__163(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__164(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__165(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9381,7 +9395,7 @@ void Vdig::traceChgThis__164(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__165(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__166(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9407,7 +9421,7 @@ void Vdig::traceChgThis__165(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__166(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__167(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9417,7 +9431,7 @@ void Vdig::traceChgThis__166(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__167(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__168(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9427,7 +9441,7 @@ void Vdig::traceChgThis__167(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__168(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__169(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9437,7 +9451,7 @@ void Vdig::traceChgThis__168(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__169(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__170(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9447,7 +9461,7 @@ void Vdig::traceChgThis__169(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__170(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__171(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9457,7 +9471,7 @@ void Vdig::traceChgThis__170(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__171(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__172(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9467,7 +9481,7 @@ void Vdig::traceChgThis__171(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__172(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__173(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9477,7 +9491,7 @@ void Vdig::traceChgThis__172(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__173(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__174(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9487,7 +9501,7 @@ void Vdig::traceChgThis__173(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__174(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__175(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9515,7 +9529,7 @@ void Vdig::traceChgThis__174(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__175(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__176(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9690,7 +9704,7 @@ void Vdig::traceChgThis__175(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__176(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__177(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -9865,7 +9879,7 @@ void Vdig::traceChgThis__176(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__177(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__178(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10040,7 +10054,7 @@ void Vdig::traceChgThis__177(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__178(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__179(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10215,7 +10229,7 @@ void Vdig::traceChgThis__178(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__179(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__180(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10390,7 +10404,7 @@ void Vdig::traceChgThis__179(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__180(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__181(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10565,7 +10579,7 @@ void Vdig::traceChgThis__180(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__181(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__182(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10740,7 +10754,7 @@ void Vdig::traceChgThis__181(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__182(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__183(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10915,7 +10929,7 @@ void Vdig::traceChgThis__182(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__183(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__184(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10940,7 +10954,7 @@ void Vdig::traceChgThis__183(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__184(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__185(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10965,7 +10979,7 @@ void Vdig::traceChgThis__184(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__185(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__186(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -10990,7 +11004,7 @@ void Vdig::traceChgThis__185(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__186(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__187(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -11015,7 +11029,7 @@ void Vdig::traceChgThis__186(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__187(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__188(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -11040,7 +11054,7 @@ void Vdig::traceChgThis__187(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__188(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__189(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -11065,7 +11079,7 @@ void Vdig::traceChgThis__188(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__189(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__190(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -11090,7 +11104,7 @@ void Vdig::traceChgThis__189(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__190(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__191(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -11115,35 +11129,133 @@ void Vdig::traceChgThis__190(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__191(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+742,(vlTOPp->dig__DOT__cog_ena),8);
-	vcdp->chgBit  (c+743,(vlTOPp->dig__DOT__hub___DOT__ec));
-	vcdp->chgBit  (c+744,(vlTOPp->dig__DOT__hub___DOT__ed));
-	vcdp->chgBus  (c+745,(vlTOPp->dig__DOT__hub___DOT__cog_e),8);
-	vcdp->chgBus  (c+746,(vlTOPp->dig__DOT__hub___DOT__lock_e),8);
-	vcdp->chgBus  (c+747,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+748,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+749,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+750,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+751,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+752,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+753,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr),28);
-	vcdp->chgBus  (c+754,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr),28);
-    }
-}
-
 void Vdig::traceChgThis__192(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+755,((0xffffU & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBus  (c+742,(vlTOPp->dig__DOT__bus_q),32);
+	vcdp->chgBit  (c+743,(vlTOPp->dig__DOT__hub___DOT__rc));
+	vcdp->chgBit  (c+744,(vlTOPp->dig__DOT__hub___DOT__wc));
+	vcdp->chgBus  (c+745,(vlTOPp->dig__DOT__hub___DOT__sc),2);
+	vcdp->chgBit  (c+746,(vlTOPp->dig__DOT__hub___DOT__rd));
+	vcdp->chgBus  (c+747,(vlTOPp->dig__DOT__hub___DOT__sd),2);
+	vcdp->chgBus  (c+748,(vlTOPp->dig__DOT__hub___DOT__ad),2);
+	vcdp->chgBus  (c+749,(vlTOPp->dig__DOT__hub___DOT__sys_q),3);
+	vcdp->chgBus  (c+750,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3),8);
+	vcdp->chgBus  (c+751,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q2),8);
+	vcdp->chgBus  (c+752,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1),8);
+	vcdp->chgBus  (c+753,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0),8);
+	vcdp->chgBus  (c+754,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q),32);
+	vcdp->chgBus  (c+755,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem),2);
+	vcdp->chgBus  (c+756,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+757,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+759,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+761,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+762,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+763,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+764,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+765,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+766,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+768,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+770,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+771,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+772,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+773,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+774,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+775,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+777,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+779,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+780,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+781,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+782,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+783,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+784,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+786,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+788,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+789,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+790,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+791,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+792,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+793,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+795,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+797,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+798,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+799,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+800,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+801,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+802,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+804,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+806,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+807,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+808,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+809,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+810,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+811,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+813,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+815,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+816,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+817,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+818,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+819,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__outa),32);
+	vcdp->chgQuad (c+820,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa),33);
+	vcdp->chgQuad (c+822,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb),33);
+	vcdp->chgBus  (c+824,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ix),32);
+	vcdp->chgBus  (c+825,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy),32);
+	vcdp->chgBus  (c+826,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->chgBus  (c+827,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+    }
+}
+
+void Vdig::traceChgThis__193(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+828,(vlTOPp->dig__DOT__bus_sel),8);
+	vcdp->chgBus  (c+829,(vlTOPp->dig__DOT__cog_ena),8);
+	vcdp->chgBit  (c+830,(vlTOPp->dig__DOT__hub___DOT__ec));
+	vcdp->chgBit  (c+831,(vlTOPp->dig__DOT__hub___DOT__ed));
+	vcdp->chgBus  (c+832,(vlTOPp->dig__DOT__hub___DOT__cog_e),8);
+	vcdp->chgBus  (c+833,(vlTOPp->dig__DOT__hub___DOT__lock_e),8);
+	vcdp->chgBit  (c+834,((1U & (IData)(vlTOPp->dig__DOT__bus_sel))));
+	vcdp->chgBit  (c+835,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 1U))));
+	vcdp->chgBit  (c+836,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 2U))));
+	vcdp->chgBit  (c+837,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 3U))));
+	vcdp->chgBit  (c+838,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 4U))));
+	vcdp->chgBit  (c+839,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 5U))));
+	vcdp->chgBit  (c+840,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 6U))));
+	vcdp->chgBit  (c+841,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				     >> 7U))));
+    }
+}
+
+void Vdig::traceChgThis__194(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+842,(((IData)(vlTOPp->dig__DOT__bus_sel) 
+			       & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__195(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+843,((0xffffU & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11156,13 +11268,24 @@ void Vdig::traceChgThis__192(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__193(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__196(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+756,((0xffffU & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+844,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 1U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__197(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+845,((0xffffU & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11175,13 +11298,24 @@ void Vdig::traceChgThis__193(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__194(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__198(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+757,((0xffffU & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+846,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 2U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__199(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+847,((0xffffU & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11194,13 +11328,24 @@ void Vdig::traceChgThis__194(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__195(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__200(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+758,((0xffffU & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+848,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__201(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+849,((0xffffU & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11213,13 +11358,24 @@ void Vdig::traceChgThis__195(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__196(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__202(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+759,((0xffffU & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+850,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 4U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__203(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+851,((0xffffU & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11232,13 +11388,24 @@ void Vdig::traceChgThis__196(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__197(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__204(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+760,((0xffffU & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+852,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 5U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__205(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+853,((0xffffU & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11251,13 +11418,24 @@ void Vdig::traceChgThis__197(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__198(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__206(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+761,((0xffffU & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+854,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 6U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__207(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+855,((0xffffU & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11270,13 +11448,24 @@ void Vdig::traceChgThis__198(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__199(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__208(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+762,((0xffffU & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->chgBit  (c+856,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				>> 7U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run))));
+    }
+}
+
+void Vdig::traceChgThis__209(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+857,((0xffffU & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					   ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run)
 					       ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s
 					       : ((0xfffcU 
@@ -11289,126 +11478,69 @@ void Vdig::traceChgThis__199(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__200(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__210(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+763,(vlTOPp->dig__DOT__bus_q),32);
-	vcdp->chgBit  (c+764,(vlTOPp->dig__DOT__hub___DOT__rc));
-	vcdp->chgBit  (c+765,(vlTOPp->dig__DOT__hub___DOT__wc));
-	vcdp->chgBus  (c+766,(vlTOPp->dig__DOT__hub___DOT__sc),2);
-	vcdp->chgBit  (c+767,(vlTOPp->dig__DOT__hub___DOT__rd));
-	vcdp->chgBus  (c+768,(vlTOPp->dig__DOT__hub___DOT__sd),2);
-	vcdp->chgBus  (c+769,(vlTOPp->dig__DOT__hub___DOT__ad),2);
-	vcdp->chgBus  (c+770,(vlTOPp->dig__DOT__hub___DOT__sys_q),3);
-	vcdp->chgBus  (c+771,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3),8);
-	vcdp->chgBus  (c+772,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q2),8);
-	vcdp->chgBus  (c+773,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1),8);
-	vcdp->chgBus  (c+774,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0),8);
-	vcdp->chgBus  (c+775,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q),32);
-	vcdp->chgBus  (c+776,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem),2);
-	vcdp->chgBus  (c+777,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+778,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+780,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+782,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+783,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+784,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+785,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+786,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+787,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+789,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+791,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+792,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+793,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+794,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+795,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+796,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+798,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+800,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+801,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+802,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+803,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+804,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+805,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+807,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+809,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+810,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+811,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+812,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+813,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+814,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+816,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+818,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+819,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+820,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+821,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+822,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+823,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+825,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+827,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+828,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+829,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+830,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+831,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+832,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+834,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+836,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+837,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+838,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+839,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->chgBus  (c+840,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__outa),32);
-	vcdp->chgQuad (c+841,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa),33);
-	vcdp->chgQuad (c+843,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb),33);
-	vcdp->chgBus  (c+845,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ix),32);
-	vcdp->chgBus  (c+846,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy),32);
-	vcdp->chgBus  (c+847,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->chgBus  (c+848,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->chgBus  (c+858,(((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+859,(((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+860,(((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+861,(((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+862,(((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+863,(((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+864,(((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d
+			        : 0U)),32);
+	vcdp->chgBus  (c+865,(((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+			        ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d
+			        : 0U)),32);
     }
 }
 
-void Vdig::traceChgThis__201(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__211(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+849,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+850,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+851,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+852,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+853,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+854,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel));
+	vcdp->chgBus  (c+866,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+867,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+868,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+869,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+870,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+871,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel));
     }
 }
 
-void Vdig::traceChgThis__202(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+855,(((IData)(vlTOPp->dig__DOT__bus_sel) 
-			       & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run))));
-    }
-}
-
-void Vdig::traceChgThis__203(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__212(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp228,127,0,4);
+    VL_SIGW(__Vtemp245,127,0,4);
     // Body
     {
-	__Vtemp228[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+	__Vtemp245[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-	__Vtemp228[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+	__Vtemp245[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)));
-	__Vtemp228[2U] = (IData)((((QData)((IData)(
+	__Vtemp245[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
@@ -11418,7 +11550,7 @@ void Vdig::traceChgThis__203(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))));
-	__Vtemp228[3U] = (IData)(((((QData)((IData)(
+	__Vtemp245[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
@@ -11429,221 +11561,11 @@ void Vdig::traceChgThis__203(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+856,(__Vtemp228),128);
-	vcdp->chgBus  (c+860,((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
+	vcdp->chgArray(c+872,(__Vtemp245),128);
+	vcdp->chgBus  (c+876,((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
 				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
 					   << 2U) | 
 					  (2U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
-						 >> 0x1eU))))),4);
-    }
-}
-
-void Vdig::traceChgThis__204(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+861,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+862,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+863,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+864,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+865,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+866,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel));
-    }
-}
-
-void Vdig::traceChgThis__205(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+867,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 1U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run))));
-    }
-}
-
-void Vdig::traceChgThis__206(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp230,127,0,4);
-    // Body
-    {
-	__Vtemp230[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-	__Vtemp230[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)));
-	__Vtemp230[2U] = (IData)((((QData)((IData)(
-						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
-				   << 0x20U) | (QData)((IData)(
-							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-								    << 0x17U)) 
-								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))));
-	__Vtemp230[3U] = (IData)(((((QData)((IData)(
-						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
-				    << 0x20U) | (QData)((IData)(
-								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-								     << 0x17U)) 
-								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))) 
-				  >> 0x20U));
-	vcdp->chgArray(c+868,(__Vtemp230),128);
-	vcdp->chgBus  (c+872,((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
-					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-						 >> 0x1eU))))),4);
-    }
-}
-
-void Vdig::traceChgThis__207(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+873,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+874,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+875,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+876,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+877,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+878,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel));
-    }
-}
-
-void Vdig::traceChgThis__208(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+879,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 2U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run))));
-    }
-}
-
-void Vdig::traceChgThis__209(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp232,127,0,4);
-    // Body
-    {
-	__Vtemp232[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-	__Vtemp232[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)));
-	__Vtemp232[2U] = (IData)((((QData)((IData)(
-						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
-				   << 0x20U) | (QData)((IData)(
-							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-								    << 0x17U)) 
-								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))));
-	__Vtemp232[3U] = (IData)(((((QData)((IData)(
-						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
-				    << 0x20U) | (QData)((IData)(
-								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-								     << 0x17U)) 
-								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))) 
-				  >> 0x20U));
-	vcdp->chgArray(c+880,(__Vtemp232),128);
-	vcdp->chgBus  (c+884,((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
-					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-						 >> 0x1eU))))),4);
-    }
-}
-
-void Vdig::traceChgThis__210(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+885,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+886,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+887,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+888,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+889,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+890,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel));
-    }
-}
-
-void Vdig::traceChgThis__211(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+891,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run))));
-    }
-}
-
-void Vdig::traceChgThis__212(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp234,127,0,4);
-    // Body
-    {
-	__Vtemp234[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-	__Vtemp234[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
-	__Vtemp234[2U] = (IData)((((QData)((IData)(
-						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
-				   << 0x20U) | (QData)((IData)(
-							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-								    << 0x17U)) 
-								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
-	__Vtemp234[3U] = (IData)(((((QData)((IData)(
-						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
-				    << 0x20U) | (QData)((IData)(
-								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-								     << 0x17U)) 
-								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))) 
-				  >> 0x20U));
-	vcdp->chgArray(c+892,(__Vtemp234),128);
-	vcdp->chgBus  (c+896,((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
-					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 						 >> 0x1eU))))),4);
     }
 }
@@ -11654,12 +11576,12 @@ void Vdig::traceChgThis__213(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+897,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+898,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+899,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+900,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+901,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+902,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel));
+	vcdp->chgBus  (c+877,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+878,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+879,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+880,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+881,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+882,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel));
     }
 }
 
@@ -11667,10 +11589,43 @@ void Vdig::traceChgThis__214(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp247,127,0,4);
     // Body
     {
-	vcdp->chgBit  (c+903,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 4U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run))));
+	__Vtemp247[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
+	__Vtemp247[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+					  << 9U)) | 
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)));
+	__Vtemp247[2U] = (IData)((((QData)((IData)(
+						   ((0xfffffe00U 
+						     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
+				   << 0x20U) | (QData)((IData)(
+							       ((0xff800000U 
+								 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+								    << 0x17U)) 
+								| (0x7fffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))));
+	__Vtemp247[3U] = (IData)(((((QData)((IData)(
+						    ((0xfffffe00U 
+						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
+				    << 0x20U) | (QData)((IData)(
+								((0xff800000U 
+								  & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+								     << 0x17U)) 
+								 | (0x7fffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))) 
+				  >> 0x20U));
+	vcdp->chgArray(c+883,(__Vtemp247),128);
+	vcdp->chgBus  (c+887,((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
+					   << 2U) | 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+						 >> 0x1eU))))),4);
     }
 }
 
@@ -11678,43 +11633,14 @@ void Vdig::traceChgThis__215(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp236,127,0,4);
     // Body
     {
-	__Vtemp236[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-	__Vtemp236[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)));
-	__Vtemp236[2U] = (IData)((((QData)((IData)(
-						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
-				   << 0x20U) | (QData)((IData)(
-							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-								    << 0x17U)) 
-								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))));
-	__Vtemp236[3U] = (IData)(((((QData)((IData)(
-						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
-				    << 0x20U) | (QData)((IData)(
-								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-								     << 0x17U)) 
-								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))) 
-				  >> 0x20U));
-	vcdp->chgArray(c+904,(__Vtemp236),128);
-	vcdp->chgBus  (c+908,((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
-					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-						 >> 0x1eU))))),4);
+	vcdp->chgBus  (c+888,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+889,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+890,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+891,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+892,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+893,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel));
     }
 }
 
@@ -11722,14 +11648,43 @@ void Vdig::traceChgThis__216(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp249,127,0,4);
     // Body
     {
-	vcdp->chgBus  (c+909,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+910,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+911,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+912,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+913,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+914,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel));
+	__Vtemp249[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
+	__Vtemp249[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+					  << 9U)) | 
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)));
+	__Vtemp249[2U] = (IData)((((QData)((IData)(
+						   ((0xfffffe00U 
+						     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
+				   << 0x20U) | (QData)((IData)(
+							       ((0xff800000U 
+								 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+								    << 0x17U)) 
+								| (0x7fffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))));
+	__Vtemp249[3U] = (IData)(((((QData)((IData)(
+						    ((0xfffffe00U 
+						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
+				    << 0x20U) | (QData)((IData)(
+								((0xff800000U 
+								  & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+								     << 0x17U)) 
+								 | (0x7fffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))) 
+				  >> 0x20U));
+	vcdp->chgArray(c+894,(__Vtemp249),128);
+	vcdp->chgBus  (c+898,((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
+					   << 2U) | 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+						 >> 0x1eU))))),4);
     }
 }
 
@@ -11739,8 +11694,12 @@ void Vdig::traceChgThis__217(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+915,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 5U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run))));
+	vcdp->chgBus  (c+899,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+900,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+901,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+902,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+903,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+904,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel));
     }
 }
 
@@ -11749,41 +11708,41 @@ void Vdig::traceChgThis__218(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp238,127,0,4);
+    VL_SIGW(__Vtemp251,127,0,4);
     // Body
     {
-	__Vtemp238[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-	__Vtemp238[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+	__Vtemp251[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
+	__Vtemp251[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)));
-	__Vtemp238[2U] = (IData)((((QData)((IData)(
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
+	__Vtemp251[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
+						     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
 				   << 0x20U) | (QData)((IData)(
 							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+								 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 								    << 0x17U)) 
 								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))));
-	__Vtemp238[3U] = (IData)(((((QData)((IData)(
+								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
+	__Vtemp251[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
+						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
 				    << 0x20U) | (QData)((IData)(
 								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+								  & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 								     << 0x17U)) 
 								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))) 
+								    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+916,(__Vtemp238),128);
-	vcdp->chgBus  (c+920,((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+	vcdp->chgArray(c+905,(__Vtemp251),128);
+	vcdp->chgBus  (c+909,((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
 					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 						 >> 0x1eU))))),4);
     }
 }
@@ -11794,12 +11753,12 @@ void Vdig::traceChgThis__219(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+921,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+922,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+923,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+924,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+925,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+926,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel));
+	vcdp->chgBus  (c+910,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+911,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+912,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+913,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+914,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+915,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel));
     }
 }
 
@@ -11807,10 +11766,43 @@ void Vdig::traceChgThis__220(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp253,127,0,4);
     // Body
     {
-	vcdp->chgBit  (c+927,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 6U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run))));
+	__Vtemp253[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
+	__Vtemp253[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+					  << 9U)) | 
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)));
+	__Vtemp253[2U] = (IData)((((QData)((IData)(
+						   ((0xfffffe00U 
+						     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
+				   << 0x20U) | (QData)((IData)(
+							       ((0xff800000U 
+								 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+								    << 0x17U)) 
+								| (0x7fffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))));
+	__Vtemp253[3U] = (IData)(((((QData)((IData)(
+						    ((0xfffffe00U 
+						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
+				    << 0x20U) | (QData)((IData)(
+								((0xff800000U 
+								  & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+								     << 0x17U)) 
+								 | (0x7fffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))) 
+				  >> 0x20U));
+	vcdp->chgArray(c+916,(__Vtemp253),128);
+	vcdp->chgBus  (c+920,((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
+					   << 2U) | 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+						 >> 0x1eU))))),4);
     }
 }
 
@@ -11818,17 +11810,91 @@ void Vdig::traceChgThis__221(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp240,127,0,4);
     // Body
     {
-	__Vtemp240[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+	vcdp->chgBus  (c+921,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+922,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+923,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+924,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+925,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+926,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel));
+    }
+}
+
+void Vdig::traceChgThis__222(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp255,127,0,4);
+    // Body
+    {
+	__Vtemp255[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
+	__Vtemp255[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+					  << 9U)) | 
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)));
+	__Vtemp255[2U] = (IData)((((QData)((IData)(
+						   ((0xfffffe00U 
+						     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
+				   << 0x20U) | (QData)((IData)(
+							       ((0xff800000U 
+								 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+								    << 0x17U)) 
+								| (0x7fffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))));
+	__Vtemp255[3U] = (IData)(((((QData)((IData)(
+						    ((0xfffffe00U 
+						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
+				    << 0x20U) | (QData)((IData)(
+								((0xff800000U 
+								  & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+								     << 0x17U)) 
+								 | (0x7fffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))) 
+				  >> 0x20U));
+	vcdp->chgArray(c+927,(__Vtemp255),128);
+	vcdp->chgBus  (c+931,((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+					   << 2U) | 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+						 >> 0x1eU))))),4);
+    }
+}
+
+void Vdig::traceChgThis__223(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+932,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+933,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+934,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+935,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+936,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+937,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel));
+    }
+}
+
+void Vdig::traceChgThis__224(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp257,127,0,4);
+    // Body
+    {
+	__Vtemp257[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-	__Vtemp240[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+	__Vtemp257[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)));
-	__Vtemp240[2U] = (IData)((((QData)((IData)(
+	__Vtemp257[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
@@ -11838,7 +11904,7 @@ void Vdig::traceChgThis__221(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))));
-	__Vtemp240[3U] = (IData)(((((QData)((IData)(
+	__Vtemp257[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
@@ -11849,81 +11915,11 @@ void Vdig::traceChgThis__221(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+928,(__Vtemp240),128);
-	vcdp->chgBus  (c+932,((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
+	vcdp->chgArray(c+938,(__Vtemp257),128);
+	vcdp->chgBus  (c+942,((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
 				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
 					   << 2U) | 
 					  (2U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
-						 >> 0x1eU))))),4);
-    }
-}
-
-void Vdig::traceChgThis__222(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+933,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__dira),32);
-	vcdp->chgBit  (c+934,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run));
-	vcdp->chgBus  (c+935,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p),9);
-	vcdp->chgBit  (c+936,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c));
-	vcdp->chgBit  (c+937,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z));
-	vcdp->chgBit  (c+938,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel));
-    }
-}
-
-void Vdig::traceChgThis__223(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBit  (c+939,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				>> 7U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run))));
-    }
-}
-
-void Vdig::traceChgThis__224(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Variables
-    VL_SIGW(__Vtemp242,127,0,4);
-    // Body
-    {
-	__Vtemp242[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
-			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-	__Vtemp242[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
-			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
-					  << 9U)) | 
-			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)));
-	__Vtemp242[2U] = (IData)((((QData)((IData)(
-						   ((0xfffffe00U 
-						     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
-						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
-				   << 0x20U) | (QData)((IData)(
-							       ((0xff800000U 
-								 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
-								    << 0x17U)) 
-								| (0x7fffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))));
-	__Vtemp242[3U] = (IData)(((((QData)((IData)(
-						    ((0xfffffe00U 
-						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
-						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
-				    << 0x20U) | (QData)((IData)(
-								((0xff800000U 
-								  & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
-								     << 0x17U)) 
-								 | (0x7fffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))) 
-				  >> 0x20U));
-	vcdp->chgArray(c+940,(__Vtemp242),128);
-	vcdp->chgBus  (c+944,((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
-				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
-					   << 2U) | 
-					  (2U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
 						 >> 0x1eU))))),4);
     }
 }
@@ -11934,54 +11930,12 @@ void Vdig::traceChgThis__225(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgQuad (c+945,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+947,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+948,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+950,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+951,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+953,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+954,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+956,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+957,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+959,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+960,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+962,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+963,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+965,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+966,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+968,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+969,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+971,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+972,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+974,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+975,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+977,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+978,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+980,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+981,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+983,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+984,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+986,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+987,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->chgBus  (c+989,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
-						>> 0x1cU)))),8);
-	vcdp->chgQuad (c+990,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->chgBus  (c+992,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						>> 0x1cU)))),8);
+	vcdp->chgBus  (c+943,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__dira),32);
+	vcdp->chgBit  (c+944,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run));
+	vcdp->chgBus  (c+945,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p),9);
+	vcdp->chgBit  (c+946,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c));
+	vcdp->chgBit  (c+947,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z));
+	vcdp->chgBit  (c+948,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel));
     }
 }
 
@@ -11989,24 +11943,43 @@ void Vdig::traceChgThis__226(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
+    // Variables
+    VL_SIGW(__Vtemp259,127,0,4);
     // Body
     {
-	vcdp->chgBus  (c+993,(vlTOPp->dig__DOT__bus_sel),8);
-	vcdp->chgBit  (c+994,((1U & (IData)(vlTOPp->dig__DOT__bus_sel))));
-	vcdp->chgBit  (c+995,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     >> 1U))));
-	vcdp->chgBit  (c+996,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     >> 2U))));
-	vcdp->chgBit  (c+997,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     >> 3U))));
-	vcdp->chgBit  (c+998,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     >> 4U))));
-	vcdp->chgBit  (c+999,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				     >> 5U))));
-	vcdp->chgBit  (c+1000,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 6U))));
-	vcdp->chgBit  (c+1001,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 7U))));
+	__Vtemp259[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
+	__Vtemp259[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+					  << 9U)) | 
+			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)));
+	__Vtemp259[2U] = (IData)((((QData)((IData)(
+						   ((0xfffffe00U 
+						     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
+				   << 0x20U) | (QData)((IData)(
+							       ((0xff800000U 
+								 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+								    << 0x17U)) 
+								| (0x7fffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))));
+	__Vtemp259[3U] = (IData)(((((QData)((IData)(
+						    ((0xfffffe00U 
+						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
+				    << 0x20U) | (QData)((IData)(
+								((0xff800000U 
+								  & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+								     << 0x17U)) 
+								 | (0x7fffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))) 
+				  >> 0x20U));
+	vcdp->chgArray(c+949,(__Vtemp259),128);
+	vcdp->chgBus  (c+953,((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
+				<< 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
+					   << 2U) | 
+					  (2U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+						 >> 0x1eU))))),4);
     }
 }
 
@@ -12016,34 +11989,75 @@ void Vdig::traceChgThis__227(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+1002,(((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1003,(((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1004,(((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1005,(((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1006,(((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1007,(((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1008,(((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d
-				 : 0U)),32);
-	vcdp->chgBus  (c+1009,(((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				 ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d
-				 : 0U)),32);
+	vcdp->chgQuad (c+954,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+956,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+957,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+959,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+960,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+962,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+963,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+965,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+966,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+968,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+969,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+971,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+972,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+974,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+975,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+977,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+978,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+980,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+981,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+983,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+984,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+986,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+987,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+989,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+990,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+992,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+993,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+995,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+996,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->chgBus  (c+998,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+						>> 0x1cU)))),8);
+	vcdp->chgQuad (c+999,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->chgBus  (c+1001,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						 >> 0x1cU)))),8);
     }
 }
 
 void Vdig::traceChgThis__228(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBus  (c+1002,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1003,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1004,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1005,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1006,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1007,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1008,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr),28);
+	vcdp->chgBus  (c+1009,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr),28);
+    }
+}
+
+void Vdig::traceChgThis__229(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12087,7 +12101,7 @@ void Vdig::traceChgThis__228(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__229(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__230(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12102,7 +12116,7 @@ void Vdig::traceChgThis__229(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__230(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__231(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12117,7 +12131,7 @@ void Vdig::traceChgThis__230(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__231(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__232(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12132,7 +12146,7 @@ void Vdig::traceChgThis__231(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__232(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__233(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12147,7 +12161,7 @@ void Vdig::traceChgThis__232(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__233(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__234(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12162,7 +12176,7 @@ void Vdig::traceChgThis__233(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__234(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__235(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12177,7 +12191,7 @@ void Vdig::traceChgThis__234(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__235(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__236(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12192,7 +12206,7 @@ void Vdig::traceChgThis__235(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__236(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__237(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12207,7 +12221,7 @@ void Vdig::traceChgThis__236(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__237(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__238(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12217,7 +12231,7 @@ void Vdig::traceChgThis__237(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__238(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__239(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12227,7 +12241,7 @@ void Vdig::traceChgThis__238(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__239(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__240(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12247,7 +12261,7 @@ void Vdig::traceChgThis__239(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__240(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__241(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12263,7 +12277,7 @@ void Vdig::traceChgThis__240(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__241(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__242(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12273,7 +12287,7 @@ void Vdig::traceChgThis__241(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__242(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__243(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12293,7 +12307,7 @@ void Vdig::traceChgThis__242(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__243(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__244(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12309,7 +12323,7 @@ void Vdig::traceChgThis__243(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__244(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__245(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12319,7 +12333,7 @@ void Vdig::traceChgThis__244(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__245(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__246(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12339,7 +12353,7 @@ void Vdig::traceChgThis__245(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__246(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__247(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12355,7 +12369,7 @@ void Vdig::traceChgThis__246(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__247(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__248(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12365,7 +12379,7 @@ void Vdig::traceChgThis__247(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__248(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__249(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12385,7 +12399,7 @@ void Vdig::traceChgThis__248(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__249(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__250(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12401,7 +12415,7 @@ void Vdig::traceChgThis__249(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__250(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__251(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12411,7 +12425,7 @@ void Vdig::traceChgThis__250(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__251(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__252(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12431,7 +12445,7 @@ void Vdig::traceChgThis__251(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__252(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__253(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12447,7 +12461,7 @@ void Vdig::traceChgThis__252(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__253(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__254(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12457,7 +12471,7 @@ void Vdig::traceChgThis__253(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__254(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__255(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12477,7 +12491,7 @@ void Vdig::traceChgThis__254(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__255(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__256(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12493,7 +12507,7 @@ void Vdig::traceChgThis__255(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__256(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__257(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12503,7 +12517,7 @@ void Vdig::traceChgThis__256(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__257(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__258(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12523,7 +12537,7 @@ void Vdig::traceChgThis__257(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__258(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__259(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12539,7 +12553,7 @@ void Vdig::traceChgThis__258(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__259(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__260(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12549,7 +12563,7 @@ void Vdig::traceChgThis__259(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__260(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__261(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12569,7 +12583,7 @@ void Vdig::traceChgThis__260(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__261(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__262(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
@@ -12585,19 +12599,19 @@ void Vdig::traceChgThis__261(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     }
 }
 
-void Vdig::traceChgThis__262(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+void Vdig::traceChgThis__263(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp244,127,0,4);
-    VL_SIGW(__Vtemp246,127,0,4);
-    VL_SIGW(__Vtemp248,127,0,4);
-    VL_SIGW(__Vtemp250,127,0,4);
-    VL_SIGW(__Vtemp252,127,0,4);
-    VL_SIGW(__Vtemp254,127,0,4);
-    VL_SIGW(__Vtemp256,127,0,4);
-    VL_SIGW(__Vtemp258,127,0,4);
+    VL_SIGW(__Vtemp261,127,0,4);
+    VL_SIGW(__Vtemp263,127,0,4);
+    VL_SIGW(__Vtemp265,127,0,4);
+    VL_SIGW(__Vtemp267,127,0,4);
+    VL_SIGW(__Vtemp269,127,0,4);
+    VL_SIGW(__Vtemp271,127,0,4);
+    VL_SIGW(__Vtemp273,127,0,4);
+    VL_SIGW(__Vtemp275,127,0,4);
     // Body
     {
 	vcdp->chgBus  (c+1179,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_q),32);
@@ -12609,250 +12623,229 @@ void Vdig::traceChgThis__262(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+1184,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+1696,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+1697,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp244[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1184,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1185,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp261[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-	__Vtemp244[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+	__Vtemp261[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s);
-	__Vtemp244[2U] = (IData)((((QData)((IData)(
+	__Vtemp261[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))));
-	__Vtemp244[3U] = (IData)(((((QData)((IData)(
+	__Vtemp261[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+1698,(__Vtemp244),128);
-	vcdp->chgBus  (c+1702,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+1703,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+1704,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+1705,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+1706,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1186,(__Vtemp261),128);
+	vcdp->chgBus  (c+1190,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1191,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1192,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1193,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1194,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+1707,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+2219,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+2220,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp246[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1195,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1196,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp263[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-	__Vtemp246[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+	__Vtemp263[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s);
-	__Vtemp246[2U] = (IData)((((QData)((IData)(
+	__Vtemp263[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))));
-	__Vtemp246[3U] = (IData)(((((QData)((IData)(
+	__Vtemp263[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+2221,(__Vtemp246),128);
-	vcdp->chgBus  (c+2225,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+2226,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+2227,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+2228,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+2229,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1197,(__Vtemp263),128);
+	vcdp->chgBus  (c+1201,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1202,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1203,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1204,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1205,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+2230,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+2742,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+2743,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp248[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1206,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1207,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp265[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-	__Vtemp248[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+	__Vtemp265[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s);
-	__Vtemp248[2U] = (IData)((((QData)((IData)(
+	__Vtemp265[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))));
-	__Vtemp248[3U] = (IData)(((((QData)((IData)(
+	__Vtemp265[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+2744,(__Vtemp248),128);
-	vcdp->chgBus  (c+2748,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+2749,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+2750,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+2751,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+2752,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1208,(__Vtemp265),128);
+	vcdp->chgBus  (c+1212,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1213,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1214,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1215,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1216,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+2753,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+3265,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+3266,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp250[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1217,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1218,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp267[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-	__Vtemp250[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+	__Vtemp267[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s);
-	__Vtemp250[2U] = (IData)((((QData)((IData)(
+	__Vtemp267[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))));
-	__Vtemp250[3U] = (IData)(((((QData)((IData)(
+	__Vtemp267[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+3267,(__Vtemp250),128);
-	vcdp->chgBus  (c+3271,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+3272,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+3273,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+3274,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+3275,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1219,(__Vtemp267),128);
+	vcdp->chgBus  (c+1223,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1224,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1225,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1226,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1227,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+3276,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+3788,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+3789,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp252[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1228,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1229,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp269[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-	__Vtemp252[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+	__Vtemp269[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s);
-	__Vtemp252[2U] = (IData)((((QData)((IData)(
+	__Vtemp269[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))));
-	__Vtemp252[3U] = (IData)(((((QData)((IData)(
+	__Vtemp269[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+3790,(__Vtemp252),128);
-	vcdp->chgBus  (c+3794,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+3795,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+3796,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+3797,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+3798,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1230,(__Vtemp269),128);
+	vcdp->chgBus  (c+1234,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1235,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1236,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1237,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1238,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+3799,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+4311,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+4312,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp254[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1239,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1240,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp271[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-	__Vtemp254[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+	__Vtemp271[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s);
-	__Vtemp254[2U] = (IData)((((QData)((IData)(
+	__Vtemp271[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))));
-	__Vtemp254[3U] = (IData)(((((QData)((IData)(
+	__Vtemp271[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+4313,(__Vtemp254),128);
-	vcdp->chgBus  (c+4317,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+4318,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+4319,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+4320,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+4321,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1241,(__Vtemp271),128);
+	vcdp->chgBus  (c+1245,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1246,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1247,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1248,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1249,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+4322,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+4834,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+4835,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp256[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1250,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1251,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp273[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-	__Vtemp256[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+	__Vtemp273[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s);
-	__Vtemp256[2U] = (IData)((((QData)((IData)(
+	__Vtemp273[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))));
-	__Vtemp256[3U] = (IData)(((((QData)((IData)(
+	__Vtemp273[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+4836,(__Vtemp256),128);
-	vcdp->chgBus  (c+4840,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->chgBit  (c+4841,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->chgBus  (c+4842,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s),32);
-	vcdp->chgBus  (c+4843,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d),32);
-	vcdp->chgBit  (c+4844,((1U & (~ (IData)((0U 
+	vcdp->chgArray(c+1252,(__Vtemp273),128);
+	vcdp->chgBus  (c+1256,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->chgBit  (c+1257,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->chgBus  (c+1258,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s),32);
+	vcdp->chgBus  (c+1259,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d),32);
+	vcdp->chgBit  (c+1260,((1U & (~ (IData)((0U 
 						 != 
 						 (0x7fffffffU 
 						  & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						     >> 1U))))))));
-	vcdp->chgArray(c+4845,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->chgBus  (c+5357,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->chgBus  (c+5358,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp258[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+	vcdp->chgBus  (c+1261,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->chgBus  (c+1262,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp275[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-	__Vtemp258[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+	__Vtemp275[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s);
-	__Vtemp258[2U] = (IData)((((QData)((IData)(
+	__Vtemp275[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))));
-	__Vtemp258[3U] = (IData)(((((QData)((IData)(
+	__Vtemp275[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->chgArray(c+5359,(__Vtemp258),128);
-    }
-}
-
-void Vdig::traceChgThis__263(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    int c=code;
-    if (0 && vcdp && c) {}  // Prevent unused
-    // Body
-    {
-	vcdp->chgBus  (c+5363,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5364,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5365,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid 
-					     >> 0x1dU)))));
+	vcdp->chgArray(c+1263,(__Vtemp275),128);
     }
 }
 
@@ -12862,9 +12855,9 @@ void Vdig::traceChgThis__264(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5366,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5367,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5368,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1267,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1268,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1269,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12875,9 +12868,9 @@ void Vdig::traceChgThis__265(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5369,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5370,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5371,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1270,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1271,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1272,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12888,9 +12881,9 @@ void Vdig::traceChgThis__266(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5372,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5373,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5374,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1273,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1274,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1275,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12901,9 +12894,9 @@ void Vdig::traceChgThis__267(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5375,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5376,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5377,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1276,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1277,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1278,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12914,9 +12907,9 @@ void Vdig::traceChgThis__268(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5378,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5379,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5380,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1279,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1280,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1281,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12927,9 +12920,9 @@ void Vdig::traceChgThis__269(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5381,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5382,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5383,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1282,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1283,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1284,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12940,9 +12933,9 @@ void Vdig::traceChgThis__270(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBus  (c+5384,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m),5);
-	vcdp->chgBus  (c+5385,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->chgBit  (c+5386,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->chgBus  (c+1285,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1286,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1287,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					     >> 0x1dU)))));
     }
 }
@@ -12953,13 +12946,26 @@ void Vdig::traceChgThis__271(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp,
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->chgBit  (c+5387,(vlTOPp->nres));
-	vcdp->chgBus  (c+5388,(vlTOPp->cfg),8);
-	vcdp->chgBit  (c+5389,(vlTOPp->clk_cog));
-	vcdp->chgBit  (c+5390,(vlTOPp->clk_pll));
-	vcdp->chgBus  (c+5391,(vlTOPp->pin_in),32);
-	vcdp->chgBus  (c+5392,(vlTOPp->pin_out),32);
-	vcdp->chgBus  (c+5393,(vlTOPp->pin_dir),32);
-	vcdp->chgBus  (c+5394,(vlTOPp->cog_led),8);
+	vcdp->chgBus  (c+1288,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m),5);
+	vcdp->chgBus  (c+1289,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->chgBit  (c+1290,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+					     >> 0x1dU)))));
+    }
+}
+
+void Vdig::traceChgThis__272(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) {
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    int c=code;
+    if (0 && vcdp && c) {}  // Prevent unused
+    // Body
+    {
+	vcdp->chgBit  (c+1291,(vlTOPp->nres));
+	vcdp->chgBus  (c+1292,(vlTOPp->cfg),8);
+	vcdp->chgBit  (c+1293,(vlTOPp->clk_cog));
+	vcdp->chgBit  (c+1294,(vlTOPp->clk_pll));
+	vcdp->chgBus  (c+1295,(vlTOPp->pin_in),32);
+	vcdp->chgBus  (c+1296,(vlTOPp->pin_out),32);
+	vcdp->chgBus  (c+1297,(vlTOPp->pin_dir),32);
+	vcdp->chgBus  (c+1298,(vlTOPp->cog_led),8);
     }
 }

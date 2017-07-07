@@ -94,7 +94,7 @@ int main(int argc, char **argv, char **env) {
 	}
         main_time++;            // Time passes...
         step_count++;
-        if ( main_time > 65e6 )
+        if ( main_time > 10e6 )
         {
                 std::cout << "Done!" << std::endl;
                 break;

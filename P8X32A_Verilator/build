@@ -10,6 +10,13 @@ make -C obj_dir OPT_FAST="-O3" -j -f Vdig.mk Vdig
 
 cp obj_dir/Vdig  simulator
 
+
+hexdump -s 0  -v -e '1/1 "%02x" 1/3 "\n"'  eeprom.dat | head -n 8192   > hub_ram_byte0.hex
+hexdump -s 1  -v -e '1/1 "%02x" 1/3 "\n"'  eeprom.dat | head -n 8192   > hub_ram_byte1.hex
+hexdump -s 2  -v -e '1/1 "%02x" 1/3 "\n"'  eeprom.dat | head -n 8192   > hub_ram_byte2.hex
+hexdump -s 3  -v -e '1/1 "%02x" 1/3 "\n"'  eeprom.dat | head -n 8192   > hub_ram_byte3.hex
+# TODO We should load these from main.cpp
+
 # ./simulator
 # gtkwave trace.vcd
 

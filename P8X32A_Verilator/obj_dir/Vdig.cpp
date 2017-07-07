@@ -109,203 +109,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__3(Vdig__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__3\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIG8(__Vdly__dig__DOT__hub___DOT__cog_e,7,0);
-    VL_SIG8(__Vdly__dig__DOT__hub___DOT__lock_e,7,0);
-    //char	__VpadToAlign26[2];
-    // Body
-    vlTOPp->__Vdly__dig__DOT__ena_bus = vlTOPp->dig__DOT__ena_bus;
-    __Vdly__dig__DOT__hub___DOT__lock_e = vlTOPp->dig__DOT__hub___DOT__lock_e;
-    __Vdly__dig__DOT__hub___DOT__cog_e = vlTOPp->dig__DOT__hub___DOT__cog_e;
-    vlTOPp->__Vdly__dig__DOT__bus_sel = vlTOPp->dig__DOT__bus_sel;
-    // ALWAYS at ../HDL/../HDL/dig.v:59
-    vlTOPp->__Vdly__dig__DOT__ena_bus = ((IData)(vlTOPp->nres) 
-					 & (~ (IData)(vlTOPp->dig__DOT__ena_bus)));
-    // ALWAYS at ../HDL/hub.v:222
-    if (vlTOPp->nres) {
-	if (vlTOPp->dig__DOT__ena_bus) {
-	    vlTOPp->dig__DOT__cog_ena = ((IData)(vlTOPp->dig__DOT__hub___DOT__cog_e) 
-					 & (~ (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__hub___DOT__cog_start))) 
-					       & ((IData)(1U) 
-						  << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
-	}
-    } else {
-	vlTOPp->dig__DOT__cog_ena = 0U;
-    }
-    // ALWAYS at ../HDL/hub.v:123
-    if (vlTOPp->nres) {
-	if (vlTOPp->dig__DOT__ena_bus) {
-	    vlTOPp->dig__DOT__hub___DOT__ed = vlTOPp->dig__DOT__hub___DOT__ec;
-	}
-    } else {
-	vlTOPp->dig__DOT__hub___DOT__ed = 0U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__ptr_w))) {
-	    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 1U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 2U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 3U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 4U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 5U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 6U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/cog.v:210
-    if (vlTOPp->nres) {
-	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
-						   >> 7U))) {
-	    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr 
-		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
-				 >> 4U));
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr = 0x3e00U;
-    }
-    // ALWAYS at ../HDL/hub.v:237
-    if (vlTOPp->nres) {
-	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
-	     & (2U == (3U & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
-			     >> 1U))))) {
-	    __Vdly__dig__DOT__hub___DOT__lock_e = (0xffU 
-						   & (((IData)(vlTOPp->dig__DOT__hub___DOT__lock_e) 
-						       & (~ 
-							  ((IData)(1U) 
-							   << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))) 
-						      | (VL_NEGATE_I((IData)(
-									     (1U 
-									      & (~ (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) 
-							 & ((IData)(1U) 
-							    << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
-	}
-    } else {
-	__Vdly__dig__DOT__hub___DOT__lock_e = 0U;
-    }
-    // ALWAYS at ../HDL/hub.v:216
-    if (vlTOPp->nres) {
-	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
-	     & (1U == (3U & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
-			     >> 1U))))) {
-	    __Vdly__dig__DOT__hub___DOT__cog_e = (0xffU 
-						  & (((IData)(vlTOPp->dig__DOT__hub___DOT__cog_e) 
-						      & (~ 
-							 ((IData)(1U) 
-							  << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))) 
-						     | (VL_NEGATE_I((IData)(
-									    (1U 
-									     & (~ (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) 
-							& ((IData)(1U) 
-							   << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
-	}
-    } else {
-	__Vdly__dig__DOT__hub___DOT__cog_e = 1U;
-    }
-    // ALWAYS at ../HDL/hub.v:205
-    if (vlTOPp->nres) {
-	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
-	     & (0U == (7U & (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) {
-	    vlTOPp->cfg = (0xffU & vlTOPp->dig__DOT__hub___DOT__dc);
-	}
-    } else {
-	vlTOPp->cfg = 0U;
-    }
-    // ALWAYS at ../HDL/../HDL/dig.v:70
-    if (vlTOPp->nres) {
-	if (vlTOPp->dig__DOT__ena_bus) {
-	    vlTOPp->__Vdly__dig__DOT__bus_sel = ((0xfeU 
-						  & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						     << 1U)) 
-						 | (1U 
-						    & (~ (IData)(
-								 (0U 
-								  != 
-								  (0x7fU 
-								   & (IData)(vlTOPp->dig__DOT__bus_sel)))))));
-	}
-    } else {
-	vlTOPp->__Vdly__dig__DOT__bus_sel = 0U;
-    }
-    vlTOPp->dig__DOT__hub___DOT__lock_e = __Vdly__dig__DOT__hub___DOT__lock_e;
-    vlTOPp->dig__DOT__hub___DOT__cog_e = __Vdly__dig__DOT__hub___DOT__cog_e;
-    vlTOPp->cog_led = vlTOPp->dig__DOT__cog_ena;
-    // ALWAYS at ../HDL/hub.v:66
-    if (vlTOPp->nres) {
-	if (vlTOPp->dig__DOT__ena_bus) {
-	    vlTOPp->dig__DOT__hub___DOT__ec = (0U != (IData)(vlTOPp->dig__DOT__bus_e));
-	}
-    } else {
-	vlTOPp->dig__DOT__hub___DOT__ec = 0U;
-    }
-}
-
-VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__4\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
     VL_SIG8(__Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram3__v0,7,0);
     VL_SIG8(__Vdlyvset__dig__DOT__hub___DOT__hub_mem___DOT__ram3__v0,0,0);
     VL_SIG8(__Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram2__v0,7,0);
@@ -374,6 +177,14 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	= vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc;
     vlTOPp->__Vdly__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc 
 	= vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
+    vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 0U;
     __Vdly__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly 
 	= vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly;
     __Vdly__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__dly 
@@ -442,7 +253,47 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
     if (vlTOPp->dig__DOT__ena_bus) {
 	vlTOPp->dig__DOT__hub___DOT__wc = (0U != (IData)(vlTOPp->dig__DOT__bus_w));
     }
-    // ALWAYS at ../HDL/hub_mem.v:54
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/cog.v:430
+    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m))) {
+	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy 
+	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q;
+    }
+    // ALWAYS at ../HDL/hub_mem.v:63
     if (((((IData)(vlTOPp->dig__DOT__ena_bus) & (~ 
 						 ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU))) 
@@ -457,7 +308,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    = (0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			  >> 2U));
     }
-    // ALWAYS at ../HDL/hub_mem.v:62
+    // ALWAYS at ../HDL/hub_mem.v:71
     if (((((IData)(vlTOPp->dig__DOT__ena_bus) & (~ 
 						 ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU))) 
@@ -472,7 +323,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    = (0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			  >> 2U));
     }
-    // ALWAYS at ../HDL/hub_mem.v:70
+    // ALWAYS at ../HDL/hub_mem.v:79
     if (((((IData)(vlTOPp->dig__DOT__ena_bus) & (~ 
 						 ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU))) 
@@ -487,7 +338,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    = (0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			  >> 2U));
     }
-    // ALWAYS at ../HDL/hub_mem.v:78
+    // ALWAYS at ../HDL/hub_mem.v:87
     if (((((IData)(vlTOPp->dig__DOT__ena_bus) & (~ 
 						 ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU))) 
@@ -500,13 +351,13 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    = (0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			  >> 2U));
     }
-    // ALWAYS at ../HDL/hub_mem.v:104
+    // ALWAYS at ../HDL/hub_mem.v:113
     if (vlTOPp->dig__DOT__ena_bus) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem 
 	    = (3U & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 		     >> 0xeU));
     }
-    // ALWAYS at ../HDL/hub_mem.v:96
+    // ALWAYS at ../HDL/hub_mem.v:105
     if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 					       >> 0xfU))) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q 
@@ -514,7 +365,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    [(0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			 >> 2U))];
     }
-    // ALWAYS at ../HDL/hub_mem.v:56
+    // ALWAYS at ../HDL/hub_mem.v:65
     if (((IData)(vlTOPp->dig__DOT__ena_bus) & (~ ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU)))) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3 
@@ -522,7 +373,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    [(0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			 >> 2U))];
     }
-    // ALWAYS at ../HDL/hub_mem.v:64
+    // ALWAYS at ../HDL/hub_mem.v:73
     if (((IData)(vlTOPp->dig__DOT__ena_bus) & (~ ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU)))) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q2 
@@ -530,7 +381,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    [(0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			 >> 2U))];
     }
-    // ALWAYS at ../HDL/hub_mem.v:72
+    // ALWAYS at ../HDL/hub_mem.v:81
     if (((IData)(vlTOPp->dig__DOT__ena_bus) & (~ ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU)))) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1 
@@ -538,7 +389,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	    [(0x1fffU & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 			 >> 2U))];
     }
-    // ALWAYS at ../HDL/hub_mem.v:80
+    // ALWAYS at ../HDL/hub_mem.v:89
     if (((IData)(vlTOPp->dig__DOT__ena_bus) & (~ ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
 						  >> 0xfU)))) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0 
@@ -680,45 +531,173 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__outa 
 	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_r;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a;
     }
-    // ALWAYS at ../HDL/cog.v:430
-    if ((2U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m))) {
-	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy 
-	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q;
+    // ALWAYS at ../HDL/cog_ram.v:49
+    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena) 
+	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+				       >> 0x1cU))) ? 
+		       ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+				       ? (~ (IData)(
+						    (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+						     >> 0x22U)))
+				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
+		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					       >> 0x1aU))) 
+			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
+				      >> 0x22U))))))) {
+	vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_r;
+	vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = 1U;
+	vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 
+	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a;
     }
     // ALWAYS at ../HDL/hub.v:153
     vlTOPp->dig__DOT__bus_q = ((2U & (IData)(vlTOPp->dig__DOT__hub___DOT__sd))
@@ -1175,22 +1154,22 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
 				       : ((QData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa)) 
 					  + (QData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__frq)))));
     }
-    // ALWAYSPOST at ../HDL/hub_mem.v:55
+    // ALWAYSPOST at ../HDL/hub_mem.v:64
     if (__Vdlyvset__dig__DOT__hub___DOT__hub_mem___DOT__ram3__v0) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram3[__Vdlyvdim0__dig__DOT__hub___DOT__hub_mem___DOT__ram3__v0] 
 	    = __Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram3__v0;
     }
-    // ALWAYSPOST at ../HDL/hub_mem.v:63
+    // ALWAYSPOST at ../HDL/hub_mem.v:72
     if (__Vdlyvset__dig__DOT__hub___DOT__hub_mem___DOT__ram2__v0) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram2[__Vdlyvdim0__dig__DOT__hub___DOT__hub_mem___DOT__ram2__v0] 
 	    = __Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram2__v0;
     }
-    // ALWAYSPOST at ../HDL/hub_mem.v:71
+    // ALWAYSPOST at ../HDL/hub_mem.v:80
     if (__Vdlyvset__dig__DOT__hub___DOT__hub_mem___DOT__ram1__v0) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram1[__Vdlyvdim0__dig__DOT__hub___DOT__hub_mem___DOT__ram1__v0] 
 	    = __Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram1__v0;
     }
-    // ALWAYSPOST at ../HDL/hub_mem.v:79
+    // ALWAYSPOST at ../HDL/hub_mem.v:88
     if (__Vdlyvset__dig__DOT__hub___DOT__hub_mem___DOT__ram0__v0) {
 	vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram0[__Vdlyvdim0__dig__DOT__hub___DOT__hub_mem___DOT__ram0__v0] 
 	    = __Vdlyvval__dig__DOT__hub___DOT__hub_mem___DOT__ram0__v0;
@@ -1340,6 +1319,121 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
+VL_INLINE_OPT void Vdig::_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__4\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    VL_SIG8(__Vdly__dig__DOT__bus_sel,7,0);
+    VL_SIG8(__Vdly__dig__DOT__hub___DOT__cog_e,7,0);
+    VL_SIG8(__Vdly__dig__DOT__hub___DOT__lock_e,7,0);
+    //char	__VpadToAlign207[1];
+    // Body
+    vlTOPp->__Vdly__dig__DOT__ena_bus = vlTOPp->dig__DOT__ena_bus;
+    __Vdly__dig__DOT__hub___DOT__lock_e = vlTOPp->dig__DOT__hub___DOT__lock_e;
+    __Vdly__dig__DOT__hub___DOT__cog_e = vlTOPp->dig__DOT__hub___DOT__cog_e;
+    __Vdly__dig__DOT__bus_sel = vlTOPp->dig__DOT__bus_sel;
+    // ALWAYS at ../HDL/../HDL/dig.v:59
+    vlTOPp->__Vdly__dig__DOT__ena_bus = ((IData)(vlTOPp->nres) 
+					 & (~ (IData)(vlTOPp->dig__DOT__ena_bus)));
+    // ALWAYS at ../HDL/hub.v:222
+    if (vlTOPp->nres) {
+	if (vlTOPp->dig__DOT__ena_bus) {
+	    vlTOPp->dig__DOT__cog_ena = ((IData)(vlTOPp->dig__DOT__hub___DOT__cog_e) 
+					 & (~ (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__hub___DOT__cog_start))) 
+					       & ((IData)(1U) 
+						  << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
+	}
+    } else {
+	vlTOPp->dig__DOT__cog_ena = 0U;
+    }
+    // ALWAYS at ../HDL/hub.v:123
+    if (vlTOPp->nres) {
+	if (vlTOPp->dig__DOT__ena_bus) {
+	    vlTOPp->dig__DOT__hub___DOT__ed = vlTOPp->dig__DOT__hub___DOT__ec;
+	}
+    } else {
+	vlTOPp->dig__DOT__hub___DOT__ed = 0U;
+    }
+    // ALWAYS at ../HDL/hub.v:237
+    if (vlTOPp->nres) {
+	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
+	     & (2U == (3U & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
+			     >> 1U))))) {
+	    __Vdly__dig__DOT__hub___DOT__lock_e = (0xffU 
+						   & (((IData)(vlTOPp->dig__DOT__hub___DOT__lock_e) 
+						       & (~ 
+							  ((IData)(1U) 
+							   << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))) 
+						      | (VL_NEGATE_I((IData)(
+									     (1U 
+									      & (~ (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) 
+							 & ((IData)(1U) 
+							    << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
+	}
+    } else {
+	__Vdly__dig__DOT__hub___DOT__lock_e = 0U;
+    }
+    // ALWAYS at ../HDL/hub.v:216
+    if (vlTOPp->nres) {
+	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
+	     & (1U == (3U & ((IData)(vlTOPp->dig__DOT__hub___DOT__ac) 
+			     >> 1U))))) {
+	    __Vdly__dig__DOT__hub___DOT__cog_e = (0xffU 
+						  & (((IData)(vlTOPp->dig__DOT__hub___DOT__cog_e) 
+						      & (~ 
+							 ((IData)(1U) 
+							  << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))) 
+						     | (VL_NEGATE_I((IData)(
+									    (1U 
+									     & (~ (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) 
+							& ((IData)(1U) 
+							   << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))));
+	}
+    } else {
+	__Vdly__dig__DOT__hub___DOT__cog_e = 1U;
+    }
+    // ALWAYS at ../HDL/hub.v:205
+    if (vlTOPp->nres) {
+	if ((((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__hub___DOT__sys)) 
+	     & (0U == (7U & (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))) {
+	    vlTOPp->cfg = (0xffU & vlTOPp->dig__DOT__hub___DOT__dc);
+	}
+    } else {
+	vlTOPp->cfg = 0U;
+    }
+    // ALWAYS at ../HDL/../HDL/dig.v:70
+    if (vlTOPp->nres) {
+	if (vlTOPp->dig__DOT__ena_bus) {
+	    __Vdly__dig__DOT__bus_sel = ((0xfeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						   << 1U)) 
+					 | (1U & (~ (IData)(
+							    (0U 
+							     != 
+							     (0x7fU 
+							      & (IData)(vlTOPp->dig__DOT__bus_sel)))))));
+	}
+    } else {
+	__Vdly__dig__DOT__bus_sel = 0U;
+    }
+    vlTOPp->dig__DOT__hub___DOT__lock_e = __Vdly__dig__DOT__hub___DOT__lock_e;
+    vlTOPp->dig__DOT__hub___DOT__cog_e = __Vdly__dig__DOT__hub___DOT__cog_e;
+    vlTOPp->dig__DOT__bus_sel = __Vdly__dig__DOT__bus_sel;
+    vlTOPp->cog_led = vlTOPp->dig__DOT__cog_ena;
+    // ALWAYS at ../HDL/hub.v:66
+    if (vlTOPp->nres) {
+	if (vlTOPp->dig__DOT__ena_bus) {
+	    vlTOPp->dig__DOT__hub___DOT__ec = (0U != (IData)(vlTOPp->dig__DOT__bus_e));
+	}
+    } else {
+	vlTOPp->dig__DOT__hub___DOT__ec = 0U;
+    }
+    vlTOPp->dig__DOT__hub___DOT__mem_w = (((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
+					   & (~ (IData)(
+							(3U 
+							 == (IData)(vlTOPp->dig__DOT__hub___DOT__sc))))) 
+					  & (IData)(vlTOPp->dig__DOT__hub___DOT__wc));
+}
+
 VL_INLINE_OPT void Vdig::_sequent__TOP__5(Vdig__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__5\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
@@ -1383,15 +1477,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__5(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
@@ -1402,6 +1487,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__5(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx1 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
@@ -1533,15 +1628,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__6(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
@@ -1552,6 +1638,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__6(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx2 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
@@ -1690,15 +1786,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__7(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
@@ -1709,6 +1796,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__7(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx3 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
@@ -1847,15 +1944,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__8(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
@@ -1866,6 +1954,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__8(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx4 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
@@ -2004,15 +2102,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__9(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
@@ -2023,6 +2112,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__9(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx5 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
@@ -2161,15 +2260,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__10(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
@@ -2180,6 +2270,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__10(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx6 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
@@ -2318,15 +2418,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__11(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
@@ -2337,6 +2428,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__11(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx7 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
@@ -2475,15 +2576,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__12(Vdig__Syms* __restrict vlSymsp) {
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z = 0U;
     }
-    // ALWAYS at ../HDL/cog.v:240
-    if (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena) {
-	if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__px)))) {
-	    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run = 1U;
-	}
-    } else {
-	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run = 0U;
-    }
     // ALWAYS at ../HDL/cog.v:259
     if (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena) {
 	if ((1U & (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
@@ -2494,6 +2586,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__12(Vdig__Syms* __restrict vlSymsp) {
 	}
     } else {
 	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p = 0U;
+    }
+    // ALWAYS at ../HDL/cog.v:240
+    if (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena) {
+	if (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+	       >> 3U) & (0x1ffU == (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__px))) 
+	     | (0x3e00U == vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr))) {
+	    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run = 1U;
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run = 0U;
     }
     // ALWAYS at ../HDL/cog.v:223
     __Vtableidx8 = ((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
@@ -2853,11 +2955,85 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__13(Vdig__Syms* __restrict vlSymsp) {
 	= __Vdly__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake;
 }
 
-void Vdig::_settle__TOP__14(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__14\n"); );
+void Vdig::_initial__TOP__14(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_initial__TOP__14\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    //char	__VpadToAlign572[4];
+    VL_SIGW(__Vtemp1,287,0,9);
+    //char	__VpadToAlign612[4];
+    VL_SIGW(__Vtemp2,319,0,10);
+    VL_SIGW(__Vtemp3,319,0,10);
+    VL_SIGW(__Vtemp4,319,0,10);
+    VL_SIGW(__Vtemp5,319,0,10);
+    // Body
+    // INITIAL at ../HDL/hub_mem.v:98
+    __Vtemp1[0U] = 0x2e686578U;
+    __Vtemp1[1U] = 0x626c6564U;
+    __Vtemp1[2U] = 0x6372616dU;
+    __Vtemp1[3U] = 0x66665f73U;
+    __Vtemp1[4U] = 0x305f6666U;
+    __Vtemp1[5U] = 0x5f383030U;
+    __Vtemp1[6U] = 0x2f726f6dU;
+    __Vtemp1[7U] = 0x2f48444cU;
+    __Vtemp1[8U] = 0x2e2eU;
+    VL_READMEM_W (true,32,8192, 0,9, __Vtemp1, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom
+		  ,0,~0);
+    // INITIAL at ../HDL/hub_mem.v:47
+    __Vtemp2[0U] = 0x2e686578U;
+    __Vtemp2[1U] = 0x79746530U;
+    __Vtemp2[2U] = 0x616d5f62U;
+    __Vtemp2[3U] = 0x75625f72U;
+    __Vtemp2[4U] = 0x6f722f68U;
+    __Vtemp2[5U] = 0x696c6174U;
+    __Vtemp2[6U] = 0x5f566572U;
+    __Vtemp2[7U] = 0x58333241U;
+    __Vtemp2[8U] = 0x2e2f5038U;
+    __Vtemp2[9U] = 0x2eU;
+    VL_READMEM_W (true,8,8192, 0,10, __Vtemp2, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram0
+		  ,0,~0);
+    __Vtemp3[0U] = 0x2e686578U;
+    __Vtemp3[1U] = 0x79746531U;
+    __Vtemp3[2U] = 0x616d5f62U;
+    __Vtemp3[3U] = 0x75625f72U;
+    __Vtemp3[4U] = 0x6f722f68U;
+    __Vtemp3[5U] = 0x696c6174U;
+    __Vtemp3[6U] = 0x5f566572U;
+    __Vtemp3[7U] = 0x58333241U;
+    __Vtemp3[8U] = 0x2e2f5038U;
+    __Vtemp3[9U] = 0x2eU;
+    VL_READMEM_W (true,8,8192, 0,10, __Vtemp3, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram1
+		  ,0,~0);
+    __Vtemp4[0U] = 0x2e686578U;
+    __Vtemp4[1U] = 0x79746532U;
+    __Vtemp4[2U] = 0x616d5f62U;
+    __Vtemp4[3U] = 0x75625f72U;
+    __Vtemp4[4U] = 0x6f722f68U;
+    __Vtemp4[5U] = 0x696c6174U;
+    __Vtemp4[6U] = 0x5f566572U;
+    __Vtemp4[7U] = 0x58333241U;
+    __Vtemp4[8U] = 0x2e2f5038U;
+    __Vtemp4[9U] = 0x2eU;
+    VL_READMEM_W (true,8,8192, 0,10, __Vtemp4, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram2
+		  ,0,~0);
+    __Vtemp5[0U] = 0x2e686578U;
+    __Vtemp5[1U] = 0x79746533U;
+    __Vtemp5[2U] = 0x616d5f62U;
+    __Vtemp5[3U] = 0x75625f72U;
+    __Vtemp5[4U] = 0x6f722f68U;
+    __Vtemp5[5U] = 0x696c6174U;
+    __Vtemp5[6U] = 0x5f566572U;
+    __Vtemp5[7U] = 0x58333241U;
+    __Vtemp5[8U] = 0x2e2f5038U;
+    __Vtemp5[9U] = 0x2eU;
+    VL_READMEM_W (true,8,8192, 0,10, __Vtemp5, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram3
+		  ,0,~0);
+}
+
+void Vdig::_settle__TOP__15(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__15\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->cog_led = vlTOPp->dig__DOT__cog_ena;
     vlTOPp->dig__DOT__hub___DOT__mem_q = ((2U & (IData)(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem))
 					   ? vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q
 					   : (((IData)(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3) 
@@ -2867,19 +3043,57 @@ void Vdig::_settle__TOP__14(Vdig__Syms* __restrict vlSymsp) {
 						 | (((IData)(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1) 
 						     << 8U) 
 						    | (IData)(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0)))));
+    vlTOPp->cog_led = vlTOPp->dig__DOT__cog_ena;
     vlTOPp->dig__DOT__hub___DOT__mem_w = (((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
 					   & (~ (IData)(
 							(3U 
 							 == (IData)(vlTOPp->dig__DOT__hub___DOT__sc))))) 
 					  & (IData)(vlTOPp->dig__DOT__hub___DOT__wc));
     vlTOPp->dig__DOT__dirx[0U] = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xfeU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)));
     vlTOPp->dig__DOT__dirx[1U] = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xfdU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffffeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run) 
+						    << 1U))));
     vlTOPp->dig__DOT__dirx[2U] = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xfbU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffffcU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run) 
+						    << 2U))));
     vlTOPp->dig__DOT__dirx[3U] = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xf7U & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffff8U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run) 
+						    << 3U))));
     vlTOPp->dig__DOT__dirx[4U] = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xefU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffff0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run) 
+						    << 4U))));
     vlTOPp->dig__DOT__dirx[5U] = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xdfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffffe0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run) 
+						    << 5U))));
     vlTOPp->dig__DOT__dirx[6U] = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0xbfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffffc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run) 
+						    << 6U))));
+    vlTOPp->dig__DOT__bus_ack = ((IData)(vlTOPp->dig__DOT__hub___DOT__ed)
+				  ? ((0xc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+					       << 6U)) 
+				     | (0x3fU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 >> 2U)))
+				  : 0U);
     vlTOPp->dig__DOT__dirx[7U] = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__dira;
+    vlTOPp->dig__DOT__bus_r = ((0x7fU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffff80U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run) 
+						    << 7U))));
     vlTOPp->dig__DOT__hub___DOT__ramq = ((IData)(vlTOPp->dig__DOT__hub___DOT__rd)
 					  ? ((0x80000000U 
 					      & (vlTOPp->dig__DOT__hub___DOT__mem_q 
@@ -2988,42 +3202,103 @@ void Vdig::_settle__TOP__14(Vdig__Syms* __restrict vlSymsp) {
 		       | vlTOPp->dig__DOT__dirx[0U]);
 }
 
-void Vdig::_initial__TOP__15(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_initial__TOP__15\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
-    VL_SIGW(__Vtemp1,287,0,9);
-    // Body
-    // INITIAL at ../HDL/hub_mem.v:89
-    __Vtemp1[0U] = 0x2e686578U;
-    __Vtemp1[1U] = 0x626c6564U;
-    __Vtemp1[2U] = 0x6372616dU;
-    __Vtemp1[3U] = 0x66665f73U;
-    __Vtemp1[4U] = 0x305f6666U;
-    __Vtemp1[5U] = 0x5f383030U;
-    __Vtemp1[6U] = 0x2f726f6dU;
-    __Vtemp1[7U] = 0x2f48444cU;
-    __Vtemp1[8U] = 0x2e2eU;
-    VL_READMEM_W (true,32,8192, 0,9, __Vtemp1, vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom
-		  ,0,~0);
-}
-
 VL_INLINE_OPT void Vdig::_sequent__TOP__16(Vdig__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__16\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->dig__DOT__bus_sel = vlTOPp->__Vdly__dig__DOT__bus_sel;
-    vlTOPp->dig__DOT__hub___DOT__mem_w = (((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
-					   & (~ (IData)(
-							(3U 
-							 == (IData)(vlTOPp->dig__DOT__hub___DOT__sc))))) 
-					  & (IData)(vlTOPp->dig__DOT__hub___DOT__wc));
     vlTOPp->dig__DOT__bus_ack = ((IData)(vlTOPp->dig__DOT__hub___DOT__ed)
 				  ? ((0xc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 					       << 6U)) 
 				     | (0x3fU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 >> 2U)))
 				  : 0U);
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & (IData)(vlTOPp->dig__DOT__ptr_w))) {
+	    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 1U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 2U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 3U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 4U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 5U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 6U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
+    // ALWAYS at ../HDL/cog.v:210
+    if (vlTOPp->nres) {
+	if (((IData)(vlTOPp->dig__DOT__ena_bus) & ((IData)(vlTOPp->dig__DOT__ptr_w) 
+						   >> 7U))) {
+	    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr 
+		= (0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
+				 >> 4U));
+	}
+    } else {
+	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr = 0x3e00U;
+    }
 }
 
 VL_INLINE_OPT void Vdig::_sequent__TOP__17(Vdig__Syms* __restrict vlSymsp) {
@@ -3424,8 +3699,87 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__17(Vdig__Syms* __restrict vlSymsp) {
 						      & (IData)(vlTOPp->dig__DOT__hub___DOT__ac))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__18(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__18\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__18(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__18\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xfeU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__19(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__19\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xfdU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffffeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run) 
+						    << 1U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__20(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__20\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xfbU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffffcU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run) 
+						    << 2U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__21(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__21\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xf7U & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffff8U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run) 
+						    << 3U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__22(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__22\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xefU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xfffffff0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run) 
+						    << 4U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__23(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__23\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xdfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffffe0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run) 
+						    << 5U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__24(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__24\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0xbfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffffc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run) 
+						    << 6U))));
+}
+
+VL_INLINE_OPT void Vdig::_multiclk__TOP__25(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__25\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->dig__DOT__bus_r = ((0x7fU & (IData)(vlTOPp->dig__DOT__bus_r)) 
+			       | (0xffffff80U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run) 
+						    << 7U))));
+}
+
+VL_INLINE_OPT void Vdig::_sequent__TOP__26(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__26\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3452,8 +3806,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__18(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__19(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__19\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__27(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__27\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3480,8 +3834,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__19(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__20(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__20\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__28(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__28\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3508,8 +3862,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__20(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__21(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__21\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__29(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__29\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3536,8 +3890,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__21(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__22(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__22\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__30(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__30\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3564,8 +3918,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__22(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__23(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__23\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__31(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__31\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3592,8 +3946,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__23(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__24(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__24\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__32(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__32\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3620,8 +3974,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__24(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__25(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__25\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__33(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__33\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // ALWAYS at ../HDL/cog_ctr.v:52
@@ -3648,8 +4002,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__25(Vdig__Syms* __restrict vlSymsp) {
     }
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__26(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__26\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__34(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__34\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->pin_dir = (((((((vlTOPp->dig__DOT__dirx[7U] 
@@ -3662,47 +4016,22 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__26(Vdig__Syms* __restrict vlSymsp) {
 		       | vlTOPp->dig__DOT__dirx[0U]);
 }
 
-void Vdig::_settle__TOP__27(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__27\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__35(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__35\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->dig__DOT__bus_ack = ((IData)(vlTOPp->dig__DOT__hub___DOT__ed)
-				  ? ((0xc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-					       << 6U)) 
-				     | (0x3fU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 >> 2U)))
-				  : 0U);
-    vlTOPp->dig__DOT__bus_r = ((0xfeU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)));
-    vlTOPp->dig__DOT__bus_r = ((0xfdU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffffeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run) 
-						    << 1U))));
-    vlTOPp->dig__DOT__bus_r = ((0xfbU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffffcU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run) 
-						    << 2U))));
-    vlTOPp->dig__DOT__bus_r = ((0xf7U & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffff8U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run) 
-						    << 3U))));
-    vlTOPp->dig__DOT__bus_r = ((0xefU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffff0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run) 
-						    << 4U))));
-    vlTOPp->dig__DOT__bus_r = ((0xdfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffffe0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run) 
-						    << 5U))));
-    vlTOPp->dig__DOT__bus_r = ((0xbfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffffc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run) 
-						    << 6U))));
-    vlTOPp->dig__DOT__bus_r = ((0x7fU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffff80U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run) 
-						    << 7U))));
+    vlTOPp->dig__DOT__hub___DOT__sys = ((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
+					& (3U == (IData)(vlTOPp->dig__DOT__hub___DOT__sc)));
+    vlTOPp->dig__DOT__ena_bus = vlTOPp->__Vdly__dig__DOT__ena_bus;
+    vlTOPp->dig__DOT__hub___DOT__enc = ((4U & (IData)(vlTOPp->dig__DOT__hub___DOT__ac))
+					 ? (IData)(vlTOPp->dig__DOT__hub___DOT__lock_e)
+					 : (IData)(vlTOPp->dig__DOT__hub___DOT__cog_e));
+}
+
+void Vdig::_settle__TOP__36(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__36\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
     vlTOPp->dig__DOT__hub___DOT__sys = ((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
 					& (3U == (IData)(vlTOPp->dig__DOT__hub___DOT__sc)));
     vlTOPp->dig__DOT__hub___DOT__mem_d = ((2U & (IData)(vlTOPp->dig__DOT__hub___DOT__sc))
@@ -3824,97 +4153,6 @@ void Vdig::_settle__TOP__27(Vdig__Syms* __restrict vlSymsp) {
 			 >> (0x3fU & ((IData)(0x1cU) 
 				      + (7U & (~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 						  >> 0x17U))))))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__28(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__28\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xfeU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__29(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__29\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xfdU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffffeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run) 
-						    << 1U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__30(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__30\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xfbU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffffcU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run) 
-						    << 2U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__31(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__31\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xf7U & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffff8U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run) 
-						    << 3U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__32(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__32\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xefU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xfffffff0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run) 
-						    << 4U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__33(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__33\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xdfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffffe0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run) 
-						    << 5U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__34(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__34\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0xbfU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffffc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run) 
-						    << 6U))));
-}
-
-VL_INLINE_OPT void Vdig::_multiclk__TOP__35(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__35\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__bus_r = ((0x7fU & (IData)(vlTOPp->dig__DOT__bus_r)) 
-			       | (0xffffff80U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-						 & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run) 
-						    << 7U))));
-}
-
-VL_INLINE_OPT void Vdig::_sequent__TOP__36(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__36\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__hub___DOT__sys = ((IData)(vlTOPp->dig__DOT__hub___DOT__ec) 
-					& (3U == (IData)(vlTOPp->dig__DOT__hub___DOT__sc)));
-    vlTOPp->dig__DOT__ena_bus = vlTOPp->__Vdly__dig__DOT__ena_bus;
-    vlTOPp->dig__DOT__hub___DOT__enc = ((4U & (IData)(vlTOPp->dig__DOT__hub___DOT__ac))
-					 ? (IData)(vlTOPp->dig__DOT__hub___DOT__lock_e)
-					 : (IData)(vlTOPp->dig__DOT__hub___DOT__cog_e));
     vlTOPp->dig__DOT__hub___DOT__num = (7U & ((((2U 
 						 == 
 						 (7U 
@@ -5468,8 +5706,8 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__44(Vdig__Syms* __restrict vlSymsp) {
 				<< 7U));
 }
 
-void Vdig::_settle__TOP__45(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__45\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__45(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__45\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__hub___DOT__num = (7U & ((((2U 
@@ -5528,6 +5766,15 @@ void Vdig::_settle__TOP__45(Vdig__Syms* __restrict vlSymsp) {
 						   >> 3U) 
 						  & (0xffU 
 						     == (IData)(vlTOPp->dig__DOT__hub___DOT__enc)))));
+    vlTOPp->dig__DOT__ptr_w = (0xffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__hub___DOT__cog_start))) 
+					& ((IData)(1U) 
+					   << (IData)(vlTOPp->dig__DOT__hub___DOT__num))));
+}
+
+void Vdig::_settle__TOP__46(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__46\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba 
 	= (7U & ((0x2fU >= (0x3fU & ((IData)(3U) * 
 				     (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
@@ -6932,8 +7179,8 @@ void Vdig::_settle__TOP__45(Vdig__Syms* __restrict vlSymsp) {
 					   << (IData)(vlTOPp->dig__DOT__hub___DOT__num))));
 }
 
-VL_INLINE_OPT void Vdig::_combo__TOP__46(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__46\n"); );
+VL_INLINE_OPT void Vdig::_combo__TOP__47(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__47\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vclk 
@@ -6968,15 +7215,6 @@ VL_INLINE_OPT void Vdig::_combo__TOP__46(Vdig__Syms* __restrict vlSymsp) {
 	= ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__plla) 
 	   & (0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 			   >> 0x1dU))));
-}
-
-VL_INLINE_OPT void Vdig::_sequent__TOP__47(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__47\n"); );
-    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->dig__DOT__ptr_w = (0xffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__hub___DOT__cog_start))) 
-					& ((IData)(1U) 
-					   << (IData)(vlTOPp->dig__DOT__hub___DOT__num))));
 }
 
 VL_INLINE_OPT void Vdig::_sequent__TOP__48(Vdig__Syms* __restrict vlSymsp) {
@@ -8015,6 +8253,12 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q;
     }
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a];
+    }
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 			   << 0x1fU)) | ((0x40000000U 
@@ -8110,25 +8354,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
@@ -8225,25 +8455,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
@@ -8340,25 +8556,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
@@ -8455,25 +8657,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
@@ -8570,25 +8758,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
@@ -8685,25 +8859,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
@@ -8800,25 +8960,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYS at ../HDL/cog_ram.v:51
+    if (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena) {
+	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q 
+	    = vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r
+	    [vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a];
     }
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr 
 	= ((0x80000000U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
@@ -8915,169 +9061,45 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__64(Vdig__Syms* __restrict vlSymsp) {
 										| (1U 
 										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 										>> 0x1fU)))))))))))))))))))))))))))))))));
-    // ALWAYS at ../HDL/cog_ram.v:45
-    if (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena) {
-	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q 
-	    = (((0U == (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a) 
-				 << 5U))) ? 0U : (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r[
-						  ((IData)(1U) 
-						   + 
-						   (0x1ffU 
-						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a)))] 
-						  << 
-						  ((IData)(0x20U) 
-						   - 
-						   (0x1fU 
-						    & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a) 
-						       << 5U))))) 
-	       | (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r[
-		  (0x1ffU & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a))] 
-		  >> (0x1fU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a) 
-			       << 5U))));
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__alu_r);
-    }
-    // ALWAYS at ../HDL/cog_ram.v:43
-    if (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena) 
-	 & (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-	     >> 3U) & ((4U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-				       >> 0x1cU))) ? 
-		       ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-			 >> 0x1aU) ^ ((0x8000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-				       ? (~ (IData)(
-						    (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-						     >> 0x22U)))
-				       : (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_cs)))
-		        : ((0x38U != (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					       >> 0x1aU))) 
-			   | (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
-				      >> 0x22U))))))) {
-	VL_ASSIGNSEL_WIII(32,(0x3fffU & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_a) 
-					 << 5U)), vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r, vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_r);
+    // ALWAYSPOST at ../HDL/cog_ram.v:50
+    if (vlTOPp->__Vdlyvset__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0) {
+	vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r[vlTOPp->__Vdlyvdim0__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0] 
+	    = vlTOPp->__Vdlyvval__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0;
     }
 }
 
@@ -11138,8 +11160,95 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__83(Vdig__Syms* __restrict vlSymsp) {
 					 : 0U) << 0x10U)));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__84(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__84\n"); );
+void Vdig::_initial__TOP__84(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_initial__TOP__84\n"); );
+    Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Variables
+    VL_SIGW(__Vtemp6,191,0,6);
+    VL_SIGW(__Vtemp7,191,0,6);
+    VL_SIGW(__Vtemp8,191,0,6);
+    VL_SIGW(__Vtemp9,191,0,6);
+    VL_SIGW(__Vtemp10,191,0,6);
+    VL_SIGW(__Vtemp11,191,0,6);
+    VL_SIGW(__Vtemp12,191,0,6);
+    VL_SIGW(__Vtemp13,191,0,6);
+    // Body
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp6[0U] = 0x2e686578U;
+    __Vtemp6[1U] = 0x6f746572U;
+    __Vtemp6[2U] = 0x616d626fU;
+    __Vtemp6[3U] = 0x696e2f72U;
+    __Vtemp6[4U] = 0x2e2f5370U;
+    __Vtemp6[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp6, vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp7[0U] = 0x2e686578U;
+    __Vtemp7[1U] = 0x6f746572U;
+    __Vtemp7[2U] = 0x616d626fU;
+    __Vtemp7[3U] = 0x696e2f72U;
+    __Vtemp7[4U] = 0x2e2f5370U;
+    __Vtemp7[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp7, vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp8[0U] = 0x2e686578U;
+    __Vtemp8[1U] = 0x6f746572U;
+    __Vtemp8[2U] = 0x616d626fU;
+    __Vtemp8[3U] = 0x696e2f72U;
+    __Vtemp8[4U] = 0x2e2f5370U;
+    __Vtemp8[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp8, vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp9[0U] = 0x2e686578U;
+    __Vtemp9[1U] = 0x6f746572U;
+    __Vtemp9[2U] = 0x616d626fU;
+    __Vtemp9[3U] = 0x696e2f72U;
+    __Vtemp9[4U] = 0x2e2f5370U;
+    __Vtemp9[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp9, vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp10[0U] = 0x2e686578U;
+    __Vtemp10[1U] = 0x6f746572U;
+    __Vtemp10[2U] = 0x616d626fU;
+    __Vtemp10[3U] = 0x696e2f72U;
+    __Vtemp10[4U] = 0x2e2f5370U;
+    __Vtemp10[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp10, vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp11[0U] = 0x2e686578U;
+    __Vtemp11[1U] = 0x6f746572U;
+    __Vtemp11[2U] = 0x616d626fU;
+    __Vtemp11[3U] = 0x696e2f72U;
+    __Vtemp11[4U] = 0x2e2f5370U;
+    __Vtemp11[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp11, vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp12[0U] = 0x2e686578U;
+    __Vtemp12[1U] = 0x6f746572U;
+    __Vtemp12[2U] = 0x616d626fU;
+    __Vtemp12[3U] = 0x696e2f72U;
+    __Vtemp12[4U] = 0x2e2f5370U;
+    __Vtemp12[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp12, vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+    // INITIAL at ../HDL/cog_ram.v:42
+    __Vtemp13[0U] = 0x2e686578U;
+    __Vtemp13[1U] = 0x6f746572U;
+    __Vtemp13[2U] = 0x616d626fU;
+    __Vtemp13[3U] = 0x696e2f72U;
+    __Vtemp13[4U] = 0x2e2f5370U;
+    __Vtemp13[5U] = 0x2eU;
+    VL_READMEM_W (true,32,512, 0,6, __Vtemp13, vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r
+		  ,0,~0);
+}
+
+VL_INLINE_OPT void Vdig::_sequent__TOP__85(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__85\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11153,8 +11262,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__84(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__85(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__85\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__86(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__86\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11168,8 +11277,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__85(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__86(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__86\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__87(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__87\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11183,8 +11292,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__86(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__87(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__87\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__88(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__88\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11198,8 +11307,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__87(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__88(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__88\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__89(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__89\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11213,8 +11322,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__88(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__89(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__89\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__90(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__90\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11228,8 +11337,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__89(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__90(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__90\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__91(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__91\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11243,8 +11352,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__90(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__91(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__91\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__92(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__92\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__colormod 
@@ -11258,16 +11367,11 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__91(Vdig__Syms* __restrict vlSymsp) {
 					       >> 3U))))));
 }
 
-void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__92\n"); );
+void Vdig::_settle__TOP__93(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__93\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp2,127,0,4);
-    VL_SIGW(__Vtemp5,255,0,8);
-    VL_SIGW(__Vtemp7,127,0,4);
-    VL_SIGW(__Vtemp9,127,0,4);
-    VL_SIGW(__Vtemp10,127,0,4);
-    VL_SIGW(__Vtemp13,255,0,8);
+    //char	__VpadToAlign2612[4];
     VL_SIGW(__Vtemp15,127,0,4);
     VL_SIGW(__Vtemp17,127,0,4);
     VL_SIGW(__Vtemp18,127,0,4);
@@ -11294,6 +11398,12 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
     VL_SIGW(__Vtemp61,255,0,8);
     VL_SIGW(__Vtemp63,127,0,4);
     VL_SIGW(__Vtemp65,127,0,4);
+    VL_SIGW(__Vtemp66,127,0,4);
+    VL_SIGW(__Vtemp69,255,0,8);
+    VL_SIGW(__Vtemp71,127,0,4);
+    VL_SIGW(__Vtemp73,127,0,4);
+    VL_SIGW(__Vtemp74,127,0,4);
+    VL_SIGW(__Vtemp77,255,0,8);
     // Body
     vlTOPp->dig__DOT__outx[0U] = ((((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__outa 
 				     | (((1U & ((~ 
@@ -11767,6 +11877,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 			       | (1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 					& (~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 					      >> 0x17U)))));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xfeU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | ((IData)(vlTOPp->dig__DOT__bus_sel) 
 				  & ((0U == (0xfU & 
@@ -11826,177 +11991,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp2, (((QData)((IData)(
-						     (0x7fffffffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				     << 0x1fU) | (QData)((IData)(
-								 (0x7fffffffU 
-								  & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
-    __Vtemp5[0U] = __Vtemp2[0U];
-    __Vtemp5[1U] = __Vtemp2[1U];
-    __Vtemp5[2U] = __Vtemp2[2U];
-    __Vtemp5[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-				    << 0x1cU)) | __Vtemp2[3U]);
-    __Vtemp5[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-				    << 0x1bU)) | (0x7ffffffU 
-						  & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-						     >> 4U)));
-    __Vtemp5[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    << 0x1aU)) | (0x3ffffffU 
-						  & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-						     >> 5U)));
-    __Vtemp5[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							   (0x7fffffffU 
-							    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				   >> 6U)) | (0xfc000000U 
-					      & ((IData)(
-							 ((QData)((IData)(
-									  (0x7fffffffU 
-									   & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							  >> 0x20U)) 
-						 << 0x1aU)));
-    __Vtemp5[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							   (0x7fffffffU 
-							    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					   >> 0x20U)) 
-				  >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp5[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp5[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)));
-    __Vtemp7[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-		    & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    __Vtemp7[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-		    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s);
-    __Vtemp7[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-					      ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
-			     << 0x20U) | (QData)((IData)(
-							 (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-							  | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))));
-    __Vtemp7[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+    __Vtemp15[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+		     & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
+    __Vtemp15[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+		     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s);
+    __Vtemp15[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-							   | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))) 
-			    >> 0x20U));
-    __Vtemp9[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
-		    | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    __Vtemp9[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
-		    | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
-				    << 9U)) | (0x1ffU 
-					       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)));
-    __Vtemp9[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
-					       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
-					      | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
-			     << 0x20U) | (QData)((IData)(
-							 ((0xff800000U 
-							   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
-							      << 0x17U)) 
-							  | (0x7fffffU 
-							     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))));
-    __Vtemp9[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+							   | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))));
+    __Vtemp15[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+						^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
+			       << 0x20U) | (QData)((IData)(
+							   (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+							    | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))) 
+			     >> 0x20U));
+    __Vtemp17[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
+    __Vtemp17[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
+				     << 9U)) | (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)));
+    __Vtemp17[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -12004,8 +12020,17 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
 							       << 0x17U)) 
 							   | (0x7fffffU 
-							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))) 
-			    >> 0x20U));
+							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))));
+    __Vtemp17[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+						 & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+						| (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
+			       << 0x20U) | (QData)((IData)(
+							   ((0xff800000U 
+							     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
+								<< 0x17U)) 
+							    | (0x7fffffU 
+							       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))) 
+			     >> 0x20U));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__log_r 
 	= ((0x20000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 	    ? (((0U == (0x1fU & (((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
@@ -12023,7 +12048,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp7[
+				 << 5U))) ? 0U : (__Vtemp15[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -12078,21 +12103,21 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp7[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-				   ? (2U & ((((0x8000000U 
-					       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-					       ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z)
-					       : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c)) 
-					     << 1U) 
-					    ^ (0x7eU 
-					       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						  >> 0x19U))))
-				   : ((2U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					     >> 0x1aU)) 
-				      | (1U & (~ VL_REDXOR_32(
-							      (3U 
-							       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-								  >> 0x1aU))))))))] 
+	       | (__Vtemp15[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+				    ? (2U & ((((0x8000000U 
+						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z)
+					        : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c)) 
+					      << 1U) 
+					     ^ (0x7eU 
+						& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						   >> 0x19U))))
+				    : ((2U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					      >> 0x1aU)) 
+				       | (1U & (~ VL_REDXOR_32(
+							       (3U 
+								& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+								   >> 0x1aU))))))))] 
 		  >> (0x1fU & (((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
@@ -12110,41 +12135,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-					     ? __Vtemp9[
+					     ? __Vtemp17[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp18, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
+    __Vtemp21[0U] = __Vtemp18[0U];
+    __Vtemp21[1U] = __Vtemp18[1U];
+    __Vtemp21[2U] = __Vtemp18[2U];
+    __Vtemp21[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp18[3U]);
+    __Vtemp21[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp21[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp21[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp21[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp21[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp21[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xfff3U & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0xcU & (((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
@@ -12155,6 +12265,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					& ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 					       >> 0x17U)) 
 					   << 1U))));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xfdU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0x1ffffffeU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -12217,168 +12382,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp10, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
-    __Vtemp13[0U] = __Vtemp10[0U];
-    __Vtemp13[1U] = __Vtemp10[1U];
-    __Vtemp13[2U] = __Vtemp10[2U];
-    __Vtemp13[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp10[3U]);
-    __Vtemp13[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp13[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp13[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp13[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp13[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp13[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)));
-    __Vtemp15[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp23[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    __Vtemp15[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp23[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s);
-    __Vtemp15[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp23[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))));
-    __Vtemp15[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp23[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp17[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+    __Vtemp25[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    __Vtemp17[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+    __Vtemp25[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)));
-    __Vtemp17[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp25[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -12387,7 +12412,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))));
-    __Vtemp17[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp25[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -12414,7 +12439,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp15[
+				 << 5U))) ? 0U : (__Vtemp23[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -12469,7 +12494,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp15[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	       | (__Vtemp23[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z)
@@ -12501,41 +12526,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-					     ? __Vtemp17[
+					     ? __Vtemp25[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp26, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
+    __Vtemp29[0U] = __Vtemp26[0U];
+    __Vtemp29[1U] = __Vtemp26[1U];
+    __Vtemp29[2U] = __Vtemp26[2U];
+    __Vtemp29[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp26[3U]);
+    __Vtemp29[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp29[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp29[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp29[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp29[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp29[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xffcfU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0x30U & (((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					     ? (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
@@ -12547,6 +12657,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					& ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 					       >> 0x17U)) 
 					   << 2U))));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xfbU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0x3ffffffcU & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -12609,168 +12774,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp18, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
-    __Vtemp21[0U] = __Vtemp18[0U];
-    __Vtemp21[1U] = __Vtemp18[1U];
-    __Vtemp21[2U] = __Vtemp18[2U];
-    __Vtemp21[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp18[3U]);
-    __Vtemp21[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp21[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp21[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp21[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp21[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp21[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)));
-    __Vtemp23[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp31[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    __Vtemp23[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp31[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s);
-    __Vtemp23[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp31[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))));
-    __Vtemp23[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp31[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp25[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+    __Vtemp33[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    __Vtemp25[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+    __Vtemp33[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)));
-    __Vtemp25[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp33[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -12779,7 +12804,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))));
-    __Vtemp25[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp33[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -12806,7 +12831,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp23[
+				 << 5U))) ? 0U : (__Vtemp31[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -12861,7 +12886,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp23[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	       | (__Vtemp31[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z)
@@ -12893,41 +12918,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-					     ? __Vtemp25[
+					     ? __Vtemp33[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp34, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
+    __Vtemp37[0U] = __Vtemp34[0U];
+    __Vtemp37[1U] = __Vtemp34[1U];
+    __Vtemp37[2U] = __Vtemp34[2U];
+    __Vtemp37[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp34[3U]);
+    __Vtemp37[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp37[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp37[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp37[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp37[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp37[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xff3fU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0xc0U & (((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					     ? (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
@@ -12939,6 +13049,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					& ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 					       >> 0x17U)) 
 					   << 3U))));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xf7U & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0x7ffffff8U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -13001,168 +13166,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp26, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
-    __Vtemp29[0U] = __Vtemp26[0U];
-    __Vtemp29[1U] = __Vtemp26[1U];
-    __Vtemp29[2U] = __Vtemp26[2U];
-    __Vtemp29[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp26[3U]);
-    __Vtemp29[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp29[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp29[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp29[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp29[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp29[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)));
-    __Vtemp31[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+    __Vtemp39[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    __Vtemp31[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+    __Vtemp39[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s);
-    __Vtemp31[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+    __Vtemp39[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))));
-    __Vtemp31[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+    __Vtemp39[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp33[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+    __Vtemp41[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    __Vtemp33[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+    __Vtemp41[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
-    __Vtemp33[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp41[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -13171,7 +13196,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
-    __Vtemp33[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp41[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -13198,7 +13223,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp31[
+				 << 5U))) ? 0U : (__Vtemp39[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -13253,7 +13278,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp31[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+	       | (__Vtemp39[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z)
@@ -13285,41 +13310,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-					     ? __Vtemp33[
+					     ? __Vtemp41[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp42, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
+    __Vtemp45[0U] = __Vtemp42[0U];
+    __Vtemp45[1U] = __Vtemp42[1U];
+    __Vtemp45[2U] = __Vtemp42[2U];
+    __Vtemp45[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp42[3U]);
+    __Vtemp45[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp45[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp45[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp45[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp45[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp45[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xfcffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0x300U & (((0x10U 
 					      & (IData)(vlTOPp->dig__DOT__bus_sel))
@@ -13332,6 +13442,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					   & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						  >> 0x17U)) 
 					      << 4U))));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xefU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0xfffffff0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -13393,168 +13558,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp34, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
-    __Vtemp37[0U] = __Vtemp34[0U];
-    __Vtemp37[1U] = __Vtemp34[1U];
-    __Vtemp37[2U] = __Vtemp34[2U];
-    __Vtemp37[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp34[3U]);
-    __Vtemp37[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp37[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp37[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp37[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp37[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp37[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)));
-    __Vtemp39[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp47[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    __Vtemp39[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp47[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s);
-    __Vtemp39[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp47[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))));
-    __Vtemp39[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp47[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp41[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+    __Vtemp49[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    __Vtemp41[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+    __Vtemp49[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)));
-    __Vtemp41[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp49[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -13563,7 +13588,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))));
-    __Vtemp41[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp49[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -13590,7 +13615,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp39[
+				 << 5U))) ? 0U : (__Vtemp47[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -13645,7 +13670,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp39[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	       | (__Vtemp47[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z)
@@ -13677,41 +13702,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-					     ? __Vtemp41[
+					     ? __Vtemp49[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp50, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
+    __Vtemp53[0U] = __Vtemp50[0U];
+    __Vtemp53[1U] = __Vtemp50[1U];
+    __Vtemp53[2U] = __Vtemp50[2U];
+    __Vtemp53[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp50[3U]);
+    __Vtemp53[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp53[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp53[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp53[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp53[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp53[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xf3ffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0xc00U & (((0x20U 
 					      & (IData)(vlTOPp->dig__DOT__bus_sel))
@@ -13724,6 +13834,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					   & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						  >> 0x17U)) 
 					      << 5U))));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xdfU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0xffffffe0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -13786,168 +13951,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp42, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
-    __Vtemp45[0U] = __Vtemp42[0U];
-    __Vtemp45[1U] = __Vtemp42[1U];
-    __Vtemp45[2U] = __Vtemp42[2U];
-    __Vtemp45[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp42[3U]);
-    __Vtemp45[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp45[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp45[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp45[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp45[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp45[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)));
-    __Vtemp47[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp55[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    __Vtemp47[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp55[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s);
-    __Vtemp47[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp55[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))));
-    __Vtemp47[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp55[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp49[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+    __Vtemp57[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    __Vtemp49[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+    __Vtemp57[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)));
-    __Vtemp49[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp57[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -13956,7 +13981,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))));
-    __Vtemp49[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp57[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -13983,7 +14008,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp47[
+				 << 5U))) ? 0U : (__Vtemp55[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -14038,7 +14063,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp47[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	       | (__Vtemp55[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z)
@@ -14070,41 +14095,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-					     ? __Vtemp49[
+					     ? __Vtemp57[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp58, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
+    __Vtemp61[0U] = __Vtemp58[0U];
+    __Vtemp61[1U] = __Vtemp58[1U];
+    __Vtemp61[2U] = __Vtemp58[2U];
+    __Vtemp61[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp58[3U]);
+    __Vtemp61[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp61[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp61[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp61[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp61[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp61[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0xcfffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0x3000U & (((0x40U 
 					       & (IData)(vlTOPp->dig__DOT__bus_sel))
@@ -14117,6 +14227,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					   & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						  >> 0x17U)) 
 					      << 6U))));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0xbfU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0xffffffc0U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -14179,168 +14344,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp50, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
-    __Vtemp53[0U] = __Vtemp50[0U];
-    __Vtemp53[1U] = __Vtemp50[1U];
-    __Vtemp53[2U] = __Vtemp50[2U];
-    __Vtemp53[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp50[3U]);
-    __Vtemp53[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp53[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp53[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp53[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp53[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp53[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)));
-    __Vtemp55[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp63[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    __Vtemp55[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp63[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s);
-    __Vtemp55[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp63[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))));
-    __Vtemp55[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp63[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp57[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+    __Vtemp65[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    __Vtemp57[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+    __Vtemp65[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)));
-    __Vtemp57[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp65[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -14349,7 +14374,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))));
-    __Vtemp57[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp65[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -14376,7 +14401,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp55[
+				 << 5U))) ? 0U : (__Vtemp63[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -14431,7 +14456,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp55[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	       | (__Vtemp63[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z)
@@ -14463,41 +14488,126 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-					     ? __Vtemp57[
+					     ? __Vtemp65[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp66, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
+    __Vtemp69[0U] = __Vtemp66[0U];
+    __Vtemp69[1U] = __Vtemp66[1U];
+    __Vtemp69[2U] = __Vtemp66[2U];
+    __Vtemp69[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp66[3U]);
+    __Vtemp69[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp69[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp69[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp69[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp69[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp69[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)));
     vlTOPp->dig__DOT__bus_s = ((0x3fffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
 			       | (0xc000U & (((0x80U 
 					       & (IData)(vlTOPp->dig__DOT__bus_sel))
@@ -14510,6 +14620,61 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 					   & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						  >> 0x17U)) 
 					      << 7U))));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sx 
+	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
+	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr 
+			      >> 0xcU)) : ((0x1f1U 
+					    == (0x1ffU 
+						& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
+					    ? vlTOPp->dig__DOT__cnt
+					    : ((0x1f2U 
+						== 
+						(0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
+					        ? vlTOPp->pin_in
+					        : (
+						   (0x1fcU 
+						    == 
+						    (0x1ffU 
+						     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
+						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa)
+						    : 
+						   ((0x1fdU 
+						     == 
+						     (0x1ffU 
+						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
+						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb)
+						     : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy))))));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__bus_e = ((0x7fU & (IData)(vlTOPp->dig__DOT__bus_e)) 
 			       | (0xffffff80U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
 						 & (((0U 
@@ -14572,168 +14737,28 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sx 
-	= ((0x400000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-	    ? (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-	    : ((0x1f0U == (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
-	        ? (0xfffcU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr 
-			      >> 0xcU)) : ((0x1f1U 
-					    == (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
-					    ? vlTOPp->dig__DOT__cnt
-					    : ((0x1f2U 
-						== 
-						(0x1ffU 
-						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
-					        ? vlTOPp->pin_in
-					        : (
-						   (0x1fcU 
-						    == 
-						    (0x1ffU 
-						     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
-						    ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa)
-						    : 
-						   ((0x1fdU 
-						     == 
-						     (0x1ffU 
-						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i))
-						     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb)
-						     : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy))))));
-    VL_EXTEND_WQ(124,62, __Vtemp58, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
-    __Vtemp61[0U] = __Vtemp58[0U];
-    __Vtemp61[1U] = __Vtemp58[1U];
-    __Vtemp61[2U] = __Vtemp58[2U];
-    __Vtemp61[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp58[3U]);
-    __Vtemp61[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp61[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp61[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp61[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp61[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp61[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)));
-    __Vtemp63[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp71[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    __Vtemp63[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp71[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s);
-    __Vtemp63[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp71[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))));
-    __Vtemp63[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp71[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp65[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+    __Vtemp73[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    __Vtemp65[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+    __Vtemp73[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)));
-    __Vtemp65[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp73[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -14742,7 +14767,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))));
-    __Vtemp65[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp73[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -14769,7 +14794,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp63[
+				 << 5U))) ? 0U : (__Vtemp71[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -14824,7 +14849,7 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp63[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	       | (__Vtemp71[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z)
@@ -14856,45 +14881,130 @@ void Vdig::_settle__TOP__92(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-					     ? __Vtemp65[
+					     ? __Vtemp73[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp74, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
+    __Vtemp77[0U] = __Vtemp74[0U];
+    __Vtemp77[1U] = __Vtemp74[1U];
+    __Vtemp77[2U] = __Vtemp74[2U];
+    __Vtemp77[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp74[3U]);
+    __Vtemp77[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp77[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp77[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp77[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp77[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp77[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)));
 }
 
-VL_INLINE_OPT void Vdig::_combo__TOP__93(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__93\n"); );
+VL_INLINE_OPT void Vdig::_combo__TOP__94(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__94\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->pin_out = (((((((vlTOPp->dig__DOT__outx[7U] 
@@ -15123,8 +15233,8 @@ VL_INLINE_OPT void Vdig::_combo__TOP__93(Vdig__Syms* __restrict vlSymsp) {
 						     : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy))))));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__94(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__94\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__95(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__95\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xfffcU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -15145,16 +15255,44 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__94(Vdig__Syms* __restrict vlSymsp) {
 					>> 4U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__95\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__96(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__96\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    //char	__VpadToAlign2932[4];
-    VL_SIGW(__Vtemp66,127,0,4);
-    VL_SIGW(__Vtemp69,255,0,8);
-    VL_SIGW(__Vtemp71,127,0,4);
-    VL_SIGW(__Vtemp73,127,0,4);
+    //char	__VpadToAlign3316[4];
+    VL_SIGW(__Vtemp79,127,0,4);
+    VL_SIGW(__Vtemp81,127,0,4);
+    VL_SIGW(__Vtemp82,127,0,4);
+    VL_SIGW(__Vtemp85,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -15207,141 +15345,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp66, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
-    __Vtemp69[0U] = __Vtemp66[0U];
-    __Vtemp69[1U] = __Vtemp66[1U];
-    __Vtemp69[2U] = __Vtemp66[2U];
-    __Vtemp69[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp66[3U]);
-    __Vtemp69[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp69[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp69[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp69[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp69[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp69[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)));
-    __Vtemp71[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+    __Vtemp79[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    __Vtemp71[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+    __Vtemp79[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s);
-    __Vtemp71[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+    __Vtemp79[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))));
-    __Vtemp71[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+    __Vtemp79[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp73[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+    __Vtemp81[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    __Vtemp73[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+    __Vtemp81[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)));
-    __Vtemp73[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp81[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -15350,7 +15375,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))));
-    __Vtemp73[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp81[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -15377,7 +15402,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp71[
+				 << 5U))) ? 0U : (__Vtemp79[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -15432,7 +15457,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp71[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+	       | (__Vtemp79[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z)
@@ -15464,41 +15489,132 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
-					     ? __Vtemp73[
+					     ? __Vtemp81[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp82, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
+    __Vtemp85[0U] = __Vtemp82[0U];
+    __Vtemp85[1U] = __Vtemp82[1U];
+    __Vtemp85[2U] = __Vtemp82[2U];
+    __Vtemp85[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp82[3U]);
+    __Vtemp85[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp85[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp85[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp85[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp85[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp85[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
@@ -15508,12 +15624,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -15525,8 +15635,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__96(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__96\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__97(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__97\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xfff3U & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -15551,15 +15661,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__96(Vdig__Syms* __restrict vlSymsp) {
 						       >> 3U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__97\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__98(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__98\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp74,127,0,4);
-    VL_SIGW(__Vtemp77,255,0,8);
-    VL_SIGW(__Vtemp79,127,0,4);
-    VL_SIGW(__Vtemp81,127,0,4);
+    VL_SIGW(__Vtemp87,127,0,4);
+    VL_SIGW(__Vtemp89,127,0,4);
+    VL_SIGW(__Vtemp90,127,0,4);
+    VL_SIGW(__Vtemp93,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -15612,141 +15750,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp74, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
-    __Vtemp77[0U] = __Vtemp74[0U];
-    __Vtemp77[1U] = __Vtemp74[1U];
-    __Vtemp77[2U] = __Vtemp74[2U];
-    __Vtemp77[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp74[3U]);
-    __Vtemp77[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp77[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp77[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp77[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp77[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp77[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)));
-    __Vtemp79[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp87[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    __Vtemp79[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp87[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s);
-    __Vtemp79[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp87[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))));
-    __Vtemp79[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+    __Vtemp87[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp81[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+    __Vtemp89[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    __Vtemp81[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+    __Vtemp89[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)));
-    __Vtemp81[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp89[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -15755,7 +15780,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))));
-    __Vtemp81[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp89[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -15782,7 +15807,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp79[
+				 << 5U))) ? 0U : (__Vtemp87[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -15837,7 +15862,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp79[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	       | (__Vtemp87[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z)
@@ -15869,41 +15894,132 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
-					     ? __Vtemp81[
+					     ? __Vtemp89[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp90, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
+    __Vtemp93[0U] = __Vtemp90[0U];
+    __Vtemp93[1U] = __Vtemp90[1U];
+    __Vtemp93[2U] = __Vtemp90[2U];
+    __Vtemp93[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+				     << 0x1cU)) | __Vtemp90[3U]);
+    __Vtemp93[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+				     << 0x1bU)) | (0x7ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+						      >> 4U)));
+    __Vtemp93[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     << 0x1aU)) | (0x3ffffffU 
+						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+						      >> 5U)));
+    __Vtemp93[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				    >> 6U)) | (0xfc000000U 
+					       & ((IData)(
+							  ((QData)((IData)(
+									   (0x7fffffffU 
+									    & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							   >> 0x20U)) 
+						  << 0x1aU)));
+    __Vtemp93[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							    (0x7fffffffU 
+							     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					    >> 0x20U)) 
+				   >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp93[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp93[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
@@ -15913,12 +16029,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -15930,8 +16040,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__98(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__98\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__99(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__99\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xffcfU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -15957,15 +16067,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__98(Vdig__Syms* __restrict vlSymsp) {
 						       >> 2U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__99\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__100(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__100\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp82,127,0,4);
-    VL_SIGW(__Vtemp85,255,0,8);
-    VL_SIGW(__Vtemp87,127,0,4);
-    VL_SIGW(__Vtemp89,127,0,4);
+    VL_SIGW(__Vtemp95,127,0,4);
+    VL_SIGW(__Vtemp97,127,0,4);
+    VL_SIGW(__Vtemp98,127,0,4);
+    VL_SIGW(__Vtemp101,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -16018,141 +16156,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp82, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
-    __Vtemp85[0U] = __Vtemp82[0U];
-    __Vtemp85[1U] = __Vtemp82[1U];
-    __Vtemp85[2U] = __Vtemp82[2U];
-    __Vtemp85[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp82[3U]);
-    __Vtemp85[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp85[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp85[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp85[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp85[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp85[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)));
-    __Vtemp87[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp95[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 		     & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    __Vtemp87[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp95[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 		     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s);
-    __Vtemp87[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp95[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 					       ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 			      << 0x20U) | (QData)((IData)(
 							  (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 							   | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))));
-    __Vtemp87[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+    __Vtemp95[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))) 
 			     >> 0x20U));
-    __Vtemp89[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+    __Vtemp97[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    __Vtemp89[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+    __Vtemp97[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
 				     << 9U)) | (0x1ffU 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)));
-    __Vtemp89[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp97[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
 			      << 0x20U) | (QData)((IData)(
@@ -16161,7 +16186,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 							       << 0x17U)) 
 							   | (0x7fffffU 
 							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))));
-    __Vtemp89[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp97[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -16188,7 +16213,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp87[
+				 << 5U))) ? 0U : (__Vtemp95[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -16243,7 +16268,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp87[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	       | (__Vtemp95[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 				    ? (2U & ((((0x8000000U 
 						& vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z)
@@ -16275,41 +16300,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
-					     ? __Vtemp89[
+					     ? __Vtemp97[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp98, (((QData)((IData)(
+						      (0x7fffffffU 
+						       & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				      << 0x1fU) | (QData)((IData)(
+								  (0x7fffffffU 
+								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
+    __Vtemp101[0U] = __Vtemp98[0U];
+    __Vtemp101[1U] = __Vtemp98[1U];
+    __Vtemp101[2U] = __Vtemp98[2U];
+    __Vtemp101[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp98[3U]);
+    __Vtemp101[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp101[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp101[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp101[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp101[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp101[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
@@ -16319,12 +16436,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -16336,8 +16447,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__100(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__100\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__101(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__101\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xff3fU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -16363,15 +16474,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__100(Vdig__Syms* __restrict vlSymsp) {
 						       >> 1U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__101\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__102(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__102\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp90,127,0,4);
-    VL_SIGW(__Vtemp93,255,0,8);
-    VL_SIGW(__Vtemp95,127,0,4);
-    VL_SIGW(__Vtemp97,127,0,4);
+    VL_SIGW(__Vtemp103,127,0,4);
+    VL_SIGW(__Vtemp105,127,0,4);
+    VL_SIGW(__Vtemp106,127,0,4);
+    VL_SIGW(__Vtemp109,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -16424,150 +16563,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp90, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
-    __Vtemp93[0U] = __Vtemp90[0U];
-    __Vtemp93[1U] = __Vtemp90[1U];
-    __Vtemp93[2U] = __Vtemp90[2U];
-    __Vtemp93[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-				     << 0x1cU)) | __Vtemp90[3U]);
-    __Vtemp93[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-				     << 0x1bU)) | (0x7ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-						      >> 4U)));
-    __Vtemp93[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     << 0x1aU)) | (0x3ffffffU 
-						   & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
-						      >> 5U)));
-    __Vtemp93[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				    >> 6U)) | (0xfc000000U 
-					       & ((IData)(
-							  ((QData)((IData)(
-									   (0x7fffffffU 
-									    & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							   >> 0x20U)) 
-						  << 0x1aU)));
-    __Vtemp93[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							    (0x7fffffffU 
-							     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					    >> 0x20U)) 
-				   >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp93[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp93[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)));
-    __Vtemp95[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-		     & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    __Vtemp95[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-		     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s);
-    __Vtemp95[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-					       ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
-			      << 0x20U) | (QData)((IData)(
-							  (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-							   | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))));
-    __Vtemp95[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+    __Vtemp103[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+		      & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
+    __Vtemp103[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+		      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s);
+    __Vtemp103[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
-							    | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))) 
-			     >> 0x20U));
-    __Vtemp97[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-		     | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    __Vtemp97[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-		     | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-				     << 9U)) | (0x1ffU 
-						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
-    __Vtemp97[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
-						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
-					       | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
-			      << 0x20U) | (QData)((IData)(
-							  ((0xff800000U 
-							    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-							       << 0x17U)) 
-							   | (0x7fffffU 
-							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
-    __Vtemp97[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+							    | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))));
+    __Vtemp103[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+						 ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
+				<< 0x20U) | (QData)((IData)(
+							    (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+							     | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))) 
+			      >> 0x20U));
+    __Vtemp105[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+		      | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
+    __Vtemp105[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+		      | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
+				      << 9U)) | (0x1ffU 
+						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
+    __Vtemp105[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -16575,8 +16592,17 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 							     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 								<< 0x17U)) 
 							    | (0x7fffffU 
-							       & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))) 
-			     >> 0x20U));
+							       & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
+    __Vtemp105[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+						  & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
+				<< 0x20U) | (QData)((IData)(
+							    ((0xff800000U 
+							      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
+								 << 0x17U)) 
+							     | (0x7fffffU 
+								& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))) 
+			      >> 0x20U));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__log_r 
 	= ((0x20000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 	    ? (((0U == (0x1fU & (((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
@@ -16594,7 +16620,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp95[
+				 << 5U))) ? 0U : (__Vtemp103[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -16649,21 +16675,22 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp95[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-				    ? (2U & ((((0x8000000U 
-						& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-					        ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z)
-					        : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c)) 
-					      << 1U) 
-					     ^ (0x7eU 
-						& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						   >> 0x19U))))
-				    : ((2U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					      >> 0x1aU)) 
-				       | (1U & (~ VL_REDXOR_32(
-							       (3U 
-								& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-								   >> 0x1aU))))))))] 
+	       | (__Vtemp103[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+				     ? (2U & ((((0x8000000U 
+						 & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+						 ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z)
+						 : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c)) 
+					       << 1U) 
+					      ^ (0x7eU 
+						 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						    >> 0x19U))))
+				     : ((2U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)) 
+					| (1U & (~ 
+						 VL_REDXOR_32(
+							      (3U 
+							       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+								  >> 0x1aU))))))))] 
 		  >> (0x1fU & (((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
@@ -16681,41 +16708,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
-					     ? __Vtemp97[
+					     ? __Vtemp105[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp106, (((QData)((IData)(
+						       (0x7fffffffU 
+							& vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				       << 0x1fU) | (QData)((IData)(
+								   (0x7fffffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
+    __Vtemp109[0U] = __Vtemp106[0U];
+    __Vtemp109[1U] = __Vtemp106[1U];
+    __Vtemp109[2U] = __Vtemp106[2U];
+    __Vtemp109[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp106[3U]);
+    __Vtemp109[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp109[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp109[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp109[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp109[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp109[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
@@ -16725,12 +16844,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -16742,8 +16855,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__102(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__102\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__103(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__103\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xfcffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -16769,15 +16882,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__102(Vdig__Syms* __restrict vlSymsp) {
 						    & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__103\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__104(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__104\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp98,127,0,4);
-    VL_SIGW(__Vtemp101,255,0,8);
-    VL_SIGW(__Vtemp103,127,0,4);
-    VL_SIGW(__Vtemp105,127,0,4);
+    VL_SIGW(__Vtemp111,127,0,4);
+    VL_SIGW(__Vtemp113,127,0,4);
+    VL_SIGW(__Vtemp114,127,0,4);
+    VL_SIGW(__Vtemp117,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -16830,142 +16971,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp98, (((QData)((IData)(
-						      (0x7fffffffU 
-						       & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				      << 0x1fU) | (QData)((IData)(
-								  (0x7fffffffU 
-								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
-    __Vtemp101[0U] = __Vtemp98[0U];
-    __Vtemp101[1U] = __Vtemp98[1U];
-    __Vtemp101[2U] = __Vtemp98[2U];
-    __Vtemp101[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				      << 0x1cU)) | 
-		      __Vtemp98[3U]);
-    __Vtemp101[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				      << 0x1bU)) | 
-		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				     >> 4U)));
-    __Vtemp101[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							      (0x7fffffffU 
-							       & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				      << 0x1aU)) | 
-		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
-				     >> 5U)));
-    __Vtemp101[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     >> 6U)) | (0xfc000000U 
-						& ((IData)(
-							   ((QData)((IData)(
-									    (0x7fffffffU 
-									     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							    >> 0x20U)) 
-						   << 0x1aU)));
-    __Vtemp101[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					     >> 0x20U)) 
-				    >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp101[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp101[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)));
-    __Vtemp103[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp111[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 		      & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    __Vtemp103[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp111[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 		      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s);
-    __Vtemp103[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp111[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))));
-    __Vtemp103[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+    __Vtemp111[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						 ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 				<< 0x20U) | (QData)((IData)(
 							    (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 							     | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))) 
 			      >> 0x20U));
-    __Vtemp105[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+    __Vtemp113[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 		      | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    __Vtemp105[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+    __Vtemp113[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 		      | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
 				      << 9U)) | (0x1ffU 
 						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)));
-    __Vtemp105[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp113[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -16974,7 +17001,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 								<< 0x17U)) 
 							    | (0x7fffffU 
 							       & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))));
-    __Vtemp105[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp113[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						  & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
 				<< 0x20U) | (QData)((IData)(
@@ -17001,7 +17028,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp103[
+				 << 5U))) ? 0U : (__Vtemp111[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -17056,7 +17083,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp103[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	       | (__Vtemp111[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 				     ? (2U & ((((0x8000000U 
 						 & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 						 ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z)
@@ -17089,41 +17116,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
-					     ? __Vtemp105[
+					     ? __Vtemp113[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp114, (((QData)((IData)(
+						       (0x7fffffffU 
+							& vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				       << 0x1fU) | (QData)((IData)(
+								   (0x7fffffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
+    __Vtemp117[0U] = __Vtemp114[0U];
+    __Vtemp117[1U] = __Vtemp114[1U];
+    __Vtemp117[2U] = __Vtemp114[2U];
+    __Vtemp117[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp114[3U]);
+    __Vtemp117[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp117[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp117[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp117[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp117[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp117[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
@@ -17133,12 +17252,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -17150,8 +17263,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__104(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__104\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__105(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__105\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xf3ffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -17178,15 +17291,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__104(Vdig__Syms* __restrict vlSymsp) {
 						       << 1U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__105\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__106(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__106\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp106,127,0,4);
-    VL_SIGW(__Vtemp109,255,0,8);
-    VL_SIGW(__Vtemp111,127,0,4);
-    VL_SIGW(__Vtemp113,127,0,4);
+    VL_SIGW(__Vtemp119,127,0,4);
+    VL_SIGW(__Vtemp121,127,0,4);
+    VL_SIGW(__Vtemp122,127,0,4);
+    VL_SIGW(__Vtemp125,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -17239,142 +17380,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp106, (((QData)((IData)(
-						       (0x7fffffffU 
-							& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				       << 0x1fU) | (QData)((IData)(
-								   (0x7fffffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
-    __Vtemp109[0U] = __Vtemp106[0U];
-    __Vtemp109[1U] = __Vtemp106[1U];
-    __Vtemp109[2U] = __Vtemp106[2U];
-    __Vtemp109[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				      << 0x1cU)) | 
-		      __Vtemp106[3U]);
-    __Vtemp109[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				      << 0x1bU)) | 
-		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				     >> 4U)));
-    __Vtemp109[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							      (0x7fffffffU 
-							       & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				      << 0x1aU)) | 
-		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
-				     >> 5U)));
-    __Vtemp109[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     >> 6U)) | (0xfc000000U 
-						& ((IData)(
-							   ((QData)((IData)(
-									    (0x7fffffffU 
-									     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							    >> 0x20U)) 
-						   << 0x1aU)));
-    __Vtemp109[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					     >> 0x20U)) 
-				    >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp109[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp109[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)));
-    __Vtemp111[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp119[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 		      & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    __Vtemp111[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp119[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 		      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s);
-    __Vtemp111[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp119[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))));
-    __Vtemp111[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+    __Vtemp119[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						 ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 				<< 0x20U) | (QData)((IData)(
 							    (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 							     | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))) 
 			      >> 0x20U));
-    __Vtemp113[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+    __Vtemp121[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 		      | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    __Vtemp113[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+    __Vtemp121[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 		      | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
 				      << 9U)) | (0x1ffU 
 						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)));
-    __Vtemp113[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp121[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -17383,7 +17410,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 								<< 0x17U)) 
 							    | (0x7fffffU 
 							       & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))));
-    __Vtemp113[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp121[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						  & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
 				<< 0x20U) | (QData)((IData)(
@@ -17410,7 +17437,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp111[
+				 << 5U))) ? 0U : (__Vtemp119[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -17465,7 +17492,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp111[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	       | (__Vtemp119[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 				     ? (2U & ((((0x8000000U 
 						 & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 						 ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z)
@@ -17498,41 +17525,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
-					     ? __Vtemp113[
+					     ? __Vtemp121[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp122, (((QData)((IData)(
+						       (0x7fffffffU 
+							& vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				       << 0x1fU) | (QData)((IData)(
+								   (0x7fffffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
+    __Vtemp125[0U] = __Vtemp122[0U];
+    __Vtemp125[1U] = __Vtemp122[1U];
+    __Vtemp125[2U] = __Vtemp122[2U];
+    __Vtemp125[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp122[3U]);
+    __Vtemp125[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp125[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp125[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp125[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp125[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp125[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
@@ -17542,12 +17661,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -17559,8 +17672,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__106(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__106\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__107(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__107\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0xcfffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -17587,15 +17700,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__106(Vdig__Syms* __restrict vlSymsp) {
 						       << 2U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__107\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__108(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__108\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp114,127,0,4);
-    VL_SIGW(__Vtemp117,255,0,8);
-    VL_SIGW(__Vtemp119,127,0,4);
-    VL_SIGW(__Vtemp121,127,0,4);
+    VL_SIGW(__Vtemp127,127,0,4);
+    VL_SIGW(__Vtemp129,127,0,4);
+    VL_SIGW(__Vtemp130,127,0,4);
+    VL_SIGW(__Vtemp133,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -17648,142 +17789,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp114, (((QData)((IData)(
-						       (0x7fffffffU 
-							& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				       << 0x1fU) | (QData)((IData)(
-								   (0x7fffffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
-    __Vtemp117[0U] = __Vtemp114[0U];
-    __Vtemp117[1U] = __Vtemp114[1U];
-    __Vtemp117[2U] = __Vtemp114[2U];
-    __Vtemp117[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				      << 0x1cU)) | 
-		      __Vtemp114[3U]);
-    __Vtemp117[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				      << 0x1bU)) | 
-		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				     >> 4U)));
-    __Vtemp117[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							      (0x7fffffffU 
-							       & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				      << 0x1aU)) | 
-		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
-				     >> 5U)));
-    __Vtemp117[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     >> 6U)) | (0xfc000000U 
-						& ((IData)(
-							   ((QData)((IData)(
-									    (0x7fffffffU 
-									     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							    >> 0x20U)) 
-						   << 0x1aU)));
-    __Vtemp117[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					     >> 0x20U)) 
-				    >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp117[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp117[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)));
-    __Vtemp119[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp127[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 		      & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    __Vtemp119[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp127[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 		      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s);
-    __Vtemp119[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp127[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))));
-    __Vtemp119[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+    __Vtemp127[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						 ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 				<< 0x20U) | (QData)((IData)(
 							    (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 							     | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))) 
 			      >> 0x20U));
-    __Vtemp121[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+    __Vtemp129[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 		      | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    __Vtemp121[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+    __Vtemp129[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 		      | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
 				      << 9U)) | (0x1ffU 
 						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)));
-    __Vtemp121[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp129[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -17792,7 +17819,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 								<< 0x17U)) 
 							    | (0x7fffffU 
 							       & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))));
-    __Vtemp121[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp129[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						  & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
 				<< 0x20U) | (QData)((IData)(
@@ -17819,7 +17846,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp119[
+				 << 5U))) ? 0U : (__Vtemp127[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -17874,7 +17901,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp119[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	       | (__Vtemp127[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 				     ? (2U & ((((0x8000000U 
 						 & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 						 ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z)
@@ -17907,41 +17934,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
-					     ? __Vtemp121[
+					     ? __Vtemp129[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp130, (((QData)((IData)(
+						       (0x7fffffffU 
+							& vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				       << 0x1fU) | (QData)((IData)(
+								   (0x7fffffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
+    __Vtemp133[0U] = __Vtemp130[0U];
+    __Vtemp133[1U] = __Vtemp130[1U];
+    __Vtemp133[2U] = __Vtemp130[2U];
+    __Vtemp133[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp130[3U]);
+    __Vtemp133[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp133[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp133[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp133[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp133[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp133[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
@@ -17951,12 +18070,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -17968,8 +18081,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
 }
 
-VL_INLINE_OPT void Vdig::_multiclk__TOP__108(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__108\n"); );
+VL_INLINE_OPT void Vdig::_multiclk__TOP__109(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_multiclk__TOP__109\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__bus_s = ((0x3fffU & (IData)(vlTOPp->dig__DOT__bus_s)) 
@@ -17996,15 +18109,43 @@ VL_INLINE_OPT void Vdig::_multiclk__TOP__108(Vdig__Syms* __restrict vlSymsp) {
 						       << 3U)))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__109\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__110(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__110\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    VL_SIGW(__Vtemp122,127,0,4);
-    VL_SIGW(__Vtemp125,255,0,8);
-    VL_SIGW(__Vtemp127,127,0,4);
-    VL_SIGW(__Vtemp129,127,0,4);
+    VL_SIGW(__Vtemp135,127,0,4);
+    VL_SIGW(__Vtemp137,127,0,4);
+    VL_SIGW(__Vtemp138,127,0,4);
+    VL_SIGW(__Vtemp141,255,0,8);
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond 
+	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
+						  << 1U) 
+						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z))))) 
+		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel))));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
+	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
+						 << 3U) 
+						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
+						    << 2U) 
+						   | (2U 
+						      & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
+							 >> 0x1eU)))) 
+					       >> (3U 
+						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						      >> 0x1bU))) 
+					      ^ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						 >> 0x1aU))
+		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					      >> 0x1aU))) 
+			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						>> 0x1aU)))) 
+			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					       >> 0x1aU)))) 
+			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					    >> 0x1cU)))))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__jumpx 
 	= ((0x17U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 			       >> 0x1aU))) ? 2U : (
@@ -18057,142 +18198,28 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 									     >> 1U))))) 
 							     & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))))
 						      : 0U))));
-    VL_EXTEND_WQ(124,62, __Vtemp122, (((QData)((IData)(
-						       (0x7fffffffU 
-							& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
-				       << 0x1fU) | (QData)((IData)(
-								   (0x7fffffffU 
-								    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
-    __Vtemp125[0U] = __Vtemp122[0U];
-    __Vtemp125[1U] = __Vtemp122[1U];
-    __Vtemp125[2U] = __Vtemp122[2U];
-    __Vtemp125[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				      << 0x1cU)) | 
-		      __Vtemp122[3U]);
-    __Vtemp125[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				      << 0x1bU)) | 
-		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				     >> 4U)));
-    __Vtemp125[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
-							      (0x7fffffffU 
-							       & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				      << 0x1aU)) | 
-		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
-				     >> 5U)));
-    __Vtemp125[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU)))))))) 
-				     >> 6U)) | (0xfc000000U 
-						& ((IData)(
-							   ((QData)((IData)(
-									    (0x7fffffffU 
-									     & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-							    >> 0x20U)) 
-						   << 0x1aU)));
-    __Vtemp125[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
-							     (0x7fffffffU 
-							      & VL_NEGATE_I((IData)(
-										(1U 
-										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
-										>> 0x1fU))))))) 
-					     >> 0x20U)) 
-				    >> 6U));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__rot 
-	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
-							   (0x7fffffffU 
-							    & ((0xf7U 
-								>= 
-								(0xffU 
-								 & ((IData)(0x1fU) 
-								    * 
-								    (7U 
-								     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									>> 0x1aU)))))
-							        ? 
-							       (((0U 
-								  == 
-								  (0x1fU 
-								   & ((IData)(0x1fU) 
-								      * 
-								      (7U 
-								       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									  >> 0x1aU)))))
-								  ? 0U
-								  : 
-								 (__Vtemp125[
-								  ((IData)(1U) 
-								   + 
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U)))] 
-								  << 
-								  ((IData)(0x20U) 
-								   - 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))) 
-								| (__Vtemp125[
-								   (7U 
-								    & (((IData)(0x1fU) 
-									* 
-									(7U 
-									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									    >> 0x1aU))) 
-								       >> 5U))] 
-								   >> 
-								   (0x1fU 
-								    & ((IData)(0x1fU) 
-								       * 
-								       (7U 
-									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-									   >> 0x1aU))))))
-							        : 0U)))) 
-					   << 0x20U) 
-					  | (QData)((IData)(
-							    ((0x4000000U 
-							      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-							      ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr
-							      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))) 
-					 >> (0x1fU 
-					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)));
-    __Vtemp127[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp135[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 		      & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    __Vtemp127[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp135[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 		      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s);
-    __Vtemp127[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp135[2U] = (IData)((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 			       << 0x20U) | (QData)((IData)(
 							   (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 							    | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))));
-    __Vtemp127[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+    __Vtemp135[3U] = (IData)(((((QData)((IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						 ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 				<< 0x20U) | (QData)((IData)(
 							    (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 							     | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))) 
 			      >> 0x20U));
-    __Vtemp129[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+    __Vtemp137[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 		      | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    __Vtemp129[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+    __Vtemp137[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 		      | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
 				      << 9U)) | (0x1ffU 
 						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)));
-    __Vtemp129[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
+    __Vtemp137[2U] = (IData)((((QData)((IData)(((0xfffffe00U 
 						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 						| (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
 			       << 0x20U) | (QData)((IData)(
@@ -18201,7 +18228,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 								<< 0x17U)) 
 							    | (0x7fffffU 
 							       & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))));
-    __Vtemp129[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
+    __Vtemp137[3U] = (IData)(((((QData)((IData)(((0xfffffe00U 
 						  & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
 				<< 0x20U) | (QData)((IData)(
@@ -18228,7 +18255,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 							      (3U 
 							       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 								  >> 0x1aU))))))) 
-				 << 5U))) ? 0U : (__Vtemp127[
+				 << 5U))) ? 0U : (__Vtemp135[
 						  ((IData)(1U) 
 						   + 
 						   (3U 
@@ -18283,7 +18310,7 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 									     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 										>> 0x1aU))))))) 
 						       << 5U))))) 
-	       | (__Vtemp127[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	       | (__Vtemp135[(3U & ((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 				     ? (2U & ((((0x8000000U 
 						 & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 						 ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z)
@@ -18316,41 +18343,133 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 								>> 0x1aU))))))) 
 			       << 5U)))) : ((0x10000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
-					     ? __Vtemp129[
+					     ? __Vtemp137[
 					    (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))]
 					     : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond 
-	= (1U & ((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-		  >> (0x1fU & ((IData)(0x12U) + (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
-						  << 1U) 
-						 | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z))))) 
-		 & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_d 
 	= ((1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 			 >> 0x1dU))) ? 0U : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d);
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub 
-	= (1U & ((2U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-			       >> 0x1eU))) ? (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
-						 << 3U) 
-						| (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
-						    << 2U) 
-						   | (2U 
-						      & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
-							 >> 0x1eU)))) 
-					       >> (3U 
-						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						      >> 0x1bU))) 
-					      ^ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						 >> 0x1aU))
-		  : (~ ((((0x32U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					      >> 0x1aU))) 
-			  | (0x34U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						>> 0x1aU)))) 
-			 | (0x36U == (0x3fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					       >> 0x1aU)))) 
-			| (0xfU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					    >> 0x1cU)))))));
+    VL_EXTEND_WQ(124,62, __Vtemp138, (((QData)((IData)(
+						       (0x7fffffffU 
+							& vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
+				       << 0x1fU) | (QData)((IData)(
+								   (0x7fffffffU 
+								    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
+    __Vtemp141[0U] = __Vtemp138[0U];
+    __Vtemp141[1U] = __Vtemp138[1U];
+    __Vtemp141[2U] = __Vtemp138[2U];
+    __Vtemp141[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				      << 0x1cU)) | 
+		      __Vtemp138[3U]);
+    __Vtemp141[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				      << 0x1bU)) | 
+		      (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				     >> 4U)));
+    __Vtemp141[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+							      (0x7fffffffU 
+							       & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				      << 0x1aU)) | 
+		      (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+				     >> 5U)));
+    __Vtemp141[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU)))))))) 
+				     >> 6U)) | (0xfc000000U 
+						& ((IData)(
+							   ((QData)((IData)(
+									    (0x7fffffffU 
+									     & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+							    >> 0x20U)) 
+						   << 0x1aU)));
+    __Vtemp141[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+							     (0x7fffffffU 
+							      & VL_NEGATE_I((IData)(
+										(1U 
+										& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+										>> 0x1fU))))))) 
+					     >> 0x20U)) 
+				    >> 6U));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__rot 
+	= (VL_ULL(0x7fffffffffffffff) & ((((QData)((IData)(
+							   (0x7fffffffU 
+							    & ((0xf7U 
+								>= 
+								(0xffU 
+								 & ((IData)(0x1fU) 
+								    * 
+								    (7U 
+								     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									>> 0x1aU)))))
+							        ? 
+							       (((0U 
+								  == 
+								  (0x1fU 
+								   & ((IData)(0x1fU) 
+								      * 
+								      (7U 
+								       & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									  >> 0x1aU)))))
+								  ? 0U
+								  : 
+								 (__Vtemp141[
+								  ((IData)(1U) 
+								   + 
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U)))] 
+								  << 
+								  ((IData)(0x20U) 
+								   - 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))) 
+								| (__Vtemp141[
+								   (7U 
+								    & (((IData)(0x1fU) 
+									* 
+									(7U 
+									 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									    >> 0x1aU))) 
+								       >> 5U))] 
+								   >> 
+								   (0x1fU 
+								    & ((IData)(0x1fU) 
+								       * 
+								       (7U 
+									& (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+									   >> 0x1aU))))))
+							        : 0U)))) 
+					   << 0x20U) 
+					  | (QData)((IData)(
+							    ((0x4000000U 
+							      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+							      ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr
+							      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))) 
+					 >> (0x1fU 
+					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
@@ -18360,12 +18479,6 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18377,10 +18490,16 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp) {
 			      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
 }
 
-void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__110\n"); );
+void Vdig::_settle__TOP__111(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__111\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
@@ -18390,17 +18509,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18410,6 +18518,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
@@ -18419,17 +18538,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18439,6 +18547,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
@@ -18448,17 +18567,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18468,6 +18576,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
@@ -18477,17 +18596,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18497,6 +18605,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
@@ -18506,17 +18625,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18526,6 +18634,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
@@ -18535,17 +18654,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18555,6 +18663,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
@@ -18564,17 +18683,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18584,6 +18692,17 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__wio 
+	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
+	    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_ena 
 	= (1U & ((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
 		   | ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
@@ -18593,17 +18712,6 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 					     & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
 					    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 					       >> 0x17U))));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__px 
-	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
-		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__jumpx) 
-			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sx
-		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)));
-    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__wio 
-	= (((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-	      >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond)) 
-	    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-	       >> 0x17U)) & (0x1fU == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						>> 0xdU))));
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_s 
 	= (((0x19U == (0x1fU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 				>> 0x1aU))) | (0xdU 
@@ -18613,6 +18721,11 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 	    ? 0xffffffffU : ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub)
 			      ? (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)
 			      : vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
+    vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__px 
+	= (0x1ffU & (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
+		      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__jumpx) 
+			 >> 1U)) ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sx
+		      : (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)));
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__setphsa 
 	= ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__wio) 
 	   & (0xcU == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
@@ -19039,8 +19152,8 @@ void Vdig::_settle__TOP__110(Vdig__Syms* __restrict vlSymsp) {
 								      ^ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub))))))));
 }
 
-VL_INLINE_OPT void Vdig::_combo__TOP__111(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__111\n"); );
+VL_INLINE_OPT void Vdig::_combo__TOP__112(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_combo__TOP__112\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__px 
@@ -19141,8 +19254,8 @@ VL_INLINE_OPT void Vdig::_combo__TOP__111(Vdig__Syms* __restrict vlSymsp) {
 			     >> 9U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__112(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__112\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__113(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__113\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__setphsa 
@@ -19385,8 +19498,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__112(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__113(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__113\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__114(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__114\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__setphsa 
@@ -19629,8 +19742,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__113(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__114(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__114\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__115(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__115\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__setphsa 
@@ -19873,8 +19986,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__114(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__115(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__115\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__116(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__116\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__setphsa 
@@ -20117,8 +20230,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__115(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__116(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__116\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__117(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__117\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__setphsa 
@@ -20361,8 +20474,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__116(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__117(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__117\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__118(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__118\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__setphsa 
@@ -20605,8 +20718,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__117(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__118(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__118\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__119(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__119\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__setphsa 
@@ -20849,8 +20962,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__118(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__119(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__119\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__120(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__120\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__setphsa 
@@ -21093,8 +21206,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__119(Vdig__Syms* __restrict vlSymsp) {
 		        ? vlTOPp->dig__DOT__bus_q : 0U))));
 }
 
-void Vdig::_settle__TOP__120(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__120\n"); );
+void Vdig::_settle__TOP__121(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_settle__TOP__121\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ram_a 
@@ -22707,8 +22820,8 @@ void Vdig::_settle__TOP__120(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__121(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__121\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__122(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__122\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__alu_zo 
@@ -22722,8 +22835,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__121(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__122(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__122\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__123(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__123\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__alu_zo 
@@ -22737,8 +22850,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__122(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__123(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__123\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__124(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__124\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__alu_zo 
@@ -22752,8 +22865,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__123(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__124(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__124\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__125(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__125\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__alu_zo 
@@ -22767,8 +22880,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__124(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__125(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__125\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__126(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__126\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__alu_zo 
@@ -22782,8 +22895,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__125(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__126(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__126\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__127(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__127\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__alu_zo 
@@ -22797,8 +22910,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__126(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__127(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__127\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__128(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__128\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__alu_zo 
@@ -22812,8 +22925,8 @@ VL_INLINE_OPT void Vdig::_sequent__TOP__127(Vdig__Syms* __restrict vlSymsp) {
 				>> 0x1bU)))))));
 }
 
-VL_INLINE_OPT void Vdig::_sequent__TOP__128(Vdig__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__128\n"); );
+VL_INLINE_OPT void Vdig::_sequent__TOP__129(Vdig__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_PRINTF("    Vdig::_sequent__TOP__129\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_zo 
@@ -22833,12 +22946,12 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
     // Body
     vlTOPp->_combo__TOP__1(vlSymsp);
     vlTOPp->__Vm_traceActivity[0U] = (2U | vlTOPp->__Vm_traceActivity[0U]);
-    if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+    if (((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog)))) {
 	vlTOPp->_sequent__TOP__3(vlSymsp);
 	vlTOPp->__Vm_traceActivity[0U] = (4U | vlTOPp->__Vm_traceActivity[0U]);
     }
-    if (((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog)))) {
+    if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
 	vlTOPp->_sequent__TOP__4(vlSymsp);
 	vlTOPp->__Vm_traceActivity[0U] = (8U | vlTOPp->__Vm_traceActivity[0U]);
     }
@@ -22910,60 +23023,124 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	vlTOPp->__Vm_traceActivity[0U] = (0x4000U | 
 					  vlTOPp->__Vm_traceActivity[0U]);
     }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__18(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x8000U | 
+					  vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__19(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x10000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__20(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x20000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__21(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x40000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__22(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x80000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__23(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x100000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__24(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x200000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
+    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
+	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
+	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena))) 
+	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
+	vlTOPp->_multiclk__TOP__25(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x400000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
+    }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__18(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x8000U | 
-					  vlTOPp->__Vm_traceActivity[0U]);
+	vlTOPp->_sequent__TOP__26(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x800000U 
+					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__19(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x10000U 
+	vlTOPp->_sequent__TOP__27(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x1000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__20(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x20000U 
+	vlTOPp->_sequent__TOP__28(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x2000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__21(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x40000U 
+	vlTOPp->_sequent__TOP__29(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x4000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__22(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x80000U 
+	vlTOPp->_sequent__TOP__30(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x8000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__23(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x100000U 
+	vlTOPp->_sequent__TOP__31(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x10000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__24(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x200000U 
+	vlTOPp->_sequent__TOP__32(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x20000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__25(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x400000U 
+	vlTOPp->_sequent__TOP__33(vlSymsp);
+	vlTOPp->__Vm_traceActivity[0U] = (0x40000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if (((((((((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
@@ -22983,75 +23160,11 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_multiclk__TOP__26(vlSymsp);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__28(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x800000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__29(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x1000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__30(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x2000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__31(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x4000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__32(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x8000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__33(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x10000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
 	vlTOPp->_multiclk__TOP__34(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x20000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
-    }
-    if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
-	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
-	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena))) 
-	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__35(vlSymsp);
-	vlTOPp->__Vm_traceActivity[0U] = (0x40000000U 
-					  | vlTOPp->__Vm_traceActivity[0U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_sequent__TOP__36(vlSymsp);
+	vlTOPp->_sequent__TOP__35(vlSymsp);
 	vlTOPp->__Vm_traceActivity[0U] = (0x80000000U 
 					  | vlTOPp->__Vm_traceActivity[0U]);
     }
@@ -23111,13 +23224,13 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	vlTOPp->_multiclk__TOP__44(vlSymsp);
 	vlTOPp->__Vm_traceActivity[1U] = (0x80U | vlTOPp->__Vm_traceActivity[1U]);
     }
-    vlTOPp->_combo__TOP__46(vlSymsp);
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_sequent__TOP__47(vlSymsp);
+	vlTOPp->_sequent__TOP__45(vlSymsp);
 	vlTOPp->__Vm_traceActivity[1U] = (0x100U | 
 					  vlTOPp->__Vm_traceActivity[1U]);
     }
+    vlTOPp->_combo__TOP__47(vlSymsp);
     if ((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT____Vsenitemexpr1) 
 	  & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT____Vsenitemexpr1))) 
 	 | ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
@@ -23356,65 +23469,65 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__84(vlSymsp);
+	vlTOPp->_sequent__TOP__85(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x800U | 
 					  vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__85(vlSymsp);
+	vlTOPp->_sequent__TOP__86(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x1000U | 
 					  vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__86(vlSymsp);
+	vlTOPp->_sequent__TOP__87(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x2000U | 
 					  vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__87(vlSymsp);
+	vlTOPp->_sequent__TOP__88(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x4000U | 
 					  vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__88(vlSymsp);
+	vlTOPp->_sequent__TOP__89(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x8000U | 
 					  vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__89(vlSymsp);
+	vlTOPp->_sequent__TOP__90(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x10000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__90(vlSymsp);
+	vlTOPp->_sequent__TOP__91(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x20000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vclk) 
 	 & (~ (IData)(vlTOPp->__Vclklast__TOP__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vclk)))) {
-	vlTOPp->_sequent__TOP__91(vlSymsp);
+	vlTOPp->_sequent__TOP__92(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x40000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
-    vlTOPp->_combo__TOP__93(vlSymsp);
+    vlTOPp->_combo__TOP__94(vlSymsp);
     if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__94(vlSymsp);
+	vlTOPp->_multiclk__TOP__95(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x80000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__95(vlSymsp);
+	vlTOPp->_sequent__TOP__96(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x100000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23422,14 +23535,14 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__96(vlSymsp);
+	vlTOPp->_multiclk__TOP__97(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x200000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__97(vlSymsp);
+	vlTOPp->_sequent__TOP__98(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x400000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23437,14 +23550,14 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__98(vlSymsp);
+	vlTOPp->_multiclk__TOP__99(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x800000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__99(vlSymsp);
+	vlTOPp->_sequent__TOP__100(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x1000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23452,14 +23565,14 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__100(vlSymsp);
+	vlTOPp->_multiclk__TOP__101(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x2000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__101(vlSymsp);
+	vlTOPp->_sequent__TOP__102(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x4000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23467,14 +23580,14 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__102(vlSymsp);
+	vlTOPp->_multiclk__TOP__103(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x8000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__103(vlSymsp);
+	vlTOPp->_sequent__TOP__104(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x10000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23482,14 +23595,14 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__104(vlSymsp);
+	vlTOPp->_multiclk__TOP__105(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x20000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__105(vlSymsp);
+	vlTOPp->_sequent__TOP__106(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x40000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
@@ -23497,120 +23610,120 @@ void Vdig::_eval(Vdig__Syms* __restrict vlSymsp) {
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__106(vlSymsp);
+	vlTOPp->_multiclk__TOP__107(vlSymsp);
 	vlTOPp->__Vm_traceActivity[2U] = (0x80000000U 
 					  | vlTOPp->__Vm_traceActivity[2U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__107(vlSymsp);
+	vlTOPp->_sequent__TOP__108(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (1U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if (((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	  | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	     & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena))) 
 	 | ((~ (IData)(vlTOPp->nres)) & (IData)(vlTOPp->__Vclklast__TOP__nres)))) {
-	vlTOPp->_multiclk__TOP__108(vlSymsp);
+	vlTOPp->_multiclk__TOP__109(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (2U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__109(vlSymsp);
+	vlTOPp->_sequent__TOP__110(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (4U | vlTOPp->__Vm_traceActivity[3U]);
     }
-    vlTOPp->_combo__TOP__111(vlSymsp);
+    vlTOPp->_combo__TOP__112(vlSymsp);
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__112(vlSymsp);
+	vlTOPp->_sequent__TOP__113(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (8U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__113(vlSymsp);
+	vlTOPp->_sequent__TOP__114(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x10U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__114(vlSymsp);
+	vlTOPp->_sequent__TOP__115(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x20U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__115(vlSymsp);
+	vlTOPp->_sequent__TOP__116(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x40U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__116(vlSymsp);
+	vlTOPp->_sequent__TOP__117(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x80U | vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__117(vlSymsp);
+	vlTOPp->_sequent__TOP__118(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x100U | 
 					  vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__118(vlSymsp);
+	vlTOPp->_sequent__TOP__119(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x200U | 
 					  vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__119(vlSymsp);
+	vlTOPp->_sequent__TOP__120(vlSymsp);
 	vlTOPp->__Vm_traceActivity[3U] = (0x400U | 
 					  vlTOPp->__Vm_traceActivity[3U]);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__0__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__121(vlSymsp);
+	vlTOPp->_sequent__TOP__122(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__1__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__122(vlSymsp);
+	vlTOPp->_sequent__TOP__123(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__2__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__123(vlSymsp);
+	vlTOPp->_sequent__TOP__124(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__3__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__124(vlSymsp);
+	vlTOPp->_sequent__TOP__125(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__4__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__125(vlSymsp);
+	vlTOPp->_sequent__TOP__126(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__5__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__126(vlSymsp);
+	vlTOPp->_sequent__TOP__127(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__6__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__127(vlSymsp);
+	vlTOPp->_sequent__TOP__128(vlSymsp);
     }
     if ((((IData)(vlTOPp->clk_cog) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk_cog))) 
 	 | ((~ (IData)(vlTOPp->__VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)) 
 	    & (IData)(vlTOPp->__Vclklast__TOP____VinpClk__TOP__dig__DOT__coggen__BRA__7__KET____DOT____Vcellinp__cog___ena)))) {
-	vlTOPp->_sequent__TOP__128(vlSymsp);
+	vlTOPp->_sequent__TOP__129(vlSymsp);
     }
     // Final
     vlTOPp->__Vclklast__TOP__clk_cog = vlTOPp->clk_cog;
@@ -23686,7 +23799,8 @@ void Vdig::_eval_initial(Vdig__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_PRINTF("    Vdig::_eval_initial\n"); );
     Vdig* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->_initial__TOP__15(vlSymsp);
+    vlTOPp->_initial__TOP__14(vlSymsp);
+    vlTOPp->_initial__TOP__84(vlSymsp);
 }
 
 void Vdig::final() {
@@ -23702,13 +23816,13 @@ void Vdig::_eval_settle(Vdig__Syms* __restrict vlSymsp) {
     // Body
     vlTOPp->_combo__TOP__1(vlSymsp);
     vlTOPp->__Vm_traceActivity[0U] = (1U | vlTOPp->__Vm_traceActivity[0U]);
-    vlTOPp->_settle__TOP__14(vlSymsp);
-    vlTOPp->_settle__TOP__27(vlSymsp);
-    vlTOPp->_settle__TOP__45(vlSymsp);
+    vlTOPp->_settle__TOP__15(vlSymsp);
+    vlTOPp->_settle__TOP__36(vlSymsp);
+    vlTOPp->_settle__TOP__46(vlSymsp);
     vlTOPp->_settle__TOP__65(vlSymsp);
-    vlTOPp->_settle__TOP__92(vlSymsp);
-    vlTOPp->_settle__TOP__110(vlSymsp);
-    vlTOPp->_settle__TOP__120(vlSymsp);
+    vlTOPp->_settle__TOP__93(vlSymsp);
+    vlTOPp->_settle__TOP__111(vlSymsp);
+    vlTOPp->_settle__TOP__121(vlSymsp);
 }
 
 VL_INLINE_OPT QData Vdig::_change_request(Vdig__Syms* __restrict vlSymsp) {
@@ -23928,7 +24042,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -23998,7 +24114,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24068,7 +24186,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24138,7 +24258,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24208,7 +24330,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24278,7 +24402,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24348,7 +24474,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -24418,7 +24546,9 @@ void Vdig::_ctor_var_reset() {
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel = VL_RAND_RESET_I(1);
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__jumpx = VL_RAND_RESET_I(2);
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__match = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(16384,dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r);
+    { int __Vi0=0; for (; __Vi0<512; ++__Vi0) {
+	    dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r[__Vi0] = VL_RAND_RESET_I(32);
+    }}
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__frq = VL_RAND_RESET_I(32);
     dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__dly = VL_RAND_RESET_I(2);
@@ -25483,16 +25613,39 @@ void Vdig::_ctor_var_reset() {
     __Vtable8_dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m[127] = 0x16U;
     __Vdly__dig__DOT__cnt = VL_RAND_RESET_I(32);
     __Vdly__dig__DOT__hub___DOT__lock_state = VL_RAND_RESET_I(8);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
+    __Vdlyvdim0__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(9);
+    __Vdlyvval__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(32);
+    __Vdlyvset__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0 = VL_RAND_RESET_I(1);
     __Vdly__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc = VL_RAND_RESET_I(2);
     __Vdly__dig__DOT__ena_bus = VL_RAND_RESET_I(1);
-    __Vdly__dig__DOT__bus_sel = VL_RAND_RESET_I(8);
     __Vdly__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m = VL_RAND_RESET_I(5);
     __Vdly__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m = VL_RAND_RESET_I(5);
     __Vdly__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m = VL_RAND_RESET_I(5);

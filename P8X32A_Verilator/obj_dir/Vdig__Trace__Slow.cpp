@@ -60,97 +60,97 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     if (0 && vcdp && c) {}  // Prevent unused
     // Body
     {
-	vcdp->declBit  (c+5387,"nres",-1);
-	vcdp->declBus  (c+5388,"cfg",-1,7,0);
-	vcdp->declBit  (c+5389,"clk_cog",-1);
-	vcdp->declBit  (c+5390,"clk_pll",-1);
-	vcdp->declBus  (c+5391,"pin_in",-1,31,0);
-	vcdp->declBus  (c+5392,"pin_out",-1,31,0);
-	vcdp->declBus  (c+5393,"pin_dir",-1,31,0);
-	vcdp->declBus  (c+5394,"cog_led",-1,7,0);
-	vcdp->declBit  (c+5387,"dig nres",-1);
-	vcdp->declBus  (c+5388,"dig cfg",-1,7,0);
-	vcdp->declBit  (c+5389,"dig clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig clk_pll",-1);
-	vcdp->declBus  (c+5391,"dig pin_in",-1,31,0);
-	vcdp->declBus  (c+5392,"dig pin_out",-1,31,0);
-	vcdp->declBus  (c+5393,"dig pin_dir",-1,31,0);
-	vcdp->declBus  (c+5394,"dig cog_led",-1,7,0);
-	vcdp->declBus  (c+5395,"dig INVERT_COG_LEDS",-1,31,0);
-	vcdp->declBus  (c+5396,"dig NUMCOGS",-1,31,0);
+	vcdp->declBit  (c+1291,"nres",-1);
+	vcdp->declBus  (c+1292,"cfg",-1,7,0);
+	vcdp->declBit  (c+1293,"clk_cog",-1);
+	vcdp->declBit  (c+1294,"clk_pll",-1);
+	vcdp->declBus  (c+1295,"pin_in",-1,31,0);
+	vcdp->declBus  (c+1296,"pin_out",-1,31,0);
+	vcdp->declBus  (c+1297,"pin_dir",-1,31,0);
+	vcdp->declBus  (c+1298,"cog_led",-1,7,0);
+	vcdp->declBit  (c+1291,"dig nres",-1);
+	vcdp->declBus  (c+1292,"dig cfg",-1,7,0);
+	vcdp->declBit  (c+1293,"dig clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig clk_pll",-1);
+	vcdp->declBus  (c+1295,"dig pin_in",-1,31,0);
+	vcdp->declBus  (c+1296,"dig pin_out",-1,31,0);
+	vcdp->declBus  (c+1297,"dig pin_dir",-1,31,0);
+	vcdp->declBus  (c+1298,"dig cog_led",-1,7,0);
+	vcdp->declBus  (c+1299,"dig INVERT_COG_LEDS",-1,31,0);
+	vcdp->declBus  (c+1300,"dig NUMCOGS",-1,31,0);
 	vcdp->declBus  (c+1010,"dig cnt",-1,31,0);
 	vcdp->declBit  (c+1074,"dig ena_bus",-1);
-	vcdp->declBus  (c+993,"dig bus_sel",-1,7,0);
-	vcdp->declBus  (c+327,"dig bus_r",-1,7,0);
+	vcdp->declBus  (c+828,"dig bus_sel",-1,7,0);
+	vcdp->declBus  (c+279,"dig bus_r",-1,7,0);
 	vcdp->declBus  (c+552,"dig bus_e",-1,7,0);
 	vcdp->declBus  (c+553,"dig bus_w",-1,7,0);
 	vcdp->declBus  (c+554,"dig bus_s",-1,15,0);
 	vcdp->declArray(c+522,"dig bus_a",-1,127,0);
 	vcdp->declArray(c+527,"dig bus_d",-1,255,0);
-	vcdp->declBus  (c+763,"dig bus_q",-1,31,0);
+	vcdp->declBus  (c+742,"dig bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig bus_c",-1);
-	vcdp->declBus  (c+218,"dig bus_ack",-1,7,0);
-	vcdp->declBus  (c+340,"dig pll",-1,7,0);
+	vcdp->declBus  (c+243,"dig bus_ack",-1,7,0);
+	vcdp->declBus  (c+337,"dig pll",-1,7,0);
 	vcdp->declArray(c+1,"dig outx",-1,255,0);
-	vcdp->declArray(c+122,"dig dirx",-1,255,0);
-	vcdp->declBus  (c+369,"dig ptr_w",-1,7,0);
+	vcdp->declArray(c+147,"dig dirx",-1,255,0);
+	vcdp->declBus  (c+366,"dig ptr_w",-1,7,0);
 	vcdp->declBus  (c+1012,"dig ptr_d",-1,27,0);
-	vcdp->declBus  (c+742,"dig cog_ena",-1,7,0);
+	vcdp->declBus  (c+829,"dig cog_ena",-1,7,0);
 	// Tracing: dig i // Ignored: Verilator trace_off at ../HDL/../HDL/dig.v:95
-	vcdp->declBit  (c+328,"dig hub_bus_r",-1);
+	vcdp->declBit  (c+280,"dig hub_bus_r",-1);
 	vcdp->declBit  (c+555,"dig hub_bus_e",-1);
 	vcdp->declBit  (c+556,"dig hub_bus_w",-1);
 	vcdp->declBus  (c+557,"dig hub_bus_s",-1,1,0);
 	vcdp->declBus  (c+526,"dig hub_bus_a",-1,15,0);
 	vcdp->declBus  (c+535,"dig hub_bus_d",-1,31,0);
-	vcdp->declBit  (c+5389,"dig hub_ clk_cog",-1);
+	vcdp->declBit  (c+1293,"dig hub_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig hub_ ena_bus",-1);
-	vcdp->declBit  (c+5387,"dig hub_ nres",-1);
-	vcdp->declBus  (c+993,"dig hub_ bus_sel",-1,7,0);
-	vcdp->declBit  (c+328,"dig hub_ bus_r",-1);
+	vcdp->declBit  (c+1291,"dig hub_ nres",-1);
+	vcdp->declBus  (c+828,"dig hub_ bus_sel",-1,7,0);
+	vcdp->declBit  (c+280,"dig hub_ bus_r",-1);
 	vcdp->declBit  (c+555,"dig hub_ bus_e",-1);
 	vcdp->declBit  (c+556,"dig hub_ bus_w",-1);
 	vcdp->declBus  (c+557,"dig hub_ bus_s",-1,1,0);
 	vcdp->declBus  (c+526,"dig hub_ bus_a",-1,15,0);
 	vcdp->declBus  (c+535,"dig hub_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig hub_ bus_q",-1,31,0);
+	vcdp->declBus  (c+742,"dig hub_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig hub_ bus_c",-1);
-	vcdp->declBus  (c+218,"dig hub_ bus_ack",-1,7,0);
-	vcdp->declBus  (c+742,"dig hub_ cog_ena",-1,7,0);
-	vcdp->declBus  (c+369,"dig hub_ ptr_w",-1,7,0);
+	vcdp->declBus  (c+243,"dig hub_ bus_ack",-1,7,0);
+	vcdp->declBus  (c+829,"dig hub_ cog_ena",-1,7,0);
+	vcdp->declBus  (c+366,"dig hub_ ptr_w",-1,7,0);
 	vcdp->declBus  (c+1012,"dig hub_ ptr_d",-1,27,0);
-	vcdp->declBus  (c+5388,"dig hub_ cfg",-1,7,0);
-	vcdp->declBit  (c+764,"dig hub_ rc",-1);
-	vcdp->declBit  (c+743,"dig hub_ ec",-1);
-	vcdp->declBit  (c+765,"dig hub_ wc",-1);
-	vcdp->declBus  (c+766,"dig hub_ sc",-1,1,0);
+	vcdp->declBus  (c+1292,"dig hub_ cfg",-1,7,0);
+	vcdp->declBit  (c+743,"dig hub_ rc",-1);
+	vcdp->declBit  (c+830,"dig hub_ ec",-1);
+	vcdp->declBit  (c+744,"dig hub_ wc",-1);
+	vcdp->declBus  (c+745,"dig hub_ sc",-1,1,0);
 	vcdp->declBus  (c+1013,"dig hub_ ac",-1,15,0);
 	vcdp->declBus  (c+1014,"dig hub_ dc",-1,31,0);
-	vcdp->declBit  (c+219,"dig hub_ mem_w",-1);
+	vcdp->declBit  (c+122,"dig hub_ mem_w",-1);
 	vcdp->declBus  (c+268,"dig hub_ mem_wb",-1,3,0);
 	vcdp->declBus  (c+269,"dig hub_ mem_d",-1,31,0);
 	vcdp->declBus  (c+73,"dig hub_ mem_q",-1,31,0);
-	vcdp->declBit  (c+767,"dig hub_ rd",-1);
-	vcdp->declBit  (c+744,"dig hub_ ed",-1);
-	vcdp->declBus  (c+768,"dig hub_ sd",-1,1,0);
-	vcdp->declBus  (c+769,"dig hub_ ad",-1,1,0);
-	vcdp->declBus  (c+770,"dig hub_ sys_q",-1,2,0);
+	vcdp->declBit  (c+746,"dig hub_ rd",-1);
+	vcdp->declBit  (c+831,"dig hub_ ed",-1);
+	vcdp->declBus  (c+747,"dig hub_ sd",-1,1,0);
+	vcdp->declBus  (c+748,"dig hub_ ad",-1,1,0);
+	vcdp->declBus  (c+749,"dig hub_ sys_q",-1,2,0);
 	vcdp->declBit  (c+1011,"dig hub_ sys_c",-1);
 	vcdp->declBus  (c+270,"dig hub_ ramq",-1,31,0);
-	vcdp->declBus  (c+745,"dig hub_ cog_e",-1,7,0);
-	vcdp->declBus  (c+746,"dig hub_ lock_e",-1,7,0);
+	vcdp->declBus  (c+832,"dig hub_ cog_e",-1,7,0);
+	vcdp->declBus  (c+833,"dig hub_ lock_e",-1,7,0);
 	vcdp->declBit  (c+329,"dig hub_ sys",-1);
 	vcdp->declBus  (c+330,"dig hub_ enc",-1,7,0);
 	vcdp->declBit  (c+331,"dig hub_ all",-1);
 	vcdp->declBus  (c+332,"dig hub_ newx",-1,2,0);
-	vcdp->declBus  (c+333,"dig hub_ num",-1,2,0);
-	vcdp->declBus  (c+334,"dig hub_ num_dcd",-1,7,0);
-	vcdp->declBit  (c+335,"dig hub_ cog_start",-1);
+	vcdp->declBus  (c+367,"dig hub_ num",-1,2,0);
+	vcdp->declBus  (c+368,"dig hub_ num_dcd",-1,7,0);
+	vcdp->declBit  (c+369,"dig hub_ cog_start",-1);
 	vcdp->declBus  (c+1015,"dig hub_ lock_state",-1,7,0);
 	vcdp->declBit  (c+1016,"dig hub_ lock_mux",-1);
-	vcdp->declBit  (c+5389,"dig hub_ hub_mem_ clk_cog",-1);
+	vcdp->declBit  (c+1293,"dig hub_ hub_mem_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig hub_ hub_mem_ ena_bus",-1);
-	vcdp->declBit  (c+219,"dig hub_ hub_mem_ w",-1);
+	vcdp->declBit  (c+122,"dig hub_ hub_mem_ w",-1);
 	vcdp->declBus  (c+268,"dig hub_ hub_mem_ wb",-1,3,0);
 	vcdp->declBus  (c+1017,"dig hub_ hub_mem_ a",-1,13,0);
 	vcdp->declBus  (c+269,"dig hub_ hub_mem_ d",-1,31,0);
@@ -159,61 +159,61 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	// Tracing: dig hub_ hub_mem_ ram2 // Ignored: Wide memory > --trace-max-array ents at ../HDL/hub_mem.v:43
 	// Tracing: dig hub_ hub_mem_ ram1 // Ignored: Wide memory > --trace-max-array ents at ../HDL/hub_mem.v:44
 	// Tracing: dig hub_ hub_mem_ ram0 // Ignored: Wide memory > --trace-max-array ents at ../HDL/hub_mem.v:45
-	vcdp->declBus  (c+771,"dig hub_ hub_mem_ ram_q3",-1,7,0);
-	vcdp->declBus  (c+772,"dig hub_ hub_mem_ ram_q2",-1,7,0);
-	vcdp->declBus  (c+773,"dig hub_ hub_mem_ ram_q1",-1,7,0);
-	vcdp->declBus  (c+774,"dig hub_ hub_mem_ ram_q0",-1,7,0);
-	// Tracing: dig hub_ hub_mem_ rom // Ignored: Wide memory > --trace-max-array ents at ../HDL/hub_mem.v:87
-	vcdp->declBus  (c+775,"dig hub_ hub_mem_ rom_q",-1,31,0);
-	vcdp->declBus  (c+776,"dig hub_ hub_mem_ mem",-1,1,0);
-	vcdp->declBit  (c+5387,"dig coggen[0] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[0] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[0] cog_ clk_cog",-1);
+	vcdp->declBus  (c+750,"dig hub_ hub_mem_ ram_q3",-1,7,0);
+	vcdp->declBus  (c+751,"dig hub_ hub_mem_ ram_q2",-1,7,0);
+	vcdp->declBus  (c+752,"dig hub_ hub_mem_ ram_q1",-1,7,0);
+	vcdp->declBus  (c+753,"dig hub_ hub_mem_ ram_q0",-1,7,0);
+	// Tracing: dig hub_ hub_mem_ rom // Ignored: Wide memory > --trace-max-array ents at ../HDL/hub_mem.v:96
+	vcdp->declBus  (c+754,"dig hub_ hub_mem_ rom_q",-1,31,0);
+	vcdp->declBus  (c+755,"dig hub_ hub_mem_ mem",-1,1,0);
+	vcdp->declBit  (c+1291,"dig coggen[0] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[0] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[0] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[0] cog_ ena_bus",-1);
 	vcdp->declBit  (c+370,"dig coggen[0] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[0] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+536,"dig coggen[0] cog_ ena",-1);
-	vcdp->declBit  (c+994,"dig coggen[0] cog_ bus_sel",-1);
-	vcdp->declBit  (c+855,"dig coggen[0] cog_ bus_r",-1);
-	vcdp->declBit  (c+244,"dig coggen[0] cog_ bus_e",-1);
-	vcdp->declBit  (c+245,"dig coggen[0] cog_ bus_w",-1);
-	vcdp->declBus  (c+246,"dig coggen[0] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+755,"dig coggen[0] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1002,"dig coggen[0] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[0] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+834,"dig coggen[0] cog_ bus_sel",-1);
+	vcdp->declBit  (c+842,"dig coggen[0] cog_ bus_r",-1);
+	vcdp->declBit  (c+123,"dig coggen[0] cog_ bus_e",-1);
+	vcdp->declBit  (c+124,"dig coggen[0] cog_ bus_w",-1);
+	vcdp->declBus  (c+125,"dig coggen[0] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+843,"dig coggen[0] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+858,"dig coggen[0] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[0] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[0] cog_ bus_c",-1);
-	vcdp->declBit  (c+220,"dig coggen[0] cog_ bus_ack",-1);
+	vcdp->declBit  (c+244,"dig coggen[0] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[0] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[0] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+336,"dig coggen[0] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[0] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[0] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+333,"dig coggen[0] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[0] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+49,"dig coggen[0] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+849,"dig coggen[0] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[0] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[0] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[0] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[0] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[0] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[0] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[0] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[0] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[0] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[0] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[0] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[0] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+747,"dig coggen[0] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5363,"dig coggen[0] cog_ m",-1,4,0);
-	vcdp->declBit  (c+229,"dig coggen[0] cog_ waiti",-1);
-	vcdp->declBit  (c+850,"dig coggen[0] cog_ run",-1);
+	vcdp->declBus  (c+866,"dig coggen[0] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[0] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[0] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[0] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[0] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[0] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[0] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[0] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[0] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[0] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[0] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[0] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[0] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1002,"dig coggen[0] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1267,"dig coggen[0] cog_ m",-1,4,0);
+	vcdp->declBit  (c+253,"dig coggen[0] cog_ waiti",-1);
+	vcdp->declBit  (c+867,"dig coggen[0] cog_ run",-1);
 	vcdp->declBus  (c+9,"dig coggen[0] cog_ px",-1,8,0);
-	vcdp->declBus  (c+851,"dig coggen[0] cog_ p",-1,8,0);
-	vcdp->declBit  (c+852,"dig coggen[0] cog_ c",-1);
-	vcdp->declBit  (c+853,"dig coggen[0] cog_ z",-1);
+	vcdp->declBus  (c+868,"dig coggen[0] cog_ p",-1,8,0);
+	vcdp->declBit  (c+869,"dig coggen[0] cog_ c",-1);
+	vcdp->declBit  (c+870,"dig coggen[0] cog_ z",-1);
 	vcdp->declBus  (c+410,"dig coggen[0] cog_ i",-1,31,0);
 	vcdp->declBit  (c+558,"dig coggen[0] cog_ cond",-1);
 	vcdp->declBit  (c+559,"dig coggen[0] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+271,"dig coggen[0] cog_ alu_co",-1);
-	vcdp->declBit  (c+140,"dig coggen[0] cog_ alu_zo",-1);
+	vcdp->declBit  (c+165,"dig coggen[0] cog_ alu_zo",-1);
 	vcdp->declBit  (c+560,"dig coggen[0] cog_ wio",-1);
 	vcdp->declBit  (c+413,"dig coggen[0] cog_ setouta",-1);
 	vcdp->declBit  (c+414,"dig coggen[0] cog_ setdira",-1);
@@ -231,104 +231,104 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+10,"dig coggen[0] cog_ ram_a",-1,8,0);
 	vcdp->declBus  (c+1179,"dig coggen[0] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+777,"dig coggen[0] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+849,"dig coggen[0] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+778,"dig coggen[0] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+279,"dig coggen[0] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+336,"dig coggen[0] cog_ plla",-1);
-	vcdp->declQuad (c+780,"dig coggen[0] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+280,"dig coggen[0] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+337,"dig coggen[0] cog_ pllb",-1);
+	vcdp->declBus  (c+756,"dig coggen[0] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+866,"dig coggen[0] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+757,"dig coggen[0] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+281,"dig coggen[0] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+333,"dig coggen[0] cog_ plla",-1);
+	vcdp->declQuad (c+759,"dig coggen[0] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+282,"dig coggen[0] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+334,"dig coggen[0] cog_ pllb",-1);
 	vcdp->declBit  (c+1180,"dig coggen[0] cog_ vidack",-1);
 	vcdp->declBus  (c+57,"dig coggen[0] cog_ vid_pin_out",-1,31,0);
 	vcdp->declBus  (c+1181,"dig coggen[0] cog_ s",-1,31,0);
 	vcdp->declBus  (c+1182,"dig coggen[0] cog_ d",-1,31,0);
-	vcdp->declBus  (c+782,"dig coggen[0] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+783,"dig coggen[0] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+761,"dig coggen[0] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+762,"dig coggen[0] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+11,"dig coggen[0] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+854,"dig coggen[0] cog_ cancel",-1);
+	vcdp->declBit  (c+871,"dig coggen[0] cog_ cancel",-1);
 	vcdp->declBus  (c+411,"dig coggen[0] cog_ condx",-1,3,0);
 	vcdp->declBit  (c+1183,"dig coggen[0] cog_ dz",-1);
 	vcdp->declBus  (c+562,"dig coggen[0] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+563,"dig coggen[0] cog_ jump",-1);
 	vcdp->declBit  (c+1018,"dig coggen[0] cog_ match",-1);
-	vcdp->declBit  (c+228,"dig coggen[0] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[0] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+252,"dig coggen[0] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[0] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+561,"dig coggen[0] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+423,"dig coggen[0] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+10,"dig coggen[0] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ cog_ram_ d",-1,31,0);
 	vcdp->declBus  (c+1179,"dig coggen[0] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+1184,"dig coggen[0] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[0] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[0] cog_ cog_ctra clk_pll",-1);
+	// Tracing: dig coggen[0] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[0] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[0] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+536,"dig coggen[0] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+415,"dig coggen[0] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+417,"dig coggen[0] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+670,"dig coggen[0] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[0] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+778,"dig coggen[0] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+279,"dig coggen[0] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+336,"dig coggen[0] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[0] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+757,"dig coggen[0] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+281,"dig coggen[0] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+333,"dig coggen[0] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1042,"dig coggen[0] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1019,"dig coggen[0] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+784,"dig coggen[0] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+763,"dig coggen[0] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+90,"dig coggen[0] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1043,"dig coggen[0] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+338,"dig coggen[0] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+335,"dig coggen[0] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+74,"dig coggen[0] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+281,"dig coggen[0] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+282,"dig coggen[0] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+945,"dig coggen[0] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+947,"dig coggen[0] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[0] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[0] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+283,"dig coggen[0] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+284,"dig coggen[0] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+954,"dig coggen[0] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+956,"dig coggen[0] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[0] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[0] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+536,"dig coggen[0] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+416,"dig coggen[0] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+418,"dig coggen[0] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+671,"dig coggen[0] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[0] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+780,"dig coggen[0] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+280,"dig coggen[0] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+337,"dig coggen[0] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[0] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+759,"dig coggen[0] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+282,"dig coggen[0] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+334,"dig coggen[0] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1044,"dig coggen[0] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1020,"dig coggen[0] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+785,"dig coggen[0] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+764,"dig coggen[0] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+92,"dig coggen[0] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1045,"dig coggen[0] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+339,"dig coggen[0] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+336,"dig coggen[0] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+75,"dig coggen[0] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+283,"dig coggen[0] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+284,"dig coggen[0] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+948,"dig coggen[0] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+950,"dig coggen[0] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[0] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+336,"dig coggen[0] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+285,"dig coggen[0] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+286,"dig coggen[0] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+957,"dig coggen[0] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+959,"dig coggen[0] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[0] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+333,"dig coggen[0] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+536,"dig coggen[0] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+419,"dig coggen[0] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+420,"dig coggen[0] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ cog_vid_ data",-1,31,0);
 	vcdp->declBus  (c+1181,"dig coggen[0] cog_ cog_vid_ pixel",-1,31,0);
 	vcdp->declBus  (c+1182,"dig coggen[0] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[0] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+337,"dig coggen[0] cog_ cog_vid_ carrier",-1);
+	vcdp->declBus  (c+337,"dig coggen[0] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+334,"dig coggen[0] cog_ cog_vid_ carrier",-1);
 	vcdp->declBit  (c+1180,"dig coggen[0] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+57,"dig coggen[0] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5364,"dig coggen[0] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+1696,"dig coggen[0] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1268,"dig coggen[0] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1184,"dig coggen[0] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1076,"dig coggen[0] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1077,"dig coggen[0] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1078,"dig coggen[0] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1079,"dig coggen[0] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1080,"dig coggen[0] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5365,"dig coggen[0] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1269,"dig coggen[0] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+12,"dig coggen[0] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1081,"dig coggen[0] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1082,"dig coggen[0] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1075,"dig coggen[0] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+1697,"dig coggen[0] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1185,"dig coggen[0] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1083,"dig coggen[0] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1087,"dig coggen[0] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1084,"dig coggen[0] cog_ cog_vid_ phase",-1,3,0);
@@ -336,36 +336,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+378,"dig coggen[0] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+544,"dig coggen[0] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1086,"dig coggen[0] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[0] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[0] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+13,"dig coggen[0] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+58,"dig coggen[0] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+412,"dig coggen[0] cog_ cog_alu_ i",-1,5,0);
 	vcdp->declBus  (c+1181,"dig coggen[0] cog_ cog_alu_ s",-1,31,0);
 	vcdp->declBus  (c+1182,"dig coggen[0] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+851,"dig coggen[0] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+850,"dig coggen[0] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+852,"dig coggen[0] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+853,"dig coggen[0] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[0] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+868,"dig coggen[0] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+867,"dig coggen[0] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+869,"dig coggen[0] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+870,"dig coggen[0] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[0] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[0] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+422,"dig coggen[0] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+672,"dig coggen[0] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+271,"dig coggen[0] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+140,"dig coggen[0] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+165,"dig coggen[0] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+386,"dig coggen[0] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+130,"dig coggen[0] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+155,"dig coggen[0] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+564,"dig coggen[0] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+566,"dig coggen[0] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+421,"dig coggen[0] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+394,"dig coggen[0] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+138,"dig coggen[0] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+1698,"dig coggen[0] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+856,"dig coggen[0] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+163,"dig coggen[0] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1186,"dig coggen[0] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+872,"dig coggen[0] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+567,"dig coggen[0] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+568,"dig coggen[0] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+860,"dig coggen[0] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+876,"dig coggen[0] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+569,"dig coggen[0] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+139,"dig coggen[0] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+164,"dig coggen[0] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+570,"dig coggen[0] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+571,"dig coggen[0] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+673,"dig coggen[0] cog_ cog_alu_ add_x",-1,34,0);
@@ -374,54 +374,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+677,"dig coggen[0] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+678,"dig coggen[0] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+395,"dig coggen[0] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[1] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[1] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[1] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[1] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[1] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[1] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[1] cog_ ena_bus",-1);
 	vcdp->declBit  (c+371,"dig coggen[1] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[1] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+537,"dig coggen[1] cog_ ena",-1);
-	vcdp->declBit  (c+995,"dig coggen[1] cog_ bus_sel",-1);
-	vcdp->declBit  (c+867,"dig coggen[1] cog_ bus_r",-1);
-	vcdp->declBit  (c+247,"dig coggen[1] cog_ bus_e",-1);
-	vcdp->declBit  (c+248,"dig coggen[1] cog_ bus_w",-1);
-	vcdp->declBus  (c+249,"dig coggen[1] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+756,"dig coggen[1] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1003,"dig coggen[1] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[1] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+835,"dig coggen[1] cog_ bus_sel",-1);
+	vcdp->declBit  (c+844,"dig coggen[1] cog_ bus_r",-1);
+	vcdp->declBit  (c+126,"dig coggen[1] cog_ bus_e",-1);
+	vcdp->declBit  (c+127,"dig coggen[1] cog_ bus_w",-1);
+	vcdp->declBus  (c+128,"dig coggen[1] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+845,"dig coggen[1] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+859,"dig coggen[1] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[1] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[1] cog_ bus_c",-1);
-	vcdp->declBit  (c+221,"dig coggen[1] cog_ bus_ack",-1);
+	vcdp->declBit  (c+245,"dig coggen[1] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[1] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[1] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+341,"dig coggen[1] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[1] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[1] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+338,"dig coggen[1] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[1] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+50,"dig coggen[1] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+861,"dig coggen[1] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[1] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[1] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[1] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[1] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[1] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[1] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[1] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[1] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[1] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[1] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[1] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[1] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+748,"dig coggen[1] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5366,"dig coggen[1] cog_ m",-1,4,0);
-	vcdp->declBit  (c+231,"dig coggen[1] cog_ waiti",-1);
-	vcdp->declBit  (c+862,"dig coggen[1] cog_ run",-1);
+	vcdp->declBus  (c+877,"dig coggen[1] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[1] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[1] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[1] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[1] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[1] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[1] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[1] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[1] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[1] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[1] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[1] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[1] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1003,"dig coggen[1] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1270,"dig coggen[1] cog_ m",-1,4,0);
+	vcdp->declBit  (c+255,"dig coggen[1] cog_ waiti",-1);
+	vcdp->declBit  (c+878,"dig coggen[1] cog_ run",-1);
 	vcdp->declBus  (c+14,"dig coggen[1] cog_ px",-1,8,0);
-	vcdp->declBus  (c+863,"dig coggen[1] cog_ p",-1,8,0);
-	vcdp->declBit  (c+864,"dig coggen[1] cog_ c",-1);
-	vcdp->declBit  (c+865,"dig coggen[1] cog_ z",-1);
+	vcdp->declBus  (c+879,"dig coggen[1] cog_ p",-1,8,0);
+	vcdp->declBit  (c+880,"dig coggen[1] cog_ c",-1);
+	vcdp->declBit  (c+881,"dig coggen[1] cog_ z",-1);
 	vcdp->declBus  (c+424,"dig coggen[1] cog_ i",-1,31,0);
 	vcdp->declBit  (c+572,"dig coggen[1] cog_ cond",-1);
 	vcdp->declBit  (c+573,"dig coggen[1] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+272,"dig coggen[1] cog_ alu_co",-1);
-	vcdp->declBit  (c+151,"dig coggen[1] cog_ alu_zo",-1);
+	vcdp->declBit  (c+176,"dig coggen[1] cog_ alu_zo",-1);
 	vcdp->declBit  (c+574,"dig coggen[1] cog_ wio",-1);
 	vcdp->declBit  (c+427,"dig coggen[1] cog_ setouta",-1);
 	vcdp->declBit  (c+428,"dig coggen[1] cog_ setdira",-1);
@@ -437,106 +437,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+575,"dig coggen[1] cog_ ram_ena",-1);
 	vcdp->declBit  (c+437,"dig coggen[1] cog_ ram_w",-1);
 	vcdp->declBus  (c+15,"dig coggen[1] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+1702,"dig coggen[1] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1190,"dig coggen[1] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+786,"dig coggen[1] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+861,"dig coggen[1] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+787,"dig coggen[1] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+285,"dig coggen[1] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+341,"dig coggen[1] cog_ plla",-1);
-	vcdp->declQuad (c+789,"dig coggen[1] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+286,"dig coggen[1] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+342,"dig coggen[1] cog_ pllb",-1);
-	vcdp->declBit  (c+1703,"dig coggen[1] cog_ vidack",-1);
+	vcdp->declBus  (c+765,"dig coggen[1] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+877,"dig coggen[1] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+766,"dig coggen[1] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+287,"dig coggen[1] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+338,"dig coggen[1] cog_ plla",-1);
+	vcdp->declQuad (c+768,"dig coggen[1] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+288,"dig coggen[1] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+339,"dig coggen[1] cog_ pllb",-1);
+	vcdp->declBit  (c+1191,"dig coggen[1] cog_ vidack",-1);
 	vcdp->declBus  (c+59,"dig coggen[1] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+1704,"dig coggen[1] cog_ s",-1,31,0);
-	vcdp->declBus  (c+1705,"dig coggen[1] cog_ d",-1,31,0);
-	vcdp->declBus  (c+791,"dig coggen[1] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+792,"dig coggen[1] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1192,"dig coggen[1] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1193,"dig coggen[1] cog_ d",-1,31,0);
+	vcdp->declBus  (c+770,"dig coggen[1] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+771,"dig coggen[1] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+16,"dig coggen[1] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+866,"dig coggen[1] cog_ cancel",-1);
+	vcdp->declBit  (c+882,"dig coggen[1] cog_ cancel",-1);
 	vcdp->declBus  (c+425,"dig coggen[1] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+1706,"dig coggen[1] cog_ dz",-1);
+	vcdp->declBit  (c+1194,"dig coggen[1] cog_ dz",-1);
 	vcdp->declBus  (c+576,"dig coggen[1] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+577,"dig coggen[1] cog_ jump",-1);
 	vcdp->declBit  (c+1021,"dig coggen[1] cog_ match",-1);
-	vcdp->declBit  (c+230,"dig coggen[1] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[1] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+254,"dig coggen[1] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[1] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+575,"dig coggen[1] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+437,"dig coggen[1] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+15,"dig coggen[1] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+1702,"dig coggen[1] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+1707,"dig coggen[1] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[1] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[1] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1190,"dig coggen[1] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[1] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[1] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[1] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+537,"dig coggen[1] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+429,"dig coggen[1] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+431,"dig coggen[1] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+679,"dig coggen[1] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[1] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+787,"dig coggen[1] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+285,"dig coggen[1] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+341,"dig coggen[1] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[1] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+766,"dig coggen[1] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+287,"dig coggen[1] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+338,"dig coggen[1] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1046,"dig coggen[1] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1022,"dig coggen[1] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+793,"dig coggen[1] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+772,"dig coggen[1] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+94,"dig coggen[1] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1047,"dig coggen[1] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+343,"dig coggen[1] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+340,"dig coggen[1] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+76,"dig coggen[1] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+287,"dig coggen[1] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+288,"dig coggen[1] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+951,"dig coggen[1] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+953,"dig coggen[1] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[1] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[1] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+289,"dig coggen[1] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+290,"dig coggen[1] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+960,"dig coggen[1] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+962,"dig coggen[1] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[1] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[1] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+537,"dig coggen[1] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+430,"dig coggen[1] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+432,"dig coggen[1] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+680,"dig coggen[1] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[1] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+789,"dig coggen[1] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+286,"dig coggen[1] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+342,"dig coggen[1] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[1] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+768,"dig coggen[1] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+288,"dig coggen[1] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+339,"dig coggen[1] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1048,"dig coggen[1] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1023,"dig coggen[1] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+794,"dig coggen[1] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+773,"dig coggen[1] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+96,"dig coggen[1] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1049,"dig coggen[1] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+344,"dig coggen[1] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+341,"dig coggen[1] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+77,"dig coggen[1] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+289,"dig coggen[1] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+290,"dig coggen[1] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+954,"dig coggen[1] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+956,"dig coggen[1] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[1] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+341,"dig coggen[1] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+291,"dig coggen[1] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+292,"dig coggen[1] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+963,"dig coggen[1] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+965,"dig coggen[1] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[1] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+338,"dig coggen[1] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+537,"dig coggen[1] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+433,"dig coggen[1] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+434,"dig coggen[1] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+1704,"dig coggen[1] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+1705,"dig coggen[1] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[1] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+342,"dig coggen[1] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+1703,"dig coggen[1] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1192,"dig coggen[1] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1193,"dig coggen[1] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[1] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+339,"dig coggen[1] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1191,"dig coggen[1] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+59,"dig coggen[1] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5367,"dig coggen[1] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+2219,"dig coggen[1] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1271,"dig coggen[1] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1195,"dig coggen[1] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1089,"dig coggen[1] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1090,"dig coggen[1] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1091,"dig coggen[1] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1092,"dig coggen[1] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1093,"dig coggen[1] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5368,"dig coggen[1] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1272,"dig coggen[1] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+17,"dig coggen[1] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1094,"dig coggen[1] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1095,"dig coggen[1] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1088,"dig coggen[1] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+2220,"dig coggen[1] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1196,"dig coggen[1] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1096,"dig coggen[1] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1100,"dig coggen[1] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1097,"dig coggen[1] cog_ cog_vid_ phase",-1,3,0);
@@ -544,36 +544,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+379,"dig coggen[1] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+545,"dig coggen[1] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1099,"dig coggen[1] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[1] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[1] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+18,"dig coggen[1] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+60,"dig coggen[1] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+426,"dig coggen[1] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+1704,"dig coggen[1] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+1705,"dig coggen[1] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+863,"dig coggen[1] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+862,"dig coggen[1] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+864,"dig coggen[1] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+865,"dig coggen[1] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[1] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1192,"dig coggen[1] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1193,"dig coggen[1] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+879,"dig coggen[1] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+878,"dig coggen[1] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+880,"dig coggen[1] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+881,"dig coggen[1] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[1] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[1] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+436,"dig coggen[1] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+681,"dig coggen[1] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+272,"dig coggen[1] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+151,"dig coggen[1] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+176,"dig coggen[1] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+387,"dig coggen[1] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+141,"dig coggen[1] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+166,"dig coggen[1] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+578,"dig coggen[1] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+580,"dig coggen[1] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+435,"dig coggen[1] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+396,"dig coggen[1] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+149,"dig coggen[1] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+2221,"dig coggen[1] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+868,"dig coggen[1] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+174,"dig coggen[1] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1197,"dig coggen[1] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+883,"dig coggen[1] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+581,"dig coggen[1] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+582,"dig coggen[1] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+872,"dig coggen[1] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+887,"dig coggen[1] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+583,"dig coggen[1] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+150,"dig coggen[1] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+175,"dig coggen[1] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+584,"dig coggen[1] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+585,"dig coggen[1] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+682,"dig coggen[1] cog_ cog_alu_ add_x",-1,34,0);
@@ -582,54 +582,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+686,"dig coggen[1] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+687,"dig coggen[1] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+397,"dig coggen[1] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[2] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[2] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[2] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[2] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[2] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[2] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[2] cog_ ena_bus",-1);
 	vcdp->declBit  (c+372,"dig coggen[2] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[2] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+538,"dig coggen[2] cog_ ena",-1);
-	vcdp->declBit  (c+996,"dig coggen[2] cog_ bus_sel",-1);
-	vcdp->declBit  (c+879,"dig coggen[2] cog_ bus_r",-1);
-	vcdp->declBit  (c+250,"dig coggen[2] cog_ bus_e",-1);
-	vcdp->declBit  (c+251,"dig coggen[2] cog_ bus_w",-1);
-	vcdp->declBus  (c+252,"dig coggen[2] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+757,"dig coggen[2] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1004,"dig coggen[2] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[2] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+836,"dig coggen[2] cog_ bus_sel",-1);
+	vcdp->declBit  (c+846,"dig coggen[2] cog_ bus_r",-1);
+	vcdp->declBit  (c+129,"dig coggen[2] cog_ bus_e",-1);
+	vcdp->declBit  (c+130,"dig coggen[2] cog_ bus_w",-1);
+	vcdp->declBus  (c+131,"dig coggen[2] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+847,"dig coggen[2] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+860,"dig coggen[2] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[2] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[2] cog_ bus_c",-1);
-	vcdp->declBit  (c+222,"dig coggen[2] cog_ bus_ack",-1);
+	vcdp->declBit  (c+246,"dig coggen[2] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[2] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[2] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+345,"dig coggen[2] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[2] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[2] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+342,"dig coggen[2] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[2] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+51,"dig coggen[2] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+873,"dig coggen[2] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[2] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[2] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[2] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[2] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[2] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[2] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[2] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[2] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[2] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[2] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[2] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[2] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+749,"dig coggen[2] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5369,"dig coggen[2] cog_ m",-1,4,0);
-	vcdp->declBit  (c+233,"dig coggen[2] cog_ waiti",-1);
-	vcdp->declBit  (c+874,"dig coggen[2] cog_ run",-1);
+	vcdp->declBus  (c+888,"dig coggen[2] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[2] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[2] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[2] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[2] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[2] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[2] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[2] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[2] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[2] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[2] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[2] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[2] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1004,"dig coggen[2] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1273,"dig coggen[2] cog_ m",-1,4,0);
+	vcdp->declBit  (c+257,"dig coggen[2] cog_ waiti",-1);
+	vcdp->declBit  (c+889,"dig coggen[2] cog_ run",-1);
 	vcdp->declBus  (c+19,"dig coggen[2] cog_ px",-1,8,0);
-	vcdp->declBus  (c+875,"dig coggen[2] cog_ p",-1,8,0);
-	vcdp->declBit  (c+876,"dig coggen[2] cog_ c",-1);
-	vcdp->declBit  (c+877,"dig coggen[2] cog_ z",-1);
+	vcdp->declBus  (c+890,"dig coggen[2] cog_ p",-1,8,0);
+	vcdp->declBit  (c+891,"dig coggen[2] cog_ c",-1);
+	vcdp->declBit  (c+892,"dig coggen[2] cog_ z",-1);
 	vcdp->declBus  (c+438,"dig coggen[2] cog_ i",-1,31,0);
 	vcdp->declBit  (c+586,"dig coggen[2] cog_ cond",-1);
 	vcdp->declBit  (c+587,"dig coggen[2] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+273,"dig coggen[2] cog_ alu_co",-1);
-	vcdp->declBit  (c+162,"dig coggen[2] cog_ alu_zo",-1);
+	vcdp->declBit  (c+187,"dig coggen[2] cog_ alu_zo",-1);
 	vcdp->declBit  (c+588,"dig coggen[2] cog_ wio",-1);
 	vcdp->declBit  (c+441,"dig coggen[2] cog_ setouta",-1);
 	vcdp->declBit  (c+442,"dig coggen[2] cog_ setdira",-1);
@@ -645,106 +645,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+589,"dig coggen[2] cog_ ram_ena",-1);
 	vcdp->declBit  (c+451,"dig coggen[2] cog_ ram_w",-1);
 	vcdp->declBus  (c+20,"dig coggen[2] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+2225,"dig coggen[2] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1201,"dig coggen[2] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+795,"dig coggen[2] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+873,"dig coggen[2] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+796,"dig coggen[2] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+291,"dig coggen[2] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+345,"dig coggen[2] cog_ plla",-1);
-	vcdp->declQuad (c+798,"dig coggen[2] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+292,"dig coggen[2] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+346,"dig coggen[2] cog_ pllb",-1);
-	vcdp->declBit  (c+2226,"dig coggen[2] cog_ vidack",-1);
+	vcdp->declBus  (c+774,"dig coggen[2] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+888,"dig coggen[2] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+775,"dig coggen[2] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+293,"dig coggen[2] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+342,"dig coggen[2] cog_ plla",-1);
+	vcdp->declQuad (c+777,"dig coggen[2] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+294,"dig coggen[2] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+343,"dig coggen[2] cog_ pllb",-1);
+	vcdp->declBit  (c+1202,"dig coggen[2] cog_ vidack",-1);
 	vcdp->declBus  (c+61,"dig coggen[2] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+2227,"dig coggen[2] cog_ s",-1,31,0);
-	vcdp->declBus  (c+2228,"dig coggen[2] cog_ d",-1,31,0);
-	vcdp->declBus  (c+800,"dig coggen[2] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+801,"dig coggen[2] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1203,"dig coggen[2] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1204,"dig coggen[2] cog_ d",-1,31,0);
+	vcdp->declBus  (c+779,"dig coggen[2] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+780,"dig coggen[2] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+21,"dig coggen[2] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+878,"dig coggen[2] cog_ cancel",-1);
+	vcdp->declBit  (c+893,"dig coggen[2] cog_ cancel",-1);
 	vcdp->declBus  (c+439,"dig coggen[2] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+2229,"dig coggen[2] cog_ dz",-1);
+	vcdp->declBit  (c+1205,"dig coggen[2] cog_ dz",-1);
 	vcdp->declBus  (c+590,"dig coggen[2] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+591,"dig coggen[2] cog_ jump",-1);
 	vcdp->declBit  (c+1024,"dig coggen[2] cog_ match",-1);
-	vcdp->declBit  (c+232,"dig coggen[2] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[2] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+256,"dig coggen[2] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[2] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+589,"dig coggen[2] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+451,"dig coggen[2] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+20,"dig coggen[2] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+2225,"dig coggen[2] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+2230,"dig coggen[2] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[2] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[2] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1201,"dig coggen[2] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[2] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[2] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[2] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+538,"dig coggen[2] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+443,"dig coggen[2] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+445,"dig coggen[2] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+688,"dig coggen[2] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[2] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+796,"dig coggen[2] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+291,"dig coggen[2] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+345,"dig coggen[2] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[2] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+775,"dig coggen[2] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+293,"dig coggen[2] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+342,"dig coggen[2] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1050,"dig coggen[2] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1025,"dig coggen[2] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+802,"dig coggen[2] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+781,"dig coggen[2] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+98,"dig coggen[2] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1051,"dig coggen[2] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+347,"dig coggen[2] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+344,"dig coggen[2] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+78,"dig coggen[2] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+293,"dig coggen[2] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+294,"dig coggen[2] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+957,"dig coggen[2] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+959,"dig coggen[2] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[2] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[2] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+295,"dig coggen[2] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+296,"dig coggen[2] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+966,"dig coggen[2] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+968,"dig coggen[2] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[2] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[2] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+538,"dig coggen[2] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+444,"dig coggen[2] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+446,"dig coggen[2] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+689,"dig coggen[2] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[2] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+798,"dig coggen[2] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+292,"dig coggen[2] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+346,"dig coggen[2] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[2] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+777,"dig coggen[2] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+294,"dig coggen[2] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+343,"dig coggen[2] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1052,"dig coggen[2] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1026,"dig coggen[2] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+803,"dig coggen[2] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+782,"dig coggen[2] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+100,"dig coggen[2] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1053,"dig coggen[2] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+348,"dig coggen[2] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+345,"dig coggen[2] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+79,"dig coggen[2] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+295,"dig coggen[2] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+296,"dig coggen[2] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+960,"dig coggen[2] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+962,"dig coggen[2] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[2] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+345,"dig coggen[2] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+297,"dig coggen[2] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+298,"dig coggen[2] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+969,"dig coggen[2] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+971,"dig coggen[2] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[2] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+342,"dig coggen[2] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+538,"dig coggen[2] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+447,"dig coggen[2] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+448,"dig coggen[2] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+2227,"dig coggen[2] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+2228,"dig coggen[2] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[2] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+346,"dig coggen[2] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+2226,"dig coggen[2] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1203,"dig coggen[2] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1204,"dig coggen[2] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[2] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+343,"dig coggen[2] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1202,"dig coggen[2] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+61,"dig coggen[2] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5370,"dig coggen[2] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+2742,"dig coggen[2] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1274,"dig coggen[2] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1206,"dig coggen[2] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1102,"dig coggen[2] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1103,"dig coggen[2] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1104,"dig coggen[2] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1105,"dig coggen[2] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1106,"dig coggen[2] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5371,"dig coggen[2] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1275,"dig coggen[2] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+22,"dig coggen[2] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1107,"dig coggen[2] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1108,"dig coggen[2] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1101,"dig coggen[2] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+2743,"dig coggen[2] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1207,"dig coggen[2] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1109,"dig coggen[2] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1113,"dig coggen[2] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1110,"dig coggen[2] cog_ cog_vid_ phase",-1,3,0);
@@ -752,36 +752,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+380,"dig coggen[2] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+546,"dig coggen[2] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1112,"dig coggen[2] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[2] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[2] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+23,"dig coggen[2] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+62,"dig coggen[2] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+440,"dig coggen[2] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+2227,"dig coggen[2] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+2228,"dig coggen[2] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+875,"dig coggen[2] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+874,"dig coggen[2] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+876,"dig coggen[2] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+877,"dig coggen[2] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[2] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1203,"dig coggen[2] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1204,"dig coggen[2] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+890,"dig coggen[2] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+889,"dig coggen[2] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+891,"dig coggen[2] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+892,"dig coggen[2] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[2] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[2] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+450,"dig coggen[2] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+690,"dig coggen[2] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+273,"dig coggen[2] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+162,"dig coggen[2] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+187,"dig coggen[2] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+388,"dig coggen[2] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+152,"dig coggen[2] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+177,"dig coggen[2] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+592,"dig coggen[2] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+594,"dig coggen[2] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+449,"dig coggen[2] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+398,"dig coggen[2] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+160,"dig coggen[2] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+2744,"dig coggen[2] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+880,"dig coggen[2] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+185,"dig coggen[2] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1208,"dig coggen[2] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+894,"dig coggen[2] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+595,"dig coggen[2] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+596,"dig coggen[2] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+884,"dig coggen[2] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+898,"dig coggen[2] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+597,"dig coggen[2] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+161,"dig coggen[2] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+186,"dig coggen[2] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+598,"dig coggen[2] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+599,"dig coggen[2] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+691,"dig coggen[2] cog_ cog_alu_ add_x",-1,34,0);
@@ -790,54 +790,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+695,"dig coggen[2] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+696,"dig coggen[2] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+399,"dig coggen[2] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[3] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[3] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[3] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[3] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[3] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[3] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[3] cog_ ena_bus",-1);
 	vcdp->declBit  (c+373,"dig coggen[3] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[3] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+539,"dig coggen[3] cog_ ena",-1);
-	vcdp->declBit  (c+997,"dig coggen[3] cog_ bus_sel",-1);
-	vcdp->declBit  (c+891,"dig coggen[3] cog_ bus_r",-1);
-	vcdp->declBit  (c+253,"dig coggen[3] cog_ bus_e",-1);
-	vcdp->declBit  (c+254,"dig coggen[3] cog_ bus_w",-1);
-	vcdp->declBus  (c+255,"dig coggen[3] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+758,"dig coggen[3] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1005,"dig coggen[3] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[3] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+837,"dig coggen[3] cog_ bus_sel",-1);
+	vcdp->declBit  (c+848,"dig coggen[3] cog_ bus_r",-1);
+	vcdp->declBit  (c+132,"dig coggen[3] cog_ bus_e",-1);
+	vcdp->declBit  (c+133,"dig coggen[3] cog_ bus_w",-1);
+	vcdp->declBus  (c+134,"dig coggen[3] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+849,"dig coggen[3] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+861,"dig coggen[3] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[3] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[3] cog_ bus_c",-1);
-	vcdp->declBit  (c+223,"dig coggen[3] cog_ bus_ack",-1);
+	vcdp->declBit  (c+247,"dig coggen[3] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[3] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[3] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+349,"dig coggen[3] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[3] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[3] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+346,"dig coggen[3] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[3] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+52,"dig coggen[3] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+885,"dig coggen[3] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[3] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[3] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[3] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[3] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[3] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[3] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[3] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[3] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[3] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[3] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[3] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[3] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+750,"dig coggen[3] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5372,"dig coggen[3] cog_ m",-1,4,0);
-	vcdp->declBit  (c+235,"dig coggen[3] cog_ waiti",-1);
-	vcdp->declBit  (c+886,"dig coggen[3] cog_ run",-1);
+	vcdp->declBus  (c+899,"dig coggen[3] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[3] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[3] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[3] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[3] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[3] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[3] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[3] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[3] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[3] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[3] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[3] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[3] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1005,"dig coggen[3] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1276,"dig coggen[3] cog_ m",-1,4,0);
+	vcdp->declBit  (c+259,"dig coggen[3] cog_ waiti",-1);
+	vcdp->declBit  (c+900,"dig coggen[3] cog_ run",-1);
 	vcdp->declBus  (c+24,"dig coggen[3] cog_ px",-1,8,0);
-	vcdp->declBus  (c+887,"dig coggen[3] cog_ p",-1,8,0);
-	vcdp->declBit  (c+888,"dig coggen[3] cog_ c",-1);
-	vcdp->declBit  (c+889,"dig coggen[3] cog_ z",-1);
+	vcdp->declBus  (c+901,"dig coggen[3] cog_ p",-1,8,0);
+	vcdp->declBit  (c+902,"dig coggen[3] cog_ c",-1);
+	vcdp->declBit  (c+903,"dig coggen[3] cog_ z",-1);
 	vcdp->declBus  (c+452,"dig coggen[3] cog_ i",-1,31,0);
 	vcdp->declBit  (c+600,"dig coggen[3] cog_ cond",-1);
 	vcdp->declBit  (c+601,"dig coggen[3] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+274,"dig coggen[3] cog_ alu_co",-1);
-	vcdp->declBit  (c+173,"dig coggen[3] cog_ alu_zo",-1);
+	vcdp->declBit  (c+198,"dig coggen[3] cog_ alu_zo",-1);
 	vcdp->declBit  (c+602,"dig coggen[3] cog_ wio",-1);
 	vcdp->declBit  (c+455,"dig coggen[3] cog_ setouta",-1);
 	vcdp->declBit  (c+456,"dig coggen[3] cog_ setdira",-1);
@@ -853,106 +853,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+603,"dig coggen[3] cog_ ram_ena",-1);
 	vcdp->declBit  (c+465,"dig coggen[3] cog_ ram_w",-1);
 	vcdp->declBus  (c+25,"dig coggen[3] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+2748,"dig coggen[3] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1212,"dig coggen[3] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+804,"dig coggen[3] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+885,"dig coggen[3] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+805,"dig coggen[3] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+297,"dig coggen[3] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+349,"dig coggen[3] cog_ plla",-1);
-	vcdp->declQuad (c+807,"dig coggen[3] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+298,"dig coggen[3] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+350,"dig coggen[3] cog_ pllb",-1);
-	vcdp->declBit  (c+2749,"dig coggen[3] cog_ vidack",-1);
+	vcdp->declBus  (c+783,"dig coggen[3] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+899,"dig coggen[3] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+784,"dig coggen[3] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+299,"dig coggen[3] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+346,"dig coggen[3] cog_ plla",-1);
+	vcdp->declQuad (c+786,"dig coggen[3] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+300,"dig coggen[3] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+347,"dig coggen[3] cog_ pllb",-1);
+	vcdp->declBit  (c+1213,"dig coggen[3] cog_ vidack",-1);
 	vcdp->declBus  (c+63,"dig coggen[3] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+2750,"dig coggen[3] cog_ s",-1,31,0);
-	vcdp->declBus  (c+2751,"dig coggen[3] cog_ d",-1,31,0);
-	vcdp->declBus  (c+809,"dig coggen[3] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+810,"dig coggen[3] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1214,"dig coggen[3] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1215,"dig coggen[3] cog_ d",-1,31,0);
+	vcdp->declBus  (c+788,"dig coggen[3] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+789,"dig coggen[3] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+26,"dig coggen[3] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+890,"dig coggen[3] cog_ cancel",-1);
+	vcdp->declBit  (c+904,"dig coggen[3] cog_ cancel",-1);
 	vcdp->declBus  (c+453,"dig coggen[3] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+2752,"dig coggen[3] cog_ dz",-1);
+	vcdp->declBit  (c+1216,"dig coggen[3] cog_ dz",-1);
 	vcdp->declBus  (c+604,"dig coggen[3] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+605,"dig coggen[3] cog_ jump",-1);
 	vcdp->declBit  (c+1027,"dig coggen[3] cog_ match",-1);
-	vcdp->declBit  (c+234,"dig coggen[3] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[3] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+258,"dig coggen[3] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[3] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+603,"dig coggen[3] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+465,"dig coggen[3] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+25,"dig coggen[3] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+2748,"dig coggen[3] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+2753,"dig coggen[3] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[3] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[3] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1212,"dig coggen[3] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[3] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[3] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[3] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+539,"dig coggen[3] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+457,"dig coggen[3] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+459,"dig coggen[3] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+697,"dig coggen[3] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[3] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+805,"dig coggen[3] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+297,"dig coggen[3] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+349,"dig coggen[3] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[3] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+784,"dig coggen[3] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+299,"dig coggen[3] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+346,"dig coggen[3] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1054,"dig coggen[3] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1028,"dig coggen[3] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+811,"dig coggen[3] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+790,"dig coggen[3] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+102,"dig coggen[3] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1055,"dig coggen[3] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+351,"dig coggen[3] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+348,"dig coggen[3] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+80,"dig coggen[3] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+299,"dig coggen[3] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+300,"dig coggen[3] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+963,"dig coggen[3] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+965,"dig coggen[3] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[3] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[3] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+301,"dig coggen[3] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+302,"dig coggen[3] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+972,"dig coggen[3] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+974,"dig coggen[3] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[3] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[3] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+539,"dig coggen[3] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+458,"dig coggen[3] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+460,"dig coggen[3] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+698,"dig coggen[3] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[3] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+807,"dig coggen[3] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+298,"dig coggen[3] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+350,"dig coggen[3] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[3] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+786,"dig coggen[3] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+300,"dig coggen[3] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+347,"dig coggen[3] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1056,"dig coggen[3] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1029,"dig coggen[3] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+812,"dig coggen[3] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+791,"dig coggen[3] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+104,"dig coggen[3] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1057,"dig coggen[3] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+352,"dig coggen[3] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+349,"dig coggen[3] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+81,"dig coggen[3] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+301,"dig coggen[3] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+302,"dig coggen[3] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+966,"dig coggen[3] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+968,"dig coggen[3] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[3] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+349,"dig coggen[3] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+303,"dig coggen[3] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+304,"dig coggen[3] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+975,"dig coggen[3] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+977,"dig coggen[3] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[3] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+346,"dig coggen[3] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+539,"dig coggen[3] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+461,"dig coggen[3] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+462,"dig coggen[3] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+2750,"dig coggen[3] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+2751,"dig coggen[3] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[3] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+350,"dig coggen[3] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+2749,"dig coggen[3] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1214,"dig coggen[3] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1215,"dig coggen[3] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[3] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+347,"dig coggen[3] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1213,"dig coggen[3] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+63,"dig coggen[3] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5373,"dig coggen[3] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+3265,"dig coggen[3] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1277,"dig coggen[3] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1217,"dig coggen[3] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1115,"dig coggen[3] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1116,"dig coggen[3] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1117,"dig coggen[3] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1118,"dig coggen[3] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1119,"dig coggen[3] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5374,"dig coggen[3] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1278,"dig coggen[3] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+27,"dig coggen[3] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1120,"dig coggen[3] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1121,"dig coggen[3] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1114,"dig coggen[3] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+3266,"dig coggen[3] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1218,"dig coggen[3] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1122,"dig coggen[3] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1126,"dig coggen[3] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1123,"dig coggen[3] cog_ cog_vid_ phase",-1,3,0);
@@ -960,36 +960,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+381,"dig coggen[3] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+547,"dig coggen[3] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1125,"dig coggen[3] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[3] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[3] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+28,"dig coggen[3] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+64,"dig coggen[3] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+454,"dig coggen[3] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+2750,"dig coggen[3] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+2751,"dig coggen[3] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+887,"dig coggen[3] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+886,"dig coggen[3] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+888,"dig coggen[3] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+889,"dig coggen[3] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[3] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1214,"dig coggen[3] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1215,"dig coggen[3] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+901,"dig coggen[3] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+900,"dig coggen[3] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+902,"dig coggen[3] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+903,"dig coggen[3] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[3] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[3] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+464,"dig coggen[3] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+699,"dig coggen[3] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+274,"dig coggen[3] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+173,"dig coggen[3] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+198,"dig coggen[3] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+389,"dig coggen[3] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+163,"dig coggen[3] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+188,"dig coggen[3] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+606,"dig coggen[3] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+608,"dig coggen[3] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+463,"dig coggen[3] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+400,"dig coggen[3] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+171,"dig coggen[3] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+3267,"dig coggen[3] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+892,"dig coggen[3] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+196,"dig coggen[3] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1219,"dig coggen[3] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+905,"dig coggen[3] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+609,"dig coggen[3] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+610,"dig coggen[3] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+896,"dig coggen[3] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+909,"dig coggen[3] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+611,"dig coggen[3] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+172,"dig coggen[3] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+197,"dig coggen[3] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+612,"dig coggen[3] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+613,"dig coggen[3] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+700,"dig coggen[3] cog_ cog_alu_ add_x",-1,34,0);
@@ -998,54 +998,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+704,"dig coggen[3] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+705,"dig coggen[3] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+401,"dig coggen[3] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[4] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[4] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[4] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[4] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[4] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[4] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[4] cog_ ena_bus",-1);
 	vcdp->declBit  (c+374,"dig coggen[4] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[4] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+540,"dig coggen[4] cog_ ena",-1);
-	vcdp->declBit  (c+998,"dig coggen[4] cog_ bus_sel",-1);
-	vcdp->declBit  (c+903,"dig coggen[4] cog_ bus_r",-1);
-	vcdp->declBit  (c+256,"dig coggen[4] cog_ bus_e",-1);
-	vcdp->declBit  (c+257,"dig coggen[4] cog_ bus_w",-1);
-	vcdp->declBus  (c+258,"dig coggen[4] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+759,"dig coggen[4] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1006,"dig coggen[4] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[4] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+838,"dig coggen[4] cog_ bus_sel",-1);
+	vcdp->declBit  (c+850,"dig coggen[4] cog_ bus_r",-1);
+	vcdp->declBit  (c+135,"dig coggen[4] cog_ bus_e",-1);
+	vcdp->declBit  (c+136,"dig coggen[4] cog_ bus_w",-1);
+	vcdp->declBus  (c+137,"dig coggen[4] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+851,"dig coggen[4] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+862,"dig coggen[4] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[4] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[4] cog_ bus_c",-1);
-	vcdp->declBit  (c+224,"dig coggen[4] cog_ bus_ack",-1);
+	vcdp->declBit  (c+248,"dig coggen[4] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[4] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[4] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+353,"dig coggen[4] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[4] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[4] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+350,"dig coggen[4] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[4] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+53,"dig coggen[4] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+897,"dig coggen[4] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[4] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[4] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[4] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[4] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[4] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[4] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[4] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[4] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[4] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[4] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[4] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[4] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+751,"dig coggen[4] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5375,"dig coggen[4] cog_ m",-1,4,0);
-	vcdp->declBit  (c+237,"dig coggen[4] cog_ waiti",-1);
-	vcdp->declBit  (c+898,"dig coggen[4] cog_ run",-1);
+	vcdp->declBus  (c+910,"dig coggen[4] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[4] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[4] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[4] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[4] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[4] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[4] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[4] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[4] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[4] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[4] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[4] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[4] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1006,"dig coggen[4] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1279,"dig coggen[4] cog_ m",-1,4,0);
+	vcdp->declBit  (c+261,"dig coggen[4] cog_ waiti",-1);
+	vcdp->declBit  (c+911,"dig coggen[4] cog_ run",-1);
 	vcdp->declBus  (c+29,"dig coggen[4] cog_ px",-1,8,0);
-	vcdp->declBus  (c+899,"dig coggen[4] cog_ p",-1,8,0);
-	vcdp->declBit  (c+900,"dig coggen[4] cog_ c",-1);
-	vcdp->declBit  (c+901,"dig coggen[4] cog_ z",-1);
+	vcdp->declBus  (c+912,"dig coggen[4] cog_ p",-1,8,0);
+	vcdp->declBit  (c+913,"dig coggen[4] cog_ c",-1);
+	vcdp->declBit  (c+914,"dig coggen[4] cog_ z",-1);
 	vcdp->declBus  (c+466,"dig coggen[4] cog_ i",-1,31,0);
 	vcdp->declBit  (c+614,"dig coggen[4] cog_ cond",-1);
 	vcdp->declBit  (c+615,"dig coggen[4] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+275,"dig coggen[4] cog_ alu_co",-1);
-	vcdp->declBit  (c+184,"dig coggen[4] cog_ alu_zo",-1);
+	vcdp->declBit  (c+209,"dig coggen[4] cog_ alu_zo",-1);
 	vcdp->declBit  (c+616,"dig coggen[4] cog_ wio",-1);
 	vcdp->declBit  (c+469,"dig coggen[4] cog_ setouta",-1);
 	vcdp->declBit  (c+470,"dig coggen[4] cog_ setdira",-1);
@@ -1061,106 +1061,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+617,"dig coggen[4] cog_ ram_ena",-1);
 	vcdp->declBit  (c+479,"dig coggen[4] cog_ ram_w",-1);
 	vcdp->declBus  (c+30,"dig coggen[4] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+3271,"dig coggen[4] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1223,"dig coggen[4] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+813,"dig coggen[4] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+897,"dig coggen[4] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+814,"dig coggen[4] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+303,"dig coggen[4] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+353,"dig coggen[4] cog_ plla",-1);
-	vcdp->declQuad (c+816,"dig coggen[4] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+304,"dig coggen[4] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+354,"dig coggen[4] cog_ pllb",-1);
-	vcdp->declBit  (c+3272,"dig coggen[4] cog_ vidack",-1);
+	vcdp->declBus  (c+792,"dig coggen[4] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+910,"dig coggen[4] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+793,"dig coggen[4] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+305,"dig coggen[4] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+350,"dig coggen[4] cog_ plla",-1);
+	vcdp->declQuad (c+795,"dig coggen[4] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+306,"dig coggen[4] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+351,"dig coggen[4] cog_ pllb",-1);
+	vcdp->declBit  (c+1224,"dig coggen[4] cog_ vidack",-1);
 	vcdp->declBus  (c+65,"dig coggen[4] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+3273,"dig coggen[4] cog_ s",-1,31,0);
-	vcdp->declBus  (c+3274,"dig coggen[4] cog_ d",-1,31,0);
-	vcdp->declBus  (c+818,"dig coggen[4] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+819,"dig coggen[4] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1225,"dig coggen[4] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1226,"dig coggen[4] cog_ d",-1,31,0);
+	vcdp->declBus  (c+797,"dig coggen[4] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+798,"dig coggen[4] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+31,"dig coggen[4] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+902,"dig coggen[4] cog_ cancel",-1);
+	vcdp->declBit  (c+915,"dig coggen[4] cog_ cancel",-1);
 	vcdp->declBus  (c+467,"dig coggen[4] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+3275,"dig coggen[4] cog_ dz",-1);
+	vcdp->declBit  (c+1227,"dig coggen[4] cog_ dz",-1);
 	vcdp->declBus  (c+618,"dig coggen[4] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+619,"dig coggen[4] cog_ jump",-1);
 	vcdp->declBit  (c+1030,"dig coggen[4] cog_ match",-1);
-	vcdp->declBit  (c+236,"dig coggen[4] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[4] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+260,"dig coggen[4] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[4] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+617,"dig coggen[4] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+479,"dig coggen[4] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+30,"dig coggen[4] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+3271,"dig coggen[4] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+3276,"dig coggen[4] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[4] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[4] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1223,"dig coggen[4] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[4] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[4] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[4] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+540,"dig coggen[4] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+471,"dig coggen[4] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+473,"dig coggen[4] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+706,"dig coggen[4] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[4] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+814,"dig coggen[4] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+303,"dig coggen[4] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+353,"dig coggen[4] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[4] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+793,"dig coggen[4] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+305,"dig coggen[4] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+350,"dig coggen[4] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1058,"dig coggen[4] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1031,"dig coggen[4] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+820,"dig coggen[4] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+799,"dig coggen[4] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+106,"dig coggen[4] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1059,"dig coggen[4] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+355,"dig coggen[4] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+352,"dig coggen[4] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+82,"dig coggen[4] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+305,"dig coggen[4] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+306,"dig coggen[4] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+969,"dig coggen[4] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+971,"dig coggen[4] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[4] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[4] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+307,"dig coggen[4] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+308,"dig coggen[4] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+978,"dig coggen[4] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+980,"dig coggen[4] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[4] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[4] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+540,"dig coggen[4] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+472,"dig coggen[4] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+474,"dig coggen[4] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+707,"dig coggen[4] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[4] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+816,"dig coggen[4] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+304,"dig coggen[4] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+354,"dig coggen[4] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[4] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+795,"dig coggen[4] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+306,"dig coggen[4] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+351,"dig coggen[4] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1060,"dig coggen[4] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1032,"dig coggen[4] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+821,"dig coggen[4] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+800,"dig coggen[4] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+108,"dig coggen[4] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1061,"dig coggen[4] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+356,"dig coggen[4] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+353,"dig coggen[4] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+83,"dig coggen[4] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+307,"dig coggen[4] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+308,"dig coggen[4] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+972,"dig coggen[4] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+974,"dig coggen[4] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[4] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+353,"dig coggen[4] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+309,"dig coggen[4] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+310,"dig coggen[4] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+981,"dig coggen[4] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+983,"dig coggen[4] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[4] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+350,"dig coggen[4] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+540,"dig coggen[4] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+475,"dig coggen[4] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+476,"dig coggen[4] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+3273,"dig coggen[4] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+3274,"dig coggen[4] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[4] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+354,"dig coggen[4] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+3272,"dig coggen[4] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1225,"dig coggen[4] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1226,"dig coggen[4] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[4] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+351,"dig coggen[4] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1224,"dig coggen[4] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+65,"dig coggen[4] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5376,"dig coggen[4] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+3788,"dig coggen[4] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1280,"dig coggen[4] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1228,"dig coggen[4] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1128,"dig coggen[4] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1129,"dig coggen[4] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1130,"dig coggen[4] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1131,"dig coggen[4] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1132,"dig coggen[4] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5377,"dig coggen[4] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1281,"dig coggen[4] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+32,"dig coggen[4] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1133,"dig coggen[4] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1134,"dig coggen[4] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1127,"dig coggen[4] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+3789,"dig coggen[4] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1229,"dig coggen[4] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1135,"dig coggen[4] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1139,"dig coggen[4] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1136,"dig coggen[4] cog_ cog_vid_ phase",-1,3,0);
@@ -1168,36 +1168,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+382,"dig coggen[4] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+548,"dig coggen[4] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1138,"dig coggen[4] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[4] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[4] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+33,"dig coggen[4] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+66,"dig coggen[4] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+468,"dig coggen[4] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+3273,"dig coggen[4] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+3274,"dig coggen[4] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+899,"dig coggen[4] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+898,"dig coggen[4] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+900,"dig coggen[4] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+901,"dig coggen[4] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[4] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1225,"dig coggen[4] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1226,"dig coggen[4] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+912,"dig coggen[4] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+911,"dig coggen[4] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+913,"dig coggen[4] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+914,"dig coggen[4] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[4] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[4] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+478,"dig coggen[4] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+708,"dig coggen[4] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+275,"dig coggen[4] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+184,"dig coggen[4] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+209,"dig coggen[4] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+390,"dig coggen[4] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+174,"dig coggen[4] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+199,"dig coggen[4] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+620,"dig coggen[4] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+622,"dig coggen[4] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+477,"dig coggen[4] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+402,"dig coggen[4] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+182,"dig coggen[4] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+3790,"dig coggen[4] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+904,"dig coggen[4] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+207,"dig coggen[4] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1230,"dig coggen[4] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+916,"dig coggen[4] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+623,"dig coggen[4] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+624,"dig coggen[4] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+908,"dig coggen[4] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+920,"dig coggen[4] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+625,"dig coggen[4] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+183,"dig coggen[4] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+208,"dig coggen[4] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+626,"dig coggen[4] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+627,"dig coggen[4] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+709,"dig coggen[4] cog_ cog_alu_ add_x",-1,34,0);
@@ -1206,54 +1206,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+713,"dig coggen[4] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+714,"dig coggen[4] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+403,"dig coggen[4] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[5] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[5] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[5] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[5] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[5] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[5] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[5] cog_ ena_bus",-1);
 	vcdp->declBit  (c+375,"dig coggen[5] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[5] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+541,"dig coggen[5] cog_ ena",-1);
-	vcdp->declBit  (c+999,"dig coggen[5] cog_ bus_sel",-1);
-	vcdp->declBit  (c+915,"dig coggen[5] cog_ bus_r",-1);
-	vcdp->declBit  (c+259,"dig coggen[5] cog_ bus_e",-1);
-	vcdp->declBit  (c+260,"dig coggen[5] cog_ bus_w",-1);
-	vcdp->declBus  (c+261,"dig coggen[5] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+760,"dig coggen[5] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1007,"dig coggen[5] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[5] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+839,"dig coggen[5] cog_ bus_sel",-1);
+	vcdp->declBit  (c+852,"dig coggen[5] cog_ bus_r",-1);
+	vcdp->declBit  (c+138,"dig coggen[5] cog_ bus_e",-1);
+	vcdp->declBit  (c+139,"dig coggen[5] cog_ bus_w",-1);
+	vcdp->declBus  (c+140,"dig coggen[5] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+853,"dig coggen[5] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+863,"dig coggen[5] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[5] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[5] cog_ bus_c",-1);
-	vcdp->declBit  (c+225,"dig coggen[5] cog_ bus_ack",-1);
+	vcdp->declBit  (c+249,"dig coggen[5] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[5] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[5] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+357,"dig coggen[5] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[5] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[5] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+354,"dig coggen[5] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[5] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+54,"dig coggen[5] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+909,"dig coggen[5] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[5] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[5] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[5] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[5] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[5] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[5] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[5] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[5] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[5] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[5] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[5] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[5] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+752,"dig coggen[5] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5378,"dig coggen[5] cog_ m",-1,4,0);
-	vcdp->declBit  (c+239,"dig coggen[5] cog_ waiti",-1);
-	vcdp->declBit  (c+910,"dig coggen[5] cog_ run",-1);
+	vcdp->declBus  (c+921,"dig coggen[5] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[5] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[5] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[5] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[5] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[5] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[5] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[5] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[5] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[5] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[5] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[5] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[5] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1007,"dig coggen[5] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1282,"dig coggen[5] cog_ m",-1,4,0);
+	vcdp->declBit  (c+263,"dig coggen[5] cog_ waiti",-1);
+	vcdp->declBit  (c+922,"dig coggen[5] cog_ run",-1);
 	vcdp->declBus  (c+34,"dig coggen[5] cog_ px",-1,8,0);
-	vcdp->declBus  (c+911,"dig coggen[5] cog_ p",-1,8,0);
-	vcdp->declBit  (c+912,"dig coggen[5] cog_ c",-1);
-	vcdp->declBit  (c+913,"dig coggen[5] cog_ z",-1);
+	vcdp->declBus  (c+923,"dig coggen[5] cog_ p",-1,8,0);
+	vcdp->declBit  (c+924,"dig coggen[5] cog_ c",-1);
+	vcdp->declBit  (c+925,"dig coggen[5] cog_ z",-1);
 	vcdp->declBus  (c+480,"dig coggen[5] cog_ i",-1,31,0);
 	vcdp->declBit  (c+628,"dig coggen[5] cog_ cond",-1);
 	vcdp->declBit  (c+629,"dig coggen[5] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+276,"dig coggen[5] cog_ alu_co",-1);
-	vcdp->declBit  (c+195,"dig coggen[5] cog_ alu_zo",-1);
+	vcdp->declBit  (c+220,"dig coggen[5] cog_ alu_zo",-1);
 	vcdp->declBit  (c+630,"dig coggen[5] cog_ wio",-1);
 	vcdp->declBit  (c+483,"dig coggen[5] cog_ setouta",-1);
 	vcdp->declBit  (c+484,"dig coggen[5] cog_ setdira",-1);
@@ -1269,106 +1269,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+631,"dig coggen[5] cog_ ram_ena",-1);
 	vcdp->declBit  (c+493,"dig coggen[5] cog_ ram_w",-1);
 	vcdp->declBus  (c+35,"dig coggen[5] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+3794,"dig coggen[5] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1234,"dig coggen[5] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+822,"dig coggen[5] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+909,"dig coggen[5] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+823,"dig coggen[5] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+309,"dig coggen[5] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+357,"dig coggen[5] cog_ plla",-1);
-	vcdp->declQuad (c+825,"dig coggen[5] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+310,"dig coggen[5] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+358,"dig coggen[5] cog_ pllb",-1);
-	vcdp->declBit  (c+3795,"dig coggen[5] cog_ vidack",-1);
+	vcdp->declBus  (c+801,"dig coggen[5] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+921,"dig coggen[5] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+802,"dig coggen[5] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+311,"dig coggen[5] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+354,"dig coggen[5] cog_ plla",-1);
+	vcdp->declQuad (c+804,"dig coggen[5] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+312,"dig coggen[5] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+355,"dig coggen[5] cog_ pllb",-1);
+	vcdp->declBit  (c+1235,"dig coggen[5] cog_ vidack",-1);
 	vcdp->declBus  (c+67,"dig coggen[5] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+3796,"dig coggen[5] cog_ s",-1,31,0);
-	vcdp->declBus  (c+3797,"dig coggen[5] cog_ d",-1,31,0);
-	vcdp->declBus  (c+827,"dig coggen[5] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+828,"dig coggen[5] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1236,"dig coggen[5] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1237,"dig coggen[5] cog_ d",-1,31,0);
+	vcdp->declBus  (c+806,"dig coggen[5] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+807,"dig coggen[5] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+36,"dig coggen[5] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+914,"dig coggen[5] cog_ cancel",-1);
+	vcdp->declBit  (c+926,"dig coggen[5] cog_ cancel",-1);
 	vcdp->declBus  (c+481,"dig coggen[5] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+3798,"dig coggen[5] cog_ dz",-1);
+	vcdp->declBit  (c+1238,"dig coggen[5] cog_ dz",-1);
 	vcdp->declBus  (c+632,"dig coggen[5] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+633,"dig coggen[5] cog_ jump",-1);
 	vcdp->declBit  (c+1033,"dig coggen[5] cog_ match",-1);
-	vcdp->declBit  (c+238,"dig coggen[5] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[5] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+262,"dig coggen[5] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[5] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+631,"dig coggen[5] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+493,"dig coggen[5] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+35,"dig coggen[5] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+3794,"dig coggen[5] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+3799,"dig coggen[5] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[5] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[5] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1234,"dig coggen[5] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[5] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[5] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[5] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+541,"dig coggen[5] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+485,"dig coggen[5] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+487,"dig coggen[5] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+715,"dig coggen[5] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[5] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+823,"dig coggen[5] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+309,"dig coggen[5] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+357,"dig coggen[5] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[5] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+802,"dig coggen[5] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+311,"dig coggen[5] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+354,"dig coggen[5] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1062,"dig coggen[5] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1034,"dig coggen[5] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+829,"dig coggen[5] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+808,"dig coggen[5] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+110,"dig coggen[5] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1063,"dig coggen[5] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+359,"dig coggen[5] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+356,"dig coggen[5] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+84,"dig coggen[5] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+311,"dig coggen[5] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+312,"dig coggen[5] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+975,"dig coggen[5] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+977,"dig coggen[5] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[5] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[5] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+313,"dig coggen[5] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+314,"dig coggen[5] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+984,"dig coggen[5] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+986,"dig coggen[5] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[5] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[5] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+541,"dig coggen[5] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+486,"dig coggen[5] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+488,"dig coggen[5] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+716,"dig coggen[5] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[5] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+825,"dig coggen[5] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+310,"dig coggen[5] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+358,"dig coggen[5] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[5] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+804,"dig coggen[5] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+312,"dig coggen[5] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+355,"dig coggen[5] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1064,"dig coggen[5] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1035,"dig coggen[5] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+830,"dig coggen[5] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+809,"dig coggen[5] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+112,"dig coggen[5] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1065,"dig coggen[5] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+360,"dig coggen[5] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+357,"dig coggen[5] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+85,"dig coggen[5] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+313,"dig coggen[5] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+314,"dig coggen[5] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+978,"dig coggen[5] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+980,"dig coggen[5] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[5] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+357,"dig coggen[5] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+315,"dig coggen[5] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+316,"dig coggen[5] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+987,"dig coggen[5] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+989,"dig coggen[5] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[5] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+354,"dig coggen[5] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+541,"dig coggen[5] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+489,"dig coggen[5] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+490,"dig coggen[5] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+3796,"dig coggen[5] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+3797,"dig coggen[5] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[5] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+358,"dig coggen[5] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+3795,"dig coggen[5] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1236,"dig coggen[5] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1237,"dig coggen[5] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[5] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+355,"dig coggen[5] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1235,"dig coggen[5] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+67,"dig coggen[5] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5379,"dig coggen[5] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+4311,"dig coggen[5] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1283,"dig coggen[5] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1239,"dig coggen[5] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1141,"dig coggen[5] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1142,"dig coggen[5] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1143,"dig coggen[5] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1144,"dig coggen[5] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1145,"dig coggen[5] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5380,"dig coggen[5] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1284,"dig coggen[5] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+37,"dig coggen[5] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1146,"dig coggen[5] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1147,"dig coggen[5] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1140,"dig coggen[5] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+4312,"dig coggen[5] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1240,"dig coggen[5] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1148,"dig coggen[5] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1152,"dig coggen[5] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1149,"dig coggen[5] cog_ cog_vid_ phase",-1,3,0);
@@ -1376,36 +1376,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+383,"dig coggen[5] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+549,"dig coggen[5] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1151,"dig coggen[5] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[5] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[5] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+38,"dig coggen[5] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+68,"dig coggen[5] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+482,"dig coggen[5] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+3796,"dig coggen[5] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+3797,"dig coggen[5] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+911,"dig coggen[5] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+910,"dig coggen[5] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+912,"dig coggen[5] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+913,"dig coggen[5] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[5] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1236,"dig coggen[5] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1237,"dig coggen[5] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+923,"dig coggen[5] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+922,"dig coggen[5] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+924,"dig coggen[5] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+925,"dig coggen[5] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[5] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[5] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+492,"dig coggen[5] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+717,"dig coggen[5] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+276,"dig coggen[5] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+195,"dig coggen[5] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+220,"dig coggen[5] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+391,"dig coggen[5] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+185,"dig coggen[5] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+210,"dig coggen[5] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+634,"dig coggen[5] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+636,"dig coggen[5] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+491,"dig coggen[5] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+404,"dig coggen[5] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+193,"dig coggen[5] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+4313,"dig coggen[5] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+916,"dig coggen[5] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+218,"dig coggen[5] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1241,"dig coggen[5] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+927,"dig coggen[5] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+637,"dig coggen[5] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+638,"dig coggen[5] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+920,"dig coggen[5] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+931,"dig coggen[5] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+639,"dig coggen[5] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+194,"dig coggen[5] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+219,"dig coggen[5] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+640,"dig coggen[5] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+641,"dig coggen[5] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+718,"dig coggen[5] cog_ cog_alu_ add_x",-1,34,0);
@@ -1414,54 +1414,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+722,"dig coggen[5] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+723,"dig coggen[5] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+405,"dig coggen[5] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[6] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[6] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[6] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[6] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[6] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[6] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[6] cog_ ena_bus",-1);
 	vcdp->declBit  (c+376,"dig coggen[6] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[6] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+542,"dig coggen[6] cog_ ena",-1);
-	vcdp->declBit  (c+1000,"dig coggen[6] cog_ bus_sel",-1);
-	vcdp->declBit  (c+927,"dig coggen[6] cog_ bus_r",-1);
-	vcdp->declBit  (c+262,"dig coggen[6] cog_ bus_e",-1);
-	vcdp->declBit  (c+263,"dig coggen[6] cog_ bus_w",-1);
-	vcdp->declBus  (c+264,"dig coggen[6] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+761,"dig coggen[6] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1008,"dig coggen[6] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[6] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+840,"dig coggen[6] cog_ bus_sel",-1);
+	vcdp->declBit  (c+854,"dig coggen[6] cog_ bus_r",-1);
+	vcdp->declBit  (c+141,"dig coggen[6] cog_ bus_e",-1);
+	vcdp->declBit  (c+142,"dig coggen[6] cog_ bus_w",-1);
+	vcdp->declBus  (c+143,"dig coggen[6] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+855,"dig coggen[6] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+864,"dig coggen[6] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[6] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[6] cog_ bus_c",-1);
-	vcdp->declBit  (c+226,"dig coggen[6] cog_ bus_ack",-1);
+	vcdp->declBit  (c+250,"dig coggen[6] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[6] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[6] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+361,"dig coggen[6] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[6] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[6] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+358,"dig coggen[6] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[6] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+55,"dig coggen[6] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+921,"dig coggen[6] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[6] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[6] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[6] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[6] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[6] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[6] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[6] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[6] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[6] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[6] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[6] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[6] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+753,"dig coggen[6] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5381,"dig coggen[6] cog_ m",-1,4,0);
-	vcdp->declBit  (c+241,"dig coggen[6] cog_ waiti",-1);
-	vcdp->declBit  (c+922,"dig coggen[6] cog_ run",-1);
+	vcdp->declBus  (c+932,"dig coggen[6] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[6] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[6] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[6] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[6] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[6] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[6] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[6] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[6] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[6] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[6] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[6] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[6] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1008,"dig coggen[6] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1285,"dig coggen[6] cog_ m",-1,4,0);
+	vcdp->declBit  (c+265,"dig coggen[6] cog_ waiti",-1);
+	vcdp->declBit  (c+933,"dig coggen[6] cog_ run",-1);
 	vcdp->declBus  (c+39,"dig coggen[6] cog_ px",-1,8,0);
-	vcdp->declBus  (c+923,"dig coggen[6] cog_ p",-1,8,0);
-	vcdp->declBit  (c+924,"dig coggen[6] cog_ c",-1);
-	vcdp->declBit  (c+925,"dig coggen[6] cog_ z",-1);
+	vcdp->declBus  (c+934,"dig coggen[6] cog_ p",-1,8,0);
+	vcdp->declBit  (c+935,"dig coggen[6] cog_ c",-1);
+	vcdp->declBit  (c+936,"dig coggen[6] cog_ z",-1);
 	vcdp->declBus  (c+494,"dig coggen[6] cog_ i",-1,31,0);
 	vcdp->declBit  (c+642,"dig coggen[6] cog_ cond",-1);
 	vcdp->declBit  (c+643,"dig coggen[6] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+277,"dig coggen[6] cog_ alu_co",-1);
-	vcdp->declBit  (c+206,"dig coggen[6] cog_ alu_zo",-1);
+	vcdp->declBit  (c+231,"dig coggen[6] cog_ alu_zo",-1);
 	vcdp->declBit  (c+644,"dig coggen[6] cog_ wio",-1);
 	vcdp->declBit  (c+497,"dig coggen[6] cog_ setouta",-1);
 	vcdp->declBit  (c+498,"dig coggen[6] cog_ setdira",-1);
@@ -1477,106 +1477,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+645,"dig coggen[6] cog_ ram_ena",-1);
 	vcdp->declBit  (c+507,"dig coggen[6] cog_ ram_w",-1);
 	vcdp->declBus  (c+40,"dig coggen[6] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+4317,"dig coggen[6] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1245,"dig coggen[6] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+831,"dig coggen[6] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+921,"dig coggen[6] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+832,"dig coggen[6] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+315,"dig coggen[6] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+361,"dig coggen[6] cog_ plla",-1);
-	vcdp->declQuad (c+834,"dig coggen[6] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+316,"dig coggen[6] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+362,"dig coggen[6] cog_ pllb",-1);
-	vcdp->declBit  (c+4318,"dig coggen[6] cog_ vidack",-1);
+	vcdp->declBus  (c+810,"dig coggen[6] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+932,"dig coggen[6] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+811,"dig coggen[6] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+317,"dig coggen[6] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+358,"dig coggen[6] cog_ plla",-1);
+	vcdp->declQuad (c+813,"dig coggen[6] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+318,"dig coggen[6] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+359,"dig coggen[6] cog_ pllb",-1);
+	vcdp->declBit  (c+1246,"dig coggen[6] cog_ vidack",-1);
 	vcdp->declBus  (c+69,"dig coggen[6] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+4319,"dig coggen[6] cog_ s",-1,31,0);
-	vcdp->declBus  (c+4320,"dig coggen[6] cog_ d",-1,31,0);
-	vcdp->declBus  (c+836,"dig coggen[6] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+837,"dig coggen[6] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1247,"dig coggen[6] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1248,"dig coggen[6] cog_ d",-1,31,0);
+	vcdp->declBus  (c+815,"dig coggen[6] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+816,"dig coggen[6] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+41,"dig coggen[6] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+926,"dig coggen[6] cog_ cancel",-1);
+	vcdp->declBit  (c+937,"dig coggen[6] cog_ cancel",-1);
 	vcdp->declBus  (c+495,"dig coggen[6] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+4321,"dig coggen[6] cog_ dz",-1);
+	vcdp->declBit  (c+1249,"dig coggen[6] cog_ dz",-1);
 	vcdp->declBus  (c+646,"dig coggen[6] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+647,"dig coggen[6] cog_ jump",-1);
 	vcdp->declBit  (c+1036,"dig coggen[6] cog_ match",-1);
-	vcdp->declBit  (c+240,"dig coggen[6] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[6] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+264,"dig coggen[6] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[6] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+645,"dig coggen[6] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+507,"dig coggen[6] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+40,"dig coggen[6] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+4317,"dig coggen[6] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+4322,"dig coggen[6] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[6] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[6] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1245,"dig coggen[6] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[6] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[6] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[6] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+542,"dig coggen[6] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+499,"dig coggen[6] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+501,"dig coggen[6] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+724,"dig coggen[6] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[6] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+832,"dig coggen[6] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+315,"dig coggen[6] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+361,"dig coggen[6] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[6] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+811,"dig coggen[6] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+317,"dig coggen[6] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+358,"dig coggen[6] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1066,"dig coggen[6] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1037,"dig coggen[6] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+838,"dig coggen[6] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+817,"dig coggen[6] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+114,"dig coggen[6] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1067,"dig coggen[6] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+363,"dig coggen[6] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+360,"dig coggen[6] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+86,"dig coggen[6] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+317,"dig coggen[6] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+318,"dig coggen[6] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+981,"dig coggen[6] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+983,"dig coggen[6] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[6] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[6] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+319,"dig coggen[6] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+320,"dig coggen[6] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+990,"dig coggen[6] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+992,"dig coggen[6] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[6] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[6] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+542,"dig coggen[6] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+500,"dig coggen[6] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+502,"dig coggen[6] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+725,"dig coggen[6] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[6] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+834,"dig coggen[6] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+316,"dig coggen[6] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+362,"dig coggen[6] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[6] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+813,"dig coggen[6] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+318,"dig coggen[6] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+359,"dig coggen[6] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1068,"dig coggen[6] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1038,"dig coggen[6] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+839,"dig coggen[6] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+818,"dig coggen[6] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+116,"dig coggen[6] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1069,"dig coggen[6] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+364,"dig coggen[6] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+361,"dig coggen[6] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+87,"dig coggen[6] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+319,"dig coggen[6] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+320,"dig coggen[6] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+984,"dig coggen[6] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+986,"dig coggen[6] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[6] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+361,"dig coggen[6] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+321,"dig coggen[6] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+322,"dig coggen[6] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+993,"dig coggen[6] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+995,"dig coggen[6] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[6] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+358,"dig coggen[6] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+542,"dig coggen[6] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+503,"dig coggen[6] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+504,"dig coggen[6] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+4319,"dig coggen[6] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+4320,"dig coggen[6] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[6] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+362,"dig coggen[6] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+4318,"dig coggen[6] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1247,"dig coggen[6] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1248,"dig coggen[6] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[6] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+359,"dig coggen[6] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1246,"dig coggen[6] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+69,"dig coggen[6] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5382,"dig coggen[6] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+4834,"dig coggen[6] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1286,"dig coggen[6] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1250,"dig coggen[6] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1154,"dig coggen[6] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1155,"dig coggen[6] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1156,"dig coggen[6] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1157,"dig coggen[6] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1158,"dig coggen[6] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5383,"dig coggen[6] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1287,"dig coggen[6] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+42,"dig coggen[6] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1159,"dig coggen[6] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1160,"dig coggen[6] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1153,"dig coggen[6] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+4835,"dig coggen[6] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1251,"dig coggen[6] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1161,"dig coggen[6] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1165,"dig coggen[6] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1162,"dig coggen[6] cog_ cog_vid_ phase",-1,3,0);
@@ -1584,36 +1584,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+384,"dig coggen[6] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+550,"dig coggen[6] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1164,"dig coggen[6] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[6] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[6] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+43,"dig coggen[6] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+70,"dig coggen[6] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+496,"dig coggen[6] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+4319,"dig coggen[6] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+4320,"dig coggen[6] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+923,"dig coggen[6] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+922,"dig coggen[6] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+924,"dig coggen[6] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+925,"dig coggen[6] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[6] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1247,"dig coggen[6] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1248,"dig coggen[6] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+934,"dig coggen[6] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+933,"dig coggen[6] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+935,"dig coggen[6] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+936,"dig coggen[6] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[6] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[6] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+506,"dig coggen[6] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+726,"dig coggen[6] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+277,"dig coggen[6] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+206,"dig coggen[6] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+231,"dig coggen[6] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+392,"dig coggen[6] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+196,"dig coggen[6] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+221,"dig coggen[6] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+648,"dig coggen[6] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+650,"dig coggen[6] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+505,"dig coggen[6] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+406,"dig coggen[6] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+204,"dig coggen[6] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+4836,"dig coggen[6] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+928,"dig coggen[6] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+229,"dig coggen[6] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1252,"dig coggen[6] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+938,"dig coggen[6] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+651,"dig coggen[6] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+652,"dig coggen[6] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+932,"dig coggen[6] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+942,"dig coggen[6] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+653,"dig coggen[6] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+205,"dig coggen[6] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+230,"dig coggen[6] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+654,"dig coggen[6] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+655,"dig coggen[6] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+727,"dig coggen[6] cog_ cog_alu_ add_x",-1,34,0);
@@ -1622,54 +1622,54 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+731,"dig coggen[6] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+732,"dig coggen[6] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+407,"dig coggen[6] cog_ cog_alu_ add_c",-1);
-	vcdp->declBit  (c+5387,"dig coggen[7] cog_ nres",-1);
-	vcdp->declBit  (c+5390,"dig coggen[7] cog_ clk_pll",-1);
-	vcdp->declBit  (c+5389,"dig coggen[7] cog_ clk_cog",-1);
+	vcdp->declBit  (c+1291,"dig coggen[7] cog_ nres",-1);
+	vcdp->declBit  (c+1294,"dig coggen[7] cog_ clk_pll",-1);
+	vcdp->declBit  (c+1293,"dig coggen[7] cog_ clk_cog",-1);
 	vcdp->declBit  (c+1074,"dig coggen[7] cog_ ena_bus",-1);
 	vcdp->declBit  (c+377,"dig coggen[7] cog_ ptr_w",-1);
 	vcdp->declBus  (c+1012,"dig coggen[7] cog_ ptr_d",-1,27,0);
 	vcdp->declBit  (c+543,"dig coggen[7] cog_ ena",-1);
-	vcdp->declBit  (c+1001,"dig coggen[7] cog_ bus_sel",-1);
-	vcdp->declBit  (c+939,"dig coggen[7] cog_ bus_r",-1);
-	vcdp->declBit  (c+265,"dig coggen[7] cog_ bus_e",-1);
-	vcdp->declBit  (c+266,"dig coggen[7] cog_ bus_w",-1);
-	vcdp->declBus  (c+267,"dig coggen[7] cog_ bus_s",-1,1,0);
-	vcdp->declBus  (c+762,"dig coggen[7] cog_ bus_a",-1,15,0);
-	vcdp->declBus  (c+1009,"dig coggen[7] cog_ bus_d",-1,31,0);
-	vcdp->declBus  (c+763,"dig coggen[7] cog_ bus_q",-1,31,0);
+	vcdp->declBit  (c+841,"dig coggen[7] cog_ bus_sel",-1);
+	vcdp->declBit  (c+856,"dig coggen[7] cog_ bus_r",-1);
+	vcdp->declBit  (c+144,"dig coggen[7] cog_ bus_e",-1);
+	vcdp->declBit  (c+145,"dig coggen[7] cog_ bus_w",-1);
+	vcdp->declBus  (c+146,"dig coggen[7] cog_ bus_s",-1,1,0);
+	vcdp->declBus  (c+857,"dig coggen[7] cog_ bus_a",-1,15,0);
+	vcdp->declBus  (c+865,"dig coggen[7] cog_ bus_d",-1,31,0);
+	vcdp->declBus  (c+742,"dig coggen[7] cog_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[7] cog_ bus_c",-1);
-	vcdp->declBit  (c+227,"dig coggen[7] cog_ bus_ack",-1);
+	vcdp->declBit  (c+251,"dig coggen[7] cog_ bus_ack",-1);
 	vcdp->declBus  (c+1010,"dig coggen[7] cog_ cnt",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[7] cog_ pll_in",-1,7,0);
-	vcdp->declBit  (c+365,"dig coggen[7] cog_ pll_out",-1);
-	vcdp->declBus  (c+5391,"dig coggen[7] cog_ pin_in",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[7] cog_ pll_in",-1,7,0);
+	vcdp->declBit  (c+362,"dig coggen[7] cog_ pll_out",-1);
+	vcdp->declBus  (c+1295,"dig coggen[7] cog_ pin_in",-1,31,0);
 	vcdp->declBus  (c+56,"dig coggen[7] cog_ pin_out",-1,31,0);
-	vcdp->declBus  (c+933,"dig coggen[7] cog_ pin_dir",-1,31,0);
-	vcdp->declBus  (c+5397,"dig coggen[7] cog_ oh",-1,31,0);
-	vcdp->declBus  (c+5398,"dig coggen[7] cog_ ol",-1,31,0);
-	vcdp->declBus  (c+5399,"dig coggen[7] cog_ wz",-1,31,0);
-	vcdp->declBus  (c+5400,"dig coggen[7] cog_ wc",-1,31,0);
-	vcdp->declBus  (c+5401,"dig coggen[7] cog_ wr",-1,31,0);
-	vcdp->declBus  (c+5402,"dig coggen[7] cog_ im",-1,31,0);
-	vcdp->declBus  (c+5403,"dig coggen[7] cog_ ch",-1,31,0);
-	vcdp->declBus  (c+5404,"dig coggen[7] cog_ cl",-1,31,0);
-	vcdp->declBus  (c+5405,"dig coggen[7] cog_ dh",-1,31,0);
-	vcdp->declBus  (c+5406,"dig coggen[7] cog_ dl",-1,31,0);
-	vcdp->declBus  (c+5396,"dig coggen[7] cog_ sh",-1,31,0);
-	vcdp->declBus  (c+5395,"dig coggen[7] cog_ sl",-1,31,0);
-	vcdp->declBus  (c+754,"dig coggen[7] cog_ ptr",-1,27,0);
-	vcdp->declBus  (c+5384,"dig coggen[7] cog_ m",-1,4,0);
-	vcdp->declBit  (c+243,"dig coggen[7] cog_ waiti",-1);
-	vcdp->declBit  (c+934,"dig coggen[7] cog_ run",-1);
+	vcdp->declBus  (c+943,"dig coggen[7] cog_ pin_dir",-1,31,0);
+	vcdp->declBus  (c+1301,"dig coggen[7] cog_ oh",-1,31,0);
+	vcdp->declBus  (c+1302,"dig coggen[7] cog_ ol",-1,31,0);
+	vcdp->declBus  (c+1303,"dig coggen[7] cog_ wz",-1,31,0);
+	vcdp->declBus  (c+1304,"dig coggen[7] cog_ wc",-1,31,0);
+	vcdp->declBus  (c+1305,"dig coggen[7] cog_ wr",-1,31,0);
+	vcdp->declBus  (c+1306,"dig coggen[7] cog_ im",-1,31,0);
+	vcdp->declBus  (c+1307,"dig coggen[7] cog_ ch",-1,31,0);
+	vcdp->declBus  (c+1308,"dig coggen[7] cog_ cl",-1,31,0);
+	vcdp->declBus  (c+1309,"dig coggen[7] cog_ dh",-1,31,0);
+	vcdp->declBus  (c+1310,"dig coggen[7] cog_ dl",-1,31,0);
+	vcdp->declBus  (c+1300,"dig coggen[7] cog_ sh",-1,31,0);
+	vcdp->declBus  (c+1299,"dig coggen[7] cog_ sl",-1,31,0);
+	vcdp->declBus  (c+1009,"dig coggen[7] cog_ ptr",-1,27,0);
+	vcdp->declBus  (c+1288,"dig coggen[7] cog_ m",-1,4,0);
+	vcdp->declBit  (c+267,"dig coggen[7] cog_ waiti",-1);
+	vcdp->declBit  (c+944,"dig coggen[7] cog_ run",-1);
 	vcdp->declBus  (c+44,"dig coggen[7] cog_ px",-1,8,0);
-	vcdp->declBus  (c+935,"dig coggen[7] cog_ p",-1,8,0);
-	vcdp->declBit  (c+936,"dig coggen[7] cog_ c",-1);
-	vcdp->declBit  (c+937,"dig coggen[7] cog_ z",-1);
+	vcdp->declBus  (c+945,"dig coggen[7] cog_ p",-1,8,0);
+	vcdp->declBit  (c+946,"dig coggen[7] cog_ c",-1);
+	vcdp->declBit  (c+947,"dig coggen[7] cog_ z",-1);
 	vcdp->declBus  (c+508,"dig coggen[7] cog_ i",-1,31,0);
 	vcdp->declBit  (c+656,"dig coggen[7] cog_ cond",-1);
 	vcdp->declBit  (c+657,"dig coggen[7] cog_ jump_cancel",-1);
 	vcdp->declBit  (c+278,"dig coggen[7] cog_ alu_co",-1);
-	vcdp->declBit  (c+217,"dig coggen[7] cog_ alu_zo",-1);
+	vcdp->declBit  (c+242,"dig coggen[7] cog_ alu_zo",-1);
 	vcdp->declBit  (c+658,"dig coggen[7] cog_ wio",-1);
 	vcdp->declBit  (c+511,"dig coggen[7] cog_ setouta",-1);
 	vcdp->declBit  (c+512,"dig coggen[7] cog_ setdira",-1);
@@ -1685,106 +1685,106 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+659,"dig coggen[7] cog_ ram_ena",-1);
 	vcdp->declBit  (c+521,"dig coggen[7] cog_ ram_w",-1);
 	vcdp->declBus  (c+45,"dig coggen[7] cog_ ram_a",-1,8,0);
-	vcdp->declBus  (c+4840,"dig coggen[7] cog_ ram_q",-1,31,0);
+	vcdp->declBus  (c+1256,"dig coggen[7] cog_ ram_q",-1,31,0);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ alu_r",-1,31,0);
-	vcdp->declBus  (c+840,"dig coggen[7] cog_ outa",-1,31,0);
-	vcdp->declBus  (c+933,"dig coggen[7] cog_ dira",-1,31,0);
-	vcdp->declQuad (c+841,"dig coggen[7] cog_ phsa",-1,32,0);
-	vcdp->declBus  (c+321,"dig coggen[7] cog_ ctra_pin_out",-1,31,0);
-	vcdp->declBit  (c+365,"dig coggen[7] cog_ plla",-1);
-	vcdp->declQuad (c+843,"dig coggen[7] cog_ phsb",-1,32,0);
-	vcdp->declBus  (c+322,"dig coggen[7] cog_ ctrb_pin_out",-1,31,0);
-	vcdp->declBit  (c+366,"dig coggen[7] cog_ pllb",-1);
-	vcdp->declBit  (c+4841,"dig coggen[7] cog_ vidack",-1);
+	vcdp->declBus  (c+819,"dig coggen[7] cog_ outa",-1,31,0);
+	vcdp->declBus  (c+943,"dig coggen[7] cog_ dira",-1,31,0);
+	vcdp->declQuad (c+820,"dig coggen[7] cog_ phsa",-1,32,0);
+	vcdp->declBus  (c+323,"dig coggen[7] cog_ ctra_pin_out",-1,31,0);
+	vcdp->declBit  (c+362,"dig coggen[7] cog_ plla",-1);
+	vcdp->declQuad (c+822,"dig coggen[7] cog_ phsb",-1,32,0);
+	vcdp->declBus  (c+324,"dig coggen[7] cog_ ctrb_pin_out",-1,31,0);
+	vcdp->declBit  (c+363,"dig coggen[7] cog_ pllb",-1);
+	vcdp->declBit  (c+1257,"dig coggen[7] cog_ vidack",-1);
 	vcdp->declBus  (c+71,"dig coggen[7] cog_ vid_pin_out",-1,31,0);
-	vcdp->declBus  (c+4842,"dig coggen[7] cog_ s",-1,31,0);
-	vcdp->declBus  (c+4843,"dig coggen[7] cog_ d",-1,31,0);
-	vcdp->declBus  (c+845,"dig coggen[7] cog_ ix",-1,31,0);
-	vcdp->declBus  (c+846,"dig coggen[7] cog_ sy",-1,31,0);
+	vcdp->declBus  (c+1258,"dig coggen[7] cog_ s",-1,31,0);
+	vcdp->declBus  (c+1259,"dig coggen[7] cog_ d",-1,31,0);
+	vcdp->declBus  (c+824,"dig coggen[7] cog_ ix",-1,31,0);
+	vcdp->declBus  (c+825,"dig coggen[7] cog_ sy",-1,31,0);
 	vcdp->declBus  (c+46,"dig coggen[7] cog_ sx",-1,31,0);
-	vcdp->declBit  (c+938,"dig coggen[7] cog_ cancel",-1);
+	vcdp->declBit  (c+948,"dig coggen[7] cog_ cancel",-1);
 	vcdp->declBus  (c+509,"dig coggen[7] cog_ condx",-1,3,0);
-	vcdp->declBit  (c+4844,"dig coggen[7] cog_ dz",-1);
+	vcdp->declBit  (c+1260,"dig coggen[7] cog_ dz",-1);
 	vcdp->declBus  (c+660,"dig coggen[7] cog_ jumpx",-1,1,0);
 	vcdp->declBit  (c+661,"dig coggen[7] cog_ jump",-1);
 	vcdp->declBit  (c+1039,"dig coggen[7] cog_ match",-1);
-	vcdp->declBit  (c+242,"dig coggen[7] cog_ waitx",-1);
-	vcdp->declBit  (c+5389,"dig coggen[7] cog_ cog_ram_ clk",-1);
+	vcdp->declBit  (c+266,"dig coggen[7] cog_ waitx",-1);
+	vcdp->declBit  (c+1293,"dig coggen[7] cog_ cog_ram_ clk",-1);
 	vcdp->declBit  (c+659,"dig coggen[7] cog_ cog_ram_ ena",-1);
 	vcdp->declBit  (c+521,"dig coggen[7] cog_ cog_ram_ w",-1);
 	vcdp->declBus  (c+45,"dig coggen[7] cog_ cog_ram_ a",-1,8,0);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ cog_ram_ d",-1,31,0);
-	vcdp->declBus  (c+4840,"dig coggen[7] cog_ cog_ram_ q",-1,31,0);
-	vcdp->declArray(c+4845,"dig coggen[7] cog_ cog_ram_ r",-1,16383,0);
-	vcdp->declBit  (c+5389,"dig coggen[7] cog_ cog_ctra clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[7] cog_ cog_ctra clk_pll",-1);
+	vcdp->declBus  (c+1256,"dig coggen[7] cog_ cog_ram_ q",-1,31,0);
+	// Tracing: dig coggen[7] cog_ cog_ram_ r // Ignored: Wide memory > --trace-max-array ents at ../HDL/cog_ram.v:40
+	vcdp->declBit  (c+1293,"dig coggen[7] cog_ cog_ctra clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[7] cog_ cog_ctra clk_pll",-1);
 	vcdp->declBit  (c+543,"dig coggen[7] cog_ cog_ctra ena",-1);
 	vcdp->declBit  (c+513,"dig coggen[7] cog_ cog_ctra setctr",-1);
 	vcdp->declBit  (c+515,"dig coggen[7] cog_ cog_ctra setfrq",-1);
 	vcdp->declBit  (c+733,"dig coggen[7] cog_ cog_ctra setphs",-1);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ cog_ctra data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[7] cog_ cog_ctra pin_in",-1,31,0);
-	vcdp->declQuad (c+841,"dig coggen[7] cog_ cog_ctra phs",-1,32,0);
-	vcdp->declBus  (c+321,"dig coggen[7] cog_ cog_ctra pin_out",-1,31,0);
-	vcdp->declBit  (c+365,"dig coggen[7] cog_ cog_ctra pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[7] cog_ cog_ctra pin_in",-1,31,0);
+	vcdp->declQuad (c+820,"dig coggen[7] cog_ cog_ctra phs",-1,32,0);
+	vcdp->declBus  (c+323,"dig coggen[7] cog_ cog_ctra pin_out",-1,31,0);
+	vcdp->declBit  (c+362,"dig coggen[7] cog_ cog_ctra pll",-1);
 	vcdp->declBus  (c+1070,"dig coggen[7] cog_ cog_ctra ctr",-1,31,0);
 	vcdp->declBus  (c+1040,"dig coggen[7] cog_ cog_ctra frq",-1,31,0);
-	vcdp->declBus  (c+847,"dig coggen[7] cog_ cog_ctra dly",-1,1,0);
+	vcdp->declBus  (c+826,"dig coggen[7] cog_ cog_ctra dly",-1,1,0);
 	vcdp->declQuad (c+118,"dig coggen[7] cog_ cog_ctra tp",-1,47,0);
 	vcdp->declBus  (c+1071,"dig coggen[7] cog_ cog_ctra pick",-1,3,0);
-	vcdp->declBus  (c+367,"dig coggen[7] cog_ cog_ctra tba",-1,2,0);
+	vcdp->declBus  (c+364,"dig coggen[7] cog_ cog_ctra tba",-1,2,0);
 	vcdp->declBit  (c+88,"dig coggen[7] cog_ cog_ctra trig",-1);
-	vcdp->declBit  (c+323,"dig coggen[7] cog_ cog_ctra outb",-1);
-	vcdp->declBit  (c+324,"dig coggen[7] cog_ cog_ctra outa",-1);
-	vcdp->declQuad (c+987,"dig coggen[7] cog_ cog_ctra pll_fake",-1,35,0);
-	vcdp->declBus  (c+989,"dig coggen[7] cog_ cog_ctra pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[7] cog_ cog_ctrb clk_cog",-1);
-	vcdp->declBit  (c+5390,"dig coggen[7] cog_ cog_ctrb clk_pll",-1);
+	vcdp->declBit  (c+325,"dig coggen[7] cog_ cog_ctra outb",-1);
+	vcdp->declBit  (c+326,"dig coggen[7] cog_ cog_ctra outa",-1);
+	vcdp->declQuad (c+996,"dig coggen[7] cog_ cog_ctra pll_fake",-1,35,0);
+	vcdp->declBus  (c+998,"dig coggen[7] cog_ cog_ctra pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[7] cog_ cog_ctrb clk_cog",-1);
+	vcdp->declBit  (c+1294,"dig coggen[7] cog_ cog_ctrb clk_pll",-1);
 	vcdp->declBit  (c+543,"dig coggen[7] cog_ cog_ctrb ena",-1);
 	vcdp->declBit  (c+514,"dig coggen[7] cog_ cog_ctrb setctr",-1);
 	vcdp->declBit  (c+516,"dig coggen[7] cog_ cog_ctrb setfrq",-1);
 	vcdp->declBit  (c+734,"dig coggen[7] cog_ cog_ctrb setphs",-1);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ cog_ctrb data",-1,31,0);
-	vcdp->declBus  (c+5391,"dig coggen[7] cog_ cog_ctrb pin_in",-1,31,0);
-	vcdp->declQuad (c+843,"dig coggen[7] cog_ cog_ctrb phs",-1,32,0);
-	vcdp->declBus  (c+322,"dig coggen[7] cog_ cog_ctrb pin_out",-1,31,0);
-	vcdp->declBit  (c+366,"dig coggen[7] cog_ cog_ctrb pll",-1);
+	vcdp->declBus  (c+1295,"dig coggen[7] cog_ cog_ctrb pin_in",-1,31,0);
+	vcdp->declQuad (c+822,"dig coggen[7] cog_ cog_ctrb phs",-1,32,0);
+	vcdp->declBus  (c+324,"dig coggen[7] cog_ cog_ctrb pin_out",-1,31,0);
+	vcdp->declBit  (c+363,"dig coggen[7] cog_ cog_ctrb pll",-1);
 	vcdp->declBus  (c+1072,"dig coggen[7] cog_ cog_ctrb ctr",-1,31,0);
 	vcdp->declBus  (c+1041,"dig coggen[7] cog_ cog_ctrb frq",-1,31,0);
-	vcdp->declBus  (c+848,"dig coggen[7] cog_ cog_ctrb dly",-1,1,0);
+	vcdp->declBus  (c+827,"dig coggen[7] cog_ cog_ctrb dly",-1,1,0);
 	vcdp->declQuad (c+120,"dig coggen[7] cog_ cog_ctrb tp",-1,47,0);
 	vcdp->declBus  (c+1073,"dig coggen[7] cog_ cog_ctrb pick",-1,3,0);
-	vcdp->declBus  (c+368,"dig coggen[7] cog_ cog_ctrb tba",-1,2,0);
+	vcdp->declBus  (c+365,"dig coggen[7] cog_ cog_ctrb tba",-1,2,0);
 	vcdp->declBit  (c+89,"dig coggen[7] cog_ cog_ctrb trig",-1);
-	vcdp->declBit  (c+325,"dig coggen[7] cog_ cog_ctrb outb",-1);
-	vcdp->declBit  (c+326,"dig coggen[7] cog_ cog_ctrb outa",-1);
-	vcdp->declQuad (c+990,"dig coggen[7] cog_ cog_ctrb pll_fake",-1,35,0);
-	vcdp->declBus  (c+992,"dig coggen[7] cog_ cog_ctrb pll_taps",-1,7,0);
-	vcdp->declBit  (c+5389,"dig coggen[7] cog_ cog_vid_ clk_cog",-1);
-	vcdp->declBit  (c+365,"dig coggen[7] cog_ cog_vid_ clk_vid",-1);
+	vcdp->declBit  (c+327,"dig coggen[7] cog_ cog_ctrb outb",-1);
+	vcdp->declBit  (c+328,"dig coggen[7] cog_ cog_ctrb outa",-1);
+	vcdp->declQuad (c+999,"dig coggen[7] cog_ cog_ctrb pll_fake",-1,35,0);
+	vcdp->declBus  (c+1001,"dig coggen[7] cog_ cog_ctrb pll_taps",-1,7,0);
+	vcdp->declBit  (c+1293,"dig coggen[7] cog_ cog_vid_ clk_cog",-1);
+	vcdp->declBit  (c+362,"dig coggen[7] cog_ cog_vid_ clk_vid",-1);
 	vcdp->declBit  (c+543,"dig coggen[7] cog_ cog_vid_ ena",-1);
 	vcdp->declBit  (c+517,"dig coggen[7] cog_ cog_vid_ setvid",-1);
 	vcdp->declBit  (c+518,"dig coggen[7] cog_ cog_vid_ setscl",-1);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ cog_vid_ data",-1,31,0);
-	vcdp->declBus  (c+4842,"dig coggen[7] cog_ cog_vid_ pixel",-1,31,0);
-	vcdp->declBus  (c+4843,"dig coggen[7] cog_ cog_vid_ color",-1,31,0);
-	vcdp->declBus  (c+340,"dig coggen[7] cog_ cog_vid_ aural",-1,7,0);
-	vcdp->declBit  (c+366,"dig coggen[7] cog_ cog_vid_ carrier",-1);
-	vcdp->declBit  (c+4841,"dig coggen[7] cog_ cog_vid_ ack",-1);
+	vcdp->declBus  (c+1258,"dig coggen[7] cog_ cog_vid_ pixel",-1,31,0);
+	vcdp->declBus  (c+1259,"dig coggen[7] cog_ cog_vid_ color",-1,31,0);
+	vcdp->declBus  (c+337,"dig coggen[7] cog_ cog_vid_ aural",-1,7,0);
+	vcdp->declBit  (c+363,"dig coggen[7] cog_ cog_vid_ carrier",-1);
+	vcdp->declBit  (c+1257,"dig coggen[7] cog_ cog_vid_ ack",-1);
 	vcdp->declBus  (c+71,"dig coggen[7] cog_ cog_vid_ pin_out",-1,31,0);
-	vcdp->declBus  (c+5385,"dig coggen[7] cog_ cog_vid_ vid",-1,31,0);
-	vcdp->declBus  (c+5357,"dig coggen[7] cog_ cog_vid_ scl",-1,19,0);
+	vcdp->declBus  (c+1289,"dig coggen[7] cog_ cog_vid_ vid",-1,31,0);
+	vcdp->declBus  (c+1261,"dig coggen[7] cog_ cog_vid_ scl",-1,19,0);
 	vcdp->declBus  (c+1167,"dig coggen[7] cog_ cog_vid_ cnts",-1,7,0);
 	vcdp->declBus  (c+1168,"dig coggen[7] cog_ cog_vid_ cnt",-1,7,0);
 	vcdp->declBus  (c+1169,"dig coggen[7] cog_ cog_vid_ set",-1,11,0);
 	vcdp->declBus  (c+1170,"dig coggen[7] cog_ cog_vid_ pixels",-1,31,0);
 	vcdp->declBus  (c+1171,"dig coggen[7] cog_ cog_vid_ colors",-1,31,0);
-	vcdp->declBit  (c+5386,"dig coggen[7] cog_ cog_vid_ enable",-1);
+	vcdp->declBit  (c+1290,"dig coggen[7] cog_ cog_vid_ enable",-1);
 	vcdp->declBit  (c+47,"dig coggen[7] cog_ cog_vid_ vclk",-1);
 	vcdp->declBit  (c+1172,"dig coggen[7] cog_ cog_vid_ new_set",-1);
 	vcdp->declBit  (c+1173,"dig coggen[7] cog_ cog_vid_ new_cnt",-1);
 	vcdp->declBit  (c+1166,"dig coggen[7] cog_ cog_vid_ cap",-1);
-	vcdp->declBus  (c+5358,"dig coggen[7] cog_ cog_vid_ snc",-1,1,0);
+	vcdp->declBus  (c+1262,"dig coggen[7] cog_ cog_vid_ snc",-1,1,0);
 	vcdp->declBus  (c+1174,"dig coggen[7] cog_ cog_vid_ discrete",-1,7,0);
 	vcdp->declBus  (c+1178,"dig coggen[7] cog_ cog_vid_ colorx",-1,31,0);
 	vcdp->declBus  (c+1175,"dig coggen[7] cog_ cog_vid_ phase",-1,3,0);
@@ -1792,36 +1792,36 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBus  (c+385,"dig coggen[7] cog_ cog_vid_ colorphs",-1,3,0);
 	vcdp->declBus  (c+551,"dig coggen[7] cog_ cog_vid_ colormod",-1,2,0);
 	vcdp->declBus  (c+1177,"dig coggen[7] cog_ cog_vid_ composite",-1,2,0);
-	vcdp->declQuad (c+5407,"dig coggen[7] cog_ cog_vid_ level",-1,47,0);
+	vcdp->declQuad (c+1311,"dig coggen[7] cog_ cog_vid_ level",-1,47,0);
 	vcdp->declBus  (c+48,"dig coggen[7] cog_ cog_vid_ broadcast",-1,3,0);
 	vcdp->declBus  (c+72,"dig coggen[7] cog_ cog_vid_ outp",-1,7,0);
 	vcdp->declBus  (c+510,"dig coggen[7] cog_ cog_alu_ i",-1,5,0);
-	vcdp->declBus  (c+4842,"dig coggen[7] cog_ cog_alu_ s",-1,31,0);
-	vcdp->declBus  (c+4843,"dig coggen[7] cog_ cog_alu_ d",-1,31,0);
-	vcdp->declBus  (c+935,"dig coggen[7] cog_ cog_alu_ p",-1,8,0);
-	vcdp->declBit  (c+934,"dig coggen[7] cog_ cog_alu_ run",-1);
-	vcdp->declBit  (c+936,"dig coggen[7] cog_ cog_alu_ ci",-1);
-	vcdp->declBit  (c+937,"dig coggen[7] cog_ cog_alu_ zi",-1);
-	vcdp->declBus  (c+763,"dig coggen[7] cog_ cog_alu_ bus_q",-1,31,0);
+	vcdp->declBus  (c+1258,"dig coggen[7] cog_ cog_alu_ s",-1,31,0);
+	vcdp->declBus  (c+1259,"dig coggen[7] cog_ cog_alu_ d",-1,31,0);
+	vcdp->declBus  (c+945,"dig coggen[7] cog_ cog_alu_ p",-1,8,0);
+	vcdp->declBit  (c+944,"dig coggen[7] cog_ cog_alu_ run",-1);
+	vcdp->declBit  (c+946,"dig coggen[7] cog_ cog_alu_ ci",-1);
+	vcdp->declBit  (c+947,"dig coggen[7] cog_ cog_alu_ zi",-1);
+	vcdp->declBus  (c+742,"dig coggen[7] cog_ cog_alu_ bus_q",-1,31,0);
 	vcdp->declBit  (c+1011,"dig coggen[7] cog_ cog_alu_ bus_c",-1);
 	vcdp->declBit  (c+520,"dig coggen[7] cog_ cog_alu_ wr",-1);
 	vcdp->declBus  (c+735,"dig coggen[7] cog_ cog_alu_ r",-1,31,0);
 	vcdp->declBit  (c+278,"dig coggen[7] cog_ cog_alu_ co",-1);
-	vcdp->declBit  (c+217,"dig coggen[7] cog_ cog_alu_ zo",-1);
+	vcdp->declBit  (c+242,"dig coggen[7] cog_ cog_alu_ zo",-1);
 	vcdp->declBus  (c+393,"dig coggen[7] cog_ cog_alu_ dr",-1,31,0);
-	vcdp->declArray(c+207,"dig coggen[7] cog_ cog_alu_ ri",-1,247,0);
+	vcdp->declArray(c+232,"dig coggen[7] cog_ cog_alu_ ri",-1,247,0);
 	vcdp->declQuad (c+662,"dig coggen[7] cog_ cog_alu_ rot",-1,62,0);
 	vcdp->declBus  (c+664,"dig coggen[7] cog_ cog_alu_ rotr",-1,31,0);
 	vcdp->declBus  (c+519,"dig coggen[7] cog_ cog_alu_ rot_r",-1,31,0);
 	vcdp->declBit  (c+408,"dig coggen[7] cog_ cog_alu_ rot_c",-1);
-	vcdp->declBus  (c+215,"dig coggen[7] cog_ cog_alu_ log_s",-1,1,0);
-	vcdp->declArray(c+5359,"dig coggen[7] cog_ cog_alu_ log_x",-1,127,0);
-	vcdp->declArray(c+940,"dig coggen[7] cog_ cog_alu_ mov_x",-1,127,0);
+	vcdp->declBus  (c+240,"dig coggen[7] cog_ cog_alu_ log_s",-1,1,0);
+	vcdp->declArray(c+1263,"dig coggen[7] cog_ cog_alu_ log_x",-1,127,0);
+	vcdp->declArray(c+949,"dig coggen[7] cog_ cog_alu_ mov_x",-1,127,0);
 	vcdp->declBus  (c+665,"dig coggen[7] cog_ cog_alu_ log_r",-1,31,0);
 	vcdp->declBit  (c+666,"dig coggen[7] cog_ cog_alu_ log_c",-1);
-	vcdp->declBus  (c+944,"dig coggen[7] cog_ cog_alu_ ads",-1,3,0);
+	vcdp->declBus  (c+953,"dig coggen[7] cog_ cog_alu_ ads",-1,3,0);
 	vcdp->declBit  (c+667,"dig coggen[7] cog_ cog_alu_ add_sub",-1);
-	vcdp->declBit  (c+216,"dig coggen[7] cog_ cog_alu_ add_ci",-1);
+	vcdp->declBit  (c+241,"dig coggen[7] cog_ cog_alu_ add_ci",-1);
 	vcdp->declBus  (c+668,"dig coggen[7] cog_ cog_alu_ add_d",-1,31,0);
 	vcdp->declBus  (c+669,"dig coggen[7] cog_ cog_alu_ add_s",-1,31,0);
 	vcdp->declQuad (c+736,"dig coggen[7] cog_ cog_alu_ add_x",-1,34,0);
@@ -1830,9 +1830,14 @@ void Vdig::traceInitThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->declBit  (c+740,"dig coggen[7] cog_ cog_alu_ add_cm",-1);
 	vcdp->declBit  (c+741,"dig coggen[7] cog_ cog_alu_ add_cs",-1);
 	vcdp->declBit  (c+409,"dig coggen[7] cog_ cog_alu_ add_c",-1);
-	vcdp->declBus  (c+5396,"$unit HUB_RAM_KL",-1,31,0);
-	vcdp->declBus  (c+5396,"$unit HUB_ROM_KL",-1,31,0);
-	vcdp->declArray(c+5409,"$unit HUB_ROM_INIT",-1,271,0);
+	vcdp->declBus  (c+1300,"$unit HUB_RAM_KL",-1,31,0);
+	vcdp->declArray(c+1313,"$unit HUB_RAM_INIT0",-1,295,0);
+	vcdp->declArray(c+1323,"$unit HUB_RAM_INIT1",-1,295,0);
+	vcdp->declArray(c+1333,"$unit HUB_RAM_INIT2",-1,295,0);
+	vcdp->declArray(c+1343,"$unit HUB_RAM_INIT3",-1,295,0);
+	vcdp->declBus  (c+1300,"$unit HUB_ROM_KL",-1,31,0);
+	vcdp->declArray(c+1353,"$unit HUB_ROM_INIT",-1,271,0);
+	vcdp->declArray(c+1362,"$unit COG_RAM_INIT",-1,167,0);
     }
 }
 
@@ -1841,12 +1846,6 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     int c=code;
     if (0 && vcdp && c) {}  // Prevent unused
     // Variables
-    VL_SIGW(__Vtemp130,127,0,4);
-    VL_SIGW(__Vtemp133,255,0,8);
-    VL_SIGW(__Vtemp134,127,0,4);
-    VL_SIGW(__Vtemp137,255,0,8);
-    VL_SIGW(__Vtemp138,127,0,4);
-    VL_SIGW(__Vtemp141,255,0,8);
     VL_SIGW(__Vtemp142,127,0,4);
     VL_SIGW(__Vtemp145,255,0,8);
     VL_SIGW(__Vtemp146,127,0,4);
@@ -1857,12 +1856,12 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     VL_SIGW(__Vtemp157,255,0,8);
     VL_SIGW(__Vtemp158,127,0,4);
     VL_SIGW(__Vtemp161,255,0,8);
-    VL_SIGW(__Vtemp163,127,0,4);
-    VL_SIGW(__Vtemp165,127,0,4);
-    VL_SIGW(__Vtemp167,127,0,4);
-    VL_SIGW(__Vtemp169,127,0,4);
-    VL_SIGW(__Vtemp171,127,0,4);
-    VL_SIGW(__Vtemp173,127,0,4);
+    VL_SIGW(__Vtemp162,127,0,4);
+    VL_SIGW(__Vtemp165,255,0,8);
+    VL_SIGW(__Vtemp166,127,0,4);
+    VL_SIGW(__Vtemp169,255,0,8);
+    VL_SIGW(__Vtemp170,127,0,4);
+    VL_SIGW(__Vtemp173,255,0,8);
     VL_SIGW(__Vtemp175,127,0,4);
     VL_SIGW(__Vtemp177,127,0,4);
     VL_SIGW(__Vtemp179,127,0,4);
@@ -1873,7 +1872,19 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
     VL_SIGW(__Vtemp189,127,0,4);
     VL_SIGW(__Vtemp191,127,0,4);
     VL_SIGW(__Vtemp193,127,0,4);
-    VL_SIGW(__Vtemp194,287,0,9);
+    VL_SIGW(__Vtemp195,127,0,4);
+    VL_SIGW(__Vtemp197,127,0,4);
+    VL_SIGW(__Vtemp199,127,0,4);
+    VL_SIGW(__Vtemp201,127,0,4);
+    VL_SIGW(__Vtemp203,127,0,4);
+    VL_SIGW(__Vtemp205,127,0,4);
+    VL_SIGW(__Vtemp206,319,0,10);
+    VL_SIGW(__Vtemp207,319,0,10);
+    VL_SIGW(__Vtemp208,319,0,10);
+    VL_SIGW(__Vtemp209,319,0,10);
+    VL_SIGW(__Vtemp210,287,0,9);
+    //char	__VpadToAlign860[4];
+    VL_SIGW(__Vtemp211,191,0,6);
     // Body
     {
 	vcdp->fullArray(c+1,(vlTOPp->dig__DOT__outx),256);
@@ -3726,25 +3737,136 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 									   << 9U) 
 									  | ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__pllb) 
 									     << 6U)))))))))),48);
-	vcdp->fullArray(c+122,(vlTOPp->dig__DOT__dirx),256);
-	VL_EXTEND_WQ(124,62, __Vtemp130, (((QData)((IData)(
+	vcdp->fullBit  (c+122,(vlTOPp->dig__DOT__hub___DOT__mem_w));
+	vcdp->fullBit  (c+123,(((IData)(vlTOPp->dig__DOT__bus_sel) 
+				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+						   >> 0x1cU))) 
+				   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
+				      >> 4U)))));
+	vcdp->fullBit  (c+124,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      & (~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					    >> 0x17U))))));
+	vcdp->fullBus  (c+125,((3U & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+126,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 1U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+127,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 1U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+128,((3U & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+129,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 2U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+130,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 2U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+131,((3U & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+132,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 3U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+133,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 3U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+134,((3U & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+135,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 4U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+136,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 4U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+137,((3U & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+138,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 5U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+139,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 5U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+140,((3U & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+141,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 6U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+142,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 6U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+143,((3U & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullBit  (c+144,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 7U) & ((0U == (0xfU 
+						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						      >> 0x1cU))) 
+					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
+					      >> 4U)))));
+	vcdp->fullBit  (c+145,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
+				       >> 7U) & (~ 
+						 (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+						  >> 0x17U))))));
+	vcdp->fullBus  (c+146,((3U & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				       ? (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+					  >> 0x1aU)
+				       : 0U))),2);
+	vcdp->fullArray(c+147,(vlTOPp->dig__DOT__dirx),256);
+	VL_EXTEND_WQ(124,62, __Vtemp142, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)))));
-	__Vtemp133[0U] = __Vtemp130[0U];
-	__Vtemp133[1U] = __Vtemp130[1U];
-	__Vtemp133[2U] = __Vtemp130[2U];
-	__Vtemp133[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+	__Vtemp145[0U] = __Vtemp142[0U];
+	__Vtemp145[1U] = __Vtemp142[1U];
+	__Vtemp145[2U] = __Vtemp142[2U];
+	__Vtemp145[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp130[3U]);
-	__Vtemp133[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp142[3U]);
+	__Vtemp145[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp133[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp145[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -3753,7 +3875,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp133[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp145[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3768,7 +3890,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp133[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp145[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3776,8 +3898,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+130,(__Vtemp133),248);
-	vcdp->fullBus  (c+138,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+155,(__Vtemp145),248);
+	vcdp->fullBus  (c+163,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z)
@@ -3792,7 +3914,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+139,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+164,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -3803,7 +3925,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+140,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+165,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -3818,24 +3940,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp134, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp146, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)))));
-	__Vtemp137[0U] = __Vtemp134[0U];
-	__Vtemp137[1U] = __Vtemp134[1U];
-	__Vtemp137[2U] = __Vtemp134[2U];
-	__Vtemp137[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+	__Vtemp149[0U] = __Vtemp146[0U];
+	__Vtemp149[1U] = __Vtemp146[1U];
+	__Vtemp149[2U] = __Vtemp146[2U];
+	__Vtemp149[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp134[3U]);
-	__Vtemp137[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp146[3U]);
+	__Vtemp149[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp137[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp149[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -3844,7 +3966,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp137[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp149[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3859,7 +3981,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp137[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp149[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3867,8 +3989,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+141,(__Vtemp137),248);
-	vcdp->fullBus  (c+149,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+166,(__Vtemp149),248);
+	vcdp->fullBus  (c+174,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z)
@@ -3883,7 +4005,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+150,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+175,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -3894,7 +4016,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+151,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+176,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -3909,24 +4031,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp138, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp150, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)))));
-	__Vtemp141[0U] = __Vtemp138[0U];
-	__Vtemp141[1U] = __Vtemp138[1U];
-	__Vtemp141[2U] = __Vtemp138[2U];
-	__Vtemp141[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+	__Vtemp153[0U] = __Vtemp150[0U];
+	__Vtemp153[1U] = __Vtemp150[1U];
+	__Vtemp153[2U] = __Vtemp150[2U];
+	__Vtemp153[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp138[3U]);
-	__Vtemp141[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp150[3U]);
+	__Vtemp153[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp141[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp153[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -3935,7 +4057,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp141[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp153[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3950,7 +4072,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp141[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp153[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -3958,8 +4080,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+152,(__Vtemp141),248);
-	vcdp->fullBus  (c+160,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+177,(__Vtemp153),248);
+	vcdp->fullBus  (c+185,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z)
@@ -3974,7 +4096,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+161,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+186,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -3985,7 +4107,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+162,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+187,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4000,24 +4122,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp142, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp154, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)))));
-	__Vtemp145[0U] = __Vtemp142[0U];
-	__Vtemp145[1U] = __Vtemp142[1U];
-	__Vtemp145[2U] = __Vtemp142[2U];
-	__Vtemp145[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+	__Vtemp157[0U] = __Vtemp154[0U];
+	__Vtemp157[1U] = __Vtemp154[1U];
+	__Vtemp157[2U] = __Vtemp154[2U];
+	__Vtemp157[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp142[3U]);
-	__Vtemp145[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp154[3U]);
+	__Vtemp157[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp145[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp157[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4026,7 +4148,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp145[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp157[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4041,7 +4163,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp145[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp157[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4049,8 +4171,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+163,(__Vtemp145),248);
-	vcdp->fullBus  (c+171,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+188,(__Vtemp157),248);
+	vcdp->fullBus  (c+196,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z)
@@ -4065,7 +4187,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+172,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+197,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -4076,7 +4198,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+173,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+198,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4091,24 +4213,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp146, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp158, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)))));
-	__Vtemp149[0U] = __Vtemp146[0U];
-	__Vtemp149[1U] = __Vtemp146[1U];
-	__Vtemp149[2U] = __Vtemp146[2U];
-	__Vtemp149[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+	__Vtemp161[0U] = __Vtemp158[0U];
+	__Vtemp161[1U] = __Vtemp158[1U];
+	__Vtemp161[2U] = __Vtemp158[2U];
+	__Vtemp161[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp146[3U]);
-	__Vtemp149[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp158[3U]);
+	__Vtemp161[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp149[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp161[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4117,7 +4239,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp149[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp161[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4132,7 +4254,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp149[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp161[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4140,8 +4262,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+174,(__Vtemp149),248);
-	vcdp->fullBus  (c+182,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+199,(__Vtemp161),248);
+	vcdp->fullBus  (c+207,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z)
@@ -4156,7 +4278,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+183,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+208,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -4167,7 +4289,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+184,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+209,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4182,24 +4304,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp150, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp162, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)))));
-	__Vtemp153[0U] = __Vtemp150[0U];
-	__Vtemp153[1U] = __Vtemp150[1U];
-	__Vtemp153[2U] = __Vtemp150[2U];
-	__Vtemp153[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+	__Vtemp165[0U] = __Vtemp162[0U];
+	__Vtemp165[1U] = __Vtemp162[1U];
+	__Vtemp165[2U] = __Vtemp162[2U];
+	__Vtemp165[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp150[3U]);
-	__Vtemp153[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp162[3U]);
+	__Vtemp165[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp153[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp165[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4208,7 +4330,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp153[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp165[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4223,7 +4345,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp153[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp165[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4231,8 +4353,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+185,(__Vtemp153),248);
-	vcdp->fullBus  (c+193,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+210,(__Vtemp165),248);
+	vcdp->fullBus  (c+218,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z)
@@ -4247,7 +4369,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+194,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+219,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -4258,7 +4380,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+195,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+220,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4273,24 +4395,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp154, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp166, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)))));
-	__Vtemp157[0U] = __Vtemp154[0U];
-	__Vtemp157[1U] = __Vtemp154[1U];
-	__Vtemp157[2U] = __Vtemp154[2U];
-	__Vtemp157[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+	__Vtemp169[0U] = __Vtemp166[0U];
+	__Vtemp169[1U] = __Vtemp166[1U];
+	__Vtemp169[2U] = __Vtemp166[2U];
+	__Vtemp169[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp154[3U]);
-	__Vtemp157[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp166[3U]);
+	__Vtemp169[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp157[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp169[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4299,7 +4421,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp157[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp169[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4314,7 +4436,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp157[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp169[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4322,8 +4444,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+196,(__Vtemp157),248);
-	vcdp->fullBus  (c+204,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+221,(__Vtemp169),248);
+	vcdp->fullBus  (c+229,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z)
@@ -4338,7 +4460,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+205,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+230,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -4349,7 +4471,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+206,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+231,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4364,24 +4486,24 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	VL_EXTEND_WQ(124,62, __Vtemp158, (((QData)((IData)(
+	VL_EXTEND_WQ(124,62, __Vtemp170, (((QData)((IData)(
 							   (0x7fffffffU 
 							    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__dr))) 
 					   << 0x1fU) 
 					  | (QData)((IData)(
 							    (0x7fffffffU 
 							     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)))));
-	__Vtemp161[0U] = __Vtemp158[0U];
-	__Vtemp161[1U] = __Vtemp158[1U];
-	__Vtemp161[2U] = __Vtemp158[2U];
-	__Vtemp161[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+	__Vtemp173[0U] = __Vtemp170[0U];
+	__Vtemp173[1U] = __Vtemp170[1U];
+	__Vtemp173[2U] = __Vtemp170[2U];
+	__Vtemp173[3U] = ((0xf0000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					  << 0x1cU)) 
-			  | __Vtemp158[3U]);
-	__Vtemp161[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
+			  | __Vtemp170[3U]);
+	__Vtemp173[4U] = ((0xf8000000U & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					  << 0x1bU)) 
 			  | (0x7ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					   >> 4U)));
-	__Vtemp161[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
+	__Vtemp173[5U] = ((0xfc000000U & ((IData)((QData)((IData)(
 								  (0x7fffffffU 
 								   & VL_NEGATE_I((IData)(
 										(1U 
@@ -4390,7 +4512,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					  << 0x1aU)) 
 			  | (0x3ffffffU & (VL_NEGATE_I((IData)((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c))) 
 					   >> 5U)));
-	__Vtemp161[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
+	__Vtemp173[6U] = ((0x3ffffffU & ((IData)((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4405,7 +4527,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						   >> 0x20U)) 
 					  << 0x1aU)));
-	__Vtemp161[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
+	__Vtemp173[7U] = (0x3ffffffU & ((IData)(((QData)((IData)(
 								 (0x7fffffffU 
 								  & VL_NEGATE_I((IData)(
 										(1U 
@@ -4413,8 +4535,8 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 										>> 0x1fU))))))) 
 						 >> 0x20U)) 
 					>> 6U));
-	vcdp->fullArray(c+207,(__Vtemp161),248);
-	vcdp->fullBus  (c+215,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
+	vcdp->fullArray(c+232,(__Vtemp173),248);
+	vcdp->fullBus  (c+240,(((0x10000000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 				 ? (2U & ((((0x8000000U 
 					     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i)
 					     ? (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z)
@@ -4429,7 +4551,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							    (3U 
 							     & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 								>> 0x1aU)))))))),2);
-	vcdp->fullBit  (c+216,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
+	vcdp->fullBit  (c+241,(((((6U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						>> 0x1dU))) 
 				  & ((1U == (7U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						   >> 0x1aU))) 
@@ -4440,7 +4562,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 >> 0x1dU))) 
 				   & (1U == (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						   >> 0x1aU)))))));
-	vcdp->fullBit  (c+217,((1U & ((~ (IData)((0U 
+	vcdp->fullBit  (c+242,((1U & ((~ (IData)((0U 
 						  != vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__alu_r))) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
 					 | (~ ((6U 
@@ -4455,24 +4577,23 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						       >> 0x1aU))) 
 						  | (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						     >> 0x1bU)))))))));
-	vcdp->fullBus  (c+218,(vlTOPp->dig__DOT__bus_ack),8);
-	vcdp->fullBit  (c+219,(vlTOPp->dig__DOT__hub___DOT__mem_w));
-	vcdp->fullBit  (c+220,((1U & (IData)(vlTOPp->dig__DOT__bus_ack))));
-	vcdp->fullBit  (c+221,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBus  (c+243,(vlTOPp->dig__DOT__bus_ack),8);
+	vcdp->fullBit  (c+244,((1U & (IData)(vlTOPp->dig__DOT__bus_ack))));
+	vcdp->fullBit  (c+245,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 1U))));
-	vcdp->fullBit  (c+222,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+246,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 2U))));
-	vcdp->fullBit  (c+223,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+247,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 3U))));
-	vcdp->fullBit  (c+224,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+248,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 4U))));
-	vcdp->fullBit  (c+225,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+249,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 5U))));
-	vcdp->fullBit  (c+226,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+250,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 6U))));
-	vcdp->fullBit  (c+227,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
+	vcdp->fullBit  (c+251,((1U & ((IData)(vlTOPp->dig__DOT__bus_ack) 
 				      >> 7U))));
-	vcdp->fullBit  (c+228,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+252,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ (IData)(vlTOPp->dig__DOT__bus_ack))
@@ -4492,7 +4613,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+229,(((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+253,(((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ (IData)(vlTOPp->dig__DOT__bus_ack))
@@ -4511,7 +4632,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					       & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+230,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+254,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4532,7 +4653,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+231,(((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+255,(((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4550,7 +4671,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+232,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+256,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4571,7 +4692,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+233,(((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+257,(((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4589,7 +4710,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+234,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+258,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4610,7 +4731,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+235,(((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+259,(((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4628,7 +4749,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+236,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+260,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4649,7 +4770,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+237,(((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+261,(((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4667,7 +4788,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+238,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+262,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4688,7 +4809,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+239,(((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+263,(((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4706,7 +4827,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+240,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+264,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4727,7 +4848,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+241,(((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+265,(((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4745,7 +4866,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+242,((1U & ((0U == (0xfU 
+	vcdp->fullBit  (c+266,((1U & ((0U == (0xfU 
 					      & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						 >> 0x1cU)))
 				       ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4766,7 +4887,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						    & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						       >> 0x1aU))) 
 						  & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+243,(((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
+	vcdp->fullBit  (c+267,(((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cond) 
 				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						   >> 0x1cU)))
 				    ? (~ ((IData)(vlTOPp->dig__DOT__bus_ack) 
@@ -4784,116 +4905,6 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						 & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
 						    >> 0x1aU))) 
 					    & (~ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc)))))))));
-	vcdp->fullBit  (c+244,(((IData)(vlTOPp->dig__DOT__bus_sel) 
-				& ((0U == (0xfU & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-						   >> 0x1cU))) 
-				   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m) 
-				      >> 4U)))));
-	vcdp->fullBit  (c+245,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      & (~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					    >> 0x17U))))));
-	vcdp->fullBus  (c+246,((3U & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+247,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 1U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+248,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 1U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+249,((3U & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+250,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 2U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+251,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 2U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+252,((3U & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+253,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 3U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+254,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 3U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+255,((3U & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+256,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 4U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+257,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 4U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+258,((3U & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+259,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 5U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+260,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 5U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+261,((3U & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+262,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 6U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+263,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 6U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+264,((3U & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
-	vcdp->fullBit  (c+265,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 7U) & ((0U == (0xfU 
-						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						      >> 0x1cU))) 
-					   & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m) 
-					      >> 4U)))));
-	vcdp->fullBit  (c+266,((1U & (((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 7U) & (~ 
-						 (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-						  >> 0x17U))))));
-	vcdp->fullBus  (c+267,((3U & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				       ? (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__i 
-					  >> 0x1aU)
-				       : 0U))),2);
 	vcdp->fullBus  (c+268,(vlTOPp->dig__DOT__hub___DOT__mem_wb),4);
 	vcdp->fullBus  (c+269,(vlTOPp->dig__DOT__hub___DOT__mem_d),32);
 	vcdp->fullBus  (c+270,(vlTOPp->dig__DOT__hub___DOT__ramq),32);
@@ -5441,7 +5452,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 							      (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
 							       >> 0x22U)) 
 						      ^ (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_sub))))))))))));
-	vcdp->fullBus  (c+279,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+279,(vlTOPp->dig__DOT__bus_r),8);
+	vcdp->fullBit  (c+280,((0U != (IData)(vlTOPp->dig__DOT__bus_r))));
+	vcdp->fullBus  (c+281,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5451,7 +5464,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+280,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+282,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5461,21 +5474,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+281,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+283,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+282,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+284,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+283,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+285,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+284,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+286,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+285,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+287,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5485,7 +5498,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+286,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+288,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5495,21 +5508,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+287,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+289,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+288,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+290,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+289,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+291,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+290,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+292,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+291,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+293,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5519,7 +5532,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+292,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+294,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5529,21 +5542,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+293,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+295,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+294,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+296,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+295,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+297,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+296,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+298,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+297,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+299,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5553,7 +5566,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+298,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+300,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5563,21 +5576,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+299,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+301,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+300,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+302,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+301,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+303,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+302,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+304,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+303,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+305,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5587,7 +5600,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+304,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+306,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5597,21 +5610,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+305,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+307,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+306,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+308,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+307,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+309,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+308,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+310,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+309,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+311,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5621,7 +5634,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+310,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+312,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5631,21 +5644,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+311,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+313,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+312,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+314,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+313,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+315,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+314,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+316,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+315,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+317,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5655,7 +5668,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+316,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+318,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5665,21 +5678,21 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+317,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+319,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+318,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+320,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+319,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+321,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+320,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+322,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+321,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBus  (c+323,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					   >> 1U))) 
@@ -5689,7 +5702,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr)))),32);
-	vcdp->fullBus  (c+322,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBus  (c+324,((((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					    >> 0x1eU)) 
 					& ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					   >> 1U))) 
@@ -5699,22 +5712,20 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					      >> 0x1eU)) 
 					  & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba))) 
 				   << (0x1fU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr)))),32);
-	vcdp->fullBit  (c+323,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+325,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+324,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
+	vcdp->fullBit  (c+326,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba)))));
-	vcdp->fullBit  (c+325,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+327,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba) 
 					 >> 1U)))));
-	vcdp->fullBit  (c+326,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
+	vcdp->fullBit  (c+328,((1U & ((~ (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr 
 					  >> 0x1eU)) 
 				      & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba)))));
-	vcdp->fullBus  (c+327,(vlTOPp->dig__DOT__bus_r),8);
-	vcdp->fullBit  (c+328,((0U != (IData)(vlTOPp->dig__DOT__bus_r))));
 	vcdp->fullBit  (c+329,(vlTOPp->dig__DOT__hub___DOT__sys));
 	vcdp->fullBus  (c+330,(vlTOPp->dig__DOT__hub___DOT__enc),8);
 	vcdp->fullBit  (c+331,((0xffU == (IData)(vlTOPp->dig__DOT__hub___DOT__enc))));
@@ -5730,44 +5741,44 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 					 ? 3U : 2U)
 				     : ((1U & (IData)(vlTOPp->dig__DOT__hub___DOT__enc))
 					 ? 1U : 0U)))),3);
-	vcdp->fullBus  (c+333,(vlTOPp->dig__DOT__hub___DOT__num),3);
-	vcdp->fullBus  (c+334,((0xffU & ((IData)(1U) 
+	vcdp->fullBit  (c+333,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+334,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+335,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+336,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBus  (c+337,(vlTOPp->dig__DOT__pll),8);
+	vcdp->fullBit  (c+338,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+339,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+340,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+341,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+342,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+343,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+344,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+345,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+346,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+347,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+348,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+349,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+350,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+351,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+352,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+353,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+354,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+355,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+356,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+357,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+358,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+359,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+360,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+361,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBit  (c+362,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__plla));
+	vcdp->fullBit  (c+363,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__pllb));
+	vcdp->fullBus  (c+364,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
+	vcdp->fullBus  (c+365,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
+	vcdp->fullBus  (c+366,(vlTOPp->dig__DOT__ptr_w),8);
+	vcdp->fullBus  (c+367,(vlTOPp->dig__DOT__hub___DOT__num),3);
+	vcdp->fullBus  (c+368,((0xffU & ((IData)(1U) 
 					 << (IData)(vlTOPp->dig__DOT__hub___DOT__num)))),8);
-	vcdp->fullBit  (c+335,(vlTOPp->dig__DOT__hub___DOT__cog_start));
-	vcdp->fullBit  (c+336,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+337,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+338,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+339,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBus  (c+340,(vlTOPp->dig__DOT__pll),8);
-	vcdp->fullBit  (c+341,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+342,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+343,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+344,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+345,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+346,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+347,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+348,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+349,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+350,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+351,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+352,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+353,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+354,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+355,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+356,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+357,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+358,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+359,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+360,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+361,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+362,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+363,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+364,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBit  (c+365,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__plla));
-	vcdp->fullBit  (c+366,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__pllb));
-	vcdp->fullBus  (c+367,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__tba),3);
-	vcdp->fullBus  (c+368,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__tba),3);
-	vcdp->fullBus  (c+369,(vlTOPp->dig__DOT__ptr_w),8);
+	vcdp->fullBit  (c+369,(vlTOPp->dig__DOT__hub___DOT__cog_start));
 	vcdp->fullBit  (c+370,((1U & (IData)(vlTOPp->dig__DOT__ptr_w))));
 	vcdp->fullBit  (c+371,((1U & ((IData)(vlTOPp->dig__DOT__ptr_w) 
 				      >> 1U))));
@@ -9606,20 +9617,100 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 	vcdp->fullBit  (c+740,((1U & (~ (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_x 
 						 >> 0x20U))))));
 	vcdp->fullBit  (c+741,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_cs));
-	vcdp->fullBus  (c+742,(vlTOPp->dig__DOT__cog_ena),8);
-	vcdp->fullBit  (c+743,(vlTOPp->dig__DOT__hub___DOT__ec));
-	vcdp->fullBit  (c+744,(vlTOPp->dig__DOT__hub___DOT__ed));
-	vcdp->fullBus  (c+745,(vlTOPp->dig__DOT__hub___DOT__cog_e),8);
-	vcdp->fullBus  (c+746,(vlTOPp->dig__DOT__hub___DOT__lock_e),8);
-	vcdp->fullBus  (c+747,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+748,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+749,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+750,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+751,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+752,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+753,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+754,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr),28);
-	vcdp->fullBus  (c+755,((0xffffU & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBus  (c+742,(vlTOPp->dig__DOT__bus_q),32);
+	vcdp->fullBit  (c+743,(vlTOPp->dig__DOT__hub___DOT__rc));
+	vcdp->fullBit  (c+744,(vlTOPp->dig__DOT__hub___DOT__wc));
+	vcdp->fullBus  (c+745,(vlTOPp->dig__DOT__hub___DOT__sc),2);
+	vcdp->fullBit  (c+746,(vlTOPp->dig__DOT__hub___DOT__rd));
+	vcdp->fullBus  (c+747,(vlTOPp->dig__DOT__hub___DOT__sd),2);
+	vcdp->fullBus  (c+748,(vlTOPp->dig__DOT__hub___DOT__ad),2);
+	vcdp->fullBus  (c+749,(vlTOPp->dig__DOT__hub___DOT__sys_q),3);
+	vcdp->fullBus  (c+750,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3),8);
+	vcdp->fullBus  (c+751,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q2),8);
+	vcdp->fullBus  (c+752,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1),8);
+	vcdp->fullBus  (c+753,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0),8);
+	vcdp->fullBus  (c+754,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q),32);
+	vcdp->fullBus  (c+755,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem),2);
+	vcdp->fullBus  (c+756,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+757,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+759,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+761,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+762,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+763,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+764,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+765,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+766,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+768,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+770,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+771,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+772,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+773,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+774,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+775,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+777,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+779,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+780,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+781,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+782,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+783,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+784,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+786,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+788,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+789,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+790,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+791,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+792,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+793,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+795,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+797,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+798,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+799,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+800,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+801,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+802,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+804,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+806,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+807,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+808,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+809,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+810,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+811,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+813,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+815,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+816,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+817,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+818,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+819,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__outa),32);
+	vcdp->fullQuad (c+820,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa),33);
+	vcdp->fullQuad (c+822,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb),33);
+	vcdp->fullBus  (c+824,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ix),32);
+	vcdp->fullBus  (c+825,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy),32);
+	vcdp->fullBus  (c+826,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
+	vcdp->fullBus  (c+827,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
+	vcdp->fullBus  (c+828,(vlTOPp->dig__DOT__bus_sel),8);
+	vcdp->fullBus  (c+829,(vlTOPp->dig__DOT__cog_ena),8);
+	vcdp->fullBit  (c+830,(vlTOPp->dig__DOT__hub___DOT__ec));
+	vcdp->fullBit  (c+831,(vlTOPp->dig__DOT__hub___DOT__ed));
+	vcdp->fullBus  (c+832,(vlTOPp->dig__DOT__hub___DOT__cog_e),8);
+	vcdp->fullBus  (c+833,(vlTOPp->dig__DOT__hub___DOT__lock_e),8);
+	vcdp->fullBit  (c+834,((1U & (IData)(vlTOPp->dig__DOT__bus_sel))));
+	vcdp->fullBit  (c+835,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 1U))));
+	vcdp->fullBit  (c+836,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 2U))));
+	vcdp->fullBit  (c+837,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 3U))));
+	vcdp->fullBit  (c+838,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 4U))));
+	vcdp->fullBit  (c+839,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 5U))));
+	vcdp->fullBit  (c+840,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 6U))));
+	vcdp->fullBit  (c+841,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
+				      >> 7U))));
+	vcdp->fullBit  (c+842,(((IData)(vlTOPp->dig__DOT__bus_sel) 
+				& (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+843,((0xffffU & ((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s
 					        : (
@@ -9630,7 +9721,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+756,((0xffffU & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+844,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 1U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+845,((0xffffU & ((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s
 					        : (
@@ -9641,7 +9734,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+757,((0xffffU & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+846,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 2U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+847,((0xffffU & ((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s
 					        : (
@@ -9652,7 +9747,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+758,((0xffffU & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+848,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+849,((0xffffU & ((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s
 					        : (
@@ -9663,7 +9760,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+759,((0xffffU & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+850,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 4U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+851,((0xffffU & ((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s
 					        : (
@@ -9674,7 +9773,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+760,((0xffffU & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+852,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 5U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+853,((0xffffU & ((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s
 					        : (
@@ -9685,7 +9786,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+761,((0xffffU & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+854,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 6U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+855,((0xffffU & ((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s
 					        : (
@@ -9696,7 +9799,9 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+762,((0xffffU & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+	vcdp->fullBit  (c+856,((((IData)(vlTOPp->dig__DOT__bus_sel) 
+				 >> 7U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run))));
+	vcdp->fullBus  (c+857,((0xffffU & ((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
 					    ? ((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run)
 					        ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s
 					        : (
@@ -9707,91 +9812,43 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						   | (3U 
 						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))
 					    : 0U))),16);
-	vcdp->fullBus  (c+763,(vlTOPp->dig__DOT__bus_q),32);
-	vcdp->fullBit  (c+764,(vlTOPp->dig__DOT__hub___DOT__rc));
-	vcdp->fullBit  (c+765,(vlTOPp->dig__DOT__hub___DOT__wc));
-	vcdp->fullBus  (c+766,(vlTOPp->dig__DOT__hub___DOT__sc),2);
-	vcdp->fullBit  (c+767,(vlTOPp->dig__DOT__hub___DOT__rd));
-	vcdp->fullBus  (c+768,(vlTOPp->dig__DOT__hub___DOT__sd),2);
-	vcdp->fullBus  (c+769,(vlTOPp->dig__DOT__hub___DOT__ad),2);
-	vcdp->fullBus  (c+770,(vlTOPp->dig__DOT__hub___DOT__sys_q),3);
-	vcdp->fullBus  (c+771,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q3),8);
-	vcdp->fullBus  (c+772,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q2),8);
-	vcdp->fullBus  (c+773,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q1),8);
-	vcdp->fullBus  (c+774,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__ram_q0),8);
-	vcdp->fullBus  (c+775,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__rom_q),32);
-	vcdp->fullBus  (c+776,(vlTOPp->dig__DOT__hub___DOT__hub_mem___DOT__mem),2);
-	vcdp->fullBus  (c+777,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+778,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+780,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+782,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+783,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+784,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+785,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+786,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+787,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+789,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+791,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+792,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+793,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+794,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+795,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+796,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+798,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+800,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+801,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+802,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+803,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+804,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+805,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+807,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+809,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+810,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+811,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+812,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+813,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+814,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+816,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+818,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+819,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+820,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+821,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+822,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+823,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+825,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+827,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+828,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+829,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+830,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+831,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+832,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+834,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+836,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+837,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+838,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+839,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+840,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__outa),32);
-	vcdp->fullQuad (c+841,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsa),33);
-	vcdp->fullQuad (c+843,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__phsb),33);
-	vcdp->fullBus  (c+845,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ix),32);
-	vcdp->fullBus  (c+846,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy),32);
-	vcdp->fullBus  (c+847,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__dly),2);
-	vcdp->fullBus  (c+848,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__dly),2);
-	vcdp->fullBus  (c+849,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+850,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+851,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+852,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+853,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+854,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+855,(((IData)(vlTOPp->dig__DOT__bus_sel) 
-				& (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run))));
-	__Vtemp163[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+858,(((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+859,(((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+860,(((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+861,(((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+862,(((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+863,(((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+864,(((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+865,(((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
+				 ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d
+				 : 0U)),32);
+	vcdp->fullBus  (c+866,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+867,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+868,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+869,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+870,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+871,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cancel));
+	__Vtemp175[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-	__Vtemp163[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
+	__Vtemp175[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d)));
-	__Vtemp163[2U] = (IData)((((QData)((IData)(
+	__Vtemp175[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
@@ -9801,7 +9858,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))));
-	__Vtemp163[3U] = (IData)(((((QData)((IData)(
+	__Vtemp175[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__p)))) 
@@ -9812,28 +9869,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+856,(__Vtemp163),128);
-	vcdp->fullBus  (c+860,((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+872,(__Vtemp175),128);
+	vcdp->fullBus  (c+876,((((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+861,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+862,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+863,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+864,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+865,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+866,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+867,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 1U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run))));
-	__Vtemp165[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+877,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+878,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+879,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+880,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+881,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+882,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cancel));
+	__Vtemp177[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-	__Vtemp165[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
+	__Vtemp177[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d)));
-	__Vtemp165[2U] = (IData)((((QData)((IData)(
+	__Vtemp177[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
@@ -9843,7 +9898,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))));
-	__Vtemp165[3U] = (IData)(((((QData)((IData)(
+	__Vtemp177[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__p)))) 
@@ -9854,28 +9909,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+868,(__Vtemp165),128);
-	vcdp->fullBus  (c+872,((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+883,(__Vtemp177),128);
+	vcdp->fullBus  (c+887,((((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+873,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+874,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+875,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+876,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+877,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+878,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+879,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 2U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run))));
-	__Vtemp167[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+888,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+889,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+890,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+891,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+892,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+893,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cancel));
+	__Vtemp179[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-	__Vtemp167[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
+	__Vtemp179[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d)));
-	__Vtemp167[2U] = (IData)((((QData)((IData)(
+	__Vtemp179[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
@@ -9885,7 +9938,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))));
-	__Vtemp167[3U] = (IData)(((((QData)((IData)(
+	__Vtemp179[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__p)))) 
@@ -9896,28 +9949,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+880,(__Vtemp167),128);
-	vcdp->fullBus  (c+884,((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+894,(__Vtemp179),128);
+	vcdp->fullBus  (c+898,((((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+885,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+886,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+887,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+888,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+889,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+890,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+891,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 3U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run))));
-	__Vtemp169[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+899,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+900,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+901,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+902,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+903,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+904,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cancel));
+	__Vtemp181[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-	__Vtemp169[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
+	__Vtemp181[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d)));
-	__Vtemp169[2U] = (IData)((((QData)((IData)(
+	__Vtemp181[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
@@ -9927,7 +9978,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))));
-	__Vtemp169[3U] = (IData)(((((QData)((IData)(
+	__Vtemp181[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__p)))) 
@@ -9938,28 +9989,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+892,(__Vtemp169),128);
-	vcdp->fullBus  (c+896,((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+905,(__Vtemp181),128);
+	vcdp->fullBus  (c+909,((((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+897,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+898,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+899,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+900,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+901,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+902,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+903,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 4U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run))));
-	__Vtemp171[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+910,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+911,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+912,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+913,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+914,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+915,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cancel));
+	__Vtemp183[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-	__Vtemp171[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
+	__Vtemp183[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d)));
-	__Vtemp171[2U] = (IData)((((QData)((IData)(
+	__Vtemp183[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
@@ -9969,7 +10018,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))));
-	__Vtemp171[3U] = (IData)(((((QData)((IData)(
+	__Vtemp183[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__p)))) 
@@ -9980,28 +10029,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+904,(__Vtemp171),128);
-	vcdp->fullBus  (c+908,((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+916,(__Vtemp183),128);
+	vcdp->fullBus  (c+920,((((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+909,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+910,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+911,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+912,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+913,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+914,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+915,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 5U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run))));
-	__Vtemp173[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+921,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+922,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+923,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+924,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+925,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+926,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cancel));
+	__Vtemp185[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-	__Vtemp173[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
+	__Vtemp185[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d)));
-	__Vtemp173[2U] = (IData)((((QData)((IData)(
+	__Vtemp185[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
@@ -10011,7 +10058,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))));
-	__Vtemp173[3U] = (IData)(((((QData)((IData)(
+	__Vtemp185[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__p)))) 
@@ -10022,28 +10069,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+916,(__Vtemp173),128);
-	vcdp->fullBus  (c+920,((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+927,(__Vtemp185),128);
+	vcdp->fullBus  (c+931,((((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+921,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+922,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+923,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+924,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+925,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+926,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+927,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 6U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run))));
-	__Vtemp175[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+932,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+933,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+934,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+935,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+936,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+937,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cancel));
+	__Vtemp187[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-	__Vtemp175[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
+	__Vtemp187[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d)));
-	__Vtemp175[2U] = (IData)((((QData)((IData)(
+	__Vtemp187[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
@@ -10053,7 +10098,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))));
-	__Vtemp175[3U] = (IData)(((((QData)((IData)(
+	__Vtemp187[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__p)))) 
@@ -10064,28 +10109,26 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+928,(__Vtemp175),128);
-	vcdp->fullBus  (c+932,((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+938,(__Vtemp187),128);
+	vcdp->fullBus  (c+942,((((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullBus  (c+933,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__dira),32);
-	vcdp->fullBit  (c+934,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run));
-	vcdp->fullBus  (c+935,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p),9);
-	vcdp->fullBit  (c+936,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c));
-	vcdp->fullBit  (c+937,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z));
-	vcdp->fullBit  (c+938,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel));
-	vcdp->fullBit  (c+939,((((IData)(vlTOPp->dig__DOT__bus_sel) 
-				 >> 7U) & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run))));
-	__Vtemp177[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+	vcdp->fullBus  (c+943,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__dira),32);
+	vcdp->fullBit  (c+944,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__run));
+	vcdp->fullBus  (c+945,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p),9);
+	vcdp->fullBit  (c+946,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c));
+	vcdp->fullBit  (c+947,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z));
+	vcdp->fullBit  (c+948,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cancel));
+	__Vtemp189[0U] = ((0xfffffe00U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 			  | (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-	__Vtemp177[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
+	__Vtemp189[1U] = ((0xfffc0000U & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 			  | ((0x3fe00U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
 					  << 9U)) | 
 			     (0x1ffU & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d)));
-	__Vtemp177[2U] = (IData)((((QData)((IData)(
+	__Vtemp189[2U] = (IData)((((QData)((IData)(
 						   ((0xfffffe00U 
 						     & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 						    | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
@@ -10095,7 +10138,7 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								    << 0x17U)) 
 								| (0x7fffffU 
 								   & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))));
-	__Vtemp177[3U] = (IData)(((((QData)((IData)(
+	__Vtemp189[3U] = (IData)(((((QData)((IData)(
 						    ((0xfffffe00U 
 						      & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d) 
 						     | (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__p)))) 
@@ -10106,101 +10149,69 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 								 | (0x7fffffU 
 								    & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d))))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+940,(__Vtemp177),128);
-	vcdp->fullBus  (c+944,((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
+	vcdp->fullArray(c+949,(__Vtemp189),128);
+	vcdp->fullBus  (c+953,((((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__z) 
 				 << 3U) | (((IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__c) 
 					    << 2U) 
 					   | (2U & 
 					      (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s 
 					       >> 0x1eU))))),4);
-	vcdp->fullQuad (c+945,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+947,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+954,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+956,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+948,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+950,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+957,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+959,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+951,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+953,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+960,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+962,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+954,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+956,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+963,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+965,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+957,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+959,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+966,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+968,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+960,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+962,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+969,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+971,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+963,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+965,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+972,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+974,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+966,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+968,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+975,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+977,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+969,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+971,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+978,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+980,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+972,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+974,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+981,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+983,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+975,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+977,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+984,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+986,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+978,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+980,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+987,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+989,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+981,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+983,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+990,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+992,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+984,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+986,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+	vcdp->fullQuad (c+993,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+995,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+987,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
-	vcdp->fullBus  (c+989,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
+	vcdp->fullQuad (c+996,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake),36);
+	vcdp->fullBus  (c+998,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake 
 						 >> 0x1cU)))),8);
-	vcdp->fullQuad (c+990,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
-	vcdp->fullBus  (c+992,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
-						 >> 0x1cU)))),8);
-	vcdp->fullBus  (c+993,(vlTOPp->dig__DOT__bus_sel),8);
-	vcdp->fullBit  (c+994,((1U & (IData)(vlTOPp->dig__DOT__bus_sel))));
-	vcdp->fullBit  (c+995,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 1U))));
-	vcdp->fullBit  (c+996,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 2U))));
-	vcdp->fullBit  (c+997,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 3U))));
-	vcdp->fullBit  (c+998,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 4U))));
-	vcdp->fullBit  (c+999,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				      >> 5U))));
-	vcdp->fullBit  (c+1000,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 6U))));
-	vcdp->fullBit  (c+1001,((1U & ((IData)(vlTOPp->dig__DOT__bus_sel) 
-				       >> 7U))));
-	vcdp->fullBus  (c+1002,(((1U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1003,(((2U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1004,(((4U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1005,(((8U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1006,(((0x10U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1007,(((0x20U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1008,(((0x40U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d
-				  : 0U)),32);
-	vcdp->fullBus  (c+1009,(((0x80U & (IData)(vlTOPp->dig__DOT__bus_sel))
-				  ? vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d
-				  : 0U)),32);
+	vcdp->fullQuad (c+999,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake),36);
+	vcdp->fullBus  (c+1001,((0xffU & (IData)((vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__pll_fake 
+						  >> 0x1cU)))),8);
+	vcdp->fullBus  (c+1002,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1003,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1004,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1005,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1006,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1007,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1008,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ptr),28);
+	vcdp->fullBus  (c+1009,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ptr),28);
 	vcdp->fullBus  (c+1010,(vlTOPp->dig__DOT__cnt),32);
 	vcdp->fullBit  (c+1011,(vlTOPp->dig__DOT__hub___DOT__sys_c));
 	vcdp->fullBus  (c+1012,((0xfffffffU & (vlTOPp->dig__DOT__hub___DOT__dc 
@@ -10446,299 +10457,342 @@ void Vdig::traceFullThis__1(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+1184,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+1696,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+1697,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp179[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1184,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1185,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp191[0U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s));
-	__Vtemp179[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
+	__Vtemp191[1U] = (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s);
-	__Vtemp179[2U] = (IData)((((QData)((IData)(
+	__Vtemp191[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))));
-	__Vtemp179[3U] = (IData)(((((QData)((IData)(
+	__Vtemp191[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+1698,(__Vtemp179),128);
-	vcdp->fullBus  (c+1702,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+1703,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+1704,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+1705,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+1706,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1186,(__Vtemp191),128);
+	vcdp->fullBus  (c+1190,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1191,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1192,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1193,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1194,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+1707,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+2219,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+2220,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp181[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1195,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1196,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp193[0U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s));
-	__Vtemp181[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
+	__Vtemp193[1U] = (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s);
-	__Vtemp181[2U] = (IData)((((QData)((IData)(
+	__Vtemp193[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))));
-	__Vtemp181[3U] = (IData)(((((QData)((IData)(
+	__Vtemp193[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+2221,(__Vtemp181),128);
-	vcdp->fullBus  (c+2225,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+2226,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+2227,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+2228,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+2229,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1197,(__Vtemp193),128);
+	vcdp->fullBus  (c+1201,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1202,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1203,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1204,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1205,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+2230,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+2742,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+2743,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp183[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1206,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1207,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp195[0U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s));
-	__Vtemp183[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
+	__Vtemp195[1U] = (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s);
-	__Vtemp183[2U] = (IData)((((QData)((IData)(
+	__Vtemp195[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))));
-	__Vtemp183[3U] = (IData)(((((QData)((IData)(
+	__Vtemp195[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+2744,(__Vtemp183),128);
-	vcdp->fullBus  (c+2748,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+2749,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+2750,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+2751,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+2752,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1208,(__Vtemp195),128);
+	vcdp->fullBus  (c+1212,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1213,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1214,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1215,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1216,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+2753,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+3265,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+3266,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp185[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1217,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1218,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp197[0U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s));
-	__Vtemp185[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
+	__Vtemp197[1U] = (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s);
-	__Vtemp185[2U] = (IData)((((QData)((IData)(
+	__Vtemp197[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))));
-	__Vtemp185[3U] = (IData)(((((QData)((IData)(
+	__Vtemp197[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+3267,(__Vtemp185),128);
-	vcdp->fullBus  (c+3271,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+3272,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+3273,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+3274,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+3275,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1219,(__Vtemp197),128);
+	vcdp->fullBus  (c+1223,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1224,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1225,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1226,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1227,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+3276,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+3788,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+3789,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp187[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1228,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1229,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp199[0U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s));
-	__Vtemp187[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
+	__Vtemp199[1U] = (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s);
-	__Vtemp187[2U] = (IData)((((QData)((IData)(
+	__Vtemp199[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))));
-	__Vtemp187[3U] = (IData)(((((QData)((IData)(
+	__Vtemp199[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+3790,(__Vtemp187),128);
-	vcdp->fullBus  (c+3794,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+3795,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+3796,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+3797,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+3798,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1230,(__Vtemp199),128);
+	vcdp->fullBus  (c+1234,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1235,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1236,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1237,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1238,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+3799,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+4311,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+4312,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp189[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1239,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1240,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp201[0U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s));
-	__Vtemp189[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
+	__Vtemp201[1U] = (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s);
-	__Vtemp189[2U] = (IData)((((QData)((IData)(
+	__Vtemp201[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))));
-	__Vtemp189[3U] = (IData)(((((QData)((IData)(
+	__Vtemp201[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+4313,(__Vtemp189),128);
-	vcdp->fullBus  (c+4317,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+4318,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+4319,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+4320,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+4321,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1241,(__Vtemp201),128);
+	vcdp->fullBus  (c+1245,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1246,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1247,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1248,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1249,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+4322,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+4834,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+4835,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp191[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1250,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1251,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp203[0U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s));
-	__Vtemp191[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
+	__Vtemp203[1U] = (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s);
-	__Vtemp191[2U] = (IData)((((QData)((IData)(
+	__Vtemp203[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))));
-	__Vtemp191[3U] = (IData)(((((QData)((IData)(
+	__Vtemp203[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+4836,(__Vtemp191),128);
-	vcdp->fullBus  (c+4840,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q),32);
-	vcdp->fullBit  (c+4841,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
-	vcdp->fullBus  (c+4842,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s),32);
-	vcdp->fullBus  (c+4843,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d),32);
-	vcdp->fullBit  (c+4844,((1U & (~ (IData)((0U 
+	vcdp->fullArray(c+1252,(__Vtemp203),128);
+	vcdp->fullBus  (c+1256,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ram_q),32);
+	vcdp->fullBit  (c+1257,((1U & (IData)(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc))));
+	vcdp->fullBus  (c+1258,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s),32);
+	vcdp->fullBus  (c+1259,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d),32);
+	vcdp->fullBit  (c+1260,((1U & (~ (IData)((0U 
 						  != 
 						  (0x7fffffffU 
 						   & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						      >> 1U))))))));
-	vcdp->fullArray(c+4845,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r),16384);
-	vcdp->fullBus  (c+5357,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
-	vcdp->fullBus  (c+5358,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
-	__Vtemp193[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+	vcdp->fullBus  (c+1261,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__scl),20);
+	vcdp->fullBus  (c+1262,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc),2);
+	__Vtemp205[0U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 			  & (~ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s));
-	__Vtemp193[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
+	__Vtemp205[1U] = (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 			  & vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s);
-	__Vtemp193[2U] = (IData)((((QData)((IData)(
+	__Vtemp205[2U] = (IData)((((QData)((IData)(
 						   (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						    ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 				   << 0x20U) | (QData)((IData)(
 							       (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 								| vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))));
-	__Vtemp193[3U] = (IData)(((((QData)((IData)(
+	__Vtemp205[3U] = (IData)(((((QData)((IData)(
 						    (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 						     ^ vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s))) 
 				    << 0x20U) | (QData)((IData)(
 								(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__d 
 								 | vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__s)))) 
 				  >> 0x20U));
-	vcdp->fullArray(c+5359,(__Vtemp193),128);
-	vcdp->fullBus  (c+5363,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5364,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5365,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullArray(c+1263,(__Vtemp205),128);
+	vcdp->fullBus  (c+1267,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1268,(vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1269,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5366,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5367,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5368,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1270,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1271,(vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1272,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5369,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5370,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5371,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1273,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1274,(vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1275,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5372,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5373,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5374,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1276,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1277,(vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1278,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5375,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5376,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5377,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1279,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1280,(vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1281,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5378,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5379,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5380,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1282,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1283,(vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1284,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5381,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5382,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5383,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1285,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1286,(vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1287,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBus  (c+5384,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m),5);
-	vcdp->fullBus  (c+5385,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
-	vcdp->fullBit  (c+5386,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid 
+	vcdp->fullBus  (c+1288,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__m),5);
+	vcdp->fullBus  (c+1289,(vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid),32);
+	vcdp->fullBit  (c+1290,((0U != (3U & (vlTOPp->dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__vid 
 					      >> 0x1dU)))));
-	vcdp->fullBit  (c+5387,(vlTOPp->nres));
-	vcdp->fullBus  (c+5388,(vlTOPp->cfg),8);
-	vcdp->fullBit  (c+5389,(vlTOPp->clk_cog));
-	vcdp->fullBit  (c+5390,(vlTOPp->clk_pll));
-	vcdp->fullBus  (c+5391,(vlTOPp->pin_in),32);
-	vcdp->fullBus  (c+5392,(vlTOPp->pin_out),32);
-	vcdp->fullBus  (c+5393,(vlTOPp->pin_dir),32);
-	vcdp->fullBus  (c+5394,(vlTOPp->cog_led),8);
-	vcdp->fullBus  (c+5395,(0U),32);
-	vcdp->fullBus  (c+5396,(8U),32);
-	vcdp->fullBus  (c+5397,(0x1fU),32);
-	vcdp->fullBus  (c+5398,(0x1aU),32);
-	vcdp->fullBus  (c+5399,(0x19U),32);
-	vcdp->fullBus  (c+5400,(0x18U),32);
-	vcdp->fullBus  (c+5401,(0x17U),32);
-	vcdp->fullBus  (c+5402,(0x16U),32);
-	vcdp->fullBus  (c+5403,(0x15U),32);
-	vcdp->fullBus  (c+5404,(0x12U),32);
-	vcdp->fullBus  (c+5405,(0x11U),32);
-	vcdp->fullBus  (c+5406,(9U),32);
-	vcdp->fullQuad (c+5407,(VL_ULL(0x725bb76d2240)),48);
-	__Vtemp194[0U] = 0x2e686578U;
-	__Vtemp194[1U] = 0x626c6564U;
-	__Vtemp194[2U] = 0x6372616dU;
-	__Vtemp194[3U] = 0x66665f73U;
-	__Vtemp194[4U] = 0x305f6666U;
-	__Vtemp194[5U] = 0x5f383030U;
-	__Vtemp194[6U] = 0x2f726f6dU;
-	__Vtemp194[7U] = 0x2f48444cU;
-	__Vtemp194[8U] = 0x2e2eU;
-	vcdp->fullArray(c+5409,(__Vtemp194),272);
+	vcdp->fullBit  (c+1291,(vlTOPp->nres));
+	vcdp->fullBus  (c+1292,(vlTOPp->cfg),8);
+	vcdp->fullBit  (c+1293,(vlTOPp->clk_cog));
+	vcdp->fullBit  (c+1294,(vlTOPp->clk_pll));
+	vcdp->fullBus  (c+1295,(vlTOPp->pin_in),32);
+	vcdp->fullBus  (c+1296,(vlTOPp->pin_out),32);
+	vcdp->fullBus  (c+1297,(vlTOPp->pin_dir),32);
+	vcdp->fullBus  (c+1298,(vlTOPp->cog_led),8);
+	vcdp->fullBus  (c+1299,(0U),32);
+	vcdp->fullBus  (c+1300,(8U),32);
+	vcdp->fullBus  (c+1301,(0x1fU),32);
+	vcdp->fullBus  (c+1302,(0x1aU),32);
+	vcdp->fullBus  (c+1303,(0x19U),32);
+	vcdp->fullBus  (c+1304,(0x18U),32);
+	vcdp->fullBus  (c+1305,(0x17U),32);
+	vcdp->fullBus  (c+1306,(0x16U),32);
+	vcdp->fullBus  (c+1307,(0x15U),32);
+	vcdp->fullBus  (c+1308,(0x12U),32);
+	vcdp->fullBus  (c+1309,(0x11U),32);
+	vcdp->fullBus  (c+1310,(9U),32);
+	vcdp->fullQuad (c+1311,(VL_ULL(0x725bb76d2240)),48);
+	__Vtemp206[0U] = 0x2e686578U;
+	__Vtemp206[1U] = 0x79746530U;
+	__Vtemp206[2U] = 0x616d5f62U;
+	__Vtemp206[3U] = 0x75625f72U;
+	__Vtemp206[4U] = 0x6f722f68U;
+	__Vtemp206[5U] = 0x696c6174U;
+	__Vtemp206[6U] = 0x5f566572U;
+	__Vtemp206[7U] = 0x58333241U;
+	__Vtemp206[8U] = 0x2e2f5038U;
+	__Vtemp206[9U] = 0x2eU;
+	vcdp->fullArray(c+1313,(__Vtemp206),296);
+	__Vtemp207[0U] = 0x2e686578U;
+	__Vtemp207[1U] = 0x79746531U;
+	__Vtemp207[2U] = 0x616d5f62U;
+	__Vtemp207[3U] = 0x75625f72U;
+	__Vtemp207[4U] = 0x6f722f68U;
+	__Vtemp207[5U] = 0x696c6174U;
+	__Vtemp207[6U] = 0x5f566572U;
+	__Vtemp207[7U] = 0x58333241U;
+	__Vtemp207[8U] = 0x2e2f5038U;
+	__Vtemp207[9U] = 0x2eU;
+	vcdp->fullArray(c+1323,(__Vtemp207),296);
+	__Vtemp208[0U] = 0x2e686578U;
+	__Vtemp208[1U] = 0x79746532U;
+	__Vtemp208[2U] = 0x616d5f62U;
+	__Vtemp208[3U] = 0x75625f72U;
+	__Vtemp208[4U] = 0x6f722f68U;
+	__Vtemp208[5U] = 0x696c6174U;
+	__Vtemp208[6U] = 0x5f566572U;
+	__Vtemp208[7U] = 0x58333241U;
+	__Vtemp208[8U] = 0x2e2f5038U;
+	__Vtemp208[9U] = 0x2eU;
+	vcdp->fullArray(c+1333,(__Vtemp208),296);
+	__Vtemp209[0U] = 0x2e686578U;
+	__Vtemp209[1U] = 0x79746533U;
+	__Vtemp209[2U] = 0x616d5f62U;
+	__Vtemp209[3U] = 0x75625f72U;
+	__Vtemp209[4U] = 0x6f722f68U;
+	__Vtemp209[5U] = 0x696c6174U;
+	__Vtemp209[6U] = 0x5f566572U;
+	__Vtemp209[7U] = 0x58333241U;
+	__Vtemp209[8U] = 0x2e2f5038U;
+	__Vtemp209[9U] = 0x2eU;
+	vcdp->fullArray(c+1343,(__Vtemp209),296);
+	__Vtemp210[0U] = 0x2e686578U;
+	__Vtemp210[1U] = 0x626c6564U;
+	__Vtemp210[2U] = 0x6372616dU;
+	__Vtemp210[3U] = 0x66665f73U;
+	__Vtemp210[4U] = 0x305f6666U;
+	__Vtemp210[5U] = 0x5f383030U;
+	__Vtemp210[6U] = 0x2f726f6dU;
+	__Vtemp210[7U] = 0x2f48444cU;
+	__Vtemp210[8U] = 0x2e2eU;
+	vcdp->fullArray(c+1353,(__Vtemp210),272);
+	__Vtemp211[0U] = 0x2e686578U;
+	__Vtemp211[1U] = 0x6f746572U;
+	__Vtemp211[2U] = 0x616d626fU;
+	__Vtemp211[3U] = 0x696e2f72U;
+	__Vtemp211[4U] = 0x2e2f5370U;
+	__Vtemp211[5U] = 0x2eU;
+	vcdp->fullArray(c+1362,(__Vtemp211),168);
     }
 }

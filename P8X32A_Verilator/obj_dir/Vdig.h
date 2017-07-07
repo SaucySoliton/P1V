@@ -409,7 +409,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__sx,31,0);
-    VL_SIGW(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -433,8 +432,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign2748[4];
-    VL_SIGW(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -458,8 +455,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign4892[4];
-    VL_SIGW(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -483,8 +478,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign7036[4];
-    VL_SIGW(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -508,8 +501,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign9180[4];
-    VL_SIGW(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -533,8 +524,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign11324[4];
-    VL_SIGW(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -558,8 +547,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign13468[4];
-    VL_SIGW(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -583,8 +570,6 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__ix,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sy,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__sx,31,0);
-    //char	__VpadToAlign15612[4];
-    VL_SIGW(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r,16383,0,512);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__ctr,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctra__DOT__frq,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ctrb__DOT__ctr,31,0);
@@ -597,6 +582,7 @@ VL_MODULE(Vdig) {
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__log_r,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_d,31,0);
     VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_alu___DOT__add_s,31,0);
+    //char	__VpadToAlign1300[4];
     VL_SIG64(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsa,32,0);
     VL_SIG64(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__phsb,32,0);
     VL_SIG64(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ctra__DOT__pll_fake,35,0);
@@ -650,6 +636,14 @@ VL_MODULE(Vdig) {
     VL_SIG8(dig__DOT__hub___DOT__hub_mem___DOT__ram1[8192],7,0);
     VL_SIG8(dig__DOT__hub___DOT__hub_mem___DOT__ram0[8192],7,0);
     VL_SIG(dig__DOT__hub___DOT__hub_mem___DOT__rom[8192],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
+    VL_SIG(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r[512],31,0);
     
     // LOCAL VARIABLES
     // Internals; generally not touched by application code
@@ -678,16 +672,23 @@ VL_MODULE(Vdig) {
     VL_SIG8(dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT____Vsenitemexpr1,0,0);
     VL_SIG8(dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT____Vsenitemexpr1,0,0);
     VL_SIG8(__Vdly__dig__DOT__hub___DOT__lock_state,7,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    VL_SIG8(__Vdlyvset__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,0,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
     VL_SIG8(__Vdly__dig__DOT__ena_bus,0,0);
-    VL_SIG8(__Vdly__dig__DOT__bus_sel,7,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__m,4,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__m,4,0);
     VL_SIG8(__Vdly__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__m,4,0);
@@ -747,8 +748,25 @@ VL_MODULE(Vdig) {
     VL_SIG8(__Vchglast__TOP__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
     VL_SIG8(__Vchglast__TOP__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
     VL_SIG8(__Vchglast__TOP__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_vid___DOT__snc,1,0);
+    //char	__VpadToAlign83705[1];
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
+    VL_SIG16(__Vdlyvdim0__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,8,0);
     //char	__VpadToAlign83722[2];
     VL_SIG(__Vdly__dig__DOT__cnt,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__3__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__4__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__5__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__6__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
+    VL_SIG(__Vdlyvval__dig__DOT__coggen__BRA__7__KET____DOT__cog___DOT__cog_ram___DOT__r__v0,31,0);
     VL_SIG(__Vchglast__TOP__dig__DOT__coggen__BRA__0__KET____DOT__cog___DOT__cog_vid___DOT__vid,31,0);
     VL_SIG(__Vchglast__TOP__dig__DOT__coggen__BRA__1__KET____DOT__cog___DOT__cog_vid___DOT__vid,31,0);
     VL_SIG(__Vchglast__TOP__dig__DOT__coggen__BRA__2__KET____DOT__cog___DOT__cog_vid___DOT__vid,31,0);
@@ -761,7 +779,7 @@ VL_MODULE(Vdig) {
     
     // INTERNAL VARIABLES
     // Internals; generally not touched by application code
-    //char	__VpadToAlign83780[4];
+    //char	__VpadToAlign83812[4];
     Vdig__Syms*	__VlSymsp;		// Symbol table
     
     // PARAMETERS
@@ -798,10 +816,10 @@ VL_MODULE(Vdig) {
     static QData	_change_request(Vdig__Syms* __restrict vlSymsp);
   public:
     static void	_combo__TOP__1(Vdig__Syms* __restrict vlSymsp);
-    static void	_combo__TOP__111(Vdig__Syms* __restrict vlSymsp);
-    static void	_combo__TOP__46(Vdig__Syms* __restrict vlSymsp);
+    static void	_combo__TOP__112(Vdig__Syms* __restrict vlSymsp);
+    static void	_combo__TOP__47(Vdig__Syms* __restrict vlSymsp);
     static void	_combo__TOP__66(Vdig__Syms* __restrict vlSymsp);
-    static void	_combo__TOP__93(Vdig__Syms* __restrict vlSymsp);
+    static void	_combo__TOP__94(Vdig__Syms* __restrict vlSymsp);
   private:
     void	_configure_coverage(Vdig__Syms* __restrict vlSymsp, bool first);
     void	_ctor_var_reset();
@@ -809,21 +827,22 @@ VL_MODULE(Vdig) {
     static void	_eval(Vdig__Syms* __restrict vlSymsp);
     static void	_eval_initial(Vdig__Syms* __restrict vlSymsp);
     static void	_eval_settle(Vdig__Syms* __restrict vlSymsp);
-    static void	_initial__TOP__15(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__100(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__102(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__104(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__106(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__108(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__26(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__28(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__29(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__30(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__31(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__32(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__33(Vdig__Syms* __restrict vlSymsp);
+    static void	_initial__TOP__14(Vdig__Syms* __restrict vlSymsp);
+    static void	_initial__TOP__84(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__101(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__103(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__105(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__107(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__109(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__18(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__19(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__20(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__21(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__22(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__23(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__24(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__25(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__34(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__35(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__37(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__38(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__39(Vdig__Syms* __restrict vlSymsp);
@@ -840,17 +859,17 @@ VL_MODULE(Vdig) {
     static void	_multiclk__TOP__81(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__82(Vdig__Syms* __restrict vlSymsp);
     static void	_multiclk__TOP__83(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__94(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__96(Vdig__Syms* __restrict vlSymsp);
-    static void	_multiclk__TOP__98(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__95(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__97(Vdig__Syms* __restrict vlSymsp);
+    static void	_multiclk__TOP__99(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__10(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__101(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__103(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__105(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__107(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__109(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__100(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__102(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__104(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__106(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__108(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__11(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__112(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__110(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__113(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__114(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__115(Vdig__Syms* __restrict vlSymsp);
@@ -859,7 +878,7 @@ VL_MODULE(Vdig) {
     static void	_sequent__TOP__118(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__119(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__12(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__121(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__120(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__122(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__123(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__124(Vdig__Syms* __restrict vlSymsp);
@@ -867,21 +886,22 @@ VL_MODULE(Vdig) {
     static void	_sequent__TOP__126(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__127(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__128(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__129(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__13(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__16(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__17(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__18(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__19(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__20(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__21(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__22(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__23(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__24(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__25(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__26(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__27(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__28(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__29(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__3(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__36(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__30(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__31(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__32(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__33(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__35(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__4(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__47(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__45(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__48(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__49(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__5(Vdig__Syms* __restrict vlSymsp);
@@ -912,7 +932,6 @@ VL_MODULE(Vdig) {
     static void	_sequent__TOP__74(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__76(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__8(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__84(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__85(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__86(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__87(Vdig__Syms* __restrict vlSymsp);
@@ -921,16 +940,16 @@ VL_MODULE(Vdig) {
     static void	_sequent__TOP__9(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__90(Vdig__Syms* __restrict vlSymsp);
     static void	_sequent__TOP__91(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__95(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__97(Vdig__Syms* __restrict vlSymsp);
-    static void	_sequent__TOP__99(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__110(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__120(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__14(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__27(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__45(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__92(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__96(Vdig__Syms* __restrict vlSymsp);
+    static void	_sequent__TOP__98(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__111(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__121(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__15(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__36(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__46(Vdig__Syms* __restrict vlSymsp);
     static void	_settle__TOP__65(Vdig__Syms* __restrict vlSymsp);
-    static void	_settle__TOP__92(Vdig__Syms* __restrict vlSymsp);
+    static void	_settle__TOP__93(Vdig__Syms* __restrict vlSymsp);
     static void	traceChgThis(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__10(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__100(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
@@ -1123,6 +1142,7 @@ VL_MODULE(Vdig) {
     static void	traceChgThis__27(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__270(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__271(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
+    static void	traceChgThis__272(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__28(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__29(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
     static void	traceChgThis__3(Vdig__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);

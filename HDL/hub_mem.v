@@ -44,6 +44,15 @@ reg [7:0] ram2 [HUB_RAM_KL*1024-1:0];
 reg [7:0] ram1 [HUB_RAM_KL*1024-1:0];
 reg [7:0] ram0 [HUB_RAM_KL*1024-1:0];
 
+initial
+begin
+    $readmemh(HUB_RAM_INIT0, ram0);
+    $readmemh(HUB_RAM_INIT1, ram1);
+    $readmemh(HUB_RAM_INIT2, ram2);
+    $readmemh(HUB_RAM_INIT3, ram3);
+end
+
+
 reg [7:0] ram_q3;
 reg [7:0] ram_q2;
 reg [7:0] ram_q1;
