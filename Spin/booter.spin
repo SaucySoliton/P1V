@@ -26,6 +26,8 @@
 '
 ' Entry
 '
+PUB x
+
 DAT                     org
 
                         test    mask_rx,ina     wc      'if rx high, check for host

@@ -239,8 +239,8 @@ wire [8:0] px;
 
 always @(posedge clk_cog or negedge ena)
 if (!ena)
-    run <= 1'b0;
-else if (m[3] && (&px))
+    run <= 1'b0;          // start booter immediately since it is already in cog RAM
+else if ((m[3] && (&px)) || ( ptr == 28'b00000000000000_11111000000000))
     run <= 1'b1;
 
 

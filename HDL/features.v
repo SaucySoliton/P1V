@@ -49,3 +49,5 @@ parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
 
 
 
+parameter COG_RAM_INIT="../Spin/booter.hex";
+

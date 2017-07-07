@@ -20,6 +20,7 @@ You should have received a copy of the GNU General Public License along with
 the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------------------------
 */
+//`include "features.v"    // for memory init option
 
 module              cog_ram
 (
@@ -36,7 +37,12 @@ output reg  [31:0]  q
 
 // 512 x 32 ram
 
-reg [511:0] [31:0]  r;
+reg [31:0]  r [511:0];
+
+initial
+begin
+    $readmemh(COG_RAM_INIT, r);
+end
 
 always @(posedge clk)
 begin

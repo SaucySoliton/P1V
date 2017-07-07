@@ -1,6 +1,7 @@
 Propeller 1 Design
 ==================
 
+
 Where I'm going with this repository:
 
 Complete Propeller simulation in verilog ( still WIP, EEPROM in C )
@@ -13,7 +14,9 @@ Finished:
 Single ROM file
 Parameterize RAM and ROM size
 
-Note: Booter seems to load 32kB from EEPROM, overwriting data if hub<32kB
+Note about pre-loaded RAM: The RAM contents are likely not reset by inp_resn. It is assumed that the simulator is reset once at the start. Repeated resets may have result in unexpected behavior. 
+
+Note about RAM options: The original booter seems to load 32kB from EEPROM, overwriting data if hub<32kB
 
 P8X32A Emulation on FPGA Boards
 -------------------------------
