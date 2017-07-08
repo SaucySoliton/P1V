@@ -21,6 +21,8 @@ the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------------------------
 */
 
+// Magnus Karlsson 20140818     Rewrote SystemVerilog code to Verilog2001 style
+
 module              cog_vid
 (
 input               clk_cog,
@@ -178,9 +180,9 @@ reg [2:0] composite;
 always @(posedge vclk)
     composite <= vid[27] ? colormod : discrete[2:0];
 
-wire [15:0][2:0] level  = 48'b011_100_100_101_101_110_110_111_011_011_010_010_001_001_000_000;
+wire [63:0] level       = 64'b0011_0100_0100_0101_0101_0110_0110_0111_0011_0011_0010_0010_0001_0001_0000_0000;
 
-wire [3:0] broadcast    = {carrier ^ aural[vid[25:23]], level[{carrier, composite}]};
+wire [3:0] broadcast    = {carrier ^ aural[vid[25:23]], level[{carrier, composite}*4 +: 3]};
 
 
 // output pins

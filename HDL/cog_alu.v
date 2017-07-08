@@ -21,6 +21,8 @@ the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------------------------
 */
 
+// Magnus Karlsson 20140818     Rewrote SystemVerilog code to Verilog2001 style
+
 module              cog_alu
 (
 input        [5:0]  i,
@@ -48,16 +50,16 @@ wire [31:0] dr      = { d[0],  d[1],  d[2],  d[3],  d[4],  d[5],  d[6],  d[7],
                         d[16], d[17], d[18], d[19], d[20], d[21], d[22], d[23],
                         d[24], d[25], d[26], d[27], d[28], d[29], d[30], d[31] };
 
-wire [7:0][30:0] ri = { 31'b0,              // rev
-                        {31{d[31]}},        // sar
-                        {31{ci}},           // rcl
-                        {31{ci}},           // rcr
-                        31'b0,              // shl
-                        31'b0,              // shr
-                        dr[30:0],           // rol
-                        d[30:0] };          // ror
+wire [255:0] ri     = { 32'b0,              // rev
+                        {32{d[31]}},        // sar
+                        {32{ci}},           // rcl
+                        {32{ci}},           // rcr
+                        32'b0,              // shl
+                        32'b0,              // shr
+                        dr[31:0],           // rol
+                        d[31:0] };          // ror
 
-wire [62:0] rot     = {ri[i[2:0]], i[0] ? dr : d} >> s[4:0];
+wire [63:0] rot     = {ri[i[2:0]*32 +: 32], i[0] ? dr : d} >> s[4:0];
 
 wire [31:0] rotr    = { rot[0],  rot[1],  rot[2],  rot[3],  rot[4],  rot[5],  rot[6],  rot[7],
                         rot[8],  rot[9],  rot[10], rot[11], rot[12], rot[13], rot[14], rot[15],
@@ -74,18 +76,18 @@ wire rot_c          = ~&i[2:1] && i[0] ? dr[0] : d[0];
 wire [1:0] log_s    = i[2] ? {(i[1] ? zi : ci) ^ i[0], 1'b0}    // muxc/muxnc/muxz/muxnz
                            : {i[1], ~^i[1:0]};                  // and/andn/or/xor
 
-wire [3:0][31:0] log_x  = { d ^  s,                             // 11 = xor
-                            d |  s,                             // 10 = or      mux 1
-                            d &  s,                             // 01 = and
-                            d & ~s };                           // 00 = andn    mux 0
+wire [127:0] log_x  = { d ^  s,                                 // 11 = xor
+                        d |  s,                                 // 10 = or      mux 1
+                        d &  s,                                 // 01 = and
+                        d & ~s };                               // 00 = andn    mux 0
 
-wire [3:0][31:0] mov_x  = { d[31:9], p,                         // jmpret
-                            s[8:0], d[22:0],                    // movi
-                            d[31:18], s[8:0], d[8:0],           // movd
-                            d[31:9], s[8:0] };                  // movs
+wire [127:0] mov_x  = { d[31:9], p,                             // jmpret
+                        s[8:0], d[22:0],                        // movi
+                        d[31:18], s[8:0], d[8:0],               // movd
+                        d[31:9], s[8:0] };                      // movs
 
-wire [31:0] log_r   = i[3] ? log_x[log_s]                       // and/andn/or/xor/muxc/muxnc/muxz/muxnz
-                    : i[2] ? mov_x[i[1:0]]                      // movs/movd/movi/jmpret
+wire [31:0] log_r   = i[3] ? log_x[log_s*32 +: 32]              // and/andn/or/xor/muxc/muxnc/muxz/muxnz
+                    : i[2] ? mov_x[i[1:0]*32 +: 32]             // movs/movd/movi/jmpret
                            : s;                                 // mins/maxs/min/max
 
 wire log_c          = ^log_r;                                   // c is parity of result
