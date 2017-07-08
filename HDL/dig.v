@@ -24,6 +24,8 @@ the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 `include "cog.v"    // cog logic and memory (8 instances)
 `include "hub.v"    // hub logic and memory
 
+// Magnus Karlsson 20140818     Rewrote SystemVerilog code to Verilog2001 style
+
 module              dig
 (
 input               nres,           // reset input (active low)
