@@ -20,7 +20,6 @@ You should have received a copy of the GNU General Public License along with
 the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------------------------
 */
-`include "features.v"    // for memory size options
 
 
 module              hub_mem

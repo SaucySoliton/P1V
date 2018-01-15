@@ -31,10 +31,12 @@ the Propeller 1 Design.  If not, see <http://www.gnu.org/licenses/>.
 defparam core.INVERT_COG_LEDS = `INVERT_COG_LEDS;
 `endif
 
+parameter NUM_COGS=2;
+
 // RAM Options
 //
 // KL = kilo-longs, 1 long is 4 bytes
-parameter HUB_RAM_KL=8;  // 8=32kB, 4=16kB, 2=8kB
+parameter HUB_RAM_KL=2;  // 8=32kB, 4=16kB, 2=8kB
 parameter HUB_RAM_INIT0="../P8X32A_Verilator/hub_ram_byte0.hex";
 parameter HUB_RAM_INIT1="../P8X32A_Verilator/hub_ram_byte1.hex";
 parameter HUB_RAM_INIT2="../P8X32A_Verilator/hub_ram_byte2.hex";
@@ -44,14 +46,14 @@ parameter HUB_RAM_INIT3="../P8X32A_Verilator/hub_ram_byte3.hex";
 
 // ROM Options
 //
-parameter HUB_ROM_KL=8;  // 8=32kB, 4=16kB, 1=1kB
-parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
+//parameter HUB_ROM_KL=8;  // 8=32kB, 4=16kB, 1=1kB
+//parameter HUB_ROM_INIT="../HDL/rom_8000_ffff_scrambled.hex";
 
 //parameter HUB_ROM_KL=4;  // 8=32kB, 4=16kB, 1=1kB
 //parameter HUB_ROM_INIT="../HDL/rom_c000_ffff_scrambled.hex";
 
-//parameter HUB_ROM_KL=1;  // 8=32kB, 4=16kB, 1=1kB
-//parameter HUB_ROM_INIT="../HDL/rom_f000_ffff_scrambled.hex";
+parameter HUB_ROM_KL=1;  // 8=32kB, 4=16kB, 1=1kB
+parameter HUB_ROM_INIT="../HDL/rom_f000_ffff_scrambled.hex";
 
 
 

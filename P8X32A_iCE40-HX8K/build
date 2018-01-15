@@ -1,0 +1,19 @@
+
+rm synth.blif synth.txt synth.bin
+
+
+# hexdump -s 24 -v -e '/4 "%08x"' -e '/4 "\n"'  chiptest.binary  > myrom.hex
+
+
+yosys -p "read_verilog top.v ; synth_ice40 -blif synth.blif"
+
+arachne-pnr -d 8k -p propeller.pcf -o synth.txt synth.blif
+
+icepack synth.txt synth.bin
+
+
+
+# sudo /usr/local/bin/iceprog example.bin
+# sudo /usr/local/bin/iceprog -S  example.bin
+
+# icebox_vlog  -p propeller.pcf synth.txt  > check.v

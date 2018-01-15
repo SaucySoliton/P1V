@@ -43,7 +43,7 @@ output       [7:0]  cog_led         // led outputs to show which cogs are active
 );
 
 parameter INVERT_COG_LEDS = 0;
-parameter NUMCOGS = 8;
+//parameter NUM_COGS = 8;
 
 // cnt
 
@@ -96,7 +96,7 @@ wire  [7:0]         cog_ena;
 
 genvar i;
 generate
-    for (i = 0; i < NUMCOGS; i++)
+    for (i = 0; i < NUM_COGS; i++)
     begin : coggen
         cog cog_(   .nres       (nres),
                     .clk_cog    (clk_cog),
@@ -123,7 +123,7 @@ generate
                     .pin_dir    (dirx[i])   );
     end
     
-    for (i = NUMCOGS; i < 8; i++)
+    for (i = NUM_COGS; i < 8; i++)
     begin : absentcogs
         assign outx[i] = 0;
         assign dirx[i] = 0;

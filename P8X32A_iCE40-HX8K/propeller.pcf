@@ -1,0 +1,39 @@
+set_io LED0 B5
+set_io LED1 B4
+set_io LED2 A2
+set_io LED3 A1
+set_io LED4 C5
+set_io LED5 C4
+set_io LED6 B3
+set_io LED7 C3
+
+
+set_io clock_12  J3
+set_io dtr      A16
+set_io ser_tx   B12
+set_io ser_rx   B10
+
+
+set_io io[0]   B16
+set_io io[1]   C16
+set_io io[2]   D16
+set_io io[3]   D14
+set_io io[4]   E16
+set_io io[5]   D15
+
+set_io io[6]   F16
+set_io io[7]   E14
+set_io io[8]   G16
+set_io io[9]   F15
+set_io io[10]   H16
+set_io io[11]   G15
+
+set_io io[12]   J15
+set_io io[13]   H14
+set_io io[14]   G14
+set_io io[15]   F14
+set_io io[16]   K14
+set_io io[17]   J14
+
+
+
